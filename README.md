@@ -84,7 +84,7 @@ czn-deckcode decode - -o restored.json < code.txt
 - 未识别的版本或字段结构会明确报错。当前解码上限为 1 MiB 卡组数据，输入码上限为 2 MiB 字符。
 - 原网站压缩字典还有少量未验证片段；引用这些片段的码会明确报错，避免输出猜测数据。完整范围见 [docs/dictionary.md](docs/dictionary.md)。
 
-算法说明和逆向证据见 [docs/format.md](docs/format.md)。实际网站样本保存在 `research/samples/`，仅供开发验证；SDK 运行不读取样本。
+从结构到完整实例的中文说明见 [卡组码结构与编解码报告](docs/卡组码结构与编解码报告.md)，包括逐层字节、原始两码的对照及本地实现。简要格式说明见 [docs/format.md](docs/format.md)。实际网站样本保存在 `research/samples/`，仅供开发验证；SDK 运行不读取样本。
 
 已验证最初两份卡组码、61 份构筑变化、多角色单卡以及特殊字段与长文本样本。本地生成的 8 个新码已通过网站解码器导入验证，记录见 `research/samples/local_export_verification.json`。
 

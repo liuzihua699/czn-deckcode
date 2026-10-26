@@ -17,3 +17,23 @@ Windows 用户下载 **CZNDeckcode-windows-x64.zip**，解压后双击 **CZNDeck
 当前支持 BP4；未来版本、未知字段及完整游戏内构筑限制仍需继续验证。不同压缩表示可能生成不同但语义相同的码。本轮没有增加对未来所有官方码的兼容承诺。
 
 下载内容：Windows ZIP、单独 EXE、Python wheel、源码包和 SHA256 校验文件；原科普资料附件保留。SDK 尚未发布到 PyPI。
+
+## SDK 快速上手
+
+要求 Python 3.10+。下载本 Release 的 `czn_deckcode-0.1.0a2-py3-none-any.whl` 后，在下载目录执行（同版本覆盖升级需要强制重装）：
+
+```bash
+python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
+```
+
+```python
+from czn_deckcode import Card, Deck, decode, encode
+
+deck = Deck(char_id="30134", cards=[Card("c_30134_uni1")])
+code = encode(deck)                   # 卡组数据 → 分享码
+restored = decode(code)               # 分享码 → Deck
+assert restored == deck
+print(restored.to_dict())             # 转为字典；现有官方码同样交给 decode()
+```
+
+SDK 无需 Pillow、Tk 或游戏客户端，编解码不调用外部 API。`decode()` 保留已移除记录，仅展示在用卡牌时可筛选 `not card.removed`。完整安装、字段、JSON 文件及异常处理示例见 [SDK 基础用法](https://github.com/liuzihua699/czn-deckcode/blob/main/docs/sdk.md)，也可下载本 Release 的 `SDK-usage.md` 离线阅读。

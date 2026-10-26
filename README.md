@@ -39,6 +39,31 @@ Linux 桌面环境也可以运行 `./run-ui.sh`；Windows 安装 Python 3.10+ �
 
 ## SDK
 
+完整入门说明见 **[SDK 基础用法](docs/sdk.md)**，包含安装、解码官方码、生成卡组码、JSON 文件读写、字段说明和异常处理。
+
+要求 Python 3.10+。SDK 尚未发布到 PyPI，请先从 [v0.1.0a2 Release](https://github.com/liuzihua699/czn-deckcode/releases/tag/v0.1.0a2) 下载 wheel，在下载目录安装：
+
+```bash
+python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
+```
+
+本次覆盖发布仍使用 `0.1.0a2`，`--force-reinstall` 可确保已经安装过旧版的环境实际换成新版。也可以在克隆的项目根目录运行 `python -m pip install .`。仅使用 SDK 无需安装 Pillow、Tk 或游戏客户端。
+
+最小示例：
+
+```python
+from czn_deckcode import Card, Deck, decode, encode
+
+deck = Deck(char_id="30134", cards=[Card("c_30134_uni1")])
+code = encode(deck)                 # 卡组数据 → 分享码字符串
+restored = decode(code)             # 分享码字符串 → Deck
+print(code)
+print(restored.to_dict())           # 转为可序列化的字典
+assert restored == deck
+```
+
+解码现有官方码时，将 `decode(code)` 的参数换成从游戏复制的完整码；无需 API 密钥或网络。更多状态字段的示例：
+
 ```python
 from czn_deckcode import Card, Deck, encode, decode
 
@@ -59,6 +84,8 @@ print(restored.to_dict())
 也接受与网站相同的 camelCase JSON 对象：
 
 ```python
+from czn_deckcode import decode, encode
+
 deck_json = {
     "charId": "30134",
     "cards": [{"cardId": "c_30134_srt1", "duplicate": False}],
@@ -70,6 +97,19 @@ deck_json = decode(code).to_dict()
 `Card` 字段：`card_id`、`removed`、`duplicate`、`variant_card_id`、`epiphany_id`、`divine_id`、`god`。JSON 对应 `cardId`、`removed`、`duplicate`、`variantCardId`、`epiphanyId`、`divineId`、`god`。`Deck.cards` 是不可变 tuple，保留输入顺序。
 
 `encode()` 返回无 padding 的 Base64url 字符串；`decode()` 返回 `Deck`。格式错误抛出 `InvalidCodeError`，不支持的版本抛出 `UnsupportedVersionError`，无效卡组抛出 `InvalidDeckError`，统一继承 `DeckCodeError(ValueError)`。
+
+处理用户输入时可统一捕获：
+
+```python
+from czn_deckcode import DeckCodeError, decode
+
+try:
+    deck = decode("invalid-code")   # 在应用中替换为用户提供的码
+except DeckCodeError as error:
+    print(f"无法导入：{error}")
+```
+
+SDK 返回完整记录，包括 `removed=True` 的卡牌；只显示在用卡牌时使用 `[card for card in deck.cards if not card.removed]`，重新导出时保留完整 `Deck`。卡牌名称、描述和图片不属于编解码结果字段。
 
 ## 命令行
 
@@ -87,7 +127,7 @@ czn-deckcode decode - -o restored.json < code.txt
 - 支持普通卡、移除、复制、`_pot` / `_lbk` 变体、`_rspN` 角色顿悟、公共顿悟和神性顿悟。
 - `_pot` / `_lbk` 直接存储为有效卡牌 ID，解码放入 `card_id`，`variant_card_id` 留空；`_rspN` 解码为基础卡 ID 加 `variant_card_id`。
 - `god` 是由神性顿悟 ID 推导的展示字段，不单独存储，解码为大写（例如 `VITOR`）。原格式没有表达的信息无法保留。
-- SDK 不含卡牌数据库，负责格式转换，不检查游戏内是否存在某张卡或构筑是否合法。
+- 编解码核心不依赖卡牌数据库，负责格式转换，不验证完整游戏内构筑规则。桌面界面另带本地图卡和文案目录。
 - 同一份数据可以有多种有效 DEFLATE 表示。本地编码后的字符串可能与网站导出不同，但解压后的卡组数据相同；不能用字符串是否完全相同判断兼容性。
 - 未识别的版本或字段结构会明确报错。当前解码上限为 1 MiB 卡组数据，输入码上限为 2 MiB 字符。
 - 已从客户端模块提取 245 字节 BP4 压缩字典，修复真实官方码的解压错误；新增 7 条游戏导出码回归，包括记忆卡、移除、复制、一般灵光和神闪。证据见 [docs/dictionary.md](docs/dictionary.md)。

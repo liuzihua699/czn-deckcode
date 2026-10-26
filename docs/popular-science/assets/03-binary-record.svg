@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890">
+<title>一张普通卡，怎样写成 18 字节？</title>
+<desc>按固定顺序存储字段，省去 JSON 中反复出现的字段名。</desc>
+<style>text { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="890" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="64" y="43" font-size="18" fill="#2563eb" text-anchor="start" font-weight="700">CZN / BP4 图解</text>
+<text x="64" y="91" font-size="34" fill="#111827" text-anchor="start" font-weight="700">一张普通卡，怎样写成 18 字节？</text>
+<text x="64" y="132" font-size="22" fill="#566176" text-anchor="start" font-weight="400">按固定顺序存储字段，省去 JSON 中反复出现的字段名。</text>
+<rect x="64" y="196" width="240" height="254" rx="0" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="184.0" y="238" font-size="23" fill="#111827" text-anchor="middle" font-weight="700">角色编号</text>
+<text x="184.0" y="301" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="400">b6 eb 01</text>
+<text x="184.0" y="370" font-size="21" fill="#566176" text-anchor="middle" font-weight="400">3 字节</text>
+<text x="184.0" y="421" font-size="22" fill="#111827" text-anchor="middle" font-weight="400">30134</text>
+<rect x="304" y="196" width="160" height="254" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="384.0" y="238" font-size="23" fill="#111827" text-anchor="middle" font-weight="700">记录数量</text>
+<text x="384.0" y="301" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="400">01</text>
+<text x="384.0" y="370" font-size="21" fill="#566176" text-anchor="middle" font-weight="400">1 字节</text>
+<text x="384.0" y="421" font-size="22" fill="#111827" text-anchor="middle" font-weight="400">1 条</text>
+<rect x="464" y="196" width="160" height="254" rx="0" fill="#f5f0ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="544.0" y="238" font-size="23" fill="#111827" text-anchor="middle" font-weight="700">状态标记</text>
+<text x="544.0" y="301" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="400">00</text>
+<text x="544.0" y="370" font-size="21" fill="#566176" text-anchor="middle" font-weight="400">1 字节</text>
+<text x="544.0" y="421" font-size="22" fill="#111827" text-anchor="middle" font-weight="400">无特殊状态</text>
+<rect x="624" y="196" width="160" height="254" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="704.0" y="238" font-size="23" fill="#111827" text-anchor="middle" font-weight="700">ID 长度</text>
+<text x="704.0" y="301" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="400">0c</text>
+<text x="704.0" y="370" font-size="21" fill="#566176" text-anchor="middle" font-weight="400">1 字节</text>
+<text x="704.0" y="421" font-size="22" fill="#111827" text-anchor="middle" font-weight="400">12 字节</text>
+<rect x="784" y="196" width="352" height="254" rx="0" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="960.0" y="238" font-size="23" fill="#111827" text-anchor="middle" font-weight="700">卡牌 ID 内容</text>
+<text x="960.0" y="286" font-size="23" fill="#2563eb" text-anchor="middle" font-weight="400">63 5f 33 30 31 33</text>
+<text x="960.0" y="325" font-size="23" fill="#2563eb" text-anchor="middle" font-weight="400">34 5f 73 72 74 31</text>
+<text x="960.0" y="370" font-size="21" fill="#566176" text-anchor="middle" font-weight="400">12 字节</text>
+<text x="960.0" y="421" font-size="22" fill="#111827" text-anchor="middle" font-weight="400">c_30134_srt1</text>
+<rect x="64" y="498" width="1072" height="178" rx="12" fill="#fafbfe" stroke="#d5deed" stroke-width="1.5"/>
+<text x="92" y="542" font-size="26" fill="#111827" text-anchor="start" font-weight="700">数字使用可变长度整数，字符串先写长度、再写内容。</text>
+<text x="92" y="589" font-size="25" fill="#2563eb" text-anchor="start" font-weight="400">b6 eb 01 → 54 + 107 × 128 + 1 × 16384 = 30134</text>
+<text x="92" y="637" font-size="24" fill="#566176" text-anchor="start" font-weight="400">0c 是十六进制的 12，随后正好读取 12 字节 ID。</text>
+<text x="64" y="745" font-size="25" fill="#111827" text-anchor="start" font-weight="700">完整二进制记录</text>
+<rect x="64" y="768" width="1072" height="58" rx="8" fill="#eff6ff" stroke="#dbeafe" stroke-width="1.5"/>
+<text x="84" y="806" font-size="23" fill="#2563eb" text-anchor="start" font-weight="400">b6 eb 01 01 00 0c 63 5f 33 30 31 33 34 5f 73 72 74 31</text>
+<text x="64" y="856" font-size="20" fill="#566176" text-anchor="start" font-weight="400">每两个十六进制字符表示一个字节；图中区块宽度不按字节数缩放。</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+<title>字典恢复到了哪一步？</title>
+<desc>当前确认的是末尾 238 字节的一段后缀，完整字典还可能有更早的前缀。</desc>
+<style>text { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="64" y="43" font-size="18" fill="#2563eb" text-anchor="start" font-weight="700">CZN / BP4 图解</text>
+<text x="64" y="91" font-size="34" fill="#111827" text-anchor="start" font-weight="700">字典恢复到了哪一步？</text>
+<text x="64" y="132" font-size="22" fill="#566176" text-anchor="start" font-weight="400">当前确认的是末尾 238 字节的一段后缀，完整字典还可能有更早的前缀。</text>
+<rect x="64" y="218" width="81.08" height="96" rx="0" fill="#dbeafe" stroke="#ffffff" stroke-width="1.5"/>
+<text x="104.53781512605042" y="277" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="700">18</text>
+<rect x="145.08" y="218" width="274.76" height="96" rx="0" fill="#ffedd5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="282.453781512605" y="277" font-size="28" fill="#b45309" text-anchor="middle" font-weight="700">61</text>
+<rect x="419.83" y="218" width="207.19" height="96" rx="0" fill="#dbeafe" stroke="#ffffff" stroke-width="1.5"/>
+<text x="523.4285714285714" y="277" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="700">46</text>
+<rect x="627.03" y="218" width="49.55" height="96" rx="0" fill="#ffedd5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="651.7983193277312" y="277" font-size="24" fill="#b45309" text-anchor="middle" font-weight="700">11</text>
+<rect x="676.57" y="218" width="459.43" height="96" rx="0" fill="#dbeafe" stroke="#ffffff" stroke-width="1.5"/>
+<text x="906.2857142857144" y="277" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="700">102</text>
+<text x="64" y="194" font-size="21" fill="#566176" text-anchor="start" font-weight="400">更早前缀：尚不能确定</text>
+<text x="64" y="351" font-size="21" fill="#566176" text-anchor="start" font-weight="400">-238</text>
+<text x="1136" y="351" font-size="21" fill="#566176" text-anchor="end" font-weight="400">-1（字典末尾）</text>
+<rect x="64" y="390" width="1072" height="104" rx="12" fill="#fafbfe" stroke="#d5deed" stroke-width="1.5"/>
+<rect x="88" y="420" width="30" height="30" rx="4" fill="#dbeafe" stroke="#bfdbfe" stroke-width="1.5"/>
+<text x="136" y="446" font-size="27" fill="#2563eb" text-anchor="start" font-weight="700">166 字节已确认</text>
+<rect x="580" y="420" width="30" height="30" rx="4" fill="#ffedd5" stroke="#fed7aa" stroke-width="1.5"/>
+<text x="628" y="446" font-size="27" fill="#b45309" text-anchor="start" font-weight="700">72 字节未确认</text>
+<text x="64" y="557" font-size="27" fill="#111827" text-anchor="start" font-weight="700">未确认的两段</text>
+<text x="64" y="604" font-size="25" fill="#566176" text-anchor="start" font-weight="400">-220 至 -160：61 字节；-113 至 -103：11 字节。</text>
+<rect x="64" y="650" width="1072" height="112" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+<text x="92" y="692" font-size="27" fill="#2563eb" text-anchor="start" font-weight="700">本地编码</text>
+<text x="92" y="735" font-size="25" fill="#111827" text-anchor="start" font-weight="400">生成自包含的压缩流，不依赖原网站字典。</text>
+<rect x="64" y="790" width="1072" height="112" rx="12" fill="#f5f0ff" stroke="#ddd6fe" stroke-width="1.5"/>
+<text x="92" y="832" font-size="27" fill="#7c3aed" text-anchor="start" font-weight="700">解码原网站的码</text>
+<text x="92" y="875" font-size="25" fill="#111827" text-anchor="start" font-weight="400">若引用未知字典内容，会明确报错，避免输出猜测数据。</text>
+<text x="64" y="966" font-size="20" fill="#566176" text-anchor="start" font-weight="400">条带按字节数等比例绘制：蓝色为已确认，橙色为未确认。</text>
+</svg>

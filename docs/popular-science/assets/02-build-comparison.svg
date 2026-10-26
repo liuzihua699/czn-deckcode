@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120">
+<title>两份原始构筑，变化发生在哪里？</title>
+<desc>卡序、有效卡牌 ID 和移除状态都发生变化，记录总数仍然为 8。</desc>
+<style>text { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1120" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="64" y="43" font-size="18" fill="#2563eb" text-anchor="start" font-weight="700">CZN / BP4 图解</text>
+<text x="64" y="91" font-size="34" fill="#111827" text-anchor="start" font-weight="700">两份原始构筑，变化发生在哪里？</text>
+<text x="64" y="132" font-size="22" fill="#566176" text-anchor="start" font-weight="400">卡序、有效卡牌 ID 和移除状态都发生变化，记录总数仍然为 8。</text>
+<rect x="64" y="176" width="512" height="688" rx="12" fill="#fafbfe" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="92" y="219" font-size="30" fill="#2563eb" text-anchor="start" font-weight="700">构筑 1</text>
+<text x="92" y="257" font-size="22" fill="#566176" text-anchor="start" font-weight="400">64 字符 → 解压后 124 字节</text>
+<text x="92" y="299" font-size="21" fill="#566176" text-anchor="start" font-weight="400">顺序    有效卡牌 ID</text>
+<text x="546" y="299" font-size="20" fill="#566176" text-anchor="end" font-weight="400">flags</text>
+<rect x="84" y="320" width="472" height="54" rx="8" fill="#f5f0ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="99" y="356" font-size="23" fill="#566176" text-anchor="start" font-weight="400">1</text>
+<text x="144" y="356" font-size="23" fill="#7c3aed" text-anchor="start" font-weight="400">c_30134_srt1_pot</text>
+<text x="536" y="356" font-size="23" fill="#7c3aed" text-anchor="end" font-weight="700">00</text>
+<rect x="84" y="384" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="420" font-size="23" fill="#566176" text-anchor="start" font-weight="400">2</text>
+<text x="144" y="420" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt2_pot</text>
+<text x="536" y="420" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="448" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="484" font-size="23" fill="#566176" text-anchor="start" font-weight="400">3</text>
+<text x="144" y="484" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt3</text>
+<text x="536" y="484" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="512" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="548" font-size="23" fill="#566176" text-anchor="start" font-weight="400">4</text>
+<text x="144" y="548" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt4</text>
+<text x="536" y="548" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="576" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="612" font-size="23" fill="#566176" text-anchor="start" font-weight="400">5</text>
+<text x="144" y="612" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni1</text>
+<text x="536" y="612" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="640" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="676" font-size="23" fill="#566176" text-anchor="start" font-weight="400">6</text>
+<text x="144" y="676" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni2</text>
+<text x="536" y="676" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="704" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="740" font-size="23" fill="#566176" text-anchor="start" font-weight="400">7</text>
+<text x="144" y="740" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni3</text>
+<text x="536" y="740" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="84" y="768" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="99" y="804" font-size="23" fill="#566176" text-anchor="start" font-weight="400">8</text>
+<text x="144" y="804" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni4</text>
+<text x="536" y="804" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="624" y="176" width="512" height="688" rx="12" fill="#fafbfe" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="652" y="219" font-size="30" fill="#2563eb" text-anchor="start" font-weight="700">构筑 2</text>
+<text x="652" y="257" font-size="22" fill="#566176" text-anchor="start" font-weight="400">64 字符 → 解压后 120 字节</text>
+<text x="652" y="299" font-size="21" fill="#566176" text-anchor="start" font-weight="400">顺序    有效卡牌 ID</text>
+<text x="1106" y="299" font-size="20" fill="#566176" text-anchor="end" font-weight="400">flags</text>
+<rect x="644" y="320" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="356" font-size="23" fill="#566176" text-anchor="start" font-weight="400">1</text>
+<text x="704" y="356" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt2_pot</text>
+<text x="1096" y="356" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="384" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="420" font-size="23" fill="#566176" text-anchor="start" font-weight="400">2</text>
+<text x="704" y="420" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt3</text>
+<text x="1096" y="420" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="448" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="484" font-size="23" fill="#566176" text-anchor="start" font-weight="400">3</text>
+<text x="704" y="484" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_srt4</text>
+<text x="1096" y="484" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="512" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="548" font-size="23" fill="#566176" text-anchor="start" font-weight="400">4</text>
+<text x="704" y="548" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni1</text>
+<text x="1096" y="548" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="576" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="612" font-size="23" fill="#566176" text-anchor="start" font-weight="400">5</text>
+<text x="704" y="612" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni2</text>
+<text x="1096" y="612" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="640" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="676" font-size="23" fill="#566176" text-anchor="start" font-weight="400">6</text>
+<text x="704" y="676" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni3</text>
+<text x="1096" y="676" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="704" width="472" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="659" y="740" font-size="23" fill="#566176" text-anchor="start" font-weight="400">7</text>
+<text x="704" y="740" font-size="23" fill="#111827" text-anchor="start" font-weight="400">c_30134_uni4</text>
+<text x="1096" y="740" font-size="23" fill="#566176" text-anchor="end" font-weight="400">00</text>
+<rect x="644" y="768" width="472" height="54" rx="8" fill="#f5f0ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="659" y="804" font-size="23" fill="#566176" text-anchor="start" font-weight="400">8</text>
+<text x="704" y="804" font-size="23" fill="#7c3aed" text-anchor="start" font-weight="400">c_30134_srt1</text>
+<text x="1096" y="804" font-size="23" fill="#7c3aed" text-anchor="end" font-weight="700">01</text>
+<rect x="64" y="904" width="1072" height="140" rx="12" fill="#f5f0ff" stroke="#ddd6fe" stroke-width="1.5"/>
+<text x="92" y="946" font-size="28" fill="#7c3aed" text-anchor="start" font-weight="700">被移除的卡，仍有自己的记录</text>
+<text x="92" y="988" font-size="25" fill="#111827" text-anchor="start" font-weight="400">srt1_pot → srt1，移至末尾，flags 变为 01。</text>
+<text x="92" y="1023" font-size="22" fill="#566176" text-anchor="start" font-weight="400">ID 少了“_pot”这 4 个字节，因此原文从 124 变成 120 字节。</text>
+<text x="64" y="1086" font-size="20" fill="#566176" text-anchor="start" font-weight="400">这是这两份输入的具体差异；不能归结为“只改了一个删除位”。</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+<title>把卡组码一层层拆开</title>
+<desc>以一张普通卡为例：外面的文字，最终还原为角色、卡牌和状态。</desc>
+<style>text { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="64" y="43" font-size="18" fill="#2563eb" text-anchor="start" font-weight="700">CZN / BP4 图解</text>
+<text x="64" y="91" font-size="34" fill="#111827" text-anchor="start" font-weight="700">把卡组码一层层拆开</text>
+<text x="64" y="132" font-size="22" fill="#566176" text-anchor="start" font-weight="400">以一张普通卡为例：外面的文字，最终还原为角色、卡牌和状态。</text>
+<rect x="64" y="174" width="1072" height="148" rx="12" fill="#eff6ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="92" y="212" font-size="22" fill="#2563eb" text-anchor="start" font-weight="700">01  可以复制的文字</text>
+<text x="92" y="253" font-size="28" fill="#111827" text-anchor="start" font-weight="700">Base64url</text>
+<text x="92" y="293" font-size="25" fill="#566176" text-anchor="start" font-weight="400">v6l8cOjiNq3Nzwd5bz8N5EYk-E6grJg</text>
+<rect x="64" y="362" width="1072" height="148" rx="12" fill="#f8fafc" stroke="#d5deed" stroke-width="1.5"/>
+<text x="92" y="400" font-size="22" fill="#2563eb" text-anchor="start" font-weight="700">02  撤去文字包装</text>
+<text x="92" y="441" font-size="28" fill="#111827" text-anchor="start" font-weight="700">经过 XOR 混淆的字节</text>
+<text x="92" y="481" font-size="25" fill="#566176" text-anchor="start" font-weight="400">bf a9 7c 70 e8 e2 36 ad cd cf 07 79 …</text>
+<rect x="64" y="550" width="1072" height="148" rx="12" fill="#f5f0ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="92" y="588" font-size="22" fill="#2563eb" text-anchor="start" font-weight="700">03  撤销 XOR 混淆</text>
+<text x="92" y="629" font-size="28" fill="#111827" text-anchor="start" font-weight="700">格式头 + 压缩数据</text>
+<text x="92" y="669" font-size="25" fill="#566176" text-anchor="start" font-weight="400">42 50 04  |  db f6 9a 91 91 81 27 39 …</text>
+<rect x="64" y="738" width="1072" height="148" rx="12" fill="#eff6ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="92" y="776" font-size="22" fill="#2563eb" text-anchor="start" font-weight="700">04  解压后的内容</text>
+<text x="92" y="817" font-size="28" fill="#111827" text-anchor="start" font-weight="700">真正的卡组记录</text>
+<text x="92" y="857" font-size="25" fill="#566176" text-anchor="start" font-weight="400">角色 30134  ·  1 条记录  ·  c_30134_srt1  ·  普通状态</text>
+<path d="M 600 325 L 600 357" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="642" y="326" width="159.96875" height="33" rx="4" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="650" y="350" font-size="21" fill="#566176" text-anchor="start" font-weight="400">Base64url 解码</text>
+<path d="M 600 513 L 600 545" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="642" y="514" width="187.234375" height="33" rx="4" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="650" y="538" font-size="21" fill="#566176" text-anchor="start" font-weight="400">使用相同掩码 XOR</text>
+<path d="M 600 701 L 600 733" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="642" y="702" width="205.0" height="33" rx="4" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="650" y="726" font-size="21" fill="#566176" text-anchor="start" font-weight="400">检查头部，解压主体</text>
+<text x="64" y="966" font-size="20" fill="#566176" text-anchor="start" font-weight="400">BP4 的头部也参与混淆；仅做 Base64url 解码，还看不到 BP。</text>
+</svg>

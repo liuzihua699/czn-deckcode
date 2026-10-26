@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1240" viewBox="0 0 1200 1240">
+<title>完整编码流程：从清单到分享码</title>
+<desc>一张卡的实测结果；解码时按相反顺序逐层还原。</desc>
+<style>text { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1240" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="64" y="43" font-size="18" fill="#2563eb" text-anchor="start" font-weight="700">CZN / BP4 图解</text>
+<text x="64" y="91" font-size="34" fill="#111827" text-anchor="start" font-weight="700">完整编码流程：从清单到分享码</text>
+<text x="64" y="132" font-size="22" fill="#566176" text-anchor="start" font-weight="400">一张卡的实测结果；解码时按相反顺序逐层还原。</text>
+<rect x="136" y="178" width="872" height="112" rx="12" fill="#fafbfe" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="244" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">01</text>
+<text x="164" y="222" font-size="28" fill="#111827" text-anchor="start" font-weight="700">构筑清单</text>
+<text x="164" y="264" font-size="22" fill="#566176" text-anchor="start" font-weight="400">角色 30134，卡牌 c_30134_srt1</text>
+<text x="980" y="223" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">输入</text>
+<path d="M 572 293 L 572 318" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="136" y="322" width="872" height="112" rx="12" fill="#eff6ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="388" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">02</text>
+<text x="164" y="366" font-size="28" fill="#111827" text-anchor="start" font-weight="700">写成二进制</text>
+<text x="164" y="408" font-size="22" fill="#566176" text-anchor="start" font-weight="400">角色、数量、状态、ID 长度、ID 内容</text>
+<text x="980" y="367" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">18 字节</text>
+<path d="M 572 437 L 572 462" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="136" y="466" width="872" height="112" rx="12" fill="#fafbfe" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="532" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">03</text>
+<text x="164" y="510" font-size="28" fill="#111827" text-anchor="start" font-weight="700">raw DEFLATE 压缩</text>
+<text x="164" y="552" font-size="22" fill="#566176" text-anchor="start" font-weight="400">生成不引用原网站字典的自包含压缩流</text>
+<text x="980" y="511" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">20 字节</text>
+<path d="M 572 581 L 572 606" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="136" y="610" width="872" height="112" rx="12" fill="#f5f0ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="676" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">04</text>
+<text x="164" y="654" font-size="28" fill="#111827" text-anchor="start" font-weight="700">加入 BP4 头部</text>
+<text x="164" y="696" font-size="22" fill="#566176" text-anchor="start" font-weight="400">在压缩数据前加入 42 50 04</text>
+<text x="980" y="655" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">23 字节</text>
+<path d="M 572 725 L 572 750" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="136" y="754" width="872" height="112" rx="12" fill="#fafbfe" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="820" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">05</text>
+<text x="164" y="798" font-size="28" fill="#111827" text-anchor="start" font-weight="700">整体 XOR 混淆</text>
+<text x="164" y="840" font-size="22" fill="#566176" text-anchor="start" font-weight="400">格式头和压缩数据一起处理</text>
+<text x="980" y="799" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">23 字节</text>
+<path d="M 572 869 L 572 894" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="136" y="898" width="872" height="112" rx="12" fill="#eff6ff" stroke="#d5deed" stroke-width="1.5"/>
+<text x="94" y="964" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">06</text>
+<text x="164" y="942" font-size="28" fill="#111827" text-anchor="start" font-weight="700">Base64url 转成文字</text>
+<text x="164" y="984" font-size="22" fill="#566176" text-anchor="start" font-weight="400">去掉末尾用于补位的等号</text>
+<text x="980" y="943" font-size="26" fill="#2563eb" text-anchor="end" font-weight="700">31 字符</text>
+<path d="M 1088 1008 L 1088 218" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="1040" y="573" width="60.0" height="34" rx="4" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="1048" y="598" font-size="22" fill="#566176" text-anchor="start" font-weight="400">解码</text>
+<rect x="64" y="1100" width="1072" height="70" rx="12" fill="#f5f0ff" stroke="#ddd6fe" stroke-width="1.5"/>
+<text x="600" y="1146" font-size="30" fill="#7c3aed" text-anchor="middle" font-weight="700">v6l8cOjiNq3Nzwd5bz8N5EYk-E6grJg</text>
+<text x="64" y="1206" font-size="20" fill="#566176" text-anchor="start" font-weight="400">短数据可能越压越大；此例 18 → 20 字节正常。XOR 不改变数据长度。</text>
+</svg>

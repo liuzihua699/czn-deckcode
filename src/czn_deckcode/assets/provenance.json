@@ -1,0 +1,4281 @@
+{
+  "build": 130,
+  "files": [
+    {
+      "resource": "card_illustration/abnormal_curse_00085.sct",
+      "file": "cards/abnormal_curse_00085.png",
+      "sha256": "32cce4dc5da128eeea66d8b718a31d58c60a4508e7bd976e58b5d3f3a0226d69"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00084.sct",
+      "file": "cards/abnormal_curse_00084.png",
+      "sha256": "93dee57cab2df4526e838d70c293d1056a5003c9c014ac1c08d4a81b7b6ec3fa"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00063.sct",
+      "file": "cards/abnormal_curse_00063.png",
+      "sha256": "22df897b2b91d3bf3c84cf5145f17c5b83ba28fe63b4e30fee5858b845537a9d"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00054.sct",
+      "file": "cards/abnormal_curse_00054.png",
+      "sha256": "1541af4db96b37ef93b6e6ee00e472429a1c14ce535fda482a3c321bf2285d0d"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00067.sct",
+      "file": "cards/abnormal_curse_00067.png",
+      "sha256": "090a65e6b41a1f16a7ef7791a82e7111434668be953641d1c975580abf7f7015"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00007.sct",
+      "file": "cards/abnormal_curse_00007.png",
+      "sha256": "890435a454b0bcf0266d6bd694bd7237c0726aae5600b87b4dee131624ef6be1"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00006.sct",
+      "file": "cards/abnormal_curse_00006.png",
+      "sha256": "4d33a171b678465be8e0ee55d2efa6372ed3702acce987c3d90b2f7b24ba0ee5"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00047.sct",
+      "file": "cards/abnormal_curse_00047.png",
+      "sha256": "72d48605055a1f7465e8a7cff04dad6aa3817da479b4e6ea6f4a7ed6009b778c"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00031.sct",
+      "file": "cards/abnormal_curse_00031.png",
+      "sha256": "09f7be996faad12e026617aef3feb50f8eae17046073b21cadd2195893e43ea2"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00073.sct",
+      "file": "cards/abnormal_curse_00073.png",
+      "sha256": "9b1139804c4ca878fdf102229053498f4d5e2162b24266014592ffd76bcae5b6"
+    },
+    {
+      "resource": "card_illustration/job_00512.sct",
+      "file": "cards/job_00512.png",
+      "sha256": "242ec63287f36f2d95763ac6e49c59578eaf11fe1eb624c8e6e6e5fb15efca9a"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00083.sct",
+      "file": "cards/abnormal_curse_00083.png",
+      "sha256": "fc2e8b5f6db823e90e13e5278a2349a2f8f843e10ae43ca929354a73d34fa9f7"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00088.sct",
+      "file": "cards/abnormal_curse_00088.png",
+      "sha256": "b44479794210e7553f0962bb9868ceffb7638ff6a6f56f0f187801d30b81bfc9"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00089.sct",
+      "file": "cards/abnormal_curse_00089.png",
+      "sha256": "ae8f0e053baaefde7869e6a1b54216f4d1e640750ab421455402628e07cc58af"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00092.sct",
+      "file": "cards/abnormal_curse_00092.png",
+      "sha256": "b79cc9136e28e6fe10b1db3f10d1f9fb4fb3573745a4cdfa23c6b97956415563"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00010.sct",
+      "file": "cards/abnormal_curse_00010.png",
+      "sha256": "dd0dca52544ff54329b8412aec04de043d62345cd48b87e6a9cc02ca166870e7"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00059.sct",
+      "file": "cards/abnormal_curse_00059.png",
+      "sha256": "6c363257e2990648bc740ced0356f163da1f34707c6de95487e8bdfb7ae3f1e0"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00049.sct",
+      "file": "cards/abnormal_curse_00049.png",
+      "sha256": "ed5791467c1897af830d343d09f4febe996dddae99dc38172302209f97e41584"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00009.sct",
+      "file": "cards/abnormal_curse_00009.png",
+      "sha256": "d5839dbb5176c32fc72c27ddad7591186575e351a6015309ca728c2f173be92f"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00060.sct",
+      "file": "cards/abnormal_curse_00060.png",
+      "sha256": "6ec8505e44f329c80546bb25d7756b2fa0027374f3f25f2194c69b6db5c2e560"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00068.sct",
+      "file": "cards/abnormal_curse_00068.png",
+      "sha256": "2274b2f0876f87afcbb104c467bbb6756dfe0b070491d8c9e1342b73d2a6f252"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00069.sct",
+      "file": "cards/abnormal_curse_00069.png",
+      "sha256": "222006118ae9ebe3edeb2c85990aa94423afbc6e3528da3a83ac03e2f730a6ac"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00074.sct",
+      "file": "cards/abnormal_curse_00074.png",
+      "sha256": "5db37dedf2751eeac0b4bae9abc12860a8cba6a206227c0f668e5c15137e8efd"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00048.sct",
+      "file": "cards/abnormal_curse_00048.png",
+      "sha256": "22a6e66e71b1c268e59dc490dd533853d52d03a36f0dc1f983c8e325735bd465"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00030.sct",
+      "file": "cards/abnormal_curse_00030.png",
+      "sha256": "763ef8210afb1283fcf70c886a8bb0d7634a298715ebb348bb55459bcd6442a1"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00026.sct",
+      "file": "cards/abnormal_curse_00026.png",
+      "sha256": "c1915d4f74a6fb361eb0c28b86d25ef05cb9e22588c4be11569fda3006e58286"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00004.sct",
+      "file": "cards/abnormal_curse_00004.png",
+      "sha256": "79f2ecfe7c1d66ee59a487d97f9ce99305d4fbf4a21cb0a25c4ca2396cb81f1d"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00075.sct",
+      "file": "cards/abnormal_curse_00075.png",
+      "sha256": "2852e3000ee0d6d0169108ff73e8c1bb6cb0df13bc73a31bcb6f5949564fe27c"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00076.sct",
+      "file": "cards/abnormal_curse_00076.png",
+      "sha256": "2d0e885a6dd509ce78227b281c352c3bd8447891dd9109d40403ed9bb7928f17"
+    },
+    {
+      "resource": "card_illustration/job_00392.sct",
+      "file": "cards/job_00392.png",
+      "sha256": "84bfc1ea1027c84eb353ce27aca9ebbdf208a96f5c031171258116b9485d23c4"
+    },
+    {
+      "resource": "card_illustration/job_00390.sct",
+      "file": "cards/job_00390.png",
+      "sha256": "0ace4c47c710712de7e2b0724edcbc3eb13c203ba797c73cb1504d680e8cfff4"
+    },
+    {
+      "resource": "card_illustration/job_00391.sct",
+      "file": "cards/job_00391.png",
+      "sha256": "f7f0ad5da2c51bb77c80b0d1d66be4f91733be9412130aeee30ac16b036b6383"
+    },
+    {
+      "resource": "card_illustration/job_00456.sct",
+      "file": "cards/job_00456.png",
+      "sha256": "f601ec10cb2162fa97917d41a5fa5599cd5b88d6fbfe7ed46b1ec959db0d58d5"
+    },
+    {
+      "resource": "card_illustration/job_00301.sct",
+      "file": "cards/job_00301.png",
+      "sha256": "6de506a70be549815115bc3ee69847f11326e0e7408a6a141ffda7c6e4c4ce24"
+    },
+    {
+      "resource": "card_illustration/job_00047.sct",
+      "file": "cards/job_00047.png",
+      "sha256": "ecb4d6eab7a523f184b97a2d826d6d4351ce3328477bbeab1767b1b343eb3dd8"
+    },
+    {
+      "resource": "card_illustration/potion_00010.sct",
+      "file": "cards/potion_00010.png",
+      "sha256": "c06f719855e65df1ca56d0666fd31350ef581189a790cd0216fc1120d17168e8"
+    },
+    {
+      "resource": "card_illustration/job_00251.sct",
+      "file": "cards/job_00251.png",
+      "sha256": "04abf5cad9450c3a8d43ba841b9386f7d9f3e317701f89a3e05d0375960b7ea9"
+    },
+    {
+      "resource": "card_illustration/potion_00008.sct",
+      "file": "cards/potion_00008.png",
+      "sha256": "48584c9fad5cbee8d0ec667a15db4c6db1c28df2e7729781146081222c1706bd"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00077.sct",
+      "file": "cards/abnormal_curse_00077.png",
+      "sha256": "129dd3d2f548c30e1446d28dc98e116d6a91a678384ad02377e42247fbbf030c"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00078.sct",
+      "file": "cards/abnormal_curse_00078.png",
+      "sha256": "76fa1f8bf4192ba22966889223f736c2c0bd90a1dd70753189394c151838dcc6"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00079.sct",
+      "file": "cards/abnormal_curse_00079.png",
+      "sha256": "e8ab07fd43fd4c1b0d2075daa9009948267853f8b87e73be4fa68f9fe3726e36"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00080.sct",
+      "file": "cards/abnormal_curse_00080.png",
+      "sha256": "b0e7973ab02c7805463160a9b6c11355bfabfa30d7c103225e5bfb8051b907b2"
+    },
+    {
+      "resource": "card_illustration/job_00485.sct",
+      "file": "cards/job_00485.png",
+      "sha256": "82151cb25acd3e4cdb8789021da913dd05efd8e07c125cef844aa5c51bb9e44d"
+    },
+    {
+      "resource": "card_illustration/job_00458.sct",
+      "file": "cards/job_00458.png",
+      "sha256": "656948e731cb566ac6d74d09b6e63e232ff4a281e494093a9bbb5d5cb8cc4910"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00081.sct",
+      "file": "cards/abnormal_curse_00081.png",
+      "sha256": "998a9b61c250b1757bb901c88d878a6afd19be42c9a025b2c60ecb078269c515"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00082.sct",
+      "file": "cards/abnormal_curse_00082.png",
+      "sha256": "7742c99d600d7a0452e784ab104a261199c7e7a0c0d8b8ad15f2cdf29a081a3d"
+    },
+    {
+      "resource": "card_illustration/job_00078.sct",
+      "file": "cards/job_00078.png",
+      "sha256": "f6b7c90d958a5fc8186b73ac8471a8e5f2c5111e4827aa000b78b182cd910cb3"
+    },
+    {
+      "resource": "card_illustration/temp_encounter_card.sct",
+      "file": "cards/temp_encounter_card.png",
+      "sha256": "abd3e9dcccf624c4101ac8cdf67b6509510543025d37f93463e760d395aec572"
+    },
+    {
+      "resource": "card_illustration/job_00469.sct",
+      "file": "cards/job_00469.png",
+      "sha256": "bf6065f6e5ad38541ab175a66209a9cfa0c0264865f5333fec6b1168d7a49832"
+    },
+    {
+      "resource": "card_illustration/job_00299.sct",
+      "file": "cards/job_00299.png",
+      "sha256": "6d8c2c111ae45a2d5dd012596a9376c755e31de02fc68222a66b4e782c76c198"
+    },
+    {
+      "resource": "card_illustration/job_00455.sct",
+      "file": "cards/job_00455.png",
+      "sha256": "ffd4066df73d394cdfd3d7ba8f6dcbd177481bb14555a620092711cf64d9d770"
+    },
+    {
+      "resource": "card_illustration/potion_00051.sct",
+      "file": "cards/potion_00051.png",
+      "sha256": "47f66c3b7e704ba450d0d942fa43737a22c6e170369e8539cd95cc22b291204b"
+    },
+    {
+      "resource": "card_illustration/job_00360.sct",
+      "file": "cards/job_00360.png",
+      "sha256": "7dc11ff64b781624d6ad015652670de650f2d4cccf5f1759596286ebb999024f"
+    },
+    {
+      "resource": "card_illustration/job_00361.sct",
+      "file": "cards/job_00361.png",
+      "sha256": "b95719e0df0d69bf8b383a615b21c77a02827e0153667c6837d474c5328d1887"
+    },
+    {
+      "resource": "card_illustration/job_00484.sct",
+      "file": "cards/job_00484.png",
+      "sha256": "1217ec920b6af3daa19f029c42833a8427ae8697572c5fe0806cef273b362097"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00062.sct",
+      "file": "cards/abnormal_curse_00062.png",
+      "sha256": "7fa8b463b1770a13de6e0958e74d8f7e2158783b541ae0152852c8e861b7a772"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00086.sct",
+      "file": "cards/abnormal_curse_00086.png",
+      "sha256": "17243ccdf080865b8cfd51a2d40d9d0184701afaf7b4c2a2819dbdbfacb3bbcd"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00070.sct",
+      "file": "cards/abnormal_curse_00070.png",
+      "sha256": "965a8267c0c1e5c8790f1b2fed37645d71f1089194016a409fdf759eb23ab3c5"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00071.sct",
+      "file": "cards/abnormal_curse_00071.png",
+      "sha256": "60c11a8c089e93665553644ad3f524e45a4e47d9455f1bc401e9cd9f0b5797fe"
+    },
+    {
+      "resource": "card_illustration/job_00502.sct",
+      "file": "cards/job_00502.png",
+      "sha256": "5de271d24c634f1e4495ce1134cc98e506350cebb8e976a2833ab1cba4945e8b"
+    },
+    {
+      "resource": "card_illustration/job_00503.sct",
+      "file": "cards/job_00503.png",
+      "sha256": "d64c63c6bb444307dc3c9b5a69c2b55b76d8b8f7b1c539a51d4d18b12f22a547"
+    },
+    {
+      "resource": "card_illustration/job_00504.sct",
+      "file": "cards/job_00504.png",
+      "sha256": "acab48a32d4846718690487fc755879e22bea0d915796f42a33eebd704e2fddc"
+    },
+    {
+      "resource": "card_illustration/job_00516.sct",
+      "file": "cards/job_00516.png",
+      "sha256": "a00052a551ae35d678b8f28e439837eaf18ace345bc5e9a8ca92df38cd417686"
+    },
+    {
+      "resource": "card_illustration/job_00517.sct",
+      "file": "cards/job_00517.png",
+      "sha256": "508347cc2981f696eaaf684c0d5b296c32a2b245de2f8e0db3b9b9d771c366e9"
+    },
+    {
+      "resource": "card_illustration/job_00518.sct",
+      "file": "cards/job_00518.png",
+      "sha256": "dea2c0c471b4856c52e3c3bfa03597c3a32db867bd129556058e475c69f418d7"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00087.sct",
+      "file": "cards/abnormal_curse_00087.png",
+      "sha256": "2fd9d175354908ef4182d2fdc466dc7287aa3a95b3b4d15a8fbb73b9430c1ef9"
+    },
+    {
+      "resource": "card_illustration/job_00128.sct",
+      "file": "cards/job_00128.png",
+      "sha256": "9dbbb53175ce683d69918e1957396534ec6ad70b9db69d3bf6f7dcff96ef78d7"
+    },
+    {
+      "resource": "card_illustration/job_00531.sct",
+      "file": "cards/job_00531.png",
+      "sha256": "69d106bc9b6e31cd880318a68d07f5917a09cf315ae10c8624ddb169e23e077f"
+    },
+    {
+      "resource": "card_illustration/potion_00019.sct",
+      "file": "cards/potion_00019.png",
+      "sha256": "b7661ce7514018a719f8aae81b5156401581b6667b2df35325b6f176291bb2dd"
+    },
+    {
+      "resource": "card_illustration/job_00532.sct",
+      "file": "cards/job_00532.png",
+      "sha256": "f5f60f3909875f742405a68af9dcbe288707185d396bac53bfb5491a98aa49b9"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00008.sct",
+      "file": "cards/abnormal_curse_00008.png",
+      "sha256": "b108040121efac88bd8d44dc78081e0245c8e54ce9c60726346d7fb90a5f0511"
+    },
+    {
+      "resource": "card_illustration/job_00227.sct",
+      "file": "cards/job_00227.png",
+      "sha256": "8835f280cf2687fcc998867327ca75600ffe4c6b453c8109d88134a759a95fa6"
+    },
+    {
+      "resource": "card_illustration/job_00050.sct",
+      "file": "cards/job_00050.png",
+      "sha256": "48dd840093b5127d06cd2ae65b622d0150eb57a0c8e1ef7f153cd0bf4a4f3f36"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00072.sct",
+      "file": "cards/abnormal_curse_00072.png",
+      "sha256": "a7e161027fa3619f648dde25df6a302fc811d7800e41e9b635671732b8b322e2"
+    },
+    {
+      "resource": "card_illustration/job_00435.sct",
+      "file": "cards/job_00435.png",
+      "sha256": "e71ec89bf65050061d7d079312502fa24a0fe52bdb0c6c050b3e0a5d86345543"
+    },
+    {
+      "resource": "card_illustration/job_00459.sct",
+      "file": "cards/job_00459.png",
+      "sha256": "e40b631d32ada12c549e0b258656d2d33a4a6403a49beed80ea3441b3cad71c2"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00013.sct",
+      "file": "cards/abnormal_curse_00013.png",
+      "sha256": "69bb0e8837d7f034b1529eed3106c7a1e854556c9b5693792208db7ba73838c6"
+    },
+    {
+      "resource": "card_illustration/job_00645.sct",
+      "file": "cards/job_00645.png",
+      "sha256": "78158ada5d11c4bcfbc2aae9805280f657daa4563159fc6e2921541a2a80a124"
+    },
+    {
+      "resource": "card_illustration/job_00646.sct",
+      "file": "cards/job_00646.png",
+      "sha256": "09cf64a526a3271b442d2538e4aa45c88561ea5432413d00b3a53492da120644"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00090.sct",
+      "file": "cards/abnormal_curse_00090.png",
+      "sha256": "65193910367ce8d2acd5325b3685186af3dcf6f3cc56924a2d8dbce7bd197cd8"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00091.sct",
+      "file": "cards/abnormal_curse_00091.png",
+      "sha256": "88297743eb19049137b314154ce8b863f3a3fb4908c25d3789f4c9a40867fc21"
+    },
+    {
+      "resource": "card_illustration/job_00662.sct",
+      "file": "cards/job_00662.png",
+      "sha256": "a312968e9237130a73bc06c8c750d4df53c7cd083a9e04e476758971f75b5354"
+    },
+    {
+      "resource": "card_illustration/job_00663.sct",
+      "file": "cards/job_00663.png",
+      "sha256": "5e8ed9c13c4d85b09fa33a358bb9b2f45815f9380c853d9d8782b50701ae1024"
+    },
+    {
+      "resource": "card_illustration/potion_00011.sct",
+      "file": "cards/potion_00011.png",
+      "sha256": "8ba332ce496ad72b84da624fcfae6e1abcaee3b8f53ed8f475257f99ecf69916"
+    },
+    {
+      "resource": "card_illustration/job_00438.sct",
+      "file": "cards/job_00438.png",
+      "sha256": "d7df5e6479f8df1415b6092c65cd3d1e6965050c7ad52b201083b7d3c46e274b"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00025.sct",
+      "file": "cards/abnormal_curse_00025.png",
+      "sha256": "082502172f1d7c7946a05def1f1acbcd1564470b36ec845f48e091fd4e8228a9"
+    },
+    {
+      "resource": "card_illustration/job_00431.sct",
+      "file": "cards/job_00431.png",
+      "sha256": "cdd0f98b465a18dce931c7cf5476884aa5ba61e5ec60d373f96aed03359a5614"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00064.sct",
+      "file": "cards/abnormal_curse_00064.png",
+      "sha256": "8dddcb69b8fccddca261eca4698d0145072932f533171b3cf6a494446e0f2d64"
+    },
+    {
+      "resource": "card_illustration/job_00440.sct",
+      "file": "cards/job_00440.png",
+      "sha256": "02ec426cb527d360a3d64492b79c7c0e4d26c0deb2bab10e81b7980fd8654a16"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00065.sct",
+      "file": "cards/abnormal_curse_00065.png",
+      "sha256": "8cb43f9bdfb3c15807b0a5899c168cb3f41a61be51574cdd1b0c3000bb502e2b"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00066.sct",
+      "file": "cards/abnormal_curse_00066.png",
+      "sha256": "d15a22223ac190ee0e6e78fa245bb41881f0d43087be1caf10b86d7306e0a082"
+    },
+    {
+      "resource": "card_illustration/job_00446.sct",
+      "file": "cards/job_00446.png",
+      "sha256": "cefb3f06a80ff2a83c16522d4a4268e1cb46bac1fe1bc23ac984d977a09f1f88"
+    },
+    {
+      "resource": "card_illustration/job_00447.sct",
+      "file": "cards/job_00447.png",
+      "sha256": "0fb0cfe8a6bee5f7b1f67df980bfc8d95e6081405bde695fd0c95acb458d2e56"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00050.sct",
+      "file": "cards/abnormal_curse_00050.png",
+      "sha256": "69d28967edc6514699eeb4e8b8f09e32fe835f02f36fc1b6373355a21a5942ac"
+    },
+    {
+      "resource": "card_illustration/job_00430.sct",
+      "file": "cards/job_00430.png",
+      "sha256": "65301b4d85d12d15da016eecc161f1e02cdded9de2b405e9dd58c27a4fbe9cdc"
+    },
+    {
+      "resource": "card_illustration/job_00428.sct",
+      "file": "cards/job_00428.png",
+      "sha256": "236ef8f66fe5125bb40582c320a954d97d33c1a788e307c4e3a655ac0d35a440"
+    },
+    {
+      "resource": "card_illustration/job_00429.sct",
+      "file": "cards/job_00429.png",
+      "sha256": "d84049bb643faf68011903528aa1991690e2db1e922a5c537b48defdc9ec7708"
+    },
+    {
+      "resource": "card_illustration/job_00424.sct",
+      "file": "cards/job_00424.png",
+      "sha256": "48b8902f28ebe0979041f2376a7d5f76d232751be715139203d8fbc876a8b4da"
+    },
+    {
+      "resource": "card_illustration/job_00467.sct",
+      "file": "cards/job_00467.png",
+      "sha256": "3e53345117785d84d76226d0b4866e4149c217cc4a94b0e88de2fcda606dfd1d"
+    },
+    {
+      "resource": "card_illustration/job_00008.sct",
+      "file": "cards/job_00008.png",
+      "sha256": "50c3ec18946ef389d6ab79d3a1b902061a259e57c7aea7c7e2ad30f66acf38f9"
+    },
+    {
+      "resource": "card_illustration/job_00468.sct",
+      "file": "cards/job_00468.png",
+      "sha256": "0f0f14574b4e21e52a536b09bb56819069cde8a9c286937af802ca358fd53f4d"
+    },
+    {
+      "resource": "card_illustration/job_00465.sct",
+      "file": "cards/job_00465.png",
+      "sha256": "52d07d996c21f53fb2390e511e58076140553ba8472233adb2d4fce16f885785"
+    },
+    {
+      "resource": "card_illustration/job_00436.sct",
+      "file": "cards/job_00436.png",
+      "sha256": "094957e3a6a6321dbbc1efa7523b404c047909798783429e078d34e7dd6d987a"
+    },
+    {
+      "resource": "card_illustration/job_00263.sct",
+      "file": "cards/job_00263.png",
+      "sha256": "654b92170cc1f125c556805c03670d11d94964ff0219ac7d898a86dc27057564"
+    },
+    {
+      "resource": "card_illustration/job_00018.sct",
+      "file": "cards/job_00018.png",
+      "sha256": "683a191191bd11c001092d289703c9254a7e809b109bfa05471d01eb9bb1720d"
+    },
+    {
+      "resource": "card_illustration/job_00481.sct",
+      "file": "cards/job_00481.png",
+      "sha256": "588e2a1ad6f3fc94dc963e7951965d4b97005bab843ff2c395303eadec154dd8"
+    },
+    {
+      "resource": "card_illustration/job_00482.sct",
+      "file": "cards/job_00482.png",
+      "sha256": "1c44db2af7a766ea893dc6164b924211206f224ed6d9335e0cfe5999ac5beccc"
+    },
+    {
+      "resource": "card_illustration/job_00483.sct",
+      "file": "cards/job_00483.png",
+      "sha256": "d9f22b7a4b59c4e345c00bb32a567378a127b6e8dab04c8bae60a7ecb75f215b"
+    },
+    {
+      "resource": "card_illustration/job_00499.sct",
+      "file": "cards/job_00499.png",
+      "sha256": "fec2750a2bbf7fd95b097e0d31819833abe2348c77bb59b5a0cb1cbc5772eab1"
+    },
+    {
+      "resource": "card_illustration/potion_00048.sct",
+      "file": "cards/potion_00048.png",
+      "sha256": "25e0239a2d1f05551a923eef9ea1dbbaf760c606a7865c588885ecfcd0b22a6b"
+    },
+    {
+      "resource": "card_illustration/job_00501.sct",
+      "file": "cards/job_00501.png",
+      "sha256": "5484a63e4be051f7875a3c964412c15b91f1329f418a92491d41756fbc52795e"
+    },
+    {
+      "resource": "card_illustration/potion_00015.sct",
+      "file": "cards/potion_00015.png",
+      "sha256": "5d46371c24c3c43a5cec51842dbdb977de53c4942d94815ccf54886ff4e497fd"
+    },
+    {
+      "resource": "card_illustration/job_00500.sct",
+      "file": "cards/job_00500.png",
+      "sha256": "6c772d19f838bbb2ce594d73d36537abd184ed2f0ec628887f3441cface3f7f0"
+    },
+    {
+      "resource": "card_illustration/job_00365.sct",
+      "file": "cards/job_00365.png",
+      "sha256": "f9cdde200a5dec6d0eb43e64b3bae07787c1b090b9c0979bf28fb2f805ce1f73"
+    },
+    {
+      "resource": "card_illustration/job_00370.sct",
+      "file": "cards/job_00370.png",
+      "sha256": "8ea0ded9ee14f3960d15efadc46ac78ea1ba36e048e7a35ca139f377e4cbd032"
+    },
+    {
+      "resource": "card_illustration/abnormal_curse_00052.sct",
+      "file": "cards/abnormal_curse_00052.png",
+      "sha256": "e53edeac5d63904f82df7497d08b2c221e88c16d7c2a485552c7abbcdd4a3d0e"
+    },
+    {
+      "resource": "card_illustration/job_00205.sct",
+      "file": "cards/job_00205.png",
+      "sha256": "da685a90015fdabcec9d600052e52c0b3f97584e8f0ed9a486f04983555a7c2d"
+    },
+    {
+      "resource": "card_illustration/job_00449.sct",
+      "file": "cards/job_00449.png",
+      "sha256": "3caa2c36bc5d7496ba2d3f976811ec605654096c8915bc218cb2247c0dec231f"
+    },
+    {
+      "resource": "card_illustration/job_00207.sct",
+      "file": "cards/job_00207.png",
+      "sha256": "1afb7a706d68ab66fe15e045c0c1feaad8e4da6078224ca33637545978555ef3"
+    },
+    {
+      "resource": "card_illustration/job_00201.sct",
+      "file": "cards/job_00201.png",
+      "sha256": "ab61bc259586dd4aa3e3f7ec193f071b29aaf3cdb73d694899bd2a319d6bf738"
+    },
+    {
+      "resource": "card_illustration/job_00163.sct",
+      "file": "cards/job_00163.png",
+      "sha256": "31a5bbf7b4cb1f0b1a89bf164c36a24e27dbc3c111c16e1a8ea4a4fc0e3bce28"
+    },
+    {
+      "resource": "card_illustration/job_00415.sct",
+      "file": "cards/job_00415.png",
+      "sha256": "4ad91b19dbf6f26c0cc28c6185ef4229fd8cbd1e3d4be38d0e812a720e7e78b3"
+    },
+    {
+      "resource": "card_illustration/job_00206.sct",
+      "file": "cards/job_00206.png",
+      "sha256": "9d65100cd8acb73600e196744ba069c529f8a71a2296740e6ff1b7f23381ae7c"
+    },
+    {
+      "resource": "card_illustration/job_00426.sct",
+      "file": "cards/job_00426.png",
+      "sha256": "094e7ab66dbd6c5567e73faaee2fb8674df8a1f983f652df50056d4e75c602e4"
+    },
+    {
+      "resource": "card_illustration/job_00478.sct",
+      "file": "cards/job_00478.png",
+      "sha256": "07513b1e61fafcc7f90f72ec07baa03638f44abcf4806fcbb041f454b073494e"
+    },
+    {
+      "resource": "card_illustration/job_00479.sct",
+      "file": "cards/job_00479.png",
+      "sha256": "370e85b349cb009f5b80a7daf4b01d624bbfd3de1155458759cd2b3832fc04a3"
+    },
+    {
+      "resource": "card_illustration/job_00505.sct",
+      "file": "cards/job_00505.png",
+      "sha256": "c103a9728c877f1d0a754ffc902e179e51662196c1da545edd9bfb67fb0c98a1"
+    },
+    {
+      "resource": "card_illustration/job_00506.sct",
+      "file": "cards/job_00506.png",
+      "sha256": "cab88735eb5860c52ebb608fe7fa83d8ca1151c15672cfdf63d02a0c04bdfa3d"
+    },
+    {
+      "resource": "card_illustration/job_00600.sct",
+      "file": "cards/job_00600.png",
+      "sha256": "fc832bc56b9fb09ebdfeaa5947a8183f81dbe522e803d57cfd150b773e935c73"
+    },
+    {
+      "resource": "card_illustration/job_00601.sct",
+      "file": "cards/job_00601.png",
+      "sha256": "78677dcf70c87227208bc2579beb9a669667962e17d380baabfb00594e4c7584"
+    },
+    {
+      "resource": "card_illustration/job_00602.sct",
+      "file": "cards/job_00602.png",
+      "sha256": "f5b0635ec3b3ddfd1efda998feef1925d624a857b8f28082af1354ed9ce43bd4"
+    },
+    {
+      "resource": "card_illustration/job_00603.sct",
+      "file": "cards/job_00603.png",
+      "sha256": "68a21cec1c9705b8b3f135746839545baf703221331159dc529d32db65a54623"
+    },
+    {
+      "resource": "card_illustration/job_00604.sct",
+      "file": "cards/job_00604.png",
+      "sha256": "4947e080310297a10988e6686d5738060f48830bc0b97e2725d1936076115401"
+    },
+    {
+      "resource": "card_illustration/job_00605.sct",
+      "file": "cards/job_00605.png",
+      "sha256": "cf8cd83cbf679a91ee64b2a7a0c0f6ae14a14cef0422fcc6b9859f18db46b261"
+    },
+    {
+      "resource": "card_illustration/job_00606.sct",
+      "file": "cards/job_00606.png",
+      "sha256": "c89d1c12c54750d157b2c774a577c03c16216087b46aac688170589ac134a035"
+    },
+    {
+      "resource": "card_illustration/job_00607.sct",
+      "file": "cards/job_00607.png",
+      "sha256": "a38f3b52e5cb48edb445b21199a7e9fc0cdbf0046fe763a4b5e75698f3eb3973"
+    },
+    {
+      "resource": "card_illustration/job_00608.sct",
+      "file": "cards/job_00608.png",
+      "sha256": "9866b48674520c1101c96b537f4c15ef4e39dafbab35869e85ea5360f9b19900"
+    },
+    {
+      "resource": "card_illustration/job_00609.sct",
+      "file": "cards/job_00609.png",
+      "sha256": "913a40d7cddef9ca6d5a263738804d54ee2d189ccf3dbadadb94418cf456462a"
+    },
+    {
+      "resource": "card_illustration/job_00182.sct",
+      "file": "cards/job_00182.png",
+      "sha256": "2de789c801a66175c7056df2fce02f553811d05f9fc8c8240e9b6210c730e38a"
+    },
+    {
+      "resource": "card_illustration/job_00086.sct",
+      "file": "cards/job_00086.png",
+      "sha256": "3666995316455ad648733d9dbee4b489032d7c0457611874e810daaa1df8de85"
+    },
+    {
+      "resource": "card_illustration/job_00271.sct",
+      "file": "cards/job_00271.png",
+      "sha256": "eca5ba1ff200e733788aab3502ca4666be800ec8420673a91dbd0f81ec55b29d"
+    },
+    {
+      "resource": "card_illustration/job_00085.sct",
+      "file": "cards/job_00085.png",
+      "sha256": "6a98579491402cdc1651bfe2d2f31cc21f378504ea5046e55144bb6b0d2fa6a9"
+    },
+    {
+      "resource": "card_illustration/job_00450.sct",
+      "file": "cards/job_00450.png",
+      "sha256": "ab38de20b8127432f107ac060e79498bb545a3186a64625bb0ec5087485a82cb"
+    },
+    {
+      "resource": "card_illustration/job_00186.sct",
+      "file": "cards/job_00186.png",
+      "sha256": "334ce9194a5958dc799fb998822b41312780014fa35576c34e01c675e17ea268"
+    },
+    {
+      "resource": "card_illustration/job_00192.sct",
+      "file": "cards/job_00192.png",
+      "sha256": "928bcbad94aedd9f4de0df0464d2242fd2cd14f3152ae355966aced6bad17c1f"
+    },
+    {
+      "resource": "card_illustration/job_00184.sct",
+      "file": "cards/job_00184.png",
+      "sha256": "5345639940b622fb5fb3fd646af9afd6910010a61d86101334540f84e9d2d457"
+    },
+    {
+      "resource": "card_illustration/job_00275.sct",
+      "file": "cards/job_00275.png",
+      "sha256": "b7ca92670ba75cea9d1fbbe8806b9accfea32af6465a1d03e3a9a1d5b61e5667"
+    },
+    {
+      "resource": "card_illustration/job_00610.sct",
+      "file": "cards/job_00610.png",
+      "sha256": "3a97c67a8684d80adec9365e5560e87e95c61d9ba200fa229ed4e5f0b5150fac"
+    },
+    {
+      "resource": "card_illustration/job_00611.sct",
+      "file": "cards/job_00611.png",
+      "sha256": "323269ad68c939fc5af966652bf92ef846049290b5b51a9943a87c8b1b3ff264"
+    },
+    {
+      "resource": "card_illustration/job_00612.sct",
+      "file": "cards/job_00612.png",
+      "sha256": "b4682a782ea5c081e0f6cf16cb78473a7db5775de8c47d9efaa79e7947f7e57a"
+    },
+    {
+      "resource": "card_illustration/job_00661.sct",
+      "file": "cards/job_00661.png",
+      "sha256": "e712dbc04b61a9c8a32842997a28f44a26db1fc0cff85228c1343b92ba65a312"
+    },
+    {
+      "resource": "card_illustration/job_00272.sct",
+      "file": "cards/job_00272.png",
+      "sha256": "e66ea76adef1a3d86861ba3a1ebd24d01ca0851f9081438bebd4f859c1fd6b20"
+    },
+    {
+      "resource": "card_illustration/job_00100.sct",
+      "file": "cards/job_00100.png",
+      "sha256": "974f149ae0a9d219540a6772b6fd5369997a3e2aff85e99b9aff531ebff8f085"
+    },
+    {
+      "resource": "card_illustration/job_00096.sct",
+      "file": "cards/job_00096.png",
+      "sha256": "8fed38bc70ccb5d2bd845176c8158da4c89d3093fba82f7f70be9ee8281e134e"
+    },
+    {
+      "resource": "card_illustration/job_00161.sct",
+      "file": "cards/job_00161.png",
+      "sha256": "ee454bd235d420e7a26363ec862159242bd85ba95631877838f7e055dd9fe829"
+    },
+    {
+      "resource": "card_illustration/job_00156.sct",
+      "file": "cards/job_00156.png",
+      "sha256": "11bd957822c121fd889cc6783ebaa6ddaf3b447a65698f7552c0bf7d4a4769a7"
+    },
+    {
+      "resource": "card_illustration/job_00448.sct",
+      "file": "cards/job_00448.png",
+      "sha256": "392e94aba0a22dcd2716319c40fe7ad0fd11511f4c3a29e6ecd39c327ac1c4fe"
+    },
+    {
+      "resource": "card_illustration/job_00195.sct",
+      "file": "cards/job_00195.png",
+      "sha256": "3f9f569143ec70294a11036b91841fdbe1e85dfe4c1dfe022d7127bfc5371f95"
+    },
+    {
+      "resource": "card_illustration/job_00351.sct",
+      "file": "cards/job_00351.png",
+      "sha256": "23fb94960e2d103519476a3cbe3dd7ab62389be9b490b436229b0f7a77f960b8"
+    },
+    {
+      "resource": "card_illustration/job_00103.sct",
+      "file": "cards/job_00103.png",
+      "sha256": "0dbd2aa8f58151fa2fdf1fcb19283236f03354e71cf0087ac1937c7726b82f52"
+    },
+    {
+      "resource": "card_illustration/job_00070.sct",
+      "file": "cards/job_00070.png",
+      "sha256": "63c138e8eac49f5ffeb04696e4e86faf85969a2757cf1781da95552b014c6cce"
+    },
+    {
+      "resource": "card_illustration/job_00133.sct",
+      "file": "cards/job_00133.png",
+      "sha256": "b12a55c4d447c6325f9c1263e4b81dde716e89c2a185d4aaa3ce9ba40086015f"
+    },
+    {
+      "resource": "card_illustration/job_00303.sct",
+      "file": "cards/job_00303.png",
+      "sha256": "e8f27ac8548ca5526c8c6960033797b9db92d2d86c15db00c50ba2901e0d7804"
+    },
+    {
+      "resource": "card_illustration/job_00226.sct",
+      "file": "cards/job_00226.png",
+      "sha256": "92d8b8dac88022f63271feab9820b2b7081d0fd445af8bd83ec027846f0040e0"
+    },
+    {
+      "resource": "card_illustration/job_00079.sct",
+      "file": "cards/job_00079.png",
+      "sha256": "a5c78c7cbdcb51bb78d844b4f1ab7b8c48fdb9cd8e109777ee4b4172815ad08d"
+    },
+    {
+      "resource": "card_illustration/job_00324.sct",
+      "file": "cards/job_00324.png",
+      "sha256": "aeb3be2e6b05c3d2cc9b2036223e78f05f651da4f1f865c3fdfeff09f41c4625"
+    },
+    {
+      "resource": "card_illustration/job_00326.sct",
+      "file": "cards/job_00326.png",
+      "sha256": "085c5ee44b0c528359143cf7e24553339630ec5dff236ffa7d403ecab99aea22"
+    },
+    {
+      "resource": "card_illustration/job_00289.sct",
+      "file": "cards/job_00289.png",
+      "sha256": "cb57815224a074fc22e9714a6278e4a23cfa7fefd3484f5c677edf69665059a4"
+    },
+    {
+      "resource": "card_illustration/job_00034.sct",
+      "file": "cards/job_00034.png",
+      "sha256": "46d0ca07ba683e78bac07e608176b8b089321a7cc97ce5ea87a33896f8c292bd"
+    },
+    {
+      "resource": "card_illustration/job_00007.sct",
+      "file": "cards/job_00007.png",
+      "sha256": "574b571f613e015b464d95655c330af90926bf80be078785a9bdfa93c5ad4cd5"
+    },
+    {
+      "resource": "card_illustration/job_00145.sct",
+      "file": "cards/job_00145.png",
+      "sha256": "7b21e4726359a5cbfe07ad242aa7e72d85031ce7e63b57ad008cd01f4b923c9d"
+    },
+    {
+      "resource": "card_illustration/job_00330.sct",
+      "file": "cards/job_00330.png",
+      "sha256": "72539ea24d42e340c1332fefed9429968dd1e62fa28d1cd0a8eaa6cc08441072"
+    },
+    {
+      "resource": "card_illustration/job_00290.sct",
+      "file": "cards/job_00290.png",
+      "sha256": "5270fb85d2ea36d139b89aa946ba0dd27f0055277dbda31f6ecce253d91cb45b"
+    },
+    {
+      "resource": "card_illustration/job_00223.sct",
+      "file": "cards/job_00223.png",
+      "sha256": "7b0b0c33b10211d2d6dfb3f6671eb25f345e12adb528ced974eb7d926684b65c"
+    },
+    {
+      "resource": "card_illustration/job_00249.sct",
+      "file": "cards/job_00249.png",
+      "sha256": "a54610a9c04aab3ee779c94618c41aa3c616b2ff7763f95d08e486607f0fc019"
+    },
+    {
+      "resource": "card_illustration/job_00305.sct",
+      "file": "cards/job_00305.png",
+      "sha256": "c91857788c682f36124a486088e338dba037fc96db319425fb0ad1116d626536"
+    },
+    {
+      "resource": "card_illustration/job_00068.sct",
+      "file": "cards/job_00068.png",
+      "sha256": "5ed1f02eefdf5f4ca11150b08bd2560b83f013fb4a6b4b0a965ad53e12d3c23c"
+    },
+    {
+      "resource": "card_illustration/job_00302.sct",
+      "file": "cards/job_00302.png",
+      "sha256": "4b2f19cb029810a93dc6d8fc21a59b4c8d85c3af2e9549a0b6943d25147b4f8b"
+    },
+    {
+      "resource": "card_illustration/job_00074.sct",
+      "file": "cards/job_00074.png",
+      "sha256": "f119bc63f739afdf479098f038c1669195c5961ed52c97f02fdff11a9264f161"
+    },
+    {
+      "resource": "card_illustration/job_00026.sct",
+      "file": "cards/job_00026.png",
+      "sha256": "128630b2bd447c24f964220a92662151a097fd9bfbebc1cefa6047450485d4ad"
+    },
+    {
+      "resource": "card_illustration/job_00264.sct",
+      "file": "cards/job_00264.png",
+      "sha256": "f3ed9838d6d1b2ea3da06e99b85e49b29c94669ad8d6b2fefbaadf7a10cd975c"
+    },
+    {
+      "resource": "card_illustration/job_00002.sct",
+      "file": "cards/job_00002.png",
+      "sha256": "61a36a6337608bf92879e913c382b68e1f0f8d7e036806bffd57c739f3b0c183"
+    },
+    {
+      "resource": "card_illustration/job_00329.sct",
+      "file": "cards/job_00329.png",
+      "sha256": "056ec1b96a8e5782c2b127cbc642d8b088e47b69dac5f1a8c17724831216c37d"
+    },
+    {
+      "resource": "card_illustration/job_00268.sct",
+      "file": "cards/job_00268.png",
+      "sha256": "e0413eb4b47b6d396a196ba478ec864a74abbce7dbacea8159ce1960a035c3c7"
+    },
+    {
+      "resource": "card_illustration/job_00250.sct",
+      "file": "cards/job_00250.png",
+      "sha256": "fcc111eb4a54ae25698b0306be1f6a2eef1c4b345be8a6e7a2dd6336504848d8"
+    },
+    {
+      "resource": "card_illustration/job_00241.sct",
+      "file": "cards/job_00241.png",
+      "sha256": "99d8d71b09b03f7c8e47fc45da1528e4b19565442b17a3ddde978de156ad4976"
+    },
+    {
+      "resource": "card_illustration/job_00394.sct",
+      "file": "cards/job_00394.png",
+      "sha256": "bc7fe936a10ec09dd0faa3bebae8ed385c5384bd9b457aaa6c6697ad357a0216"
+    },
+    {
+      "resource": "card_illustration/job_00257.sct",
+      "file": "cards/job_00257.png",
+      "sha256": "5eddffd0f62c251d7d99f068a01ec3b0299ac0156b4fd0de2ae6943dc47e6cf7"
+    },
+    {
+      "resource": "card_illustration/job_00253.sct",
+      "file": "cards/job_00253.png",
+      "sha256": "a30bbea08c16fdfaa6aa386e4881c42c224d64cedb0e28a0449c820e6a4e0352"
+    },
+    {
+      "resource": "card_illustration/job_00393.sct",
+      "file": "cards/job_00393.png",
+      "sha256": "56ea44b820e1dddd1edad187ab5214e3997a938695fcd8774d738b576b8a66e3"
+    },
+    {
+      "resource": "card_illustration/job_00013.sct",
+      "file": "cards/job_00013.png",
+      "sha256": "006dda2e4bf01c0bc2a42be96f97e79ca4a37c971737ee1c4c88155846797063"
+    },
+    {
+      "resource": "card_illustration/job_00130.sct",
+      "file": "cards/job_00130.png",
+      "sha256": "0bfab20b3d2727bba05221092c0ebb3b45918517ee18231d4d9e52ddd3d1c507"
+    },
+    {
+      "resource": "card_illustration/job_00003.sct",
+      "file": "cards/job_00003.png",
+      "sha256": "54a6d22990ed2a581e37f72ac7b22ee81df1a8ccad19130d7421aff91bc5b66b"
+    },
+    {
+      "resource": "card_illustration/job_00110.sct",
+      "file": "cards/job_00110.png",
+      "sha256": "8b1867326bcca732557e0c0e873d76f7422d2a188c611e46001ca652f879f273"
+    },
+    {
+      "resource": "card_illustration/job_00336.sct",
+      "file": "cards/job_00336.png",
+      "sha256": "3ca1931e2b95371aa44d35dfbe46d35f9e62d34c1b802a5767ec1910587f7903"
+    },
+    {
+      "resource": "card_illustration/job_00307.sct",
+      "file": "cards/job_00307.png",
+      "sha256": "2951e6f63cdc3c4026d837982c14bbd5ac93588a0557b0ebe9d5dd40436a057f"
+    },
+    {
+      "resource": "card_illustration/job_00023.sct",
+      "file": "cards/job_00023.png",
+      "sha256": "8d56737ee29fa67bb67c3cc63166814553280933bacf4c237beedbe6f8283fa5"
+    },
+    {
+      "resource": "card_illustration/job_00046.sct",
+      "file": "cards/job_00046.png",
+      "sha256": "488b921e2b88ce9f3cc5ab67f72f695b43ff2a5063d63d38b6fe3b9ab97c8991"
+    },
+    {
+      "resource": "card_illustration/job_00246.sct",
+      "file": "cards/job_00246.png",
+      "sha256": "5f7457cdb764179fee2251d34880ff7dcd2e04fdffd41dfac740c75006906cd2"
+    },
+    {
+      "resource": "card_illustration/job_00248.sct",
+      "file": "cards/job_00248.png",
+      "sha256": "614adbdbf51936084e121531d5811444fc1ba370f568b689b36649c126038704"
+    },
+    {
+      "resource": "card_illustration/job_00237.sct",
+      "file": "cards/job_00237.png",
+      "sha256": "e0dc9c73fdfe923e3aa071921b6b0094e7301706434845dbce1091b61303b4ce"
+    },
+    {
+      "resource": "card_illustration/job_00083.sct",
+      "file": "cards/job_00083.png",
+      "sha256": "b5c3dc008c446f01465db2522c4846059c92446b992ad57d249705150f11644b"
+    },
+    {
+      "resource": "card_illustration/job_00316.sct",
+      "file": "cards/job_00316.png",
+      "sha256": "a56fa921122b320ee3daabfdb627352d6de34eaa46afec89738cfee2766a0284"
+    },
+    {
+      "resource": "card_illustration/job_00291.sct",
+      "file": "cards/job_00291.png",
+      "sha256": "66f20755051ca7b14c06e90af99e8c6dfea0a3d9a6f61c8827a005ad74277711"
+    },
+    {
+      "resource": "card_illustration/job_00218.sct",
+      "file": "cards/job_00218.png",
+      "sha256": "c01de4430bf0dd2d660f682548a68e0bcb59dc4ceefb1b70b4991af1bc628c13"
+    },
+    {
+      "resource": "card_illustration/job_00056.sct",
+      "file": "cards/job_00056.png",
+      "sha256": "5849d9ebe9c8b082476f2fe62127655649fdd50af9ab9077cd1ebcc97a6b12e8"
+    },
+    {
+      "resource": "card_illustration/job_00041.sct",
+      "file": "cards/job_00041.png",
+      "sha256": "5c83bf087a79165c7759ec0b3e3ebf3a629b02af514a7c07b4ada7246abb3b02"
+    },
+    {
+      "resource": "card_illustration/job_00072.sct",
+      "file": "cards/job_00072.png",
+      "sha256": "2b9ce8090b8a1d07a7e5bda499ad85d2e1ea55d568dae60662ce7adcbc83b8e5"
+    },
+    {
+      "resource": "card_illustration/job_00032.sct",
+      "file": "cards/job_00032.png",
+      "sha256": "0dd32698bdd277d3f416780a35678c6b566b9b9f1940ec8fa3c4c840618a9634"
+    },
+    {
+      "resource": "card_illustration/potion_00044.sct",
+      "file": "cards/potion_00044.png",
+      "sha256": "bfe1cf6dacab88dc344d98cf82fc1402f761976466531d08a5aed070fa815bca"
+    },
+    {
+      "resource": "card_illustration/job_00135.sct",
+      "file": "cards/job_00135.png",
+      "sha256": "0400c264e968d27b79a24dd2b615dac50d9248f2cf2b014f8ae66c968b9508ea"
+    },
+    {
+      "resource": "card_illustration/job_00052.sct",
+      "file": "cards/job_00052.png",
+      "sha256": "281821825a55d51ce947f8df0b6d33164e7f4760213ad9827a70defccee5045b"
+    },
+    {
+      "resource": "card_illustration/job_00331.sct",
+      "file": "cards/job_00331.png",
+      "sha256": "40e48016cfa8758c83bb22b56ebf4da6d3dbc20539620a65f65c45a2ee3974bd"
+    },
+    {
+      "resource": "card_illustration/potion_00018.sct",
+      "file": "cards/potion_00018.png",
+      "sha256": "a18b5e026325f96448fe013f9d4bb6ba04701f9ef0fce78c7138f2bb78895984"
+    },
+    {
+      "resource": "card_illustration/job_00655.sct",
+      "file": "cards/job_00655.png",
+      "sha256": "2f863bd0abadb01b04323934616b56129ac9533b8a2d6e5db61425a59eb73343"
+    },
+    {
+      "resource": "card_illustration/job_00652.sct",
+      "file": "cards/job_00652.png",
+      "sha256": "371bf67ee0a08060525a4231e96e2e4d5d2359695127155dbf03d655138b517b"
+    },
+    {
+      "resource": "card_illustration/job_00651.sct",
+      "file": "cards/job_00651.png",
+      "sha256": "3030c71f26f516bde5f37ed5b5fc97ff9378709d394cd0bada02eaa9bfec64dc"
+    },
+    {
+      "resource": "card_illustration/job_00649.sct",
+      "file": "cards/job_00649.png",
+      "sha256": "340358bf8ae932cc6a2fc8f3ac6f70fab7d5ca12e6f83bb8a49f94defcf352df"
+    },
+    {
+      "resource": "card_illustration/job_00657.sct",
+      "file": "cards/job_00657.png",
+      "sha256": "7a1e201a8456e9f7d46d6b80a2efa7c6a2d67569ba284de8cc0b4daaf62bf6e3"
+    },
+    {
+      "resource": "card_illustration/job_00658.sct",
+      "file": "cards/job_00658.png",
+      "sha256": "7e5330c743c159fc1f7ce33982b38901865993a65c12c4bd25447f06ea1d05ab"
+    },
+    {
+      "resource": "card_illustration/job_00654.sct",
+      "file": "cards/job_00654.png",
+      "sha256": "ec98248ac29b5da81a96034be16b23908a8dbd5f301215fafa96f982136f0b20"
+    },
+    {
+      "resource": "card_illustration/job_00650.sct",
+      "file": "cards/job_00650.png",
+      "sha256": "ebf12c4f817faf6a8f5e8076386b4e26922faa57aedf87408aa095356ac97fc0"
+    },
+    {
+      "resource": "card_illustration/job_00653.sct",
+      "file": "cards/job_00653.png",
+      "sha256": "38c560c556de600417e8e422311331c285269b8c7ae81bec03effe1720e8c424"
+    },
+    {
+      "resource": "card_illustration/job_00656.sct",
+      "file": "cards/job_00656.png",
+      "sha256": "4c2ec48735d2b70067bb62fe8238742d620c115f8a2762bc845b364d3268564d"
+    },
+    {
+      "resource": "card_illustration/job_00648.sct",
+      "file": "cards/job_00648.png",
+      "sha256": "783a5d3c27790ef9654f5c34bb21eb26892905d8bc30e1fe9be7c8490a98fb2d"
+    },
+    {
+      "resource": "card_illustration/unique_1033_02.sct",
+      "file": "cards/unique_1033_02.png",
+      "sha256": "9bc26392d92d6936a5851dff34bebfb7569dfe0c7b2acad12a876da3a0170359"
+    },
+    {
+      "resource": "card_illustration/unique_1033_04.sct",
+      "file": "cards/unique_1033_04.png",
+      "sha256": "0ea2e3f20005ed3afed79836414e703075d0405a694fba2b0f780035f6528d13"
+    },
+    {
+      "resource": "card_illustration/unique_1033_05.sct",
+      "file": "cards/unique_1033_05.png",
+      "sha256": "556e1da308c1a994d79b4e91ad8adc1e5cac77077998a16933b309ca430cf977"
+    },
+    {
+      "resource": "card_illustration/unique_1033_03.sct",
+      "file": "cards/unique_1033_03.png",
+      "sha256": "c14bb7736126d2ba9d40331ceabb9798c43723d1b18dd35fd92ba80b13407afa"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30047_02.sct",
+      "file": "cards/collapse_2_30047_02.png",
+      "sha256": "7c9a1dd6dcd822cb7cf27190c28259705f2f4a334cbc4ed160a016b0a524bfb2"
+    },
+    {
+      "resource": "card_illustration/start_1021_01.sct",
+      "file": "cards/start_1021_01.png",
+      "sha256": "9bc52e82489d841e3dfbd5fd8d1c1ce134a974337ce3ecefe07fd3d4e4ad9c2c"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1010_02.sct",
+      "file": "cards/collapse_2_1010_02.png",
+      "sha256": "f31357100fd2f7dcc9d797333c87604a7a03b2edf9e8f14e4b1740d0be5acf20"
+    },
+    {
+      "resource": "card_illustration/start_1010_01.sct",
+      "file": "cards/start_1010_01.png",
+      "sha256": "4c557d9157d8a344ec78c6e3051b057899083b004ffa6c1ae21ede72260cde26"
+    },
+    {
+      "resource": "card_illustration/start_1060_01.sct",
+      "file": "cards/start_1060_01.png",
+      "sha256": "9865427f6a593ac0397368cf0671cc6fd5a925ffb034acc83727a8eb42850986"
+    },
+    {
+      "resource": "card_illustration/unique_30047_02.sct",
+      "file": "cards/unique_30047_02.png",
+      "sha256": "2f9641ab73267b1551b8f5cd5f96f490dd4ee7689b3bee8c70bbe6ad11a3ae81"
+    },
+    {
+      "resource": "card_illustration/unique_1018_05.sct",
+      "file": "cards/unique_1018_05.png",
+      "sha256": "c77390610ffd755c42e042ccb84897fdab3cbc3692d23812a1d75c0ec6de0c4a"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1021_02.sct",
+      "file": "cards/collapse_2_1021_02.png",
+      "sha256": "c1ee5aeaafdfd20bc0f573c58dad3deb60464dde879f00af20e13bbdb92a61d0"
+    },
+    {
+      "resource": "card_illustration/unique_1050_05.sct",
+      "file": "cards/unique_1050_05.png",
+      "sha256": "1e90cf38de078d7265b2bf675d5156bbe56227309f494de46081a62bd99bcc80"
+    },
+    {
+      "resource": "card_illustration/collapse_1010_01.sct",
+      "file": "cards/collapse_1010_01.png",
+      "sha256": "ebed590d312875b8e57000fc590e8ab78ad41bcc482a22c3afbd1e186feb86f7"
+    },
+    {
+      "resource": "card_illustration/start_1010_02.sct",
+      "file": "cards/start_1010_02.png",
+      "sha256": "d258e59f121cac1ea5137d126182ecb1b8616d3f22afa9cb460de8dbc88c19c1"
+    },
+    {
+      "resource": "card_illustration/collapse_30047_01.sct",
+      "file": "cards/collapse_30047_01.png",
+      "sha256": "e4c1f9cf364a6f820d1d00b98eb00a1d929f4f1050475fec400d265443670019"
+    },
+    {
+      "resource": "card_illustration/collapse_1018_02.sct",
+      "file": "cards/collapse_1018_02.png",
+      "sha256": "61a2fa2fc6675a01507a6f4b18ff80909bd12a71b6a4ee1c559aff8e8abe3255"
+    },
+    {
+      "resource": "card_illustration/unique_30047_01.sct",
+      "file": "cards/unique_30047_01.png",
+      "sha256": "bc3506303638daeeb7d2b2896b7e5370a6cac59045d428a45c696e2b9b35b4f6"
+    },
+    {
+      "resource": "card_illustration/start_1033_01.sct",
+      "file": "cards/start_1033_01.png",
+      "sha256": "50a6b3e94b2b56c3bbd0325e42c4f69589020a34c63c501c60a5472a20845697"
+    },
+    {
+      "resource": "card_illustration/collapse_1050_01.sct",
+      "file": "cards/collapse_1050_01.png",
+      "sha256": "7bdb9a996df3d2b6be8df8879e6a1a684f311589fa815ab4f82b5d04610befc1"
+    },
+    {
+      "resource": "card_illustration/unique_30047_03.sct",
+      "file": "cards/unique_30047_03.png",
+      "sha256": "756671216e1608481fae9006b0bd95d82c7d37ce3c0b5a759d5586ba29d6638b"
+    },
+    {
+      "resource": "card_illustration/unique_1028_01.sct",
+      "file": "cards/unique_1028_01.png",
+      "sha256": "ab8f11fa865c2f41f254769ab75dd71a9ae73c7cc369f851b54063255b78bee0"
+    },
+    {
+      "resource": "card_illustration/unique_1050_03.sct",
+      "file": "cards/unique_1050_03.png",
+      "sha256": "32cf64329ff1d7ea6cae3805f525df532ef3944547b2b4f5421651dfc311e349"
+    },
+    {
+      "resource": "card_illustration/unique_1028_04.sct",
+      "file": "cards/unique_1028_04.png",
+      "sha256": "567c46c3ef412c160088b17d0a66d70497df42085d69d0f808c66ac445ff9b73"
+    },
+    {
+      "resource": "card_illustration/unique_1028_05.sct",
+      "file": "cards/unique_1028_05.png",
+      "sha256": "816eeaa50e70db9179bca41cb72d1f15822d47169bb1ea4c492b39b071ebd820"
+    },
+    {
+      "resource": "card_illustration/unique_1028_02.sct",
+      "file": "cards/unique_1028_02.png",
+      "sha256": "f824f6891ff4440185b325ba3c9356b019407ea13859be74b0f23b1cdf452ff4"
+    },
+    {
+      "resource": "card_illustration/unique_1062_01.sct",
+      "file": "cards/unique_1062_01.png",
+      "sha256": "918d347cc254674c741a61f8b4945720f617d8acabb3ac578cc57d91a0863ba8"
+    },
+    {
+      "resource": "card_illustration/unique_1018_03.sct",
+      "file": "cards/unique_1018_03.png",
+      "sha256": "039dc991ddc183a59991b3e5ec2e87cc3d65e34135968e19757892d0721a68f1"
+    },
+    {
+      "resource": "card_illustration/collapse_1018_01.sct",
+      "file": "cards/collapse_1018_01.png",
+      "sha256": "e7227042e3e8dbcc4cc1a5d4fe5fffd564de79dcd08b67fe1feca26aa5ccbfaa"
+    },
+    {
+      "resource": "card_illustration/unique_1018_04.sct",
+      "file": "cards/unique_1018_04.png",
+      "sha256": "0ae35e80a92d638e44d12d9462d838ebea45d1f8c631f24aa36b49de5bfd7dcc"
+    },
+    {
+      "resource": "card_illustration/collapse_1028_02.sct",
+      "file": "cards/collapse_1028_02.png",
+      "sha256": "ed90749e4822ab4b18f8b06cc3e1e6c78cba14185d0183db16d0a16f19f51d09"
+    },
+    {
+      "resource": "card_illustration/unique_1018_02.sct",
+      "file": "cards/unique_1018_02.png",
+      "sha256": "eef1b239c95f5b6202e5f346d8f68c677f5b4c45d98673ca02bc7685f1806c4f"
+    },
+    {
+      "resource": "card_illustration/unique_30047_06.sct",
+      "file": "cards/unique_30047_06.png",
+      "sha256": "306773fdb3bc2991d7468260c026f745c12fae3d8621ada0da58f563125fb123"
+    },
+    {
+      "resource": "card_illustration/collapse_1060_01.sct",
+      "file": "cards/collapse_1060_01.png",
+      "sha256": "ff68c779ae23779ee82954badf02f80725e2ca0db1e5c4bd8a50f959ceda1f40"
+    },
+    {
+      "resource": "card_illustration/unique_30047_04.sct",
+      "file": "cards/unique_30047_04.png",
+      "sha256": "383e93a0bd4ac00e5401145ff3b2e8251bca1925006f4c9b6cca44a8a791df59"
+    },
+    {
+      "resource": "card_illustration/unique_1062_02.sct",
+      "file": "cards/unique_1062_02.png",
+      "sha256": "cbada7bbd3497e1c720e7cc242927a0fae5fee425a6af0cb5faf9de02a68e9fc"
+    },
+    {
+      "resource": "card_illustration/unique_1050_02.sct",
+      "file": "cards/unique_1050_02.png",
+      "sha256": "76bacea608b7869f15f73af47d9f447287a6258064fed100c854363fd3ba9282"
+    },
+    {
+      "resource": "card_illustration/collapse_1021_01.sct",
+      "file": "cards/collapse_1021_01.png",
+      "sha256": "cbb2e9f636e63e004a228811d0362e9cbef36fcf000e8c47bfaf674dfff901e3"
+    },
+    {
+      "resource": "card_illustration/unique_1060_03.sct",
+      "file": "cards/unique_1060_03.png",
+      "sha256": "9553db1f99257947b368ef56f51720ef912fc77f0ad78ab915655c9965635039"
+    },
+    {
+      "resource": "card_illustration/unique_1060_02.sct",
+      "file": "cards/unique_1060_02.png",
+      "sha256": "1a04bcaa1db0007427889a44f812339b7d2e29e42e8ac3df78d568f8e23e6799"
+    },
+    {
+      "resource": "card_illustration/unique_1060_04.sct",
+      "file": "cards/unique_1060_04.png",
+      "sha256": "45b08a4f058d41f4f71317ca1eed26c80b8aa0b505c12d491f0eaca423c7bd3e"
+    },
+    {
+      "resource": "card_illustration/unique_1060_06.sct",
+      "file": "cards/unique_1060_06.png",
+      "sha256": "3e533f597841a1766d5330b2575049c3937ad3e11225306b69b5a8d6d7f11b8f"
+    },
+    {
+      "resource": "card_illustration/unique_1043_05.sct",
+      "file": "cards/unique_1043_05.png",
+      "sha256": "6c4169c1b15971854af3ed5e20cc55fc8dee838bff404f567538c17aaf6e56f3"
+    },
+    {
+      "resource": "card_illustration/collapse_1043_01.sct",
+      "file": "cards/collapse_1043_01.png",
+      "sha256": "35c358339ffbaea377878f0ec577b9a9bc626f38838a06237b653b6e50cf315d"
+    },
+    {
+      "resource": "card_illustration/unique_1033_01.sct",
+      "file": "cards/unique_1033_01.png",
+      "sha256": "901b1004f90f614b190b27ed7926c2a2feeb3dbb33c0cf65497654e74288b7a7"
+    },
+    {
+      "resource": "card_illustration/unique_1010_01.sct",
+      "file": "cards/unique_1010_01.png",
+      "sha256": "69c3242344f89946c40a7f327518c3a9d634a68b50720578dc5cb3c1752ac167"
+    },
+    {
+      "resource": "card_illustration/start_1043_01.sct",
+      "file": "cards/start_1043_01.png",
+      "sha256": "11721a08432cf0819a810df0b88e35007990a95f93cbc9a6116190a17844ce0b"
+    },
+    {
+      "resource": "card_illustration/start_1043_02.sct",
+      "file": "cards/start_1043_02.png",
+      "sha256": "0c1031874e8589327701bbdce4adfda56b1c90b25e2d2711e336c4bb2b0f6462"
+    },
+    {
+      "resource": "card_illustration/start_1050_01.sct",
+      "file": "cards/start_1050_01.png",
+      "sha256": "5106de6f741b0939b4cf8754afb5f2cac6244845eb1491ebefa2bda1601ee8de"
+    },
+    {
+      "resource": "card_illustration/start_1050_02.sct",
+      "file": "cards/start_1050_02.png",
+      "sha256": "8ec77c61e65ef9e24771c10cb21400060e6bda3917f75fcaaf4497c4ec4de7c7"
+    },
+    {
+      "resource": "card_illustration/unique_1050_04.sct",
+      "file": "cards/unique_1050_04.png",
+      "sha256": "cc121ba440809e38913ca26b2c567ee514ab78192877f14d4d345d105f9f3183"
+    },
+    {
+      "resource": "card_illustration/unique_1050_01.sct",
+      "file": "cards/unique_1050_01.png",
+      "sha256": "18aba702401daa780aad0ac40680f2985720830588ef506c648cf414023a4706"
+    },
+    {
+      "resource": "card_illustration/collapse_1062_01.sct",
+      "file": "cards/collapse_1062_01.png",
+      "sha256": "77781014e857afa3dd7cbc88b474c3f17df5b89b334dbb976cf4d8909d177f95"
+    },
+    {
+      "resource": "card_illustration/start_1033_02.sct",
+      "file": "cards/start_1033_02.png",
+      "sha256": "45069e6bc1d65c65e48130fdf9b70bdd41ceaa0b44b205b9c91128d65d91d733"
+    },
+    {
+      "resource": "card_illustration/start_1018_01.sct",
+      "file": "cards/start_1018_01.png",
+      "sha256": "4d8eb79599267fdd9297ec9ae7aa1c62a08287a456a9a6888596c84e4474846c"
+    },
+    {
+      "resource": "card_illustration/unique_1062_03.sct",
+      "file": "cards/unique_1062_03.png",
+      "sha256": "ceb16fef472d3b2357cc92db206a9d4840495f1f9d07c55c288bd9c4d0feca92"
+    },
+    {
+      "resource": "card_illustration/unique_1062_05.sct",
+      "file": "cards/unique_1062_05.png",
+      "sha256": "5ddf9897f283c30da775c26daf45e038a63c5e849cc89e2dc1a88555030ae043"
+    },
+    {
+      "resource": "card_illustration/unique_1062_04.sct",
+      "file": "cards/unique_1062_04.png",
+      "sha256": "cb040c6d6bb652453003ff77205132ee921c588baab88c9140aa7feec1290763"
+    },
+    {
+      "resource": "card_illustration/job_00408.sct",
+      "file": "cards/job_00408.png",
+      "sha256": "7ba65823482edb43c480809ab8ee261898986a147f8198a3d21e18bf34abe68b"
+    },
+    {
+      "resource": "card_illustration/job_00409.sct",
+      "file": "cards/job_00409.png",
+      "sha256": "702758c2bbc1140ca8b3e1a3cf092f92df285088a0942fdb619713142e575f4f"
+    },
+    {
+      "resource": "card_illustration/job_00410.sct",
+      "file": "cards/job_00410.png",
+      "sha256": "14d1e4b9ce38dfe8720f1a59d7e01c37a01f7658a5cec16c3c6750a6449c8aa3"
+    },
+    {
+      "resource": "card_illustration/collapse_1028_01.sct",
+      "file": "cards/collapse_1028_01.png",
+      "sha256": "03d1e3acae6484f864ef57ddd12d2e2d630d2113dd65058629f6c8f17e3d384e"
+    },
+    {
+      "resource": "card_illustration/job_00412.sct",
+      "file": "cards/job_00412.png",
+      "sha256": "f4ce77d5227002a4ca826fc96ddb2ba239235a8dcfd86824fc0ee5c5d945d05c"
+    },
+    {
+      "resource": "card_illustration/job_00411.sct",
+      "file": "cards/job_00411.png",
+      "sha256": "db1676fb5543d016e5f93426a52a14e1315bf2fba09901dcc1ce0a43c3a8bf8b"
+    },
+    {
+      "resource": "card_illustration/start_1018_03.sct",
+      "file": "cards/start_1018_03.png",
+      "sha256": "516665e24f5250a87cb257f568d0b23459a516fd1d75d71575bbf580a205a36e"
+    },
+    {
+      "resource": "card_illustration/unique_1021_01.sct",
+      "file": "cards/unique_1021_01.png",
+      "sha256": "b86f2557406beb68aa445b4c1684e7edb90d65f1d1f6c978b4155ea41fbc1b85"
+    },
+    {
+      "resource": "card_illustration/unique_1043_03.sct",
+      "file": "cards/unique_1043_03.png",
+      "sha256": "61fc8f9d736787a287748ee771fdf43360394a071174e4c30463174d856a87ed"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1043_02.sct",
+      "file": "cards/collapse_2_1043_02.png",
+      "sha256": "43672781b09f8952649726efad2455dd64f7d064968a002cdbc6916cbaf4e2b9"
+    },
+    {
+      "resource": "card_illustration/collapse_1033_01.sct",
+      "file": "cards/collapse_1033_01.png",
+      "sha256": "1eebddfe22a291e86c531b2a2c0696e3677fb941130e2f1a6693faac53807e49"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1050_02.sct",
+      "file": "cards/collapse_2_1050_02.png",
+      "sha256": "79eee9e38cd2517f2c8364885783c98480ff71d78beae9bab51dd1927ed2e861"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1033_02.sct",
+      "file": "cards/collapse_2_1033_02.png",
+      "sha256": "92c6feb3f926058392a1bfa9f3f8c11cdcb4883a5bbbf734a4ec9cfd184cd7c9"
+    },
+    {
+      "resource": "card_illustration/unique_1010_02.sct",
+      "file": "cards/unique_1010_02.png",
+      "sha256": "8d3e73081e48d52a10a38b3728bd3df3aafd6221fe0d0e90006e7c6ce46e3983"
+    },
+    {
+      "resource": "card_illustration/start_1028_01.sct",
+      "file": "cards/start_1028_01.png",
+      "sha256": "1c0cc27358c857d97dd789fcbd88ace13de746d681695d13e0e8cba7b1a900f5"
+    },
+    {
+      "resource": "card_illustration/start_1028_02.sct",
+      "file": "cards/start_1028_02.png",
+      "sha256": "200ddeaa5f99d4f5676b599ee7a1664051919aa1adf769c50ec4271d95cc0ae3"
+    },
+    {
+      "resource": "card_illustration/start_1028_03.sct",
+      "file": "cards/start_1028_03.png",
+      "sha256": "42779c1366210a858849bce9992435c11189cfcf02cc5672ed882e7494639d23"
+    },
+    {
+      "resource": "card_illustration/unique_1028_03.sct",
+      "file": "cards/unique_1028_03.png",
+      "sha256": "cdba2b7a0257ab0e24d6fb35cbee1ee8f212fe404107f0871778341ff021acc2"
+    },
+    {
+      "resource": "card_illustration/unique_30047_05.sct",
+      "file": "cards/unique_30047_05.png",
+      "sha256": "786ac0e2c71234139d4d1c9ec5ea2d706768a26dac0385ead2fa7853c818e4a8"
+    },
+    {
+      "resource": "card_illustration/unique_1010_03.sct",
+      "file": "cards/unique_1010_03.png",
+      "sha256": "39bb9c54bfecfc14b92c5468de40a354c3615d61de9f38e269765b3c6c84919a"
+    },
+    {
+      "resource": "card_illustration/unique_1010_04.sct",
+      "file": "cards/unique_1010_04.png",
+      "sha256": "23bbfa7892a6c89d1285896b66a420f77129c96029b218dfab1005fb783274e0"
+    },
+    {
+      "resource": "card_illustration/unique_1010_05.sct",
+      "file": "cards/unique_1010_05.png",
+      "sha256": "957821028a2e77da3ef8e6cddb8c863c4c8a9390511e58aa8ea3519f64911cc7"
+    },
+    {
+      "resource": "card_illustration/collapse_1010_02.sct",
+      "file": "cards/collapse_1010_02.png",
+      "sha256": "3356654fa3d4bfd62c52ed833b391fd83a2d879f4a655220f662c2b3fb3ef5de"
+    },
+    {
+      "resource": "card_illustration/unique_1021_05.sct",
+      "file": "cards/unique_1021_05.png",
+      "sha256": "166587a1f38e9391ca55c00bec3b35ea851f5ce10aa805ab9adf903cebce1fee"
+    },
+    {
+      "resource": "card_illustration/start_1018_02.sct",
+      "file": "cards/start_1018_02.png",
+      "sha256": "a9bb1225fe7c5dca90927c23d606a436a7454b34116dc11b58a280a7c05229af"
+    },
+    {
+      "resource": "card_illustration/unique_1018_01.sct",
+      "file": "cards/unique_1018_01.png",
+      "sha256": "ef677438cd9f30655c98c7b8c9c4f23f933bbfb3778b9a1573ddd2cf338ad438"
+    },
+    {
+      "resource": "card_illustration/collapse_30047_02.sct",
+      "file": "cards/collapse_30047_02.png",
+      "sha256": "6747682d964661b1ae6799530ad4f01f28e96427a0acf79f1e053c5f0db772be"
+    },
+    {
+      "resource": "card_illustration/start_1062_01.sct",
+      "file": "cards/start_1062_01.png",
+      "sha256": "cf70e128cf6da803010d367ff59acb95a1628c52d76a20210f90a4b4c71980bd"
+    },
+    {
+      "resource": "card_illustration/collapse_1050_02.sct",
+      "file": "cards/collapse_1050_02.png",
+      "sha256": "0b0abb86a7f28a42f4288226af5296a0825f3e621845b7f59272efc7fc17e6c9"
+    },
+    {
+      "resource": "card_illustration/unique_1021_04.sct",
+      "file": "cards/unique_1021_04.png",
+      "sha256": "6cc8d1bc37968d98bb60fe8626849e1cb1c23b3a3b4311f118f8177fc72909a7"
+    },
+    {
+      "resource": "card_illustration/unique_1021_02.sct",
+      "file": "cards/unique_1021_02.png",
+      "sha256": "79cd27246f333fbce8607f9d304d7aec47dd51e0bf39134d0bce5ce91870cdf8"
+    },
+    {
+      "resource": "card_illustration/start_1060_02.sct",
+      "file": "cards/start_1060_02.png",
+      "sha256": "2ffb4d6367e967ee60243cd0ab4318fa896fde5c3ace0b5e1611b82a14b5bf0c"
+    },
+    {
+      "resource": "card_illustration/unique_1060_01.sct",
+      "file": "cards/unique_1060_01.png",
+      "sha256": "30188fc7436c7d3d3c97deea7ddde2694f97c455b5d9cfb02a476933b093581b"
+    },
+    {
+      "resource": "card_illustration/start_1062_03.sct",
+      "file": "cards/start_1062_03.png",
+      "sha256": "c298c6b77a9cdcf894be4d4667894f6ca323d9b01941c46ba0df45569df7d08b"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1028_02.sct",
+      "file": "cards/collapse_2_1028_02.png",
+      "sha256": "531693a2ee461829b5ae70561f0dc38d5e1b0979ac53d3bb60f5ea4a430975a5"
+    },
+    {
+      "resource": "card_illustration/collapse_1060_02.sct",
+      "file": "cards/collapse_1060_02.png",
+      "sha256": "ca6d16b02b52065166e7c42034c892e29efe024bedd38da12f28b6576d626975"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1018_02.sct",
+      "file": "cards/collapse_2_1018_02.png",
+      "sha256": "6548e9bd1e1056b944b45bfc2157be26b42d4a3233cbd7389c630383980f4290"
+    },
+    {
+      "resource": "card_illustration/collapse_1021_02.sct",
+      "file": "cards/collapse_1021_02.png",
+      "sha256": "8c578d32e51c54067889b283a1e5e16b92e9018eea8a6508fbfbfc9537f35140"
+    },
+    {
+      "resource": "card_illustration/collapse_1043_02.sct",
+      "file": "cards/collapse_1043_02.png",
+      "sha256": "392677090d6a1cfba53b90b3bfede0e52b83bfee621134e493f43eda0c34a6fd"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1060_02.sct",
+      "file": "cards/collapse_2_1060_02.png",
+      "sha256": "47aa8877bf82ef7c818fb35db7c85f8c8a2f0c4267049dd960c312a02c4387e0"
+    },
+    {
+      "resource": "card_illustration/start_30047_01.sct",
+      "file": "cards/start_30047_01.png",
+      "sha256": "f09e172a84c19cc183b6556c92c28995cc5a0b70bdf4c988a3133afcc56fcfd3"
+    },
+    {
+      "resource": "card_illustration/start_1062_02.sct",
+      "file": "cards/start_1062_02.png",
+      "sha256": "f4fbd4ef182f22dda1ab3a5ceec5688aa9492c91670b8bd05445ee5e5fcd8ef3"
+    },
+    {
+      "resource": "card_illustration/unique_1043_04.sct",
+      "file": "cards/unique_1043_04.png",
+      "sha256": "89213d6ede38baaf39e664d84cff8c5a5b781a16b1797973e023809ecff5a473"
+    },
+    {
+      "resource": "card_illustration/collapse_1062_02.sct",
+      "file": "cards/collapse_1062_02.png",
+      "sha256": "4d09fe8a36305d34405098d1c5e5545bc3e08fe0be6a633ece394ae5a2491a95"
+    },
+    {
+      "resource": "card_illustration/unique_1043_01.sct",
+      "file": "cards/unique_1043_01.png",
+      "sha256": "9ffb2335efe2f2bb9b6be110b42347b55d4faf1fdc6cccb1ccf6f8c7b3de8f4e"
+    },
+    {
+      "resource": "card_illustration/unique_1033_06.sct",
+      "file": "cards/unique_1033_06.png",
+      "sha256": "427d9aedf35b8fa8aef01ab877347d8b53202a6d3b34f2d00a7c8a143ed55396"
+    },
+    {
+      "resource": "card_illustration/start_30047_02.sct",
+      "file": "cards/start_30047_02.png",
+      "sha256": "8f9d646f8ffeee70e9c6785a1f13b8f1e530dcc69ee05900d52119e7a667938d"
+    },
+    {
+      "resource": "card_illustration/unique_1033_07.sct",
+      "file": "cards/unique_1033_07.png",
+      "sha256": "5383fa076a54ae1d86e31e024c76f1d3c48a590eb31d6fde05d7549950d20b36"
+    },
+    {
+      "resource": "card_illustration/unique_1033_08.sct",
+      "file": "cards/unique_1033_08.png",
+      "sha256": "427d9aedf35b8fa8aef01ab877347d8b53202a6d3b34f2d00a7c8a143ed55396"
+    },
+    {
+      "resource": "card_illustration/unique_1033_09.sct",
+      "file": "cards/unique_1033_09.png",
+      "sha256": "8d607bfa53e12fb735f466d80f402f5b21d8fcc86e28afaba9c8c72e207b3347"
+    },
+    {
+      "resource": "card_illustration/unique_1033_10.sct",
+      "file": "cards/unique_1033_10.png",
+      "sha256": "2d631864d0938228a3949b1b50c468155a51109495fec1c34a1623ea4ded22ee"
+    },
+    {
+      "resource": "card_illustration/unique_1033_11.sct",
+      "file": "cards/unique_1033_11.png",
+      "sha256": "a2cee0dec916bb7a20a2f83e813e4af84d89a07189750c26b82bc44fdc1a6cd1"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1062_02.sct",
+      "file": "cards/collapse_2_1062_02.png",
+      "sha256": "d5520609917dab2411f69dfb0fcb3f52cc6af007eecaac9218594c9a1b29097a"
+    },
+    {
+      "resource": "card_illustration/collapse_1033_02.sct",
+      "file": "cards/collapse_1033_02.png",
+      "sha256": "5c22d91afa0ffdf477f6f4a475d5749c8f903d9d29d8845f7e14861d955e4bfa"
+    },
+    {
+      "resource": "card_illustration/start_1021_02.sct",
+      "file": "cards/start_1021_02.png",
+      "sha256": "5380c434b829b9ddb2caaba95b077fd61caa1535e22b22bec28fb5d49db81080"
+    },
+    {
+      "resource": "card_illustration/unique_1043_02.sct",
+      "file": "cards/unique_1043_02.png",
+      "sha256": "0996fd89fe5853893318c73ddee81a83c27e65afd67b0badf3992075b08ab778"
+    },
+    {
+      "resource": "card_illustration/unique_1021_03.sct",
+      "file": "cards/unique_1021_03.png",
+      "sha256": "767031f09282d848a27ea3ef3d3ed92f0f56d9f9fdc93859733328287cd01df2"
+    },
+    {
+      "resource": "card_illustration/unique_1064_05.sct",
+      "file": "cards/unique_1064_05.png",
+      "sha256": "699e476506c0b2d46d8cbef9899bb9fc598bcd58dec87390c50891c787110b34"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1049_02.sct",
+      "file": "cards/collapse_2_1049_02.png",
+      "sha256": "dd749077adc1c6a0f6e992b05e9dd32145224e198f19818486de3313f58eaefb"
+    },
+    {
+      "resource": "card_illustration/unique_1012_04.sct",
+      "file": "cards/unique_1012_04.png",
+      "sha256": "f1931f8e9d778222f712798d481f18c5d9d31d0696a5adaf38baf8014b80a18e"
+    },
+    {
+      "resource": "card_illustration/start_1064_01.sct",
+      "file": "cards/start_1064_01.png",
+      "sha256": "1e55bc646a4fdbd0e23e00187c7a96f10944ed1b0fabd5b6108c837d6f2dce58"
+    },
+    {
+      "resource": "card_illustration/collapse_1012_02.sct",
+      "file": "cards/collapse_1012_02.png",
+      "sha256": "f884651028b6295b4297df52b5f3ff96a2cc9b8fe628c69c8615ed99c9d63ca2"
+    },
+    {
+      "resource": "card_illustration/collapse_1005_01.sct",
+      "file": "cards/collapse_1005_01.png",
+      "sha256": "9754cccb8c18715b4be9455eea1890faf46484430d24382a4a29d79db67ae411"
+    },
+    {
+      "resource": "card_illustration/start_1012_01.sct",
+      "file": "cards/start_1012_01.png",
+      "sha256": "38afccd8dcb059192039bb8ddf3c14c536845680e69278db9f2cd900ea2d7270"
+    },
+    {
+      "resource": "card_illustration/start_1012_02.sct",
+      "file": "cards/start_1012_02.png",
+      "sha256": "83f7aa6554120daca8b15c96c76f02de6d85c0ab14b6384ba25424ee0781751d"
+    },
+    {
+      "resource": "card_illustration/unique_1012_01.sct",
+      "file": "cards/unique_1012_01.png",
+      "sha256": "aacfa12eccf6f44c9e7da8806b840aaf17fd26f5742f3199fabc523a445bd407"
+    },
+    {
+      "resource": "card_illustration/unique_1005_03.sct",
+      "file": "cards/unique_1005_03.png",
+      "sha256": "d42ce363a8da35a59d33c8c5bb5fc426244064ac0f13534272e09e13eea36543"
+    },
+    {
+      "resource": "card_illustration/unique_1049_05.sct",
+      "file": "cards/unique_1049_05.png",
+      "sha256": "baaf7510f38daf5ad6189879d3819d2fff933953e48e97a7a0a3eb42fa22279c"
+    },
+    {
+      "resource": "card_illustration/collapse_1049_01.sct",
+      "file": "cards/collapse_1049_01.png",
+      "sha256": "d789ce5b6b273b76b9c4ede8dd9d84093b6a6c9b8fd8a3d678f2236ca9fcfb0c"
+    },
+    {
+      "resource": "card_illustration/collapse_1064_01.sct",
+      "file": "cards/collapse_1064_01.png",
+      "sha256": "9e990b3b16d802a7e9eb81d8adfedc1912fef0daad169abe1775fdb5a37f40d2"
+    },
+    {
+      "resource": "card_illustration/unique_1049_08.sct",
+      "file": "cards/unique_1049_08.png",
+      "sha256": "c996426ff22797d9899e65fa205ba8a6216b9fa87cfff78bcf6720a44f2f603b"
+    },
+    {
+      "resource": "card_illustration/unique_1049_07.sct",
+      "file": "cards/unique_1049_07.png",
+      "sha256": "6209ee09dbe62c37965ab26b5a1bbc0c13f5c2dae739ef5cb59e260ce15b605d"
+    },
+    {
+      "resource": "card_illustration/start_1064_02.sct",
+      "file": "cards/start_1064_02.png",
+      "sha256": "2d5bfa5bcbf1417989fb2005303fe7e074f9400d5eb9783177f0635cb63302c6"
+    },
+    {
+      "resource": "card_illustration/unique_1049_06.sct",
+      "file": "cards/unique_1049_06.png",
+      "sha256": "f2d8843e471331041b21824819ebe4186ed235b7c5c005c66a3ceb73dec26ff1"
+    },
+    {
+      "resource": "card_illustration/unique_1049_09.sct",
+      "file": "cards/unique_1049_09.png",
+      "sha256": "32252ceca9cc939c438b26f443066df13292f729654b0ff74cb6674983f99dd9"
+    },
+    {
+      "resource": "card_illustration/unique_1064_04.sct",
+      "file": "cards/unique_1064_04.png",
+      "sha256": "469986fbe13e8221395c8060bf41478ee95d7975f7370ab6cab04b0596a84b2d"
+    },
+    {
+      "resource": "card_illustration/unique_1012_03.sct",
+      "file": "cards/unique_1012_03.png",
+      "sha256": "05eba3d5132f91f20dbacf7e0f911d3ab7ce4bbe12fba85a5888b6290fada465"
+    },
+    {
+      "resource": "card_illustration/unique_1005_02.sct",
+      "file": "cards/unique_1005_02.png",
+      "sha256": "7d9f2a854b05e6a7930427879e843b5725e97cb4cfa6940088a002b41b17d15a"
+    },
+    {
+      "resource": "card_illustration/unique_1005_04.sct",
+      "file": "cards/unique_1005_04.png",
+      "sha256": "9e0129f7e6a4a370e0eaeea946111cc21b9fd153997ee16b0026dfb9301f8154"
+    },
+    {
+      "resource": "card_illustration/unique_1005_05.sct",
+      "file": "cards/unique_1005_05.png",
+      "sha256": "25ce07b43d91634f5cec7626096be3492afaf7ce6b5a13ef7465f8c83caff02b"
+    },
+    {
+      "resource": "card_illustration/unique_1064_01.sct",
+      "file": "cards/unique_1064_01.png",
+      "sha256": "a539657751299614211dda5dcd95ecfa3a77e3a383650a91f5ea0af2307065ab"
+    },
+    {
+      "resource": "card_illustration/start_1049_01.sct",
+      "file": "cards/start_1049_01.png",
+      "sha256": "a0874db62f6a69703d899872bd4beda908ed1f103c3c5e01ba08497bbb80a07d"
+    },
+    {
+      "resource": "card_illustration/start_1049_03.sct",
+      "file": "cards/start_1049_03.png",
+      "sha256": "8741c5c6ce53f44ad0d57bc3489e3e4af2e9f17d93dfc320f9f73b963ae7cabb"
+    },
+    {
+      "resource": "card_illustration/start_1049_02.sct",
+      "file": "cards/start_1049_02.png",
+      "sha256": "c506484a7d2354df65a253d8ecc8e4cf4c144320d02b079981ec1674b22b2fcd"
+    },
+    {
+      "resource": "card_illustration/unique_1049_03.sct",
+      "file": "cards/unique_1049_03.png",
+      "sha256": "22e12d9c28998cca416fa80970ced179b35c405cd5a8da0db1c7222663429910"
+    },
+    {
+      "resource": "card_illustration/unique_1012_05.sct",
+      "file": "cards/unique_1012_05.png",
+      "sha256": "e923c57089fa26cc724aa935a76f44544d95425e9e397257e994160538add6b8"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1005_02.sct",
+      "file": "cards/collapse_2_1005_02.png",
+      "sha256": "b1a747ebc261952967551c1949972ccdff50d569b37aa59943df246f295d0269"
+    },
+    {
+      "resource": "card_illustration/unique_1049_01.sct",
+      "file": "cards/unique_1049_01.png",
+      "sha256": "df5799ceb60491b81d2c3033be9a6767ab8735094a6127c304a75038669b8566"
+    },
+    {
+      "resource": "card_illustration/unique_1012_02.sct",
+      "file": "cards/unique_1012_02.png",
+      "sha256": "41359f1146bd6f51249c6abcd6b6aeeca655e04bc5ccf0df796744a5b32f12bb"
+    },
+    {
+      "resource": "card_illustration/collapse_1049_02.sct",
+      "file": "cards/collapse_1049_02.png",
+      "sha256": "6938e6fde49e49efad5d83abfcd1f8b93a78b3f6566fcedb6f519be610d440ca"
+    },
+    {
+      "resource": "card_illustration/collapse_1064_02.sct",
+      "file": "cards/collapse_1064_02.png",
+      "sha256": "f9e7371b8cf3cfc26778c8f11876f09975fe431bf8fda2e606fc0fbf7f21c035"
+    },
+    {
+      "resource": "card_illustration/unique_1064_02.sct",
+      "file": "cards/unique_1064_02.png",
+      "sha256": "caa015906a7e09983170a672250a795fc04d21480e99ba37d5d68c5c5781d83a"
+    },
+    {
+      "resource": "card_illustration/collapse_1005_02.sct",
+      "file": "cards/collapse_1005_02.png",
+      "sha256": "2f110513e24f244849cc3bf278497e843ae974b98262225e668c4a043bb1510d"
+    },
+    {
+      "resource": "card_illustration/start_1005_01.sct",
+      "file": "cards/start_1005_01.png",
+      "sha256": "04e4132cbda083da8ecda0470db798ee6b2494b161de39cd21a8a03772737a37"
+    },
+    {
+      "resource": "card_illustration/unique_1049_02.sct",
+      "file": "cards/unique_1049_02.png",
+      "sha256": "bf87460114d0c69e688398724f65f6925b0cc453aadec1e34e7a795a66ef2039"
+    },
+    {
+      "resource": "card_illustration/start_1005_02.sct",
+      "file": "cards/start_1005_02.png",
+      "sha256": "a3e8b17235a1c122cdd6f5f4e153abf9121e6df203a9aff886580e7b81930c84"
+    },
+    {
+      "resource": "card_illustration/unique_1005_01.sct",
+      "file": "cards/unique_1005_01.png",
+      "sha256": "3f05413572d2172914814c01cae14a32ed3718c78240a7b57693ba29703078c5"
+    },
+    {
+      "resource": "card_illustration/collapse_1012_01.sct",
+      "file": "cards/collapse_1012_01.png",
+      "sha256": "d420ec81478196c80e1f55509c496960fb968bf0eeb2584e9c7fa028fae45fc2"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1012_02.sct",
+      "file": "cards/collapse_2_1012_02.png",
+      "sha256": "a9b6d10373bd4568fa21beb81fe3d813e684ebb38bfe5b3c80157505df83f55a"
+    },
+    {
+      "resource": "card_illustration/unique_1064_03.sct",
+      "file": "cards/unique_1064_03.png",
+      "sha256": "4ccd8ef72c7000cb3d7d101561053f2ed7efc95d674765e1891de440a40628ea"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1064_02.sct",
+      "file": "cards/collapse_2_1064_02.png",
+      "sha256": "e20a8a0b6da9cc8fe02fc70abb428201e48ca36147dc2ff72d133735bce71402"
+    },
+    {
+      "resource": "card_illustration/unique_1049_04.sct",
+      "file": "cards/unique_1049_04.png",
+      "sha256": "d27788cd109e28797da1ce8f1f1dd08f4ff777ee370e41a1f4e98b18747a619f"
+    },
+    {
+      "resource": "card_illustration/job_00614.sct",
+      "file": "cards/job_00614.png",
+      "sha256": "b238d8539fe05f78a54f6eeb6fead46c4706a96531e822bee8657aa6db55552e"
+    },
+    {
+      "resource": "card_illustration/job_00632.sct",
+      "file": "cards/job_00632.png",
+      "sha256": "d18b75a081727066fcdec993e815c54fa838ae3cf2093ec9029efe3237b5477b"
+    },
+    {
+      "resource": "card_illustration/job_00622.sct",
+      "file": "cards/job_00622.png",
+      "sha256": "a6cfeedb89ab621ddc612f7d83e284ee94dc0928f1f1164681266372069c33b0"
+    },
+    {
+      "resource": "card_illustration/job_00630.sct",
+      "file": "cards/job_00630.png",
+      "sha256": "9abce916068f013e713f7a0b460da5a2acac25129a8d8e6142e88b18274695b6"
+    },
+    {
+      "resource": "card_illustration/job_00625.sct",
+      "file": "cards/job_00625.png",
+      "sha256": "ba9f52b433a8792c9eedcbcc9370ab8d1950b321540e18af9da220edf002472c"
+    },
+    {
+      "resource": "card_illustration/job_00615.sct",
+      "file": "cards/job_00615.png",
+      "sha256": "526c4c94226e164c39afe5d299b198ab0e64da326c6528ae58d2aa154b748d1d"
+    },
+    {
+      "resource": "card_illustration/job_00633.sct",
+      "file": "cards/job_00633.png",
+      "sha256": "019206ff76478e315a0db7a85f3b294e0ed1ef2b8364061ac66d2755bafd7862"
+    },
+    {
+      "resource": "card_illustration/job_00623.sct",
+      "file": "cards/job_00623.png",
+      "sha256": "710543f8a62bbe680711d361ff6d97c7e96d8c96e89e72297fdc1e735b8023a1"
+    },
+    {
+      "resource": "card_illustration/job_00533.sct",
+      "file": "cards/job_00533.png",
+      "sha256": "f26784af1cbb862a102e187671412a5a51e12dd5191f64750d76cbfb699e4b46"
+    },
+    {
+      "resource": "card_illustration/job_00519.sct",
+      "file": "cards/job_00519.png",
+      "sha256": "633806f1dc6ba6d47d37a53161844e9e75c8cc7224cda126586b02bb229fe3ae"
+    },
+    {
+      "resource": "card_illustration/job_00626.sct",
+      "file": "cards/job_00626.png",
+      "sha256": "792c13a86ef17a6cab41afa9ef56e13a3c6191a288157e8cb3ce3d5abd84b412"
+    },
+    {
+      "resource": "card_illustration/job_00616.sct",
+      "file": "cards/job_00616.png",
+      "sha256": "48b131d0f00f437d7ff4fcce4e716e7ab02f4154120274754006b685f9da03e6"
+    },
+    {
+      "resource": "card_illustration/job_00634.sct",
+      "file": "cards/job_00634.png",
+      "sha256": "dd4c704a7196e81cd662e0fc043a9fcac06681e29248477947f5d069714a4105"
+    },
+    {
+      "resource": "card_illustration/job_00624.sct",
+      "file": "cards/job_00624.png",
+      "sha256": "d5c788cb9ce031d988a393f3e6037b10471a13e9a119aab48ee8dad38925a212"
+    },
+    {
+      "resource": "card_illustration/job_00619.sct",
+      "file": "cards/job_00619.png",
+      "sha256": "d4fead033552eb3f3375610945d264f51623cde2b7a52b94444d91d4995fd2c5"
+    },
+    {
+      "resource": "card_illustration/job_00627.sct",
+      "file": "cards/job_00627.png",
+      "sha256": "1b5855a021c08ef170afb9e49888ed3b6fe3fc3987e5acd99a009b88a8f10430"
+    },
+    {
+      "resource": "card_illustration/job_00617.sct",
+      "file": "cards/job_00617.png",
+      "sha256": "b8d7d2d12402934961aa1a0fb7d9cc3119493434874e0421bb11edc57b821824"
+    },
+    {
+      "resource": "card_illustration/job_00635.sct",
+      "file": "cards/job_00635.png",
+      "sha256": "0e6aa4623ee74dce58703163075b594658fc0a9cac774dbdcc74437d433e9e8a"
+    },
+    {
+      "resource": "card_illustration/job_00620.sct",
+      "file": "cards/job_00620.png",
+      "sha256": "07ba2f3fcb646295904c989dc2b7d6326c6ab436d8cd92f81d3ec355c987e3f8"
+    },
+    {
+      "resource": "card_illustration/job_00628.sct",
+      "file": "cards/job_00628.png",
+      "sha256": "ccd102f44b3f18d5aca00a2167934be9cacaa6a813d33931611e1b8ad6e585a0"
+    },
+    {
+      "resource": "card_illustration/job_00618.sct",
+      "file": "cards/job_00618.png",
+      "sha256": "852a4263ea9884d3082aeb3e043df99a5c6245dd0cbcd8c7b34a8edd7187a942"
+    },
+    {
+      "resource": "card_illustration/job_00613.sct",
+      "file": "cards/job_00613.png",
+      "sha256": "75ea626519793ace49c7d80e12a38d8da29ca1e254a6ed289ca5dce137da354a"
+    },
+    {
+      "resource": "card_illustration/job_00636.sct",
+      "file": "cards/job_00636.png",
+      "sha256": "e9e844c44b63e6315e4f0f4fbf9f1ee0255397821987d5a77c87fdd3bd53eae1"
+    },
+    {
+      "resource": "card_illustration/job_00631.sct",
+      "file": "cards/job_00631.png",
+      "sha256": "7cb2e32c198a4559cbf1e9f90f53d7f80456b32faf043993e8d53aea8f1ef9a7"
+    },
+    {
+      "resource": "card_illustration/job_00621.sct",
+      "file": "cards/job_00621.png",
+      "sha256": "152a551bfdccda4dc6dd9423433508d017885d2ec7fc972b97875a73074544d1"
+    },
+    {
+      "resource": "card_illustration/job_00629.sct",
+      "file": "cards/job_00629.png",
+      "sha256": "98c8c0ce6faa9ebc36564452a2c1f21fb30ca0632efe27159e79dae44c664ca8"
+    },
+    {
+      "resource": "card_illustration/support_30135_01.sct",
+      "file": "cards/support_30135_01.png",
+      "sha256": "700ed9b32984524f1e98c377752d143edadb7e4e5602096b05282cd010df08b1"
+    },
+    {
+      "resource": "card_illustration/support_1025_01.sct",
+      "file": "cards/support_1025_01.png",
+      "sha256": "539dc03720c661f1d7472b945f4625ed0a010091daaff572ecc07a427025dfda"
+    },
+    {
+      "resource": "card_illustration/support_20021_01.sct",
+      "file": "cards/support_20021_01.png",
+      "sha256": "c01f7b1ad168fbb83ca1a73917a1475154054bde4d3cc0802c37c0ae26f54767"
+    },
+    {
+      "resource": "card_illustration/support_20023_01.sct",
+      "file": "cards/support_20023_01.png",
+      "sha256": "ee2289e10184350265df0629c1f54e1f7b8eeb566a9500ccb358157e1de2b07a"
+    },
+    {
+      "resource": "card_illustration/support_20024_01.sct",
+      "file": "cards/support_20024_01.png",
+      "sha256": "3242aa112ddfbaaa033edf9dd956a6aaf01b2005a79f50676847ff3fbb915b95"
+    },
+    {
+      "resource": "card_illustration/support_20025_01.sct",
+      "file": "cards/support_20025_01.png",
+      "sha256": "cd7e90cd098d7e8da9b3a6c1dd749f67a1ef95e051f772c12f9eceade4666060"
+    },
+    {
+      "resource": "card_illustration/support_20026_01.sct",
+      "file": "cards/support_20026_01.png",
+      "sha256": "6effa9cf1eee0539eb02f4b0156ef64c6f8574ad1e18308874ff835816fb30ed"
+    },
+    {
+      "resource": "card_illustration/support_20027_01.sct",
+      "file": "cards/support_20027_01.png",
+      "sha256": "af3025974050bb6e6430306ca3b60ba8aa3cf3fbafdbc06a5cc0fff0b89d9cfa"
+    },
+    {
+      "resource": "card_illustration/support_30076_01.sct",
+      "file": "cards/support_30076_01.png",
+      "sha256": "c6fb0b0e76896c4c5d22f74f262bb6abc8ba9f5773b62e1bc387dc1b26711589"
+    },
+    {
+      "resource": "card_illustration/support_20030_01.sct",
+      "file": "cards/support_20030_01.png",
+      "sha256": "d40ef537339fcce35c84f433ae89abf3131d916c09e6fc607ff36628bfc59a5d"
+    },
+    {
+      "resource": "card_illustration/support_20032_01.sct",
+      "file": "cards/support_20032_01.png",
+      "sha256": "ebb8dff088dcc955fa7c9b84d10128d4379a27d17572e8d754b1a4ad521b5146"
+    },
+    {
+      "resource": "card_illustration/support_1070_01.sct",
+      "file": "cards/support_1070_01.png",
+      "sha256": "9016515dcd1a32e8d681981552d183604ccd6b00a7f2463962757336abdd0541"
+    },
+    {
+      "resource": "card_illustration/support_20033_01.sct",
+      "file": "cards/support_20033_01.png",
+      "sha256": "5b6b200e567751d2174828f472a4241b29a1cba897cd6df4dc824e91148102c3"
+    },
+    {
+      "resource": "card_illustration/support_20034_01.sct",
+      "file": "cards/support_20034_01.png",
+      "sha256": "e5a15fecf5b895dc586b4a6c02aa34a61a042f6f85c9c846178a170099d57527"
+    },
+    {
+      "resource": "card_illustration/support_20035_01.sct",
+      "file": "cards/support_20035_01.png",
+      "sha256": "e50fa7b64b0e37b238c75cc65c8f77d4e30d3fa118c5198d5dbca3eabc2ad1bb"
+    },
+    {
+      "resource": "card_illustration/support_20036_01.sct",
+      "file": "cards/support_20036_01.png",
+      "sha256": "a9735464f0cd9f3f5ce831c1db419499745aa1aab0946422e67ff64d2bf75aed"
+    },
+    {
+      "resource": "card_illustration/support_20037_01.sct",
+      "file": "cards/support_20037_01.png",
+      "sha256": "639ecc8bd0591b59472d0873b9f655433eede695b279be251030f080b43bf064"
+    },
+    {
+      "resource": "card_illustration/support_20038_01.sct",
+      "file": "cards/support_20038_01.png",
+      "sha256": "bc27efab6d90b3d92d6c81766af7cc08a1deef1c092052a2c2434a335cfad9aa"
+    },
+    {
+      "resource": "card_illustration/support_30114_01.sct",
+      "file": "cards/support_30114_01.png",
+      "sha256": "5b281ff47d056977af17e7d1afc307f580942d16d0d8a3cf221f2278fc9c196c"
+    },
+    {
+      "resource": "card_illustration/support_30116_01.sct",
+      "file": "cards/support_30116_01.png",
+      "sha256": "100c75b5dd16df397f9f1885f5e1aa9cf8743ff8a7468a86cc34473ff44abd5a"
+    },
+    {
+      "resource": "card_illustration/support_30118_01.sct",
+      "file": "cards/support_30118_01.png",
+      "sha256": "285e3e3a24d75fbc35923b1a0391adbd69cc61ecb33b8ea6b5c6d883cb121af4"
+    },
+    {
+      "resource": "card_illustration/support_30044_01.sct",
+      "file": "cards/support_30044_01.png",
+      "sha256": "7ce5f0cc088011b7b793176b2b41145e9977cba4669422829d393533a3f4ca1a"
+    },
+    {
+      "resource": "card_illustration/support_30045_01.sct",
+      "file": "cards/support_30045_01.png",
+      "sha256": "07db7362679b3e909cf4520734a9bdaa425d6899883c16def061ba5e8c7d3afe"
+    },
+    {
+      "resource": "card_illustration/support_30046_01.sct",
+      "file": "cards/support_30046_01.png",
+      "sha256": "02f8b38388c2c5c85434e5dbef1e90e2cafdf6e050ba63b87e3554fa44b884b1"
+    },
+    {
+      "resource": "card_illustration/support_20001_01.sct",
+      "file": "cards/support_20001_01.png",
+      "sha256": "20f406a983d97c18e3482ed3880a4bbf279a1ed801381c6aac0ddd74062fe0e0"
+    },
+    {
+      "resource": "card_illustration/support_20002_01.sct",
+      "file": "cards/support_20002_01.png",
+      "sha256": "dc8856ce0cf0d1470be177cd59eb2a7e560ff06949d4eaf8cfdc55a848cf7c94"
+    },
+    {
+      "resource": "card_illustration/support_20003_01.sct",
+      "file": "cards/support_20003_01.png",
+      "sha256": "3a2b1e6f4707dea8ae0afa74b6c135f6dc5a52049864b73b19d72feb6c08ef0f"
+    },
+    {
+      "resource": "card_illustration/support_20004_01.sct",
+      "file": "cards/support_20004_01.png",
+      "sha256": "53310e19549ba0d729ad42f903ebdc9b741fa58e5f7ea33357f9a9e257738e5a"
+    },
+    {
+      "resource": "card_illustration/support_30085_01.sct",
+      "file": "cards/support_30085_01.png",
+      "sha256": "a2bd6c2ef8b139a0e48b223c1ad59a879d62b8772df37bf7aad38b8de3ebbaf3"
+    },
+    {
+      "resource": "card_illustration/support_20005_01.sct",
+      "file": "cards/support_20005_01.png",
+      "sha256": "f79fccd2fe1e5a12ea456e259359d6501185bc1c043aa3cde2da6ec2da724f42"
+    },
+    {
+      "resource": "card_illustration/support_20006_01.sct",
+      "file": "cards/support_20006_01.png",
+      "sha256": "e33f5ecf5bde79f0abb31c8bd14bef74c546a2ab9035ea7275dcc6740ca0a17e"
+    },
+    {
+      "resource": "card_illustration/support_20007_01.sct",
+      "file": "cards/support_20007_01.png",
+      "sha256": "586a107da9b388a250ed05fc3291d8c663b427e3aa1335966642bd26a26a7515"
+    },
+    {
+      "resource": "card_illustration/support_20008_01.sct",
+      "file": "cards/support_20008_01.png",
+      "sha256": "4b4b6cf32d43db4a05b3f4bad37c42b9dffd9e10de1b4c0f9847151ead9a6996"
+    },
+    {
+      "resource": "card_illustration/support_20009_01.sct",
+      "file": "cards/support_20009_01.png",
+      "sha256": "7af84cba1b08dafd44e8eb1dbb7239c3480116257ff74f258bc6fd93e30e9b99"
+    },
+    {
+      "resource": "card_illustration/support_30051_01.sct",
+      "file": "cards/support_30051_01.png",
+      "sha256": "ade406d8406cf57274aa574301eb9df292a442534e3f585a6112e5accc993b44"
+    },
+    {
+      "resource": "card_illustration/support_30052_01.sct",
+      "file": "cards/support_30052_01.png",
+      "sha256": "e59fa711229ce38061fa19503c01d17a13a88a12611aaae2c94a3a6550961592"
+    },
+    {
+      "resource": "card_illustration/support_30053_01.sct",
+      "file": "cards/support_30053_01.png",
+      "sha256": "5a77a4cfe86d70025323eee8cc330997075a704cb6a7114b2cf6145724f797a1"
+    },
+    {
+      "resource": "card_illustration/support_30054_01.sct",
+      "file": "cards/support_30054_01.png",
+      "sha256": "790922441fa812972a2ef3f16d336573a8b6711d60369d65c3981c643630f464"
+    },
+    {
+      "resource": "card_illustration/support_20010_01.sct",
+      "file": "cards/support_20010_01.png",
+      "sha256": "7597704f04faf424b25046cd31a0cda99b57cb2786e6213e0d85774c9c564b41"
+    },
+    {
+      "resource": "card_illustration/support_30091_01.sct",
+      "file": "cards/support_30091_01.png",
+      "sha256": "6ae2a006140c5e2fe647b78bcbcd0fe07368aca4a1c4bc68a5bd6053d1ec72cd"
+    },
+    {
+      "resource": "card_illustration/support_20011_01.sct",
+      "file": "cards/support_20011_01.png",
+      "sha256": "5d4c6a20dd448ef8f594835f98b22f729ae56509baf4f17a39ef6299972f19e1"
+    },
+    {
+      "resource": "card_illustration/support_30092_01.sct",
+      "file": "cards/support_30092_01.png",
+      "sha256": "147893defc7f55be05a9e45fc5ec60037efb9431211932ed75155a7eec7b7879"
+    },
+    {
+      "resource": "card_illustration/support_20012_01.sct",
+      "file": "cards/support_20012_01.png",
+      "sha256": "6f91900ea33e8b9b48e3c334a87c24d92e050c3e8be22d8de96a4c9740cb0961"
+    },
+    {
+      "resource": "card_illustration/support_20013_01.sct",
+      "file": "cards/support_20013_01.png",
+      "sha256": "0e02be4e5bba6cd8b89236f5d34745a18a19b5e066082d6930aef91a12ab09a8"
+    },
+    {
+      "resource": "card_illustration/support_30094_01.sct",
+      "file": "cards/support_30094_01.png",
+      "sha256": "a1935fb3b8c6b9287783782dc599a995b0919e7ba963164cac6a9c0c9e651069"
+    },
+    {
+      "resource": "card_illustration/support_20014_01.sct",
+      "file": "cards/support_20014_01.png",
+      "sha256": "4cfc3c707f51284b55ed22f7ac6161ed0eb6504a26ab4e83f2102f8b9497c065"
+    },
+    {
+      "resource": "card_illustration/support_30095_01.sct",
+      "file": "cards/support_30095_01.png",
+      "sha256": "779c792e1e0bfbb058df9a2a3a7203916fea24e93e76bd0c3669d40f57784680"
+    },
+    {
+      "resource": "card_illustration/support_20015_01.sct",
+      "file": "cards/support_20015_01.png",
+      "sha256": "495d490a2034b03ef07d84ca7f7a49aee6370498e2e8bede736c9ca052458ef3"
+    },
+    {
+      "resource": "card_illustration/support_20016_01.sct",
+      "file": "cards/support_20016_01.png",
+      "sha256": "d70c01485082accbe1c5991d2d643fbaa8b9036d3bbe38b713dd31fa4e9b510a"
+    },
+    {
+      "resource": "card_illustration/support_20019_01.sct",
+      "file": "cards/support_20019_01.png",
+      "sha256": "98bf9cb6f6a3d693ef9102391af36084b2def61ed7a4c134d29861d4e2df4f4b"
+    },
+    {
+      "resource": "card_illustration/support_1058_01.sct",
+      "file": "cards/support_1058_01.png",
+      "sha256": "5e1b4eac7607d2b20067350a8d51a1f38fbdfeef6c302b3898a97768ee9bd259"
+    },
+    {
+      "resource": "card_illustration/start_1024_02.sct",
+      "file": "cards/start_1024_02.png",
+      "sha256": "c05910189b57bc435d1ff8c813d3e9e19a138541f7f2d9f07a6fcc8e1155fe78"
+    },
+    {
+      "resource": "card_illustration/collapse_30093_01.sct",
+      "file": "cards/collapse_30093_01.png",
+      "sha256": "6b991f4220a7742806f0c7a445e2af7be4136ced962d74fa88b9ed8d81c53ca8"
+    },
+    {
+      "resource": "card_illustration/unique_1024_04.sct",
+      "file": "cards/unique_1024_04.png",
+      "sha256": "04de917514c29659ee589d641b053d1b936683598220297ac255a7300af6bffe"
+    },
+    {
+      "resource": "card_illustration/unique_1041_06.sct",
+      "file": "cards/unique_1041_06.png",
+      "sha256": "99a478594ba8f1df5753523a1af722188533186b74ff701dc5b66831399e6ad5"
+    },
+    {
+      "resource": "card_illustration/start_30113_01.sct",
+      "file": "cards/start_30113_01.png",
+      "sha256": "2d63eba58aace92c7752ee6b6c1f5373bf2329282988cd9d0468559d3f94d0a0"
+    },
+    {
+      "resource": "card_illustration/start_30113_02.sct",
+      "file": "cards/start_30113_02.png",
+      "sha256": "b7c9255fdae7e15d903509fa01209e057e550f516fe79847472d2770c58b77b5"
+    },
+    {
+      "resource": "card_illustration/unique_30113_01.sct",
+      "file": "cards/unique_30113_01.png",
+      "sha256": "f660486872428370c7ddfe5085a944147851eb0adf669026a726a3da46341176"
+    },
+    {
+      "resource": "card_illustration/unique_1024_09.sct",
+      "file": "cards/unique_1024_09.png",
+      "sha256": "6a36a042e85cedcacc8f360384acc337cc72e19d7959d2138cfc024e4aecc92c"
+    },
+    {
+      "resource": "card_illustration/unique_30093_07.sct",
+      "file": "cards/unique_30093_07.png",
+      "sha256": "8c65db2a272da2328dd5ad14757d29eccdf41c6b3f32ce06cb1201ad325914c6"
+    },
+    {
+      "resource": "card_illustration/unique_1041_04.sct",
+      "file": "cards/unique_1041_04.png",
+      "sha256": "99e8a61d77da4e618b463678f5eae67f677edaf782ff8d18143789dca8eb1eb3"
+    },
+    {
+      "resource": "card_illustration/collapse_1052_02.sct",
+      "file": "cards/collapse_1052_02.png",
+      "sha256": "fdf16be3e72f0d3c26f5b0022808d354bcb4aacce5473320792c1395047b82f9"
+    },
+    {
+      "resource": "card_illustration/unique_1041_01.sct",
+      "file": "cards/unique_1041_01.png",
+      "sha256": "13ab3a19da7f4bd3e90e4d91a292d0bf0525fd9d594f44bb185d56b2be0300f0"
+    },
+    {
+      "resource": "card_illustration/unique_30048_02.sct",
+      "file": "cards/unique_30048_02.png",
+      "sha256": "df73835fc3beaee9779f0d9cd38fbd14ed0c9f3c5a109cb0daf1fb77b620f1fc"
+    },
+    {
+      "resource": "card_illustration/start_1004_01.sct",
+      "file": "cards/start_1004_01.png",
+      "sha256": "1b8300e48b82d0f0bacefcbf1062ec4da34f20781ff1a2a4bd4f59d39da0126b"
+    },
+    {
+      "resource": "card_illustration/start_30048_01.sct",
+      "file": "cards/start_30048_01.png",
+      "sha256": "e490165930f7ad376fb95b7bbd34384c1d0e92e9beaa4c08172f97c1ba9ca601"
+    },
+    {
+      "resource": "card_illustration/unique_1024_03.sct",
+      "file": "cards/unique_1024_03.png",
+      "sha256": "580ce17a2ee5eb389bd9ddb02c093850fb2cd6f1a657a01b7d6f2a9c92c24250"
+    },
+    {
+      "resource": "card_illustration/unique_30113_03.sct",
+      "file": "cards/unique_30113_03.png",
+      "sha256": "0af264e00b867a2e040cd764d5576c863079e353738f089d7c0bcbe0cf3aff14"
+    },
+    {
+      "resource": "card_illustration/unique_1052_06.sct",
+      "file": "cards/unique_1052_06.png",
+      "sha256": "801fc48c0e2be346de6395f6de83dc79365912dc89fbcc6681507f9d356679f9"
+    },
+    {
+      "resource": "card_illustration/start_1052_02.sct",
+      "file": "cards/start_1052_02.png",
+      "sha256": "b38a3d35aa7b118302b6eb3f870f6c90a05c6a4dbcabd6e1125b3060474e463e"
+    },
+    {
+      "resource": "card_illustration/unique_1041_02.sct",
+      "file": "cards/unique_1041_02.png",
+      "sha256": "988e79a0bedfede9f055f6f137c514d96c5386efee5c1d26e510435241abdbd5"
+    },
+    {
+      "resource": "card_illustration/start_30048_02.sct",
+      "file": "cards/start_30048_02.png",
+      "sha256": "f6c7069bc3074ed8cfcf75b22eed12ac3ce3abe477b0fca1ab3bbb8ede296f9f"
+    },
+    {
+      "resource": "card_illustration/start_1004_02.sct",
+      "file": "cards/start_1004_02.png",
+      "sha256": "5f28daf92a0ab5d3f6f39d196de3ff3b150277105fd9b10322f2937be13f4b8f"
+    },
+    {
+      "resource": "card_illustration/unique_30048_01.sct",
+      "file": "cards/unique_30048_01.png",
+      "sha256": "dabe43d0a55e78c8c01ef0e50b65700fa5554db1f8c186b317f908b1869a3197"
+    },
+    {
+      "resource": "card_illustration/unique_1004_01.sct",
+      "file": "cards/unique_1004_01.png",
+      "sha256": "fba4ce9e5341f779bea4dcf4e05f90020c53dcdc76b04e1fc7f006e5de806544"
+    },
+    {
+      "resource": "card_illustration/unique_30093_02.sct",
+      "file": "cards/unique_30093_02.png",
+      "sha256": "07f44d3765885d66b142390ffe69976e4af02cf2d7f439e91001d46bbe947247"
+    },
+    {
+      "resource": "card_illustration/unique_30093_03.sct",
+      "file": "cards/unique_30093_03.png",
+      "sha256": "8bfcb6169b51f9e9477ea12187dab8878c5419f93c54b0dadb2c78cbe4c6d52f"
+    },
+    {
+      "resource": "card_illustration/start_1052_01.sct",
+      "file": "cards/start_1052_01.png",
+      "sha256": "d88ae9ac28d8919bbef561328122337b37478a1e17b42815323e1990f4835a21"
+    },
+    {
+      "resource": "card_illustration/unique_30093_04.sct",
+      "file": "cards/unique_30093_04.png",
+      "sha256": "b021c9ca168a6ccf3ae137fa857bdee2f9d1a1b9f370ec548ae1105baee3beca"
+    },
+    {
+      "resource": "card_illustration/unique_30093_05.sct",
+      "file": "cards/unique_30093_05.png",
+      "sha256": "02e4aa8779477db5c65b181e79e0249cd53a398deb52737372ce659995c845ae"
+    },
+    {
+      "resource": "card_illustration/unique_1052_02.sct",
+      "file": "cards/unique_1052_02.png",
+      "sha256": "0c0d68128fdcb59dfcdce89352fb4a557c6336a59c8b801c4a32537cd033c8f8"
+    },
+    {
+      "resource": "card_illustration/collapse_1004_01.sct",
+      "file": "cards/collapse_1004_01.png",
+      "sha256": "7a4e8f540cf7d7804b9d30d7c8027186ee322c3741c262111a84b67c97fdd0fb"
+    },
+    {
+      "resource": "card_illustration/start_1024_01.sct",
+      "file": "cards/start_1024_01.png",
+      "sha256": "2ca5e60decc97469564a26cb4c4c7f87dc8fafd73927b0e34bfc24d38548c5c3"
+    },
+    {
+      "resource": "card_illustration/unique_30048_03.sct",
+      "file": "cards/unique_30048_03.png",
+      "sha256": "3504157c3489963b0d0050db34778024923ec86faa743fec59ac626d9b194178"
+    },
+    {
+      "resource": "card_illustration/unique_1024_08.sct",
+      "file": "cards/unique_1024_08.png",
+      "sha256": "0cc7cde32c035960c68b3fbbfdf425556fe658bb7be0aba4e0758b7d3243b272"
+    },
+    {
+      "resource": "card_illustration/unique_1024_14.sct",
+      "file": "cards/unique_1024_14.png",
+      "sha256": "4bf763320f159f736c5ecafef0e732bb5eacdd2bdbfb21e82bce4d466885af66"
+    },
+    {
+      "resource": "card_illustration/unique_1024_13.sct",
+      "file": "cards/unique_1024_13.png",
+      "sha256": "eaab5bb83cd1dc4994c931b731eae7fec2ba86beafd2f8b5a534080e0bd40bd7"
+    },
+    {
+      "resource": "card_illustration/unique_1024_07.sct",
+      "file": "cards/unique_1024_07.png",
+      "sha256": "0dedd9d29590c850c72b2c6f07bc80d4d3c441c7209e288d35655be49a2128da"
+    },
+    {
+      "resource": "card_illustration/unique_1024_01.sct",
+      "file": "cards/unique_1024_01.png",
+      "sha256": "c99bc69f11cad7ece0e94c3a7903c38d3d02a3c906d46fdcdc0f1cec4d0c8868"
+    },
+    {
+      "resource": "card_illustration/unique_1024_10.sct",
+      "file": "cards/unique_1024_10.png",
+      "sha256": "1c2e75bd3d989b58aa11d3c1e7ffb2a76468fce47191e281ed11ea908099f423"
+    },
+    {
+      "resource": "card_illustration/collapse_1024_01.sct",
+      "file": "cards/collapse_1024_01.png",
+      "sha256": "3037d397e4c008c30c5a8ba8642cc3ecae17b2475977791c3389426405f1cc99"
+    },
+    {
+      "resource": "card_illustration/collapse_30048_01.sct",
+      "file": "cards/collapse_30048_01.png",
+      "sha256": "3e20c6faf1176997386d74028480ee47ebe6a0f93c969b8ec9c397e5f8c535fb"
+    },
+    {
+      "resource": "card_illustration/unique_1024_06.sct",
+      "file": "cards/unique_1024_06.png",
+      "sha256": "c8b9024e5a613c3c393647a900002cbc51ca7683361f7fc21ecb1f9eb9152de4"
+    },
+    {
+      "resource": "card_illustration/unique_30113_06.sct",
+      "file": "cards/unique_30113_06.png",
+      "sha256": "8984723c4d9cbf4f589dff8dd784eaacce85019f0e8162c5288b12ab666de2e0"
+    },
+    {
+      "resource": "card_illustration/unique_1024_12.sct",
+      "file": "cards/unique_1024_12.png",
+      "sha256": "5832ff8fd81f9e824f669cdbbff9c01c31ba1186bee17e094bbb457bb1a28893"
+    },
+    {
+      "resource": "card_illustration/unique_30113_04.sct",
+      "file": "cards/unique_30113_04.png",
+      "sha256": "d6dcd9a98879f4bc2137c2b1fa98fe71a1a7d6155d0547952d3dae8cd098ad9b"
+    },
+    {
+      "resource": "card_illustration/unique_30113_07.sct",
+      "file": "cards/unique_30113_07.png",
+      "sha256": "0fcc79b87628c4bb67977e8adee11e89c91bf60bb0d22ffed752cd25a6e5a55f"
+    },
+    {
+      "resource": "card_illustration/unique_1024_11.sct",
+      "file": "cards/unique_1024_11.png",
+      "sha256": "245be7787461427bdac9bc4747847b51ac093c195b8015180837ef28f7e92735"
+    },
+    {
+      "resource": "card_illustration/collapse_30113_01.sct",
+      "file": "cards/collapse_30113_01.png",
+      "sha256": "28e925f58c9ad143a65e945db03a25349c0cb10835424c3aee8678c5d5bd6189"
+    },
+    {
+      "resource": "card_illustration/unique_1004_05.sct",
+      "file": "cards/unique_1004_05.png",
+      "sha256": "afc7eadf1d82982e9e424d68375af59ea30fdd6a74f0c30351ba5637a5db8bae"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30093_02.sct",
+      "file": "cards/collapse_2_30093_02.png",
+      "sha256": "32c3f85b22d3ef14de331d18585bf93821ecf22cc8f344d075c0fc43435593b3"
+    },
+    {
+      "resource": "card_illustration/collapse_1052_01.sct",
+      "file": "cards/collapse_1052_01.png",
+      "sha256": "53d133997850aea7c0b56918e92f9a0f02bb2600ccec84dd2d49517e70414617"
+    },
+    {
+      "resource": "card_illustration/unique_30048_04.sct",
+      "file": "cards/unique_30048_04.png",
+      "sha256": "4cc48f61f07033a56ca58fd0f2d3b21d305c60a82035ff92bbbd4faf6f1d1dc2"
+    },
+    {
+      "resource": "card_illustration/start_30093_01.sct",
+      "file": "cards/start_30093_01.png",
+      "sha256": "6c7b75dc706570527cea0dca0174f63a6aff353be6409a02ac8d4739d260d0ad"
+    },
+    {
+      "resource": "card_illustration/unique_1024_05.sct",
+      "file": "cards/unique_1024_05.png",
+      "sha256": "d621f749300b464a6701c782af423c1647b887c68af46ab3f8cb4714b50156cd"
+    },
+    {
+      "resource": "card_illustration/unique_1024_02.sct",
+      "file": "cards/unique_1024_02.png",
+      "sha256": "ca8a13cc27be1574f8d5e4765f880ac7ac733a446e809dfb3db5a050a4851aca"
+    },
+    {
+      "resource": "card_illustration/unique_30113_02.sct",
+      "file": "cards/unique_30113_02.png",
+      "sha256": "02a5a1462edc4c8f0fd4635b2d74c04a4d36f5d47b012af69284eae54ec09ea0"
+    },
+    {
+      "resource": "card_illustration/unique_30113_05.sct",
+      "file": "cards/unique_30113_05.png",
+      "sha256": "09f2494ed8d937db4a29d20199ec7d49fd8a7a01cb75f2308a4d5330e11034d2"
+    },
+    {
+      "resource": "card_illustration/unique_30048_07.sct",
+      "file": "cards/unique_30048_07.png",
+      "sha256": "1c3d6eb6795f9efb31b982fcf1d9c2ee2366ad242ed8770c8fac0bc171e2de15"
+    },
+    {
+      "resource": "card_illustration/job_00404.sct",
+      "file": "cards/job_00404.png",
+      "sha256": "500f6837f7859b8d20248535a8b12cd5e110b6cebfc250866c103406cb6632f7"
+    },
+    {
+      "resource": "card_illustration/unique_30048_06.sct",
+      "file": "cards/unique_30048_06.png",
+      "sha256": "69f80d810ac5444bb829dd0cf582836ea3682cef9937c359f9bf80e48f557e8f"
+    },
+    {
+      "resource": "card_illustration/job_00405.sct",
+      "file": "cards/job_00405.png",
+      "sha256": "2535e6bd1cad721b35df09269507bbe873fe148208081d57499d514eee7b1ca5"
+    },
+    {
+      "resource": "card_illustration/job_00406.sct",
+      "file": "cards/job_00406.png",
+      "sha256": "eda93afb6db4e8149ceb7bddc540dc4c9498cad8b64e42aee2e6e1b7cdc09756"
+    },
+    {
+      "resource": "card_illustration/job_00407.sct",
+      "file": "cards/job_00407.png",
+      "sha256": "0bb72cca3cfba0d2521a97ad3ca4d772bb8dbeecb0c0a60dfe147d635600d51f"
+    },
+    {
+      "resource": "card_illustration/unique_1004_04.sct",
+      "file": "cards/unique_1004_04.png",
+      "sha256": "90808124aec946eae1759ff12068fd96d8f917a408a21970913481d90da8bd7f"
+    },
+    {
+      "resource": "card_illustration/collapse_30113_02.sct",
+      "file": "cards/collapse_30113_02.png",
+      "sha256": "87321738a9fc2789ddd376f83d0f9beff003cf4f58cf174088fa95a41d474825"
+    },
+    {
+      "resource": "card_illustration/collapse_1041_02.sct",
+      "file": "cards/collapse_1041_02.png",
+      "sha256": "36cf366c781c7041538978fad867fe48e165b298cb77244129452bf618364ed1"
+    },
+    {
+      "resource": "card_illustration/unique_1041_03.sct",
+      "file": "cards/unique_1041_03.png",
+      "sha256": "d15d07eaa594235173096cd9cc9153fefb6507580bd49e896b019c93f30fd0cb"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1024_02.sct",
+      "file": "cards/collapse_2_1024_02.png",
+      "sha256": "5abb68a1109211af87f892e9c4b6f4d391afb3eececdbf9d660d52a278e9ccdd"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30113_02.sct",
+      "file": "cards/collapse_2_30113_02.png",
+      "sha256": "51878ce32f4425b51f7d7ec1c121e24a94a3de2ae93b364c2de93d72f612c07c"
+    },
+    {
+      "resource": "card_illustration/unique_1004_03.sct",
+      "file": "cards/unique_1004_03.png",
+      "sha256": "0a5e71efe1884835cf2b8eb1bafd111bea1e171c99f4dd6eb47a9b8df90c30f2"
+    },
+    {
+      "resource": "card_illustration/unique_30048_05.sct",
+      "file": "cards/unique_30048_05.png",
+      "sha256": "8ae52a7658a89fff6471bea890936566f7c93655ace7ab3ce9c4b848ece22336"
+    },
+    {
+      "resource": "card_illustration/unique_1004_02.sct",
+      "file": "cards/unique_1004_02.png",
+      "sha256": "79c28f418a74a9fe67d55ca62722903373fe6294f5428317e055a8e76b04e75e"
+    },
+    {
+      "resource": "card_illustration/unique_1052_04.sct",
+      "file": "cards/unique_1052_04.png",
+      "sha256": "3ae9beaa4d2ec8f46b150797f4ecbca91dd62a9b4cbfea428019d854655ccf53"
+    },
+    {
+      "resource": "card_illustration/unique_1052_05.sct",
+      "file": "cards/unique_1052_05.png",
+      "sha256": "013c7c468d901e206927d701b1a68f2493e32ecfad4da66d6aeb8c1e49e3f0ce"
+    },
+    {
+      "resource": "card_illustration/unique_1052_03.sct",
+      "file": "cards/unique_1052_03.png",
+      "sha256": "2ad4f50c2302c4ac568c6922416f6e3bc90a976ed05189c66fdfe188631cf3ae"
+    },
+    {
+      "resource": "card_illustration/start_1041_01.sct",
+      "file": "cards/start_1041_01.png",
+      "sha256": "b53ae99863c811e707e09ca58a12c81ae84c65fd44a432fe1d02b52444723765"
+    },
+    {
+      "resource": "card_illustration/start_1041_02.sct",
+      "file": "cards/start_1041_02.png",
+      "sha256": "1f35ccdc5b1c0a904d19f7b456490a9d408ae24855085afd306f47d2627c72ca"
+    },
+    {
+      "resource": "card_illustration/unique_30093_06.sct",
+      "file": "cards/unique_30093_06.png",
+      "sha256": "199fce67abfefbad552a2151c43323d5a2943cb73c8bcc72fb6062a9e303da11"
+    },
+    {
+      "resource": "card_illustration/unique_30093_01.sct",
+      "file": "cards/unique_30093_01.png",
+      "sha256": "69059d594ab5fb8fcad37b3ead9a29affe1eaf2b770ab0080b98b017a3f6ac8c"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30048_02.sct",
+      "file": "cards/collapse_2_30048_02.png",
+      "sha256": "f674cea7b7291adca72649e6409d80032f2d119e9d60b1da2f4e52034cdc4907"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1004_02.sct",
+      "file": "cards/collapse_2_1004_02.png",
+      "sha256": "f2c32ce74703a1455de8d1e6aa06cec14c02cc61ca88ad47983b3a9c1db426ea"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1052_02.sct",
+      "file": "cards/collapse_2_1052_02.png",
+      "sha256": "3f5bb28d1094bb395958ec1ff4d27dacca12f55106021bb688a8169134cb3a88"
+    },
+    {
+      "resource": "card_illustration/collapse_1041_01.sct",
+      "file": "cards/collapse_1041_01.png",
+      "sha256": "c0ded0651b802ea53f06e4dd7fa17e15161df60c28f083d4335243f05a417d99"
+    },
+    {
+      "resource": "card_illustration/collapse_1004_02.sct",
+      "file": "cards/collapse_1004_02.png",
+      "sha256": "25de548522f55b90144055f3fa994207d2607b21adfd81ba5219b8eebf80565f"
+    },
+    {
+      "resource": "card_illustration/collapse_30093_02.sct",
+      "file": "cards/collapse_30093_02.png",
+      "sha256": "62bbe722f0f032744d6d71a0c63ee886417aae3a4f3e93eb74a83bf02b81ca13"
+    },
+    {
+      "resource": "card_illustration/start_30093_02.sct",
+      "file": "cards/start_30093_02.png",
+      "sha256": "2fda462b6028b2bf50c51c8c5c469842050cbe7d7c74b516a164fb4dec36bdae"
+    },
+    {
+      "resource": "card_illustration/unique_1041_05.sct",
+      "file": "cards/unique_1041_05.png",
+      "sha256": "7fd2123273225321903260664693cc3102911090129fb8899b28ebcc304e23d3"
+    },
+    {
+      "resource": "card_illustration/collapse_1024_02.sct",
+      "file": "cards/collapse_1024_02.png",
+      "sha256": "2904a154554b9ab80238daea2b2e82e7ca16ba8ba1700468fd1324ab738cdc02"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1041_02.sct",
+      "file": "cards/collapse_2_1041_02.png",
+      "sha256": "4d228043536df30ebf873ff0a00626bd7ad4dcaa99bd3ce0ddd5f41ecb67bfb0"
+    },
+    {
+      "resource": "card_illustration/collapse_30048_02.sct",
+      "file": "cards/collapse_30048_02.png",
+      "sha256": "04823ea2e5857262aca86f11ba25b4e89663d8930ef8e4b71ea698628c26df5d"
+    },
+    {
+      "resource": "card_illustration/job_00490.sct",
+      "file": "cards/job_00490.png",
+      "sha256": "f73fd27e72f0b43f285cbe239e353f57d8e96ea438819b7a1984442bfeafc738"
+    },
+    {
+      "resource": "card_illustration/job_00497.sct",
+      "file": "cards/job_00497.png",
+      "sha256": "73c2e2025937480ada797e5d8faf10e4e0e1f7814c379550e3356936fc3432a8"
+    },
+    {
+      "resource": "card_illustration/job_00637.sct",
+      "file": "cards/job_00637.png",
+      "sha256": "7718a05eea2cc0c303ea9c04f7d64a138ba752c1830d1290a096c30a96863cbe"
+    },
+    {
+      "resource": "card_illustration/job_00496.sct",
+      "file": "cards/job_00496.png",
+      "sha256": "32067bc8d572d12e33a8c53b4288a963ffecd3d18fa4e4dd3894e454f92c3414"
+    },
+    {
+      "resource": "card_illustration/job_00638.sct",
+      "file": "cards/job_00638.png",
+      "sha256": "9430e8e205a1764451daab193fa3589e846fc53d7fc435f7fdc1cec9b930bb4c"
+    },
+    {
+      "resource": "card_illustration/job_00494.sct",
+      "file": "cards/job_00494.png",
+      "sha256": "fe847bc2b6dac19e05a58e1711830513b353d61082ea061a3a192214767a02fb"
+    },
+    {
+      "resource": "card_illustration/job_00639.sct",
+      "file": "cards/job_00639.png",
+      "sha256": "c34eb84d42593da456b594654f42dd72df900e691cb49ace82e8c13297bad3d5"
+    },
+    {
+      "resource": "card_illustration/job_00498.sct",
+      "file": "cards/job_00498.png",
+      "sha256": "3e5a89ed00b8a1f7bb2e7e782d9c7202f2ef47e5fa888cd17f73286ce197b5e9"
+    },
+    {
+      "resource": "card_illustration/job_00640.sct",
+      "file": "cards/job_00640.png",
+      "sha256": "aff85e275a76676fc7f948e175e9b3604ef7c93e176af4684ed68237c9f8ec00"
+    },
+    {
+      "resource": "card_illustration/job_00641.sct",
+      "file": "cards/job_00641.png",
+      "sha256": "399b1c8d72d06cf14cc755403be45cab48582a4602a2bb0205bd0047abb14324"
+    },
+    {
+      "resource": "card_illustration/job_00642.sct",
+      "file": "cards/job_00642.png",
+      "sha256": "67a0cbcc128fc4f76adc7274a9ae9cf6e43c4e04a6db656b5475c1e12588feaa"
+    },
+    {
+      "resource": "card_illustration/job_00643.sct",
+      "file": "cards/job_00643.png",
+      "sha256": "de3ab52cc5beaee84f21a0bfdfe7db3241c24787569a06a40f9ac03708472584"
+    },
+    {
+      "resource": "card_illustration/job_00644.sct",
+      "file": "cards/job_00644.png",
+      "sha256": "f613ae635a3d911a0cb797a97faed280ce18431b9138df9a44cf4b67af11337b"
+    },
+    {
+      "resource": "card_illustration/job_00470.sct",
+      "file": "cards/job_00470.png",
+      "sha256": "002d65efe885220918351e53ff2a70d71d420244a4d8747dec4e4768ff24ab7d"
+    },
+    {
+      "resource": "card_illustration/job_00471.sct",
+      "file": "cards/job_00471.png",
+      "sha256": "8a32573f234e3aaa6bcf9432cf142341132a526768a025bc2383672d60b1e728"
+    },
+    {
+      "resource": "card_illustration/job_00472.sct",
+      "file": "cards/job_00472.png",
+      "sha256": "1585f3b77fa132107ee0c1bdd072f8b95a747c22b32e28933a3e1dc7f0e77fa8"
+    },
+    {
+      "resource": "card_illustration/job_00473.sct",
+      "file": "cards/job_00473.png",
+      "sha256": "f3b1f91efc63283e12490c61f783764cc432c89c2e1af8d23ab8b1a040a7f73e"
+    },
+    {
+      "resource": "card_illustration/job_00474.sct",
+      "file": "cards/job_00474.png",
+      "sha256": "38f089905ed338c46e47bdf33315cd09955139832e8e37c1268c44f51afbd87b"
+    },
+    {
+      "resource": "card_illustration/job_00475.sct",
+      "file": "cards/job_00475.png",
+      "sha256": "eed179f2610a804051642531a9ba6c8eadc034691df9ab27780fff8957a28867"
+    },
+    {
+      "resource": "card_illustration/job_00515.sct",
+      "file": "cards/job_00515.png",
+      "sha256": "47125f7f1d4632c82ef1e6556c7aff1c49b7ebfa5903cb3ce0b142e6cefa520f"
+    },
+    {
+      "resource": "card_illustration/job_00476.sct",
+      "file": "cards/job_00476.png",
+      "sha256": "fd8e7f91a8ca39fafd5797ca302f98c6c3bdbc7b0bd7ae84a2f70749af5887f1"
+    },
+    {
+      "resource": "card_illustration/job_00507.sct",
+      "file": "cards/job_00507.png",
+      "sha256": "685910e8a34b5aa1985b231d6a2b6d7fbc1f1b01e2b24e3748f776a639d44343"
+    },
+    {
+      "resource": "card_illustration/job_00477.sct",
+      "file": "cards/job_00477.png",
+      "sha256": "1b5eae4180d8e18b2bbc5cbc906d2fe091d135722c9d7d57469edad7c5ff2742"
+    },
+    {
+      "resource": "card_illustration/job_00508.sct",
+      "file": "cards/job_00508.png",
+      "sha256": "6165d1329aae9fe5b294191c51ade424cca78526e464b329314db7956e5e3e2a"
+    },
+    {
+      "resource": "card_illustration/job_00509.sct",
+      "file": "cards/job_00509.png",
+      "sha256": "faaf04c8bf077e96d63ec6a106c10ae63977ac1324118fc95ef7e5bc0cf0f3c2"
+    },
+    {
+      "resource": "card_illustration/job_00510.sct",
+      "file": "cards/job_00510.png",
+      "sha256": "637180b8dd991652a3a37cbd401190b3fad643c09244b30074b38d72e8b6d37e"
+    },
+    {
+      "resource": "card_illustration/job_00511.sct",
+      "file": "cards/job_00511.png",
+      "sha256": "0208c06587a1656f74051d56e82a432cfb47c7e2277bc777a27ac1ad2a0c1ea3"
+    },
+    {
+      "resource": "card_illustration/job_00664.sct",
+      "file": "cards/job_00664.png",
+      "sha256": "9a5182dc088a0e0aa05fe06a6d2f9bd1b233a0d256cd95d566cdd94562af7c8e"
+    },
+    {
+      "resource": "card_illustration/job_00665.sct",
+      "file": "cards/job_00665.png",
+      "sha256": "d3122d773106dbaf8210b57cc37b73875d083c96dd5bb8305561abe36449108b"
+    },
+    {
+      "resource": "card_illustration/job_00513.sct",
+      "file": "cards/job_00513.png",
+      "sha256": "8195e2652851495cf078e17cb8a190220278e5c58af922091f6f41b649730f41"
+    },
+    {
+      "resource": "card_illustration/job_00666.sct",
+      "file": "cards/job_00666.png",
+      "sha256": "a51b0dae669cfb439de213eaca86a15d7c7cff58cfc88f68054b4cf8b3b7f186"
+    },
+    {
+      "resource": "card_illustration/job_00514.sct",
+      "file": "cards/job_00514.png",
+      "sha256": "04d56ba5c7c49500ce3d7c698fbcf817ace2bb74201ed873821ac464ad352acf"
+    },
+    {
+      "resource": "card_illustration/job_00667.sct",
+      "file": "cards/job_00667.png",
+      "sha256": "ae53e3cfaa06716865aca168b7d02d1640cce3dde9dc6047edd5bdf67c12c277"
+    },
+    {
+      "resource": "card_illustration/job_00669.sct",
+      "file": "cards/job_00669.png",
+      "sha256": "d7b96acd10eca1646b87dc5ebdb04fe45ea9cd23c10b7f0ee7e4670a6d1badd0"
+    },
+    {
+      "resource": "card_illustration/job_00668.sct",
+      "file": "cards/job_00668.png",
+      "sha256": "0666bae2ad266d30815b38a8e0f6d85191a44f626f94020ed88b9bee527d1648"
+    },
+    {
+      "resource": "card_illustration/job_00670.sct",
+      "file": "cards/job_00670.png",
+      "sha256": "755d4274d99d959d65ffb58c962475dde3ec47841cce740ca0c679055f4165ab"
+    },
+    {
+      "resource": "card_illustration/job_00671.sct",
+      "file": "cards/job_00671.png",
+      "sha256": "dc5bc2d25dcb54d4231b42fbc4d35e3de9f38cb235ce68c7b6411e14e2d44848"
+    },
+    {
+      "resource": "card_illustration/taboo_00001.sct",
+      "file": "cards/taboo_00001.png",
+      "sha256": "9970d35711f418fc53b5d48e19921542f41560d935379f4cd19d9f5b536aa2e3"
+    },
+    {
+      "resource": "card_illustration/taboo_00002.sct",
+      "file": "cards/taboo_00002.png",
+      "sha256": "de3ed811a5266bf2b82b023aac8b1052989ef3ccc7659c4baf8c18620ac059ba"
+    },
+    {
+      "resource": "card_illustration/taboo_00003.sct",
+      "file": "cards/taboo_00003.png",
+      "sha256": "ee7afb5cc6d042f17cfc86c848c3aca3d174671c5b0f1956ca0cbe054e85e8f6"
+    },
+    {
+      "resource": "card_illustration/taboo_00004.sct",
+      "file": "cards/taboo_00004.png",
+      "sha256": "6e26ab0e1b4a4097de845426b066ce7c67989bca201363e43f8bcb2a76629742"
+    },
+    {
+      "resource": "card_illustration/taboo_00005.sct",
+      "file": "cards/taboo_00005.png",
+      "sha256": "39e40f4c216e6f38cc150df06b5f95efed679a3501f7c209b5e20f1c4cdb6c2a"
+    },
+    {
+      "resource": "card_illustration/taboo_00006.sct",
+      "file": "cards/taboo_00006.png",
+      "sha256": "15be9e97a14b8f077bcb529b3801dd4387aa2ef5fddfac880ce2e823b8ba54b7"
+    },
+    {
+      "resource": "card_illustration/taboo_00007.sct",
+      "file": "cards/taboo_00007.png",
+      "sha256": "b9e133aed76d77ba299cb100ae42f26ddecbcc535d3a2edbf2f5aef9a0dcaaa9"
+    },
+    {
+      "resource": "card_illustration/arena_00001.sct",
+      "file": "cards/arena_00001.png",
+      "sha256": "1e77cafd4aa22993026956a62ab988599d7df0d876cb2511435666c9dcd91236"
+    },
+    {
+      "resource": "card_illustration/arena_00002.sct",
+      "file": "cards/arena_00002.png",
+      "sha256": "1516fae819459eb83a7b730f0459444df150ee8ac2aa0da93cf63217eb1f0c13"
+    },
+    {
+      "resource": "card_illustration/arena_00003.sct",
+      "file": "cards/arena_00003.png",
+      "sha256": "863afe5ecfb98ea483e7b39bba7c529b3d9e2f743bace42e4691515821955c92"
+    },
+    {
+      "resource": "card_illustration/arena_00004.sct",
+      "file": "cards/arena_00004.png",
+      "sha256": "85d8ea8ba145f008f44c56c2133e03492cb8f38ffdfbf7de09e603e5ade869af"
+    },
+    {
+      "resource": "card_illustration/arena_00005.sct",
+      "file": "cards/arena_00005.png",
+      "sha256": "3df0ef231c2b6ca724a5868a5cfecde7f8aa60efdf4cbd73f4c7091f935a47cb"
+    },
+    {
+      "resource": "card_illustration/job_00371.sct",
+      "file": "cards/job_00371.png",
+      "sha256": "a8a167cbd8421a6344472bd09af713b49c4d20e50e19a93ed517dad4772eb521"
+    },
+    {
+      "resource": "card_illustration/job_00495.sct",
+      "file": "cards/job_00495.png",
+      "sha256": "05b40a7cc9ba8237b37860d8468ba2de90619eac1d71058e8f2d66e786908df6"
+    },
+    {
+      "resource": "card_illustration/job_00491.sct",
+      "file": "cards/job_00491.png",
+      "sha256": "be76f68e471c7493726f007c86768591c5560a659f8e9f77ac2457c9b68bb854"
+    },
+    {
+      "resource": "card_illustration/job_00492.sct",
+      "file": "cards/job_00492.png",
+      "sha256": "965487db73ab96c4475413996acf615e05b8639acebdf73a67d807c6a51f8181"
+    },
+    {
+      "resource": "card_illustration/job_00493.sct",
+      "file": "cards/job_00493.png",
+      "sha256": "44ccb214f373fa42cd736a2416c8f4c429b0d1828a883f78feac2bd5675cbe61"
+    },
+    {
+      "resource": "card_illustration/job_00413.sct",
+      "file": "cards/job_00413.png",
+      "sha256": "7cca97678f6a99b5a8fc9ce3b25eb958f4a7cb1d1c84caef6aeac423514b2422"
+    },
+    {
+      "resource": "card_illustration/card_assault_00001.sct",
+      "file": "cards/card_assault_00001.png",
+      "sha256": "ed950dcfa238f430022874d7922d16165fd1a307840a8aad8f8cb3af4f20e997"
+    },
+    {
+      "resource": "card_illustration/card_assault_00002.sct",
+      "file": "cards/card_assault_00002.png",
+      "sha256": "e1e9a963edbe96004068569f2c7b9fb786d30b40911c95bc9a020501f2032940"
+    },
+    {
+      "resource": "card_illustration/card_assault_00003.sct",
+      "file": "cards/card_assault_00003.png",
+      "sha256": "4ee841f983717d5b1391a3e9751128f7d5c5f069de2ac17ff36a51c8700e560e"
+    },
+    {
+      "resource": "card_illustration/card_assault_00004.sct",
+      "file": "cards/card_assault_00004.png",
+      "sha256": "6d2d2a46767969edcec1b541d8e2516e9c6cf9725baf7d873203222c5a093b3f"
+    },
+    {
+      "resource": "card_illustration/unique_1027_04.sct",
+      "file": "cards/unique_1027_04.png",
+      "sha256": "39af70598101a447e3d8ce264deef1fcbb54fe37d090a8c53ee1d40c061c6068"
+    },
+    {
+      "resource": "card_illustration/unique_1061_03.sct",
+      "file": "cards/unique_1061_03.png",
+      "sha256": "0926c3da58e2e6fa125589a9bd5a00c508c84498158ed2b5504fef3793c31a0f"
+    },
+    {
+      "resource": "card_illustration/unique_1061_05.sct",
+      "file": "cards/unique_1061_05.png",
+      "sha256": "61fbca1cf20125ad6b2ccf060f7cbc40769d883f0896d76131f31d3980fc5bfb"
+    },
+    {
+      "resource": "card_illustration/unique_30075_01.sct",
+      "file": "cards/unique_30075_01.png",
+      "sha256": "c0b1bb3f01c7a1ea37f06d502fe5b4f184f6b62e907df2f8762ccf9b0271061c"
+    },
+    {
+      "resource": "card_illustration/collapse_1039_01.sct",
+      "file": "cards/collapse_1039_01.png",
+      "sha256": "85e19373813e39aa900640a73cb68f829785fe71f8d9deb2fa45dbbac2ecec89"
+    },
+    {
+      "resource": "card_illustration/collapse_1056_02.sct",
+      "file": "cards/collapse_1056_02.png",
+      "sha256": "39f9b1c6926fa83b70a2c68c0a55670531791377d1820732bd84570b91a9b0e7"
+    },
+    {
+      "resource": "card_illustration/unique_1055_03.sct",
+      "file": "cards/unique_1055_03.png",
+      "sha256": "e5fc69882b5d191c829102a8702e86f3c0531e71eee880a013ca4fe08fa79dc1"
+    },
+    {
+      "resource": "card_illustration/unique_1056_04.sct",
+      "file": "cards/unique_1056_04.png",
+      "sha256": "1725c72e7fdf067eebec1749174a38e99418e465f9ff3a9a238925c12e181b2c"
+    },
+    {
+      "resource": "card_illustration/unique_1039_03.sct",
+      "file": "cards/unique_1039_03.png",
+      "sha256": "06f61ed0aa150f7368bd67be115ad6785cb80a2dfebf333aebb11e57b4f97ec9"
+    },
+    {
+      "resource": "card_illustration/start_1056_01.sct",
+      "file": "cards/start_1056_01.png",
+      "sha256": "ee926a530340091d5d86c8f81100cb3851cb6a9dc608d6ce0affc5f3970ffa5e"
+    },
+    {
+      "resource": "card_illustration/collapse_1027_02.sct",
+      "file": "cards/collapse_1027_02.png",
+      "sha256": "0e1138a6373a676401dd34e7eeb213d4601db7c6a02a75cab1bad918cc5cead3"
+    },
+    {
+      "resource": "card_illustration/start_1056_02.sct",
+      "file": "cards/start_1056_02.png",
+      "sha256": "24645b7cfd00705c131c586a7ee2f5be221db11a9ac52b9f71a15d552d619c74"
+    },
+    {
+      "resource": "card_illustration/unique_1027_03.sct",
+      "file": "cards/unique_1027_03.png",
+      "sha256": "a00cb6940a5e56b6707598274584bef1f025402428f815119613913978066042"
+    },
+    {
+      "resource": "card_illustration/unique_1027_01.sct",
+      "file": "cards/unique_1027_01.png",
+      "sha256": "0f348f0298335b1488244b8d41e44240ffd6ea01f8b0653c35f4e3d1025c0b46"
+    },
+    {
+      "resource": "card_illustration/unique_1027_05.sct",
+      "file": "cards/unique_1027_05.png",
+      "sha256": "28ac2d9d046b960458da396a4887e4de810595814e188981f3a17b6d594d6d59"
+    },
+    {
+      "resource": "card_illustration/unique_1027_02.sct",
+      "file": "cards/unique_1027_02.png",
+      "sha256": "2facd7ca709d2df9fa3c62dbfd557d28d3d611740ffad7da191f95c7c620a050"
+    },
+    {
+      "resource": "card_illustration/collapse_1055_02.sct",
+      "file": "cards/collapse_1055_02.png",
+      "sha256": "6bc52deef172146695382d457dd06e4ad29608764a9fe48da6b1aa77f3b51126"
+    },
+    {
+      "resource": "card_illustration/unique_1055_06.sct",
+      "file": "cards/unique_1055_06.png",
+      "sha256": "618a8a82bea4a850edabd437a9d8b0608f0ed1639f8919a31e81be25e88fefec"
+    },
+    {
+      "resource": "card_illustration/unique_1055_07.sct",
+      "file": "cards/unique_1055_07.png",
+      "sha256": "05d64c1999d649dd94ec945b662ac8174111590449017e8272850e500575632f"
+    },
+    {
+      "resource": "card_illustration/start_30075_01.sct",
+      "file": "cards/start_30075_01.png",
+      "sha256": "eae17bcb3e95eab3977fa9b2a7eee04d0289eee8bdbb5c14bd616f22eac4ad65"
+    },
+    {
+      "resource": "card_illustration/collapse_30134_02.sct",
+      "file": "cards/collapse_30134_02.png",
+      "sha256": "7b35730ac0708a486acdebe064b658252a6e69492f5dab5ee0117d0736d02343"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1056_02.sct",
+      "file": "cards/collapse_2_1056_02.png",
+      "sha256": "53960ebbd5b6521855de98994388b5e801b698bca09bc015997214957037365f"
+    },
+    {
+      "resource": "card_illustration/unique_30134_02.sct",
+      "file": "cards/unique_30134_02.png",
+      "sha256": "5e02f8df1dc49946e3b7d795f189c74644e4ef4a66ed162b92124119987fa400"
+    },
+    {
+      "resource": "card_illustration/unique_30134_03.sct",
+      "file": "cards/unique_30134_03.png",
+      "sha256": "4d4a2f70eba8a4e887864bd41129432f29367e6cd27db5f38a5af0e5f8313292"
+    },
+    {
+      "resource": "card_illustration/unique_30134_04.sct",
+      "file": "cards/unique_30134_04.png",
+      "sha256": "433ebc59690dafbe768f95e81bd65436e103d45941065450ef36dd29d7e9483a"
+    },
+    {
+      "resource": "card_illustration/unique_30134_05.sct",
+      "file": "cards/unique_30134_05.png",
+      "sha256": "0e3e9e08a79b7c20b6289c223febf93182cc8c448886458d1f8568556c3bdfdc"
+    },
+    {
+      "resource": "card_illustration/unique_30075_04.sct",
+      "file": "cards/unique_30075_04.png",
+      "sha256": "b2f8780ab431fccf026e20bb712b991f18e765bd8b618fee83b201bc3a15504e"
+    },
+    {
+      "resource": "card_illustration/unique_1009_02.sct",
+      "file": "cards/unique_1009_02.png",
+      "sha256": "dd895ab0cbc0e54fd161adbeb8ed352ddc8dcff50cebc04183ba7185ca64b8f2"
+    },
+    {
+      "resource": "card_illustration/unique_30075_02.sct",
+      "file": "cards/unique_30075_02.png",
+      "sha256": "f4e5f8888519bc8c2d9e818e18bbac3376531c346abda818be974981c66c20be"
+    },
+    {
+      "resource": "card_illustration/unique_1055_02.sct",
+      "file": "cards/unique_1055_02.png",
+      "sha256": "1f14899e154357e6a5ddfb7bc351a0e25949866d5f45859517e8394c0d783dd6"
+    },
+    {
+      "resource": "card_illustration/unique_1055_04.sct",
+      "file": "cards/unique_1055_04.png",
+      "sha256": "f7723bdd2016d014637815fba17d610cbf16eb397c02673afa082b6513691c6c"
+    },
+    {
+      "resource": "card_illustration/start_30075_02.sct",
+      "file": "cards/start_30075_02.png",
+      "sha256": "3cc7bf130a7a776706d721a50f2be7bf6a2b37a36fc4087b699ee24a5e7defe0"
+    },
+    {
+      "resource": "card_illustration/unique_1055_05.sct",
+      "file": "cards/unique_1055_05.png",
+      "sha256": "94ad4d24c88dc95f25b74096aa3f1cdfc4d4d8d56029d9279e5d037eee3d3f17"
+    },
+    {
+      "resource": "card_illustration/unique_1009_04.sct",
+      "file": "cards/unique_1009_04.png",
+      "sha256": "95e88727cbf6939bb9d2ff9c2c492ff7db572dc0d57cb1d5dd0259b398ac727f"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30075_02.sct",
+      "file": "cards/collapse_2_30075_02.png",
+      "sha256": "94004813fbf94f1500108291973221f871eb1781e92015cbf32805836806255e"
+    },
+    {
+      "resource": "card_illustration/unique_30134_06.sct",
+      "file": "cards/unique_30134_06.png",
+      "sha256": "7abf334906fd4b8fec3772bad6607988886cb987e73c9898f8468fdf2602f47e"
+    },
+    {
+      "resource": "card_illustration/start_1009_01.sct",
+      "file": "cards/start_1009_01.png",
+      "sha256": "f0234184306e926d16c97efc1816c4a502a22c56fb4121c86164e87d5d982255"
+    },
+    {
+      "resource": "card_illustration/unique_30134_07.sct",
+      "file": "cards/unique_30134_07.png",
+      "sha256": "b589284c2744785a29f71dda7567b444aa59ba2f7c3d3d5efef78daa1e3ba522"
+    },
+    {
+      "resource": "card_illustration/unique_1056_02.sct",
+      "file": "cards/unique_1056_02.png",
+      "sha256": "28ecf7f96bca1cf9ff94c5663e86e48e2a58382528b554755d55a1604e408c03"
+    },
+    {
+      "resource": "card_illustration/start_1027_01.sct",
+      "file": "cards/start_1027_01.png",
+      "sha256": "cdb41530fe4e2b92fb241ea50f7d70ccca717c9683c2549e7c8d5a0b55dc9594"
+    },
+    {
+      "resource": "card_illustration/unique_1039_01.sct",
+      "file": "cards/unique_1039_01.png",
+      "sha256": "22d4b080440e291becf534aaef0cfb3bd26d716ad99c0eba216f8713234aa279"
+    },
+    {
+      "resource": "card_illustration/unique_1009_05.sct",
+      "file": "cards/unique_1009_05.png",
+      "sha256": "b718ef344c3c733ad3085b7b01bcb13c8c6baf0699e1308cff13a558c151d5da"
+    },
+    {
+      "resource": "card_illustration/unique_1009_03.sct",
+      "file": "cards/unique_1009_03.png",
+      "sha256": "ed71172b8ec7a5855226b4136b4f39b6ad4b04a46c65ce4b477833dd650a3773"
+    },
+    {
+      "resource": "card_illustration/unique_30134_01.sct",
+      "file": "cards/unique_30134_01.png",
+      "sha256": "243b2dc5ecbdabd89ba0c49af57843308937df1d9e8030d0931eef3a749011e1"
+    },
+    {
+      "resource": "card_illustration/unique_1039_04.sct",
+      "file": "cards/unique_1039_04.png",
+      "sha256": "09858b2c3729629a87c1057a024a12088b674dfe60949b359a5a481d4bc33c8b"
+    },
+    {
+      "resource": "card_illustration/unique_1039_02.sct",
+      "file": "cards/unique_1039_02.png",
+      "sha256": "f18e76bbfbdaf8f5a5ad2ba7b100074cccc01352f8271d8df62ffd36af44b2aa"
+    },
+    {
+      "resource": "card_illustration/unique_1039_05.sct",
+      "file": "cards/unique_1039_05.png",
+      "sha256": "e9a7d75badf7374a1f2b6a2596642d8e37cbfdc376bc26c13d4884c48457a482"
+    },
+    {
+      "resource": "card_illustration/unique_1061_02.sct",
+      "file": "cards/unique_1061_02.png",
+      "sha256": "9542ef7e4c02789d1cda66c6092e83bee15fba2fb1826deab2e9d6ea931452e9"
+    },
+    {
+      "resource": "card_illustration/unique_1056_03.sct",
+      "file": "cards/unique_1056_03.png",
+      "sha256": "186b123a90433fe84c06df0b345d1eafbcae119c351d34fc1fff3200834cf851"
+    },
+    {
+      "resource": "card_illustration/unique_1061_04.sct",
+      "file": "cards/unique_1061_04.png",
+      "sha256": "641c9a8c96bde4264515cc2958d188f057fb7ef301236e2339f43f0659fff0dd"
+    },
+    {
+      "resource": "card_illustration/unique_30134_08.sct",
+      "file": "cards/unique_30134_08.png",
+      "sha256": "a4288734b723b4af9b29d34b6a14748155c014124515856567ec57846b0bb697"
+    },
+    {
+      "resource": "card_illustration/unique_1056_01.sct",
+      "file": "cards/unique_1056_01.png",
+      "sha256": "cdd77c63328f1115918fd185c585cbb357e5684f900b6a94d17c002f48cb1512"
+    },
+    {
+      "resource": "card_illustration/collapse_30134_01.sct",
+      "file": "cards/collapse_30134_01.png",
+      "sha256": "444bfc935491802cbaab5ea287ed2fda88e6e8fed4ea4a30fad4545129b998e0"
+    },
+    {
+      "resource": "card_illustration/collapse_1061_01.sct",
+      "file": "cards/collapse_1061_01.png",
+      "sha256": "06b87a6fd83fd59aff9ab367fef02714ea65127665b7e4379e992a1fd42ae991"
+    },
+    {
+      "resource": "card_illustration/collapse_30075_01.sct",
+      "file": "cards/collapse_30075_01.png",
+      "sha256": "86367a15cce7a1ab322a2b5cf02e8e261656d25e389adbebb1d4a212c00c922f"
+    },
+    {
+      "resource": "card_illustration/start_30134_01.sct",
+      "file": "cards/start_30134_01.png",
+      "sha256": "a47e56c91791759aebe22f8403fdd8268fb1e22b1eb52e5ca6005f9b5b9b41a3"
+    },
+    {
+      "resource": "card_illustration/collapse_1009_01.sct",
+      "file": "cards/collapse_1009_01.png",
+      "sha256": "022c113e31a28e97892d9445da502ec693586c176f2538b2f50a91f1e45ad45e"
+    },
+    {
+      "resource": "card_illustration/collapse_1039_02.sct",
+      "file": "cards/collapse_1039_02.png",
+      "sha256": "2453e0d1ebc1c078cc68f0145ae7b237a9d9f7f78561d84670407e1570fc5961"
+    },
+    {
+      "resource": "card_illustration/start_1009_03.sct",
+      "file": "cards/start_1009_03.png",
+      "sha256": "2110d13f96e460022764375ef5d1dd59b702c0b0dadff8c21a596bf4d94b986b"
+    },
+    {
+      "resource": "card_illustration/start_1027_02.sct",
+      "file": "cards/start_1027_02.png",
+      "sha256": "8144f0498df5da54ba224507f9f8554de62b509793b51ef4d4a498175bbc3264"
+    },
+    {
+      "resource": "card_illustration/start_30134_02.sct",
+      "file": "cards/start_30134_02.png",
+      "sha256": "ddb19eb9e95f5c1523eb870aa4d563492171a1436473d78d4e89ebf754aeb416"
+    },
+    {
+      "resource": "card_illustration/unique_1061_01.sct",
+      "file": "cards/unique_1061_01.png",
+      "sha256": "3a8d0fa5212dd9ad2e56c95d592f5ab69af6cacf6d79f39caf7997bf527ba8d9"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1027_02.sct",
+      "file": "cards/collapse_2_1027_02.png",
+      "sha256": "428ee163512f335276f4b1cf8f66f902961ad488695b706c6e5aa88df7d320fa"
+    },
+    {
+      "resource": "card_illustration/collapse_1055_01.sct",
+      "file": "cards/collapse_1055_01.png",
+      "sha256": "7a6e0f0944f4ef6ff56478b4601143d3e945e45cca313f9dc3209297efaf5fe5"
+    },
+    {
+      "resource": "card_illustration/start_1055_01.sct",
+      "file": "cards/start_1055_01.png",
+      "sha256": "4f80ea5592894233e8aa2120415e5a968b9760d1b690c78a66088f3d285f4d37"
+    },
+    {
+      "resource": "card_illustration/start_1055_02.sct",
+      "file": "cards/start_1055_02.png",
+      "sha256": "9e4b1ffe45cb529db22fbd795a66043160208c92234f044bb8688926c622a442"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30134_02.sct",
+      "file": "cards/collapse_2_30134_02.png",
+      "sha256": "78257ec01882558e47c4a24c084c2eb62aab693df9dd104c0dd2bf7bc7857f36"
+    },
+    {
+      "resource": "card_illustration/unique_1055_01.sct",
+      "file": "cards/unique_1055_01.png",
+      "sha256": "d83b46a161badb6e34ca6aa585dce2715cb58cc3dfc2ebbef412796f89c905b4"
+    },
+    {
+      "resource": "card_illustration/unique_1061_06.sct",
+      "file": "cards/unique_1061_06.png",
+      "sha256": "36fa7e9fa216208c7827e78c40ad3fa79c286f7fe9b3648c8a8309ede0b5573d"
+    },
+    {
+      "resource": "card_illustration/unique_1061_07.sct",
+      "file": "cards/unique_1061_07.png",
+      "sha256": "f2ce4f9549a718d8714c6fce882a8287041808d1d376a2c2d109ac9f820c52a5"
+    },
+    {
+      "resource": "card_illustration/start_1061_02.sct",
+      "file": "cards/start_1061_02.png",
+      "sha256": "d2837bec6f82c32f1069a70740949c23e1f60d7215c15088e6291d60a6440ba9"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1055_02.sct",
+      "file": "cards/collapse_2_1055_02.png",
+      "sha256": "387e9b688c9d9dac32403e92c591a1ee09ff36656697a0c725df084f0c489076"
+    },
+    {
+      "resource": "card_illustration/collapse_1056_01.sct",
+      "file": "cards/collapse_1056_01.png",
+      "sha256": "0edb454b2abeb45cd97380e4326432bcf2644a3f37a96077b3ee1d8b0149aa3c"
+    },
+    {
+      "resource": "card_illustration/unique_30075_03.sct",
+      "file": "cards/unique_30075_03.png",
+      "sha256": "544a2e20670efd95bd9eb7a54984d90aa7280cabd7a3c1fe0e31eadc5c14c278"
+    },
+    {
+      "resource": "card_illustration/collapse_1027_01.sct",
+      "file": "cards/collapse_1027_01.png",
+      "sha256": "4bda54628c66e9caaa570afaa899354548e0c3a228a9478849c00f75ad24745a"
+    },
+    {
+      "resource": "card_illustration/unique_30075_05.sct",
+      "file": "cards/unique_30075_05.png",
+      "sha256": "bb316b7eb577b5b5128b3f5529ded5f9417d2e0b17a53834f23fe618a072b3f7"
+    },
+    {
+      "resource": "card_illustration/unique_1056_05.sct",
+      "file": "cards/unique_1056_05.png",
+      "sha256": "b5146ec92324718c243d72d72bdad56a99117c7439663506d974f7b9ca09a44f"
+    },
+    {
+      "resource": "card_illustration/start_1009_02.sct",
+      "file": "cards/start_1009_02.png",
+      "sha256": "54b853b94d063b63046bdeea9f79616e60971c7c967377cdbc4d9a119f4105b8"
+    },
+    {
+      "resource": "card_illustration/unique_1009_01.sct",
+      "file": "cards/unique_1009_01.png",
+      "sha256": "b22a2342a7aa04d83162a2c8b897cee8e01270eaeaeef7a6aae7c926cfcc2b23"
+    },
+    {
+      "resource": "card_illustration/start_1061_01.sct",
+      "file": "cards/start_1061_01.png",
+      "sha256": "2f247fa6911f8b489c795b53c59ebeb0e327dbfb253f69184e741fcc7e26f0c7"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1009_02.sct",
+      "file": "cards/collapse_2_1009_02.png",
+      "sha256": "d3fac79ff2b1be481300417b5fddd4042199c3cc9156e43e875800f13cf5c2f0"
+    },
+    {
+      "resource": "card_illustration/start_1039_01.sct",
+      "file": "cards/start_1039_01.png",
+      "sha256": "1e5aaf86cd7ba5eee501072e11b4670516113817d28ef07d4f792d88724541fe"
+    },
+    {
+      "resource": "card_illustration/start_1039_02.sct",
+      "file": "cards/start_1039_02.png",
+      "sha256": "f8a215772280061fd2eae5ededda54314a213445859b5932c27e346890623eb6"
+    },
+    {
+      "resource": "card_illustration/start_1061_03.sct",
+      "file": "cards/start_1061_03.png",
+      "sha256": "e915aaaf074edcc67929393e478cb53e4ba201b22561a1ac46fe139a679c7280"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1039_02.sct",
+      "file": "cards/collapse_2_1039_02.png",
+      "sha256": "0cc794f974591f4b958f718a91db7d73b0b795ec68b19cdfdac26f29c60ec633"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1061_02.sct",
+      "file": "cards/collapse_2_1061_02.png",
+      "sha256": "94d0c11dd5e7c8a3d3e5fc1687bd995f67fa6590ec9df27863eb694a1ec566da"
+    },
+    {
+      "resource": "card_illustration/collapse_1061_02.sct",
+      "file": "cards/collapse_1061_02.png",
+      "sha256": "0ee6c3a03ada1c100710894c90b72c172635f25def3eb250c8d3d1a492ed64f7"
+    },
+    {
+      "resource": "card_illustration/collapse_30075_02.sct",
+      "file": "cards/collapse_30075_02.png",
+      "sha256": "aa9d93833d1a3b32cc9cbfb7943afac16515ff11097498b5b26b1eee2e233c02"
+    },
+    {
+      "resource": "card_illustration/collapse_1009_02.sct",
+      "file": "cards/collapse_1009_02.png",
+      "sha256": "f1fe3a63f58f2e9480907a20699d0de1f611848104dfd02fd976bad3f73fbe7a"
+    },
+    {
+      "resource": "card_illustration/start_30097_01.sct",
+      "file": "cards/start_30097_01.png",
+      "sha256": "fc5796a9333ae93836efeb5605082a4de7de9ccacfde5b363da78b15aeb63a0e"
+    },
+    {
+      "resource": "card_illustration/start_30097_02.sct",
+      "file": "cards/start_30097_02.png",
+      "sha256": "8afc6224362a8bc835dd4baa3a6be8378d0645c91f12d12ef986c84786dcd045"
+    },
+    {
+      "resource": "card_illustration/unique_30097_01.sct",
+      "file": "cards/unique_30097_01.png",
+      "sha256": "59f38e585f0c0b7083f9f116d64c73ce50f1e8b3aab376713900304c6e13fa29"
+    },
+    {
+      "resource": "card_illustration/start_1057_02.sct",
+      "file": "cards/start_1057_02.png",
+      "sha256": "e3eb78490003f46615665eb2a39622b6f505c581393f98dbac055c85d7a3b372"
+    },
+    {
+      "resource": "card_illustration/unique_1069_02.sct",
+      "file": "cards/unique_1069_02.png",
+      "sha256": "0c278f87ab68d2f125332e52e1fd912537cb43e6a9a80353163d2c2e050193c0"
+    },
+    {
+      "resource": "card_illustration/start_1057_01.sct",
+      "file": "cards/start_1057_01.png",
+      "sha256": "a23bcd7bf6216e199f5ccd39155e8def010d9c82e2cb6368f4226634ef4d4dbb"
+    },
+    {
+      "resource": "card_illustration/unique_1069_01.sct",
+      "file": "cards/unique_1069_01.png",
+      "sha256": "9884bb80f662fb811c7931f390a7c69cc72367e2c1c0a30e8f79365446589ded"
+    },
+    {
+      "resource": "card_illustration/unique_1069_04.sct",
+      "file": "cards/unique_1069_04.png",
+      "sha256": "4cc86027a0e573d5e501af0ca27cffeaf5e67218cd32e634c8ce00a399ab7861"
+    },
+    {
+      "resource": "card_illustration/start_1057_03.sct",
+      "file": "cards/start_1057_03.png",
+      "sha256": "e6e1b7003b8d3fdc9974170dd8a3138c391ad75d0c6068f5758355c3b3954b15"
+    },
+    {
+      "resource": "card_illustration/unique_1069_05.sct",
+      "file": "cards/unique_1069_05.png",
+      "sha256": "b830b77851d5fbe377db09a46b8ccd7ca375199f44e48f704169fff22d3d30bc"
+    },
+    {
+      "resource": "card_illustration/unique_1057_03.sct",
+      "file": "cards/unique_1057_03.png",
+      "sha256": "deb46a30c2ba36b1e2bb2bc83d0f0785c2f64fa36b941b85820a941d8787d568"
+    },
+    {
+      "resource": "card_illustration/unique_30117_02.sct",
+      "file": "cards/unique_30117_02.png",
+      "sha256": "5d006564b1b06015ac8a66d9571788d4578b5180d6a8c6ede7b03c697210c546"
+    },
+    {
+      "resource": "card_illustration/unique_30117_03.sct",
+      "file": "cards/unique_30117_03.png",
+      "sha256": "343298434bd9468cf7fd02e7904c819d30209c768a3c2537a2a15516dabb9e8d"
+    },
+    {
+      "resource": "card_illustration/unique_30117_04.sct",
+      "file": "cards/unique_30117_04.png",
+      "sha256": "c61ceca6ad269ec5d405469613f5ec6900af167aee970fa3cb0a12686be4ee9f"
+    },
+    {
+      "resource": "card_illustration/unique_30117_05.sct",
+      "file": "cards/unique_30117_05.png",
+      "sha256": "5c3e29273f9ff115f726cd77369ab6b9a26e238ad0d56f0a5b89ec3de925453d"
+    },
+    {
+      "resource": "card_illustration/start_30117_01.sct",
+      "file": "cards/start_30117_01.png",
+      "sha256": "3dccda1a35bb31caa15153842a83b76165217cc54dac20ee3049acf66f56d2d7"
+    },
+    {
+      "resource": "card_illustration/collapse_30097_01.sct",
+      "file": "cards/collapse_30097_01.png",
+      "sha256": "961e20acc64e9f70874c79e2049fed43966052d780b9514b8d885fc764911192"
+    },
+    {
+      "resource": "card_illustration/collapse_30097_02.sct",
+      "file": "cards/collapse_30097_02.png",
+      "sha256": "e825e5bf85acf412a269f938ff72e87d957227869419cdb400d5d0f95a2452bd"
+    },
+    {
+      "resource": "card_illustration/unique_30097_02.sct",
+      "file": "cards/unique_30097_02.png",
+      "sha256": "74357f00eb5176c594e9c154c3fb82dea96eeb860e1d639a8231e0039b5e8791"
+    },
+    {
+      "resource": "card_illustration/unique_30097_03.sct",
+      "file": "cards/unique_30097_03.png",
+      "sha256": "1dd004bef5b75730c7bd1b5782f4ab3ff4a5e15d816fd69edc81e6ee9e0e2819"
+    },
+    {
+      "resource": "card_illustration/unique_30097_04.sct",
+      "file": "cards/unique_30097_04.png",
+      "sha256": "c74830493ce957f6881f1161148c2ae5d56f2ef9d7f0f6d5f05e434babf7ddfa"
+    },
+    {
+      "resource": "card_illustration/unique_30097_05.sct",
+      "file": "cards/unique_30097_05.png",
+      "sha256": "48d79a863725353db0af33ecf63651ef0bbd6a02b0d6cdbf98079f1b4ef9fe93"
+    },
+    {
+      "resource": "card_illustration/unique_1057_04.sct",
+      "file": "cards/unique_1057_04.png",
+      "sha256": "2afb50a44f9dc69b236e1280a1d5b17cea9eec179cfe1068c59bf85246902b94"
+    },
+    {
+      "resource": "card_illustration/unique_1057_05.sct",
+      "file": "cards/unique_1057_05.png",
+      "sha256": "8401e96794e5508aab118c1b352bd5ee1774404a5775b2d5d771fe1be2357b54"
+    },
+    {
+      "resource": "card_illustration/collapse_1057_01.sct",
+      "file": "cards/collapse_1057_01.png",
+      "sha256": "24a6a79432e48e1563fb45b6e25ef093451702acafd69c7e9629c6d157e51e44"
+    },
+    {
+      "resource": "card_illustration/unique_1057_02.sct",
+      "file": "cards/unique_1057_02.png",
+      "sha256": "99ff58ad3036f016b826513d83fb875d6cc5b848c057a0061a01c9d672ce449c"
+    },
+    {
+      "resource": "card_illustration/unique_1057_01.sct",
+      "file": "cards/unique_1057_01.png",
+      "sha256": "6bea0221d80393aaac36423be8a553bd8b8a66c41435317346b5d360cc8d712d"
+    },
+    {
+      "resource": "card_illustration/unique_30117_01.sct",
+      "file": "cards/unique_30117_01.png",
+      "sha256": "7c4179b5d2e402ffbabade7a3e29c129c0168f022fae43ba03a06218e1ec9cf6"
+    },
+    {
+      "resource": "card_illustration/unique_1069_06.sct",
+      "file": "cards/unique_1069_06.png",
+      "sha256": "de89ca893888dfa2b15b92fbb48ce64303a7efd2ebee560d52e371c6ba4369ac"
+    },
+    {
+      "resource": "card_illustration/collapse_1069_02.sct",
+      "file": "cards/collapse_1069_02.png",
+      "sha256": "465f071db5c90bd490b14dc96f9847d7a142ea7306227a877c5be731882fa5f6"
+    },
+    {
+      "resource": "card_illustration/collapse_1069_01.sct",
+      "file": "cards/collapse_1069_01.png",
+      "sha256": "187e42b8071567d1caa5dbfbf1f227218cc165c67688861bcbafce0b19036537"
+    },
+    {
+      "resource": "card_illustration/start_1069_01.sct",
+      "file": "cards/start_1069_01.png",
+      "sha256": "8e00c1930e87f76c8682082e39770dc7c288374e38717d24e59bb452ab6f6ff0"
+    },
+    {
+      "resource": "card_illustration/unique_30117_06.sct",
+      "file": "cards/unique_30117_06.png",
+      "sha256": "75b776a8817534487765f5c9408f15619338804cff698568174845a5773cd3fb"
+    },
+    {
+      "resource": "card_illustration/unique_1069_03.sct",
+      "file": "cards/unique_1069_03.png",
+      "sha256": "37822e3a10a6da3d17777d9b6f3999dbf40a8500ebefd760507cf629c2015757"
+    },
+    {
+      "resource": "card_illustration/unique_1069_07.sct",
+      "file": "cards/unique_1069_07.png",
+      "sha256": "93c245d0a55ae89acf87668084e52879097fc342f8781c7343950d046920ce74"
+    },
+    {
+      "resource": "card_illustration/unique_1069_08.sct",
+      "file": "cards/unique_1069_08.png",
+      "sha256": "083a9327e0b264e2aa2b402f04e463fb4cbd9bbff604623f203644f76b4c0ede"
+    },
+    {
+      "resource": "card_illustration/unique_1069_09.sct",
+      "file": "cards/unique_1069_09.png",
+      "sha256": "2e79fbba0c0512dab985a396bb05adfd152db964edcf5b4d8976cb0a74f48116"
+    },
+    {
+      "resource": "card_illustration/collapse_30117_02.sct",
+      "file": "cards/collapse_30117_02.png",
+      "sha256": "8f10e40f555e7e4f371bfcb2ec54037c8247e21777c40c40915a94b4c681181b"
+    },
+    {
+      "resource": "card_illustration/collapse_1057_02.sct",
+      "file": "cards/collapse_1057_02.png",
+      "sha256": "9b3f1ee0006e02def4a732d2b7cc20519407994640202371847b25a1a6400d60"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1069_02.sct",
+      "file": "cards/collapse_2_1069_02.png",
+      "sha256": "4ab270ed38baeb30bffbbe914a5c3b30ee8d87f722a1ab1ec65aa206cd5d4dc7"
+    },
+    {
+      "resource": "card_illustration/collapse_30117_01.sct",
+      "file": "cards/collapse_30117_01.png",
+      "sha256": "af9538311bb6bc4084a533e7f6ff37a91405403ccf072e661246e8d85a21b8be"
+    },
+    {
+      "resource": "card_illustration/unique_1069_10.sct",
+      "file": "cards/unique_1069_10.png",
+      "sha256": "afe74bb359940f5ddf96fd2537439b4c6858f596d81b6baf9fb49c86cf6bbd96"
+    },
+    {
+      "resource": "card_illustration/unique_1069_11.sct",
+      "file": "cards/unique_1069_11.png",
+      "sha256": "b695c4495478fc7891e68b6721ef10abc9242a98689a221ee8dad5f182c847a8"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30117_02.sct",
+      "file": "cards/collapse_2_30117_02.png",
+      "sha256": "6abcef91341f83d774db1b88ffacff17a2bc1d27aab9ed132ee2c6cb11ba7546"
+    },
+    {
+      "resource": "card_illustration/unique_1069_12.sct",
+      "file": "cards/unique_1069_12.png",
+      "sha256": "771179cdff76f2fe14c76bee6ab9c8da0fdb20292b562fd049f9605d9ece4ac9"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30097_02.sct",
+      "file": "cards/collapse_2_30097_02.png",
+      "sha256": "0f48c28197fedab1c0d306d05d7d49b1bfe2b8be69c09b32d49c68d90ace1408"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1057_02.sct",
+      "file": "cards/collapse_2_1057_02.png",
+      "sha256": "e10d2281cd4108dc1d4075ae9ef0fc9b26ece8828bda0cc319c7ba42630cb2ee"
+    },
+    {
+      "resource": "card_illustration/unique_30097_06.sct",
+      "file": "cards/unique_30097_06.png",
+      "sha256": "cb0bf5c645290b255aabd0e9a3bd24d0d48d7b27a519208d950f1d1d97615f4c"
+    },
+    {
+      "resource": "card_illustration/start_1069_02.sct",
+      "file": "cards/start_1069_02.png",
+      "sha256": "a9e35a66fbab263535f6852915819d56228368d81be152d6559b9d30f7a87324"
+    },
+    {
+      "resource": "card_illustration/unique_30097_07.sct",
+      "file": "cards/unique_30097_07.png",
+      "sha256": "89d7b03fbc0d45f7065f59930658e62d45fab546872681bf3f28d759b84094f8"
+    },
+    {
+      "resource": "card_illustration/start_30117_02.sct",
+      "file": "cards/start_30117_02.png",
+      "sha256": "372abb6571bb0946a2471925dfc45a16ea9679356a100b7f1f70ec672a5f4f10"
+    },
+    {
+      "resource": "card_illustration/unique_1008_01.sct",
+      "file": "cards/unique_1008_01.png",
+      "sha256": "c59be364844920a33df46e64b1a2e23fafd2f78168389d9fb53f916e218971c6"
+    },
+    {
+      "resource": "card_illustration/collapse_30084_01.sct",
+      "file": "cards/collapse_30084_01.png",
+      "sha256": "260a413595d9128b6f0c934bed6f81ef04f5c95d16aa5c7e9876d95f8b05d24f"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1003_02.sct",
+      "file": "cards/collapse_2_1003_02.png",
+      "sha256": "53eb4b18fecdf61c295859a2fe6bd0d1988d67b0bb07905cc510b3d789180c00"
+    },
+    {
+      "resource": "card_illustration/unique_1008_03.sct",
+      "file": "cards/unique_1008_03.png",
+      "sha256": "afdf3acb4d5f53bb771411728a163b6b175b59e809676046f15060ec5de3fc1d"
+    },
+    {
+      "resource": "card_illustration/unique_30115_05.sct",
+      "file": "cards/unique_30115_05.png",
+      "sha256": "cf8c429204e9ebe5a9fd1c587e87bf1fdedc5c77c9d5de61fbdc359310a5d57d"
+    },
+    {
+      "resource": "card_illustration/unique_30115_02.sct",
+      "file": "cards/unique_30115_02.png",
+      "sha256": "00c2367213693dff56201aa77da497516b5b1fb62f6148edfe179f2f93168af0"
+    },
+    {
+      "resource": "card_illustration/unique_1008_04.sct",
+      "file": "cards/unique_1008_04.png",
+      "sha256": "7abc80f040d98769d15d2f05bef850f74fbedecf6d528d3c2e2ab1135bc17e4b"
+    },
+    {
+      "resource": "card_illustration/start_1008_03.sct",
+      "file": "cards/start_1008_03.png",
+      "sha256": "419e9210954654c27e88a09e4d41adb6a8583c5fba664d3fccbf7ec14178948f"
+    },
+    {
+      "resource": "card_illustration/start_1008_01.sct",
+      "file": "cards/start_1008_01.png",
+      "sha256": "dfffee30c7430a27ee54857662ba144997cc117f3ee05a22b8f3181bbdb33dac"
+    },
+    {
+      "resource": "card_illustration/collapse_1040_02.sct",
+      "file": "cards/collapse_1040_02.png",
+      "sha256": "0c8760505389f3d6aa925ee7e0e679adf2c83f628b39c44b835000fdf593fc62"
+    },
+    {
+      "resource": "card_illustration/start_1008_02.sct",
+      "file": "cards/start_1008_02.png",
+      "sha256": "e51d190c623f02bafd6ace2e17d330a033525ab96c15ffd07906019878c8b9d6"
+    },
+    {
+      "resource": "card_illustration/unique_1008_05.sct",
+      "file": "cards/unique_1008_05.png",
+      "sha256": "8b415d8a12baf2b606f430e6a3ffc5a3fee1f3db55806fec2c7f84ec65def87b"
+    },
+    {
+      "resource": "card_illustration/unique_30084_01.sct",
+      "file": "cards/unique_30084_01.png",
+      "sha256": "e738ad387aad0a73d376253a5017bc521735793dbb0ede9e86bdbf267b714d6d"
+    },
+    {
+      "resource": "card_illustration/unique_30115_03.sct",
+      "file": "cards/unique_30115_03.png",
+      "sha256": "6b613f31b73aab8216d229d58f9a029f2f8365b5c31aba915dcedce0029dc940"
+    },
+    {
+      "resource": "card_illustration/unique_1017_04.sct",
+      "file": "cards/unique_1017_04.png",
+      "sha256": "288b97afbb65567edb415ba16a6f17b6b5b4084bcf26cfb95c656b1f6ebc2011"
+    },
+    {
+      "resource": "card_illustration/collapse_1008_01.sct",
+      "file": "cards/collapse_1008_01.png",
+      "sha256": "4a2167fecb56cfad0ea7b9cf84d20c54b9e8e21879bafce6df0056fa84987c8d"
+    },
+    {
+      "resource": "card_illustration/unique_30115_04.sct",
+      "file": "cards/unique_30115_04.png",
+      "sha256": "904a792716764a405312775ffa1cf058e29bdfe902e7491a56abde9f59e85aac"
+    },
+    {
+      "resource": "card_illustration/start_1017_01.sct",
+      "file": "cards/start_1017_01.png",
+      "sha256": "386bd3a0766cf586abf5fab68ad034423764a19ef0b6acd134cd7898f90276ef"
+    },
+    {
+      "resource": "card_illustration/start_1017_02.sct",
+      "file": "cards/start_1017_02.png",
+      "sha256": "19679609d92dcb3106082b14ccc107d6dd96d83550e456400bc31e6fbd1074da"
+    },
+    {
+      "resource": "card_illustration/unique_1017_05.sct",
+      "file": "cards/unique_1017_05.png",
+      "sha256": "365404e238f1e00ee63029c5ca1a33d327ce65a4c0e13cb1de78b6eb341761d2"
+    },
+    {
+      "resource": "card_illustration/collapse_1017_01.sct",
+      "file": "cards/collapse_1017_01.png",
+      "sha256": "61fdbf194cbe15a1a5fec0e12eb7ac4da86104df5546b04997ed125f52e3fabc"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1008_02.sct",
+      "file": "cards/collapse_2_1008_02.png",
+      "sha256": "c24b4df46fd8dd7f16a645482f40083ccced3b004a06d866b8a0320fb5066ec1"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1017_02.sct",
+      "file": "cards/collapse_2_1017_02.png",
+      "sha256": "c4326fe0253dc3f170e9090ca10f7298a0e093ddba9fb962954aa9f8725d0580"
+    },
+    {
+      "resource": "card_illustration/start_1040_01.sct",
+      "file": "cards/start_1040_01.png",
+      "sha256": "bf31aed9694dd03b9d5edca75cc27a38610536b358d77a8455b9258f5d58fd2f"
+    },
+    {
+      "resource": "card_illustration/start_1040_03.sct",
+      "file": "cards/start_1040_03.png",
+      "sha256": "ebd6c5e282cbb8bc37777d9960ab7ca8b74724686c9b120adb0208f189e84496"
+    },
+    {
+      "resource": "card_illustration/start_1040_02.sct",
+      "file": "cards/start_1040_02.png",
+      "sha256": "085812bc228541988a31af2556ca14b97887c0a5a2483006b85fea6d0fb0483d"
+    },
+    {
+      "resource": "card_illustration/unique_1040_03.sct",
+      "file": "cards/unique_1040_03.png",
+      "sha256": "7eaa601968e6b24ad92f572d20c6ab8d04f4da2df643d3ce5216ab57a1d4fa70"
+    },
+    {
+      "resource": "card_illustration/start_30084_01.sct",
+      "file": "cards/start_30084_01.png",
+      "sha256": "f14ceaa7f06fe82a580fa22e59b94f02918bd01e70e38bef7e0198d353c508a2"
+    },
+    {
+      "resource": "card_illustration/start_30084_02.sct",
+      "file": "cards/start_30084_02.png",
+      "sha256": "0ac1aa580379556c8632e35c322341c1a9ce5a95b1e3599ea15e1bb58418138d"
+    },
+    {
+      "resource": "card_illustration/unique_1040_01.sct",
+      "file": "cards/unique_1040_01.png",
+      "sha256": "6b3b97c8b854a30a0dcfd0a0dfef2585c7ec08d54374c8dfe1f821ced18c780c"
+    },
+    {
+      "resource": "card_illustration/collapse_1003_01.sct",
+      "file": "cards/collapse_1003_01.png",
+      "sha256": "17fd829600f4100e1483297dbfd4c0dcf90cfb6f26371162066768a81e452a35"
+    },
+    {
+      "resource": "card_illustration/unique_1040_05.sct",
+      "file": "cards/unique_1040_05.png",
+      "sha256": "35dc74cab11f0d80a0a22685b7807e1bd3830f22d598eda8000c5c96ce9635b4"
+    },
+    {
+      "resource": "card_illustration/start_1003_02.sct",
+      "file": "cards/start_1003_02.png",
+      "sha256": "d8fe6a7200e331f83252e9337b860a2fa88a39a6a096fa7ff36834f1938236c7"
+    },
+    {
+      "resource": "card_illustration/collapse_2_1040_02.sct",
+      "file": "cards/collapse_2_1040_02.png",
+      "sha256": "57aa7d99fb3603ca2aa7fc8120f17b171480122a371b9af6fcb67f1feb2d2d00"
+    },
+    {
+      "resource": "card_illustration/unique_1040_04.sct",
+      "file": "cards/unique_1040_04.png",
+      "sha256": "838abb1604ccf7770d11cee9730c44bdd38689ceb5596670c38b1f9cdae9aa3d"
+    },
+    {
+      "resource": "card_illustration/unique_1003_05.sct",
+      "file": "cards/unique_1003_05.png",
+      "sha256": "9444955faf2a94c78f216010d37f03c6a605c5ec15ef58d8f00116325dc67819"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30084_02.sct",
+      "file": "cards/collapse_2_30084_02.png",
+      "sha256": "fb3714bf81e9e6e0c1c8a1ffc29d8f346cae499ffa4efc0b1a921761771306e6"
+    },
+    {
+      "resource": "card_illustration/unique_1017_01.sct",
+      "file": "cards/unique_1017_01.png",
+      "sha256": "08e9ba43c23f03112fcb32f0f16f54367e8758b781bd0f2b82a2f8aa9f6df418"
+    },
+    {
+      "resource": "card_illustration/collapse_30115_02.sct",
+      "file": "cards/collapse_30115_02.png",
+      "sha256": "6c6d7f241fe6b7fb80e527d2a345259c7a6afb75334e56d4affe7d2efc966063"
+    },
+    {
+      "resource": "card_illustration/unique_1003_01.sct",
+      "file": "cards/unique_1003_01.png",
+      "sha256": "2256c0da5da52c7475e26c01aefc4fa2576acd043948d20200a8c4e25073d51e"
+    },
+    {
+      "resource": "card_illustration/unique_1017_03.sct",
+      "file": "cards/unique_1017_03.png",
+      "sha256": "411530ee022c1ef5492dde2f224c69b4d76ed9030fe10d521acc6ed6a4182a83"
+    },
+    {
+      "resource": "card_illustration/unique_1003_04.sct",
+      "file": "cards/unique_1003_04.png",
+      "sha256": "99130f93c761212ee92314576a4bfd32122d3dc1b4c7c61ebb90ea1581702b5b"
+    },
+    {
+      "resource": "card_illustration/unique_1017_02.sct",
+      "file": "cards/unique_1017_02.png",
+      "sha256": "7b7fdddc18f171228d928d56a5fcebec5209e1a4f107a7333c48ef3a7b6f68cb"
+    },
+    {
+      "resource": "card_illustration/unique_30115_01.sct",
+      "file": "cards/unique_30115_01.png",
+      "sha256": "8007b87afcedbb2e98e37c3de4dc5c95c5f8422aa13050131f056a3e7e1c589d"
+    },
+    {
+      "resource": "card_illustration/unique_30084_05.sct",
+      "file": "cards/unique_30084_05.png",
+      "sha256": "2739371c65a7ffdd205c72de26f9a582910fe758ed788451aa07b5a56632f942"
+    },
+    {
+      "resource": "card_illustration/collapse_1040_01.sct",
+      "file": "cards/collapse_1040_01.png",
+      "sha256": "fed385c7565df1c4fea526bcba8f5108ca174a1d0c4e6512c345845947472103"
+    },
+    {
+      "resource": "card_illustration/collapse_30084_02.sct",
+      "file": "cards/collapse_30084_02.png",
+      "sha256": "fc60d038622f6962c06b8e1a5844b3e204066f3288f2548b347de5d5d518a413"
+    },
+    {
+      "resource": "card_illustration/start_30115_01.sct",
+      "file": "cards/start_30115_01.png",
+      "sha256": "83ff2e2591cb76f444ce3a69a0c8688b84d8f39486c232afa83b7346a8f6a70c"
+    },
+    {
+      "resource": "card_illustration/collapse_1008_02.sct",
+      "file": "cards/collapse_1008_02.png",
+      "sha256": "108e0a58a827e7301db4022594bda33e8d83b4db4225541f397f4fe7ccf0acfa"
+    },
+    {
+      "resource": "card_illustration/unique_1003_03.sct",
+      "file": "cards/unique_1003_03.png",
+      "sha256": "0a233af3fd8d9cc79b0c83864749d3f831f7a9a45a4dbbdb4a902db93b3e4dee"
+    },
+    {
+      "resource": "card_illustration/unique_30084_02.sct",
+      "file": "cards/unique_30084_02.png",
+      "sha256": "d55145680818ae557c7503384b92db4c513d1c8726ce2319a2daedd7350fee6b"
+    },
+    {
+      "resource": "card_illustration/unique_30084_03.sct",
+      "file": "cards/unique_30084_03.png",
+      "sha256": "dba93a9b9c13371de545b9a69a3c65c87e3851827131881bfda63198f4537612"
+    },
+    {
+      "resource": "card_illustration/collapse_1017_02.sct",
+      "file": "cards/collapse_1017_02.png",
+      "sha256": "690219ef8b7dd551cfe40e7829be2e1b3b1d90bafc84d6f7cb2216117bd590ab"
+    },
+    {
+      "resource": "card_illustration/unique_30084_06.sct",
+      "file": "cards/unique_30084_06.png",
+      "sha256": "59e5a9480da960101e7091f5c465d0336ec74509c1454cf29403e5cd1d6a9541"
+    },
+    {
+      "resource": "card_illustration/unique_30084_04.sct",
+      "file": "cards/unique_30084_04.png",
+      "sha256": "648a3aecb472846088cd788cc717858cafe87f1d50ad838d48dd894df43e0d20"
+    },
+    {
+      "resource": "card_illustration/unique_30084_07.sct",
+      "file": "cards/unique_30084_07.png",
+      "sha256": "9c2fd84950b34323a35fdd5202973b084d16cbb762626ec473ec7b75ecdd6f13"
+    },
+    {
+      "resource": "card_illustration/unique_30084_08.sct",
+      "file": "cards/unique_30084_08.png",
+      "sha256": "13140ba6ac6dac908ce644c5e4237b63396bffb8936d2aae869f2094ed1a224c"
+    },
+    {
+      "resource": "card_illustration/start_30115_02.sct",
+      "file": "cards/start_30115_02.png",
+      "sha256": "9b65957c52905344428bf075497e2e0da2b08329b0797a6dd334edb82ac2f5c0"
+    },
+    {
+      "resource": "card_illustration/collapse_30115_01.sct",
+      "file": "cards/collapse_30115_01.png",
+      "sha256": "9b2af85801a3e664526011e335fd2e0bd51bda8d423eda72a4e56e72bfb7402c"
+    },
+    {
+      "resource": "card_illustration/unique_1008_02.sct",
+      "file": "cards/unique_1008_02.png",
+      "sha256": "9aad9e6d49307b18e3b1d4a67a62af5d24668f65fb4cdef3b8ebc565512a710c"
+    },
+    {
+      "resource": "card_illustration/unique_1003_02.sct",
+      "file": "cards/unique_1003_02.png",
+      "sha256": "6754674df01a45f4b99dd00221cbf7cd0191644c98563e822d01ab6c014b3083"
+    },
+    {
+      "resource": "card_illustration/collapse_2_30115_02.sct",
+      "file": "cards/collapse_2_30115_02.png",
+      "sha256": "296ad94589eb6acf68f05e8ccec723f6ca7723be98bd9289d46bc0a567ed3b13"
+    },
+    {
+      "resource": "card_illustration/unique_1040_02.sct",
+      "file": "cards/unique_1040_02.png",
+      "sha256": "78e7e8a8d2411ee8c3e251307db8ad05cf1705a3287803968344d5742d7b1503"
+    },
+    {
+      "resource": "card_illustration/collapse_1003_02.sct",
+      "file": "cards/collapse_1003_02.png",
+      "sha256": "cd67d56934a9802bf0a3405fbe0435eb1c79414694728cd7dafbd46ad43abcc6"
+    },
+    {
+      "resource": "card_illustration/start_1003_01.sct",
+      "file": "cards/start_1003_01.png",
+      "sha256": "b9a1891bed5ea2cd792083948bb8a4c984020da7c27aa344c6238db89dc6162a"
+    },
+    {
+      "resource": "face/character/face_character_popup_1003.sct",
+      "file": "characters/1003.png",
+      "sha256": "ab37c76d5b55d27908d49fe1ecfd2a5140e63d87de013fa748b539a258bd19ac"
+    },
+    {
+      "resource": "face/character/face_character_popup_1004.sct",
+      "file": "characters/1004.png",
+      "sha256": "5364b52c6d4ef09959c8e61dc72b8a79ab20bd9445e1cb2e143e5320b00ab858"
+    },
+    {
+      "resource": "face/character/face_character_popup_1005.sct",
+      "file": "characters/1005.png",
+      "sha256": "dbc9c9dbe5406da7af42f81d777ccd6e78ca2975f3042295f45c8430c61f86f7"
+    },
+    {
+      "resource": "face/character/face_character_popup_1008.sct",
+      "file": "characters/1008.png",
+      "sha256": "e2669bf884875954423c4aa35b1ad147a49172e5486cdcbf68a026bd30e6fc6c"
+    },
+    {
+      "resource": "face/character/face_character_popup_1009.sct",
+      "file": "characters/1009.png",
+      "sha256": "c2692b8fd8237b046e7bcd3d6150b2f333b302504ee8f2d7dd5af1b601f59a58"
+    },
+    {
+      "resource": "face/character/face_character_popup_1010.sct",
+      "file": "characters/1010.png",
+      "sha256": "1d46cc5037aec0ea829c6068ae54c5e1f4d6c7148f99a24bc0917183382c5803"
+    },
+    {
+      "resource": "face/character/face_character_popup_1012.sct",
+      "file": "characters/1012.png",
+      "sha256": "edb3f8c4271b9ebf24a410f0134a67ac7ef8fe0c0f8d1aa6754872131d5a98a3"
+    },
+    {
+      "resource": "face/character/face_character_popup_1017.sct",
+      "file": "characters/1017.png",
+      "sha256": "369ecab3dcc2f38aab2a01463bbf1230255aaf96c5cc723e7429e64daa289812"
+    },
+    {
+      "resource": "face/character/face_character_popup_1018.sct",
+      "file": "characters/1018.png",
+      "sha256": "fa8fbf53570f6bad2c7c423726bac775746d1cf95da6546ae9aeb8f227e51b40"
+    },
+    {
+      "resource": "face/character/face_character_popup_1021.sct",
+      "file": "characters/1021.png",
+      "sha256": "add4f73489410a8b4fe91af82b7630e70358d702677b586b3af9ae04823a334d"
+    },
+    {
+      "resource": "face/character/face_character_popup_1024.sct",
+      "file": "characters/1024.png",
+      "sha256": "70701bde6ab00d6c1ef0f320058d66d4adb08e8d8509eeed91c477b123fde413"
+    },
+    {
+      "resource": "face/character/face_character_popup_1027.sct",
+      "file": "characters/1027.png",
+      "sha256": "4e94969bef7e2e68b3059823ee22b7e2448d6fadb6a57248c0c8c60e0d660c43"
+    },
+    {
+      "resource": "face/character/face_character_popup_1028.sct",
+      "file": "characters/1028.png",
+      "sha256": "b6638e4f2cfb78949e046a27771074aab9cd87ef3bbcf1b0b2b1b1b3ae19d8f7"
+    },
+    {
+      "resource": "face/character/face_character_popup_1033.sct",
+      "file": "characters/1033.png",
+      "sha256": "08587e28a4f87ab770527210ca7d7d7291683bffca0877a16b7e1577dec73b43"
+    },
+    {
+      "resource": "face/character/face_character_popup_1039.sct",
+      "file": "characters/1039.png",
+      "sha256": "1b138d78b1c1103befedfa3e6f72e859e874eeddb018479210ca852d4e2ca4b4"
+    },
+    {
+      "resource": "face/character/face_character_popup_1040.sct",
+      "file": "characters/1040.png",
+      "sha256": "8596be74f9c2f8f99ef4fb95035d187368faf520c7bf1c05eaae4d6b1284202c"
+    },
+    {
+      "resource": "face/character/face_character_popup_1041.sct",
+      "file": "characters/1041.png",
+      "sha256": "9fd0a90a256d3d38a5653bb6edde0f35e9550ac8e6520ea195cdcf03654380ab"
+    },
+    {
+      "resource": "face/character/face_character_popup_1043.sct",
+      "file": "characters/1043.png",
+      "sha256": "9d52648f787be13a3752d5dca46cff0d162dfb4db494523ed204ca83ca813475"
+    },
+    {
+      "resource": "face/character/face_character_popup_1049.sct",
+      "file": "characters/1049.png",
+      "sha256": "0ee755d9d0806121440c10803b82ef038d1895162d42920a538fc5c4b7cae4b8"
+    },
+    {
+      "resource": "face/character/face_character_popup_1050.sct",
+      "file": "characters/1050.png",
+      "sha256": "484fcf9f2ecf4e80752d77c2cf25c0bab5628af51e14e642af14e9bb52c4e567"
+    },
+    {
+      "resource": "face/character/face_character_popup_1052.sct",
+      "file": "characters/1052.png",
+      "sha256": "72a888fdbedc534112d7101972f6d273ed05f5feaec6534afb41105e93bf9667"
+    },
+    {
+      "resource": "face/character/face_character_popup_1055.sct",
+      "file": "characters/1055.png",
+      "sha256": "7a0b92b47f258691587bdc644bc6aa54f96dbb0986f099bc4106b7b29eda5027"
+    },
+    {
+      "resource": "face/character/face_character_popup_1056.sct",
+      "file": "characters/1056.png",
+      "sha256": "ac0b04732694b897bd3fa0b65aeed76e6ff7ec7b28e2be834504367d1639a821"
+    },
+    {
+      "resource": "face/character/face_character_popup_1057.sct",
+      "file": "characters/1057.png",
+      "sha256": "b1eabb73f331874852fbb58c18638fb6141c9da3dc2e03736b19e0332966718d"
+    },
+    {
+      "resource": "face/character/face_character_popup_1060.sct",
+      "file": "characters/1060.png",
+      "sha256": "c6073fa74f7d913992011b626e44466029cf8e1b20c428e425032e3e31d94726"
+    },
+    {
+      "resource": "face/character/face_character_popup_1061.sct",
+      "file": "characters/1061.png",
+      "sha256": "8688c194d3a3431027f2df0af5527526f8999c1ea303f93d52018845d1d8c6bc"
+    },
+    {
+      "resource": "face/character/face_character_popup_1062.sct",
+      "file": "characters/1062.png",
+      "sha256": "1afd1e15afd355a871eddf4a05df4c6902fb6f47bcf83b54cd6e57def49f7259"
+    },
+    {
+      "resource": "face/character/face_character_popup_1064.sct",
+      "file": "characters/1064.png",
+      "sha256": "24e30474abc0a48a2be0ea29a62b7d09cd69ce34709b43b6539856d6d50d6033"
+    },
+    {
+      "resource": "face/character/face_character_popup_1069.sct",
+      "file": "characters/1069.png",
+      "sha256": "240ea5fc01337ee80a3085fcde91c176632017285c0c3408d5586f9593116a8d"
+    },
+    {
+      "resource": "face/character/face_character_popup_30047.sct",
+      "file": "characters/30047.png",
+      "sha256": "f478d2fe4d6fee9a1030be8d0965b26ca54b1ac0b4d5f6d2e9788c143c653458"
+    },
+    {
+      "resource": "face/character/face_character_popup_30048.sct",
+      "file": "characters/30048.png",
+      "sha256": "6d8bfc420e88035b1f5c107121546e149671d955bb8ef1af920d3b17383d11a3"
+    },
+    {
+      "resource": "face/character/face_character_popup_30075.sct",
+      "file": "characters/30075.png",
+      "sha256": "ec2b0a223c2434e0151102f293f523b3f00f64409fc11008e63de3af3215c921"
+    },
+    {
+      "resource": "face/character/face_character_popup_30084.sct",
+      "file": "characters/30084.png",
+      "sha256": "740847d14d1d772d622c846e814760a29f2c3b01198df51f5714590c6f11b202"
+    },
+    {
+      "resource": "face/character/face_character_popup_30093.sct",
+      "file": "characters/30093.png",
+      "sha256": "7e0b3bece80da37d4ccf2d618e54734992ae3010d64deef8fa71e1289b570234"
+    },
+    {
+      "resource": "face/character/face_character_popup_30097.sct",
+      "file": "characters/30097.png",
+      "sha256": "2d6a9a90efca066cdd00b48976eae9dbb060ee65acac6f052e9b44cfb4df5145"
+    },
+    {
+      "resource": "face/character/face_character_popup_30113.sct",
+      "file": "characters/30113.png",
+      "sha256": "d4ba07d8b1160f89c638b943502154956e1eb09a86d8c76c01e770b318b9014c"
+    },
+    {
+      "resource": "face/character/face_character_popup_30115.sct",
+      "file": "characters/30115.png",
+      "sha256": "53fcd0f2933f7f60e366aa0ba9054eba4ef6a751b7d09fedc893e2c6ef8d5f8a"
+    },
+    {
+      "resource": "face/character/face_character_popup_30117.sct",
+      "file": "characters/30117.png",
+      "sha256": "19557a1a478886f74c5e9ab1ee003a1ee5d327c36dabc1bc014ddfa40161b57c"
+    },
+    {
+      "resource": "face/character/face_character_popup_30134.sct",
+      "file": "characters/30134.png",
+      "sha256": "8695d68179028df5d176ba119b2ec94242362af3c7ff7093e2bc3710ca97a953"
+    }
+  ],
+  "failures": []
+}

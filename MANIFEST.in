@@ -10,3 +10,4 @@ recursive-include examples *.txt
 recursive-include research *.md
 recursive-include research/samples *.json
 recursive-include tests *.py
+recursive-include src/czn_deckcode/assets *.json *.png *.txt

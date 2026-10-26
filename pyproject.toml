@@ -18,6 +18,9 @@ classifiers = [
     "Typing :: Typed",
 ]
 
+[project.optional-dependencies]
+desktop = ["Pillow>=10,<14"]
+
 [project.scripts]
 czn-deckcode = "czn_deckcode.cli:main"
 
@@ -34,4 +37,4 @@ where = ["src"]
 include = ["czn_deckcode*"]
 
 [tool.setuptools.package-data]
-czn_deckcode = ["py.typed"]
+czn_deckcode = ["py.typed", "assets/*.json", "assets/*.txt", "assets/cards/*.png", "assets/characters/*.png"]

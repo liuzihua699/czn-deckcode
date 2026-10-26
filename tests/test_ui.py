@@ -24,7 +24,9 @@ class NativeUITests(unittest.TestCase):
         except tk.TclError as error:
             self.skipTest(f"A graphical display or Xvfb is required: {error}")
         self.root.withdraw()
-        self.app = DeckApplication(self.root)
+        self.folder = tempfile.TemporaryDirectory()
+        self.addCleanup(self.folder.cleanup)
+        self.app = DeckApplication(self.root, Path(self.folder.name) / "decks.json")
         self.root.update_idletasks()
         try:
             self.previous_clipboard = self.root.clipboard_get()
@@ -78,8 +80,8 @@ class NativeUITests(unittest.TestCase):
         value = {"charId": "30134", "cards": [{"cardId": "c_30134_uni1", "removed": True}]}
         self.app._set_text(self.app.json_text, json.dumps(value))
         self.assertIsNotNone(self.app.apply_json())
-        self.assertEqual(len(self.app.tree.get_children()), 1)
-        self.assertEqual(self.app.card_vars["cardId"].get(), "c_30134_uni1")
+        self.assertEqual(len(self.app.tree.get_children()), 0)  # Removed cards are hidden by default.
+        self.assertEqual(self.app._cards[0]["cardId"], "c_30134_uni1")
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / "构筑.json"
             self.assertEqual(self.app.export_json(target), target)
@@ -100,7 +102,7 @@ class NativeUITests(unittest.TestCase):
             self.app.remove_card()
         self.assertEqual(self.app.tree.get_children(), ())
         self.assertIsNone(self.app._selected)
-        self.assertEqual(str(self.app.card_id_entry.cget("state")), "disabled")
+        self.assertEqual(self.app._deck_frames, {})
         self.app.remove_card()
         self.assertIn("请先选择", self.app.status_var.get())
 

@@ -1,0 +1,2731 @@
+{
+  "site": "https://cznmetadecks.com/zht/build",
+  "method": "encodeGamePresetAction via build server action",
+  "charId": "30134",
+  "caseCount": 61,
+  "cases": {
+    "baseline_all_active": {
+      "name": "baseline_all_active",
+      "kind": "baseline",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgIys0f1EFVQl"
+      },
+      "decodedByteLength": 42
+    },
+    "single_srt1": {
+      "name": "single_srt1",
+      "kind": "single_card",
+      "cardId": "c_30134_srt1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_srt2": {
+      "name": "single_srt2",
+      "kind": "single_card",
+      "cardId": "c_30134_srt2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2euY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_srt3": {
+      "name": "single_srt3",
+      "kind": "single_card",
+      "cardId": "c_30134_srt3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2cOY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_srt4": {
+      "name": "single_srt4",
+      "kind": "single_card",
+      "cardId": "c_30134_srt4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ZuY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_uni1": {
+      "name": "single_uni1",
+      "kind": "single_card",
+      "cardId": "c_30134_uni1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8NJACGQA"
+      },
+      "decodedByteLength": 19
+    },
+    "single_uni2": {
+      "name": "single_uni2",
+      "kind": "single_card",
+      "cardId": "c_30134_uni2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8NJA4GUeY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_uni3": {
+      "name": "single_uni3",
+      "kind": "single_card",
+      "cardId": "c_30134_uni3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8NJA4GceY"
+      },
+      "decodedByteLength": 20
+    },
+    "single_uni4": {
+      "name": "single_uni4",
+      "kind": "single_card",
+      "cardId": "c_30134_uni4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8NJA4GSeY"
+      },
+      "decodedByteLength": 20
+    },
+    "full_srt1_pot": {
+      "name": "full_srt1_pot",
+      "kind": "variant",
+      "cardId": "c_30134_srt1",
+      "variantCardId": "c_30134_srt1_pot",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt1_pot"
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr8NyAd5bz8N5Gb4BacatZtbvCiGK8hOVgDMQeQzajOCoFFXetl_PFE"
+      },
+      "decodedByteLength": 47
+    },
+    "full_srt2_pot": {
+      "name": "full_srt2_pot",
+      "kind": "variant",
+      "cardId": "c_30134_srt2",
+      "variantCardId": "c_30134_srt2_pot",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2RWVkrldciqHS_x_TtOWuIPktKsKDk3fMZWqiOA"
+      },
+      "decodedByteLength": 46
+    },
+    "full_removed_srt1": {
+      "name": "full_removed_srt1",
+      "kind": "removed",
+      "cardId": "c_30134_srt1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt1",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2euyrpB0zrEAWDUG38o5NmGAqjzNJHtwEZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_srt2": {
+      "name": "full_removed_srt2",
+      "kind": "removed",
+      "cardId": "c_30134_srt2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrpB0zrEAWDUG3ysa-MZEuNDVJHtw0Zg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_srt3": {
+      "name": "full_removed_srt3",
+      "kind": "removed",
+      "cardId": "c_30134_srt3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zrEAWDUG38s5KmGAqjzNJHtwUZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_srt4": {
+      "name": "full_removed_srt4",
+      "kind": "removed",
+      "cardId": "c_30134_srt4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zokAWDUG38s5KmGAqjzNJHtwsZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_uni1": {
+      "name": "full_removed_uni1",
+      "kind": "removed",
+      "cardId": "c_30134_uni1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcW_SevgMyrUXjQ6zEtZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_uni2": {
+      "name": "full_removed_uni2",
+      "kind": "removed",
+      "cardId": "c_30134_uni2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgMyrUXjQ6zEhZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_uni3": {
+      "name": "full_removed_uni3",
+      "kind": "removed",
+      "cardId": "c_30134_uni3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgIysUXjQ6zEpZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_removed_uni4": {
+      "name": "full_removed_uni4",
+      "kind": "removed",
+      "cardId": "c_30134_uni4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgIys0X3Q6zEnZg"
+      },
+      "decodedByteLength": 43
+    },
+    "full_duplicate_srt1": {
+      "name": "full_duplicate_srt1",
+      "kind": "duplicate",
+      "cardId": "c_30134_srt1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Jzwd5bz8N5Gb2RUV0aEMcL2EXjcVeVgDCY1buGLGPMbcEj9CJLtSJcd4"
+      },
+      "decodedByteLength": 50
+    },
+    "full_duplicate_srt2": {
+      "name": "full_duplicate_srt2",
+      "kind": "duplicate",
+      "cardId": "c_30134_srt2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2Re1WcxAFJrqfacbUcblWJAItCHBd9JQWJDKR0VJXad4"
+      },
+      "decodedByteLength": 50
+    },
+    "full_duplicate_srt3": {
+      "name": "full_duplicate_srt3",
+      "kind": "duplicate",
+      "cardId": "c_30134_srt3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrNJ3NSWy_JQpEdycM8AotCHBd9JQWJDKpm6Gicw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_duplicate_srt4": {
+      "name": "full_duplicate_srt4",
+      "kind": "duplicate",
+      "cardId": "c_30134_srt4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iJbEmZCUWFe8_WOPHJd9JRmVNhUYEVwet4"
+      },
+      "decodedByteLength": 50
+    },
+    "full_duplicate_uni1": {
+      "name": "full_duplicate_uni1",
+      "kind": "duplicate",
+      "cardId": "c_30134_uni1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIalk6kuteep_6PBUIKmultye2Pll7Ss"
+      },
+      "decodedByteLength": 51
+    },
+    "full_duplicate_uni2": {
+      "name": "full_duplicate_uni2",
+      "kind": "duplicate",
+      "cardId": "c_30134_uni2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcPR3ye4rDCfX8dNweToVScRt4"
+      },
+      "decodedByteLength": 50
+    },
+    "full_duplicate_uni3": {
+      "name": "full_duplicate_uni3",
+      "kind": "duplicate",
+      "cardId": "c_30134_uni3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": true
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuNSPG33Y9_Zk78cIELujcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_duplicate_uni4": {
+      "name": "full_duplicate_uni4",
+      "kind": "duplicate",
+      "cardId": "c_30134_uni4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgIys0X3E6zHnTte9YPVOdd4"
+      },
+      "decodedByteLength": 50
+    },
+    "full_reverse_order": {
+      "name": "full_reverse_order",
+      "kind": "order_control",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8NJA4GSeyrpB0zqmKkZfcWvSavgIysUelEFV4l"
+      },
+      "decodedByteLength": 42
+    },
+    "user_build1_exact_replay": {
+      "name": "user_build1_exact_replay",
+      "kind": "user_case_replay",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt1_pot"
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr8NyAd5bz8N5Gb4BacatRLcP_gTJk6Sy-IpI4UudHIDQRTERzqzgUXu"
+      }
+    },
+    "user_build2_exact_replay": {
+      "name": "user_build2_exact_replay",
+      "kind": "user_case_replay",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt1",
+            "removed": true
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr8NyAd5bz8N5Gb4OqcatZtbvCimK8hSEmQXL6ecqhDgm1Wc7cJpLBLu"
+      }
+    },
+    "prefix_1_active": {
+      "name": "prefix_1_active",
+      "kind": "card_count",
+      "cardCount": 1,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+      },
+      "decodedByteLength": 20
+    },
+    "prefix_2_active": {
+      "name": "prefix_2_active",
+      "kind": "card_count",
+      "cardCount": 2,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNrXNzwd5bz8N5Gb2ReyrtJg"
+      },
+      "decodedByteLength": 23
+    },
+    "prefix_3_active": {
+      "name": "prefix_3_active",
+      "kind": "card_count",
+      "cardCount": 3,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNqXNzwd5bz8N5Gb2ReyrtB0zIqA"
+      },
+      "decodedByteLength": 26
+    },
+    "prefix_4_active": {
+      "name": "prefix_4_active",
+      "kind": "card_count",
+      "cardCount": 4,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNrnNzwd5bz8N5Gb2ReyrtB0zomKkIAc"
+      },
+      "decodedByteLength": 29
+    },
+    "prefix_5_active": {
+      "name": "prefix_5_active",
+      "kind": "card_count",
+      "cardCount": 5,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNqnNzwd5bz8N5Gb2ReyrtB0zomKkYPcWHWdO"
+      },
+      "decodedByteLength": 33
+    },
+    "prefix_6_active": {
+      "name": "prefix_6_active",
+      "kind": "card_count",
+      "cardCount": 6,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNrHNzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuGSv"
+      },
+      "decodedByteLength": 36
+    },
+    "prefix_7_active": {
+      "name": "prefix_7_active",
+      "kind": "card_count",
+      "cardCount": 7,
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNqHNzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevgIys0f3B"
+      },
+      "decodedByteLength": 39
+    },
+    "full_srt4_rsp1": {
+      "name": "full_srt4_rsp1",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_srt4",
+      "variantCardId": "c_30134_srt4_rsp1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp1"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iRbEmZCVx1AgOH_5oPYeFnsTkPraSnIcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_srt4_rsp2": {
+      "name": "full_srt4_rsp2",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_srt4",
+      "variantCardId": "c_30134_srt4_rsp2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp2"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iRbEmZCV51EgOH_5oPYeFnsTkPraSnIcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_srt4_rsp3": {
+      "name": "full_srt4_rsp3",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_srt4",
+      "variantCardId": "c_30134_srt4_rsp3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp3"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iRbEmZCVx1JgOH_5oPYeFnsTkPraSnIcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_srt4_rsp4": {
+      "name": "full_srt4_rsp4",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_srt4",
+      "variantCardId": "c_30134_srt4_rsp4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iRbEmZCV51NgOH_5oPYeFnsTkPraSnIcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_srt4_rsp5": {
+      "name": "full_srt4_rsp5",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_srt4",
+      "variantCardId": "c_30134_srt4_rsp5",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0z4iRbEmZCVx1OgOH_5oPYeFnsTkPraSnIcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni1_rsp1": {
+      "name": "full_uni1_rsp1",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni1",
+      "variantCardId": "c_30134_uni1_rsp1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp1"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIWlk6kuteHV_dBFIlhXRNm_8Xl-0N8"
+      },
+      "decodedByteLength": 50
+    },
+    "full_uni1_rsp2": {
+      "name": "full_uni1_rsp2",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni1",
+      "variantCardId": "c_30134_uni1_rsp2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp2"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIWlk6kuteFV-dBFIlhXRNm_8Xl-0N8"
+      },
+      "decodedByteLength": 50
+    },
+    "full_uni1_rsp3": {
+      "name": "full_uni1_rsp3",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni1",
+      "variantCardId": "c_30134_uni1_rsp3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp3"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIWlk6kuteHV5tBFIlhXRNm_8Xl-0N8"
+      },
+      "decodedByteLength": 50
+    },
+    "full_uni1_rsp4": {
+      "name": "full_uni1_rsp4",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni1",
+      "variantCardId": "c_30134_uni1_rsp4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIWlk6kuteFV4tBFIlhXRNm_8Xl-0N8"
+      },
+      "decodedByteLength": 50
+    },
+    "full_uni1_rsp5": {
+      "name": "full_uni1_rsp5",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni1",
+      "variantCardId": "c_30134_uni1_rsp5",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkQIWlk6kuteHV79BFIlhXRNm_8Xl-0N8"
+      },
+      "decodedByteLength": 50
+    },
+    "full_uni2_rsp1": {
+      "name": "full_uni2_rsp1",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni2",
+      "variantCardId": "c_30134_uni2_rsp1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp1"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcMR3ye4rP8_EZnN13ULJk_cw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni2_rsp2": {
+      "name": "full_uni2_rsp2",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni2",
+      "variantCardId": "c_30134_uni2_rsp2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp2"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcMR3ye4rO8_kZnN13ULJk_cw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni2_rsp3": {
+      "name": "full_uni2_rsp3",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni2",
+      "variantCardId": "c_30134_uni2_rsp3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp3"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcMR3ye4rN8-EZnN13ULJk_cw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni2_rsp4": {
+      "name": "full_uni2_rsp4",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni2",
+      "variantCardId": "c_30134_uni2_rsp4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcMR3ye4rM8-kZnN13ULJk_cw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni2_rsp5": {
+      "name": "full_uni2_rsp5",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni2",
+      "variantCardId": "c_30134_uni2_rsp5",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHQcMR3ye4rP89UZnN13ULJk_cw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni3_rsp1": {
+      "name": "full_uni3_rsp1",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni3",
+      "variantCardId": "c_30134_uni3_rsp1",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp1"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuFSOG33Yd_fk5sPyaT_scw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni3_rsp2": {
+      "name": "full_uni3_rsp2",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni3",
+      "variantCardId": "c_30134_uni3_rsp2",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp2"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuFSOG33Yd_fbIdsREGbvcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni3_rsp3": {
+      "name": "full_uni3_rsp3",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni3",
+      "variantCardId": "c_30134_uni3_rsp3",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp3"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuFSOG33Yd_c7IdsREGbvcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni3_rsp4": {
+      "name": "full_uni3_rsp4",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni3",
+      "variantCardId": "c_30134_uni3_rsp4",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuFSOG33Yd_cbINsREGbvcw"
+      },
+      "decodedByteLength": 49
+    },
+    "full_uni3_rsp5": {
+      "name": "full_uni3_rsp5",
+      "kind": "rSpark_variant",
+      "baseCardId": "c_30134_uni3",
+      "variantCardId": "c_30134_uni3_rsp5",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2ReyrtB0zomKkYPcWHSevuFSOG33Yd_d7I9sREGbvcw"
+      },
+      "decodedByteLength": 49
+    },
+    "bridge_srt1_active_no_pot_srt2_pot": {
+      "name": "bridge_srt1_active_no_pot_srt2_pot",
+      "kind": "controlled_bridge",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr_Nzwd5bz8N5Gb2RWVkrldciqHS_x_TtOWuIPktKsKDk3fMZWqiOA"
+      },
+      "decodedByteLength": 46
+    },
+    "bridge_srt1_active_last_srt2_pot": {
+      "name": "bridge_srt1_active_last_srt2_pot",
+      "kind": "controlled_bridge_order_matched",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNr8NyAd5bz8N5Gb4OqcatZtbvCimK8hSEmQXL6ecqhDgm1WcbRake1E"
+      },
+      "decodeCheck": {
+        "ok": true,
+        "preset": {
+          "charId": "30134",
+          "cards": [
+            {
+              "cardId": "c_30134_srt2_pot",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_srt3",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_srt4",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_uni1",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_uni2",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_uni3",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_uni4",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            },
+            {
+              "cardId": "c_30134_srt1",
+              "removed": false,
+              "duplicate": false,
+              "epiphanyId": null,
+              "divineId": null,
+              "god": "",
+              "variantCardId": ""
+            }
+          ]
+        }
+      },
+      "decodeHttpStatus": 200,
+      "decodedByteLength": 47
+    },
+    "single_srt1_pot": {
+      "name": "single_srt1_pot",
+      "kind": "single_card_variant",
+      "cardId": "c_30134_srt1",
+      "variantCardId": "c_30134_srt1_pot",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt1_pot"
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq0NyAd5bz8N5Gb4BacatZg"
+      },
+      "decodedByteLength": 23
+    },
+    "single_srt2_pot": {
+      "name": "single_srt2_pot",
+      "kind": "single_card_variant",
+      "cardId": "c_30134_srt2",
+      "variantCardId": "c_30134_srt2_pot",
+      "charId": "30134",
+      "request": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt2",
+            "duplicate": false,
+            "variantCardId": "c_30134_srt2_pot"
+          }
+        ]
+      },
+      "httpStatus": 200,
+      "result": {
+        "ok": true,
+        "code": "v6l8cOjiNq0NyAd5bz8N5Gb4OqcatZg"
+      },
+      "decodedByteLength": 23
+    }
+  }
+}

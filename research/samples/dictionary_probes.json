@@ -1,0 +1,648 @@
+[
+  {
+    "name": "dict_c_0_rsp3",
+    "number": 0,
+    "cardId": "c_0_rsp3",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp3"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Msv8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z4Mtf8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Mt_8\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z6Msv8"
+    },
+    "hex": "bfa97cc87e1c4774c2df3e8cb2ff"
+  },
+  {
+    "name": "dict_c_0_rsp4",
+    "number": 0,
+    "cardId": "c_0_rsp4",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp4"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Msv8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z4Mtf8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Mt_8\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4Mtf8"
+    },
+    "hex": "bfa97cc87e1c4774c2df3e0cb5ff"
+  },
+  {
+    "name": "dict_c_0_rsp5",
+    "number": 0,
+    "cardId": "c_0_rsp5",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp5"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Msv8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z4Mtf8\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z6Mt_8\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z6Mt_8"
+    },
+    "hex": "bfa97cc87e1c4774c2df3e8cb7ff"
+  },
+  {
+    "name": "dict_c_0_pot",
+    "number": 0,
+    "cardId": "c_0_pot",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_pot"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4utP8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z5utv8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4Wtg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4utP8"
+    },
+    "hex": "bfa97cc87e1cc773c2df3e2eb4ff"
+  },
+  {
+    "name": "dict_c_0_lbk",
+    "number": 0,
+    "cardId": "c_0_lbk",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_lbk"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4utP8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z5utv8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4Wtg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z5utv8"
+    },
+    "hex": "bfa97cc87e1cc773c2df3e6eb6ff"
+  },
+  {
+    "name": "dict_c_0_col",
+    "number": 0,
+    "cardId": "c_0_col",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_col"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4utP8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z5utv8\"},{\"ok\":true,\"code\":\"v6l8yH4cx3PC3z4Wtg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4Wtg"
+    },
+    "hex": "bfa97cc87e1cc773c2df3e16b6"
+  },
+  {
+    "name": "dict_c_0_c_",
+    "number": 0,
+    "cardId": "c_0_c_",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_c_"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_c_\"},{\"ok\":true,\"code\":\"v6l8yH4cxz8XiD6n\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z68uf8\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_c_"
+    }
+  },
+  {
+    "name": "dict_card_0",
+    "number": 0,
+    "cardId": "card_0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_0"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_c_\"},{\"ok\":true,\"code\":\"v6l8yH4cxz8XiD6n\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z68uf8\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cxz8XiD6n"
+    },
+    "hex": "bfa97cc87e1cc73f17883ea7"
+  },
+  {
+    "name": "dict_c_0_srt1",
+    "number": 0,
+    "cardId": "c_0_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_c_\"},{\"ok\":true,\"code\":\"v6l8yH4cxz8XiD6n\"},{\"ok\":true,\"code\":\"v6l8yH4cR3TC3z68uf8\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68uf8"
+    },
+    "hex": "bfa97cc87e1c4774c2df3ebcb9ff"
+  },
+  {
+    "name": "dict_p_spark_copy_count",
+    "number": 0,
+    "cardId": "p_spark_copy_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "p_spark_copy_count"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4ctxbMMCM4K6CNJf0GH3wzvpg\"},{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"r_spark_copy_count\"},{\"ok\":true,\"code\":\"v6l8yH4ctxbMMDMSn0Dpk2aa\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ctxbMMCM4K6CNJf0GH3wzvpg"
+    },
+    "hex": "bfa97cc87e1cb716cc3023382ba08d25fd061f7c33be98"
+  },
+  {
+    "name": "dict_r_spark_copy_count",
+    "number": 0,
+    "cardId": "r_spark_copy_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "r_spark_copy_count"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4ctxbMMCM4K6CNJf0GH3wzvpg\"},{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"r_spark_copy_count\"},{\"ok\":true,\"code\":\"v6l8yH4ctxbMMDMSn0Dpk2aa\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "r_spark_copy_count"
+    }
+  },
+  {
+    "name": "dict_p_spark_card_count",
+    "number": 0,
+    "cardId": "p_spark_card_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "p_spark_card_count"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4ctxbMMCM4K6CNJf0GH3wzvpg\"},{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"r_spark_copy_count\"},{\"ok\":true,\"code\":\"v6l8yH4ctxbMMDMSn0Dpk2aa\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ctxbMMDMSn0Dpk2aa"
+    },
+    "hex": "bfa97cc87e1cb716cc3033129f40e993669a"
+  },
+  {
+    "name": "dict_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2",
+    "number": 0,
+    "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2\"},{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"rsp3_c_rsp4_c_rsp5_c_\"},{\"ok\":false,\"error\":\"cannotExport\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+    }
+  },
+  {
+    "name": "dict_rsp3_c_rsp4_c_rsp5_c_",
+    "number": 0,
+    "cardId": "rsp3_c_rsp4_c_rsp5_c_",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "rsp3_c_rsp4_c_rsp5_c_"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2\"},{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"rsp3_c_rsp4_c_rsp5_c_\"},{\"ok\":false,\"error\":\"cannotExport\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "rsp3_c_rsp4_c_rsp5_c_"
+    }
+  },
+  {
+    "name": "dict_c_0_r_spark_copy_count_x",
+    "number": 0,
+    "cardId": "c_0_r_spark_copy_count_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_r_spark_copy_count_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-qGBBYzKD33o7Js9GcaGX\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC37aINyfSiU69f8lRAppU\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-uErxG121dVhmvA\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC375-qGBBYzKD33o7Js9GcaGX"
+    },
+    "hex": "bfa97cc87e1c3774c2dfbe7ea86041633283df7a3b26cf4671a197"
+  },
+  {
+    "name": "dict_c_0_p_spark_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_p_spark_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_p_spark_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-qGBBYzKD33o7Js9GcaGX\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC37aINyfSiU69f8lRAppU\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-uErxG121dVhmvA\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC37aINyfSiU69f8lRAppU"
+    },
+    "hex": "bfa97cc87e1c3774c2dfb6883727d2894ebd7fc951029a54"
+  },
+  {
+    "name": "dict_c_0_r_spark_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_r_spark_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_r_spark_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-qGBBYzKD33o7Js9GcaGX\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC37aINyfSiU69f8lRAppU\"},{\"ok\":true,\"code\":\"v6l8yH4cN3TC375-uErxG121dVhmvA\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC375-uErxG121dVhmvA"
+    },
+    "hex": "bfa97cc87e1c3774c2dfbe7eb84af11b5db5755866bc"
+  },
+  {
+    "name": "dict_c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x",
+    "number": 0,
+    "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x\"},{\"ok\":true,\"code\":\"v6l8yH4cN3bC3_5JB_Xd\"},{\"ok\":true,\"code\":\"v6l8yH4cr3HC3779JaCNtY6A8OY8mj3gDoekGLZyxsVomNqbR9X_S3EaScYWK33uFVzpygI\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x"
+    }
+  },
+  {
+    "name": "dict_c_0_rsp3_c_rsp4_c_rsp5_c_x",
+    "number": 0,
+    "cardId": "c_0_rsp3_c_rsp4_c_rsp5_c_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp3_c_rsp4_c_rsp5_c_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x\"},{\"ok\":true,\"code\":\"v6l8yH4cN3bC3_5JB_Xd\"},{\"ok\":true,\"code\":\"v6l8yH4cr3HC3779JaCNtY6A8OY8mj3gDoekGLZyxsVomNqbR9X_S3EaScYWK33uFVzpygI\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3bC3_5JB_Xd"
+    },
+    "hex": "bfa97cc87e1c3776c2dffe4907f5dd"
+  },
+  {
+    "name": "dict_c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x\"},{\"ok\":true,\"code\":\"v6l8yH4cN3bC3_5JB_Xd\"},{\"ok\":true,\"code\":\"v6l8yH4cr3HC3779JaCNtY6A8OY8mj3gDoekGLZyxsVomNqbR9X_S3EaScYWK33uFVzpygI\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cr3HC3779JaCNtY6A8OY8mj3gDoekGLZyxsVomNqbR9X_S3EaScYWK33uFVzpygI"
+    },
+    "hex": "bfa97cc87e1caf71c2dfbefd25a08db58e80f0e63c9a3de00e87a418b672c6c56898da9b47d5ff4b711a49c6162b7dee155ce9ca02"
+  },
+  {
+    "name": "dict_c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x",
+    "number": 0,
+    "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x\"},{\"ok\":true,\"code\":\"v6l8yH4cF3fC3779JaCNJf3OWXn44wIDLELyh6GSdHKrRqNI_5RnFbAEzxl9d5iiuJKBa63rMg\"},{\"ok\":true,\"code\":\"v6l8yH4cF3PC337RtCM_qLYulFqGaGC2_CIV3aVEe0uKmJyqfQAIi_NcQyKlOA\"}]\n",
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x"
+    }
+  },
+  {
+    "name": "dict_c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x",
+    "number": 0,
+    "cardId": "c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x\"},{\"ok\":true,\"code\":\"v6l8yH4cF3fC3779JaCNJf3OWXn44wIDLELyh6GSdHKrRqNI_5RnFbAEzxl9d5iiuJKBa63rMg\"},{\"ok\":true,\"code\":\"v6l8yH4cF3PC337RtCM_qLYulFqGaGC2_CIV3aVEe0uKmJyqfQAIi_NcQyKlOA\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cF3fC3779JaCNJf3OWXn44wIDLELyh6GSdHKrRqNI_5RnFbAEzxl9d5iiuJKBa63rMg"
+    },
+    "hex": "bfa97cc87e1c1777c2dfbefd25a08d25fdce5979f8e302032c42f287a1927472ab46a348ff946715b004cf197d7798a2b892816badeb32"
+  },
+  {
+    "name": "dict_c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x",
+    "number": 0,
+    "cardId": "c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":false,\"error\":\"cannotExport\",\"reason\":\"badCardId\",\"cardId\":\"c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x\"},{\"ok\":true,\"code\":\"v6l8yH4cF3fC3779JaCNJf3OWXn44wIDLELyh6GSdHKrRqNI_5RnFbAEzxl9d5iiuJKBa63rMg\"},{\"ok\":true,\"code\":\"v6l8yH4cF3PC337RtCM_qLYulFqGaGC2_CIV3aVEe0uKmJyqfQAIi_NcQyKlOA\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cF3PC337RtCM_qLYulFqGaGC2_CIV3aVEe0uKmJyqfQAIi_NcQyKlOA"
+    },
+    "hex": "bfa97cc87e1c1773c2df7ed1b4233fa8b62e945a866860b6fc2215dda5447b4b8a989caa7d00088bf35c4322a538"
+  },
+  {
+    "name": "dict_c_0_add_r_spark_assault_r_spark_vitor_circen_diallos_nihilum_secred_caligo_x",
+    "number": 0,
+    "cardId": "c_0_add_r_spark_assault_r_spark_vitor_circen_diallos_nihilum_secred_caligo_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_add_r_spark_assault_r_spark_vitor_circen_diallos_nihilum_secred_caligo_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cV3XC337RtCO_JN2288LblKZtnYiuFCho9lR_hkIQ0M_uQXUWweeHhmnbyvaZxDzSAxH4dj6_FcE\"},{\"ok\":true,\"code\":\"v6l8vtapqrxs5Dvnazfs5IA_aWv01NMeP2ag_-Dz8AKIqFOiF15TLFSTd_sGLOJNS_MU3fThbrRRCXekLsNR2vfVJXiLmg\"},{\"ok\":true,\"code\":\"v6l8yH4cl3PC37bogf_cNAeS4upp_aQ3LeOEuQSWoRfDUHCv\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cV3XC337RtCO_JN2288LblKZtnYiuFCho9lR_hkIQ0M_uQXUWweeHhmnbyvaZxDzSAxH4dj6_FcE"
+    },
+    "hex": "bfa97cc87e1c5775c2df7ed1b423bf24ddb6f3c2db94a66d9d88ae142868f6547f864210d0cfee417516c1e7878669dbcaf699c43cd20311f8763ebf15c1"
+  },
+  {
+    "name": "dict_c_0_control_change_cost_down_up_draw_remove_retain_exhaust_replication_x",
+    "number": 0,
+    "cardId": "c_0_control_change_cost_down_up_draw_remove_retain_exhaust_replication_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_control_change_cost_down_up_draw_remove_retain_exhaust_replication_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cV3XC337RtCO_JN2288LblKZtnYiuFCho9lR_hkIQ0M_uQXUWweeHhmnbyvaZxDzSAxH4dj6_FcE\"},{\"ok\":true,\"code\":\"v6l8vtapqrxs5Dvnazfs5IA_aWv01NMeP2ag_-Dz8AKIqFOiF15TLFSTd_sGLOJNS_MU3fThbrRRCXekLsNR2vfVJXiLmg\"},{\"ok\":true,\"code\":\"v6l8yH4cl3PC37bogf_cNAeS4upp_aQ3LeOEuQSWoRfDUHCv\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8vtapqrxs5Dvnazfs5IA_aWv01NMeP2ag_-Dz8AKIqFOiF15TLFSTd_sGLOJNS_MU3fThbrRRCXekLsNR2vfVJXiLmg"
+    },
+    "hex": "bfa97cbed6a9aabc6ce43be76b37ece4803f696bf4d4d31e3f66a0ffe0f3f00288a853a2175e532c549377fb062ce24d4bf314ddf4e16eb4510977a42ec351daf7d525788b9a"
+  },
+  {
+    "name": "dict_c_0_c00000_c00001_c00110_c03014_card_c_c0000_col_col2_x",
+    "number": 0,
+    "cardId": "c_0_c00000_c00001_c00110_c03014_card_c_c0000_col_col2_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_c00000_c00001_c00110_c03014_card_c_c0000_col_col2_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cV3XC337RtCO_JN2288LblKZtnYiuFCho9lR_hkIQ0M_uQXUWweeHhmnbyvaZxDzSAxH4dj6_FcE\"},{\"ok\":true,\"code\":\"v6l8vtapqrxs5Dvnazfs5IA_aWv01NMeP2ag_-Dz8AKIqFOiF15TLFSTd_sGLOJNS_MU3fThbrRRCXekLsNR2vfVJXiLmg\"},{\"ok\":true,\"code\":\"v6l8yH4cl3PC37bogf_cNAeS4upp_aQ3LeOEuQSWoRfDUHCv\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cl3PC37bogf_cNAeS4upp_aQ3LeOEuQSWoRfDUHCv"
+    },
+    "hex": "bfa97cc87e1c9773c2dfb6e881ffdc340792e2ea69fda4372de384b90496a117c35070af"
+  },
+  {
+    "name": "dict_c_0_rsp1x",
+    "number": 0,
+    "cardId": "c_0_rsp1x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp1x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z7MHf_d\"},{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z4MGP_d\"},{\"ok\":true,\"code\":\"v6l8yH4cxxNMg5entw\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3DC3z7MHf_d"
+    },
+    "hex": "bfa97cc87e1c4770c2df3ecc1dffdd"
+  },
+  {
+    "name": "dict_c_0_rsp2x",
+    "number": 0,
+    "cardId": "c_0_rsp2x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp2x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z7MHf_d\"},{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z4MGP_d\"},{\"ok\":true,\"code\":\"v6l8yH4cxxNMg5entw\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3DC3z4MGP_d"
+    },
+    "hex": "bfa97cc87e1c4770c2df3e0c18ffdd"
+  },
+  {
+    "name": "dict_p_rsp1x",
+    "number": 0,
+    "cardId": "p_rsp1x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "p_rsp1x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z7MHf_d\"},{\"ok\":true,\"code\":\"v6l8yH4cR3DC3z4MGP_d\"},{\"ok\":true,\"code\":\"v6l8yH4cxxNMg5entw\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cxxNMg5entw"
+    },
+    "hex": "bfa97cc87e1cc7134c8397a7b7"
+  },
+  {
+    "name": "dict_c_0_normal_common_rare_unique_legend_legendary_card_skill_attack_power_cost_reduction_cost_down_cost_up_damage_shield_heal_healing_draw_count_assault_remove_destroy_exhaust_retain_innate_god_divine_epiphany_upgrade_replace_change_add_random_x",
+    "number": 0,
+    "cardId": "c_0_normal_common_rare_unique_legend_legendary_card_skill_attack_power_cost_reduction_cost_down_cost_up_damage_shield_heal_healing_draw_count_assault_remove_destroy_exhaust_retain_innate_god_divine_epiphany_upgrade_replace_change_add_random_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_normal_common_rare_unique_legend_legendary_card_skill_attack_power_cost_reduction_cost_down_cost_up_damage_shield_heal_healing_draw_count_assault_remove_destroy_exhaust_retain_innate_god_divine_epiphany_upgrade_replace_change_add_random_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8lk6jKv985FWQDXLV_UD241CA73TydxuEPdVCJETfW4XsXwosDxnd56rEAT5TyP-ImagWHJT6mPW6M09U928xWXXcMU71mvIFp8VvvmhzN7yFKNnkxDZbzysyjNHWlygnZGBsiPCEC_RUa7NQwaMTO603ZObEkY1g9VLL5SC7vjLFNVgTlarOKoAFR5L7EcK453BFFFOE1RkKfWY\"},{\"ok\":true,\"code\":\"v6l85pEpqf4M4HpKOkMMOHPN0ssIPK65u50S-G_ajGTXpvwWxGYWsO5nytZdUlyMj_oHtK7VkwjCJVXUEnjyxsjRe2b7BRLMPO62woIYv4RLsMRBtzcTFtxpmXGYAAMFsOHwv7hQg_iVMfuQMxX0aIXYfQBD8mP--oGmga3tFR8w24NJVdY9fxpHv_h90Vru8P0YroAj\"},{\"ok\":true,\"code\":\"v6l8ntG5yv8M5Hr2DFypCMIiY21seY0cZBbcbxAXUYO6DopwBkZuybQm8Sb8kPTcQ5JwhiOHAQm8XzQ4tyOJv9EorNIpP97fu3WR0FU9QnYDUop5oQM56uZZjGzL6EujUiiox-o49Clo4stUq7XhHW550yKAlMXskmfoVopFtqvnOvxH3vssdjipTSey9tAXzQ-_szzAgBTwv0VoLwg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8lk6jKv985FWQDXLV_UD241CA73TydxuEPdVCJETfW4XsXwosDxnd56rEAT5TyP-ImagWHJT6mPW6M09U928xWXXcMU71mvIFp8VvvmhzN7yFKNnkxDZbzysyjNHWlygnZGBsiPCEC_RUa7NQwaMTO603ZObEkY1g9VLL5SC7vjLFNVgTlarOKoAFR5L7EcK453BFFFOE1RkKfWY"
+    },
+    "hex": "bfa97c964ea32aff7ce455900d72d5fd40f6e35080ef74f2771b843dd5422444df5b85ec5f0a2c0f19dde7aac4013e53c8ff8899a8161c94fa98f5ba334f54f76f315975dc314ef59af205a7c56fbe687337bc8528d9e4c4365bcf2b328cd1d697282764606c88f0840bf4546bb350c1a3133bad3764e6c4918d60f552cbe520bbbe32c535581395aace2a80054792fb11c2b8e77045145384d5190a7d66"
+  },
+  {
+    "name": "dict_c_0_engraving_enchantment_spark_card_battle_support_sortie_partners_action_modification_modifier_talent_replicate_replication_clone_copy_count_control_possession_survival_exploration_common_curse_blessing_rarity_target_origin_chance_x",
+    "number": 0,
+    "cardId": "c_0_engraving_enchantment_spark_card_battle_support_sortie_partners_action_modification_modifier_talent_replicate_replication_clone_copy_count_control_possession_survival_exploration_common_curse_blessing_rarity_target_origin_chance_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_engraving_enchantment_spark_card_battle_support_sortie_partners_action_modification_modifier_talent_replicate_replication_clone_copy_count_control_possession_survival_exploration_common_curse_blessing_rarity_target_origin_chance_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8lk6jKv985FWQDXLV_UD241CA73TydxuEPdVCJETfW4XsXwosDxnd56rEAT5TyP-ImagWHJT6mPW6M09U928xWXXcMU71mvIFp8VvvmhzN7yFKNnkxDZbzysyjNHWlygnZGBsiPCEC_RUa7NQwaMTO603ZObEkY1g9VLL5SC7vjLFNVgTlarOKoAFR5L7EcK453BFFFOE1RkKfWY\"},{\"ok\":true,\"code\":\"v6l85pEpqf4M4HpKOkMMOHPN0ssIPK65u50S-G_ajGTXpvwWxGYWsO5nytZdUlyMj_oHtK7VkwjCJVXUEnjyxsjRe2b7BRLMPO62woIYv4RLsMRBtzcTFtxpmXGYAAMFsOHwv7hQg_iVMfuQMxX0aIXYfQBD8mP--oGmga3tFR8w24NJVdY9fxpHv_h90Vru8P0YroAj\"},{\"ok\":true,\"code\":\"v6l8ntG5yv8M5Hr2DFypCMIiY21seY0cZBbcbxAXUYO6DopwBkZuybQm8Sb8kPTcQ5JwhiOHAQm8XzQ4tyOJv9EorNIpP97fu3WR0FU9QnYDUop5oQM56uZZjGzL6EujUiiox-o49Clo4stUq7XhHW550yKAlMXskmfoVopFtqvnOvxH3vssdjipTSey9tAXzQ-_szzAgBTwv0VoLwg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l85pEpqf4M4HpKOkMMOHPN0ssIPK65u50S-G_ajGTXpvwWxGYWsO5nytZdUlyMj_oHtK7VkwjCJVXUEnjyxsjRe2b7BRLMPO62woIYv4RLsMRBtzcTFtxpmXGYAAMFsOHwv7hQg_iVMfuQMxX0aIXYfQBD8mP--oGmga3tFR8w24NJVdY9fxpHv_h90Vru8P0YroAj"
+    },
+    "hex": "bfa97ce69129a9fe0ce07a4a3a430c3873cdd2cb083caeb9bb9d12f86fda8c64d7a6fc16c46616b0ee67cad65d525c8c8ffa07b4aed59308c22555d41278f2c6c8d17b66fb0512cc3ceeb6c28218bf844bb0c441b7371316dc69997198000305b0e1f0bfb85083f89531fb903315f46885d87d0043f263fefa81a681aded151f30db834955d63d7f1a47bff87dd15aeef0fd18ae8023"
+  },
+  {
+    "name": "dict_c_0_vitor_circen_diallos_nihilum_secred_caligo_rainbow_creed_love_instinct_norms_narcissism_neutral_extra_effect_type_name_value_r_spark_p_spark_regular_potential_principal_chaos_dream_lost_hidden_disabled_stat_attack_defense_burst_x",
+    "number": 0,
+    "cardId": "c_0_vitor_circen_diallos_nihilum_secred_caligo_rainbow_creed_love_instinct_norms_narcissism_neutral_extra_effect_type_name_value_r_spark_p_spark_regular_potential_principal_chaos_dream_lost_hidden_disabled_stat_attack_defense_burst_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_vitor_circen_diallos_nihilum_secred_caligo_rainbow_creed_love_instinct_norms_narcissism_neutral_extra_effect_type_name_value_r_spark_p_spark_regular_potential_principal_chaos_dream_lost_hidden_disabled_stat_attack_defense_burst_x"
+        }
+      ]
+    },
+    "status": 200,
+    "response": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"nWrFzF-hkOQ91_8rrD_6x\",\"q\":\"\",\"i\":false}\n1:[{\"ok\":true,\"code\":\"v6l8lk6jKv985FWQDXLV_UD241CA73TydxuEPdVCJETfW4XsXwosDxnd56rEAT5TyP-ImagWHJT6mPW6M09U928xWXXcMU71mvIFp8VvvmhzN7yFKNnkxDZbzysyjNHWlygnZGBsiPCEC_RUa7NQwaMTO603ZObEkY1g9VLL5SC7vjLFNVgTlarOKoAFR5L7EcK453BFFFOE1RkKfWY\"},{\"ok\":true,\"code\":\"v6l85pEpqf4M4HpKOkMMOHPN0ssIPK65u50S-G_ajGTXpvwWxGYWsO5nytZdUlyMj_oHtK7VkwjCJVXUEnjyxsjRe2b7BRLMPO62woIYv4RLsMRBtzcTFtxpmXGYAAMFsOHwv7hQg_iVMfuQMxX0aIXYfQBD8mP--oGmga3tFR8w24NJVdY9fxpHv_h90Vru8P0YroAj\"},{\"ok\":true,\"code\":\"v6l8ntG5yv8M5Hr2DFypCMIiY21seY0cZBbcbxAXUYO6DopwBkZuybQm8Sb8kPTcQ5JwhiOHAQm8XzQ4tyOJv9EorNIpP97fu3WR0FU9QnYDUop5oQM56uZZjGzL6EujUiiox-o49Clo4stUq7XhHW550yKAlMXskmfoVopFtqvnOvxH3vssdjipTSey9tAXzQ-_szzAgBTwv0VoLwg\"}]\n",
+    "result": {
+      "ok": true,
+      "code": "v6l8ntG5yv8M5Hr2DFypCMIiY21seY0cZBbcbxAXUYO6DopwBkZuybQm8Sb8kPTcQ5JwhiOHAQm8XzQ4tyOJv9EorNIpP97fu3WR0FU9QnYDUop5oQM56uZZjGzL6EujUiiox-o49Clo4stUq7XhHW550yKAlMXskmfoVopFtqvnOvxH3vssdjipTSey9tAXzQ-_szzAgBTwv0VoLwg"
+    },
+    "hex": "bfa97c9ed1b9caff0ce47af60c5ca908c222636d6c798d1c6416dc6f10175183ba0e8a7006466ec9b426f126fc90f4dc4392708623870109bc5f3438b72389bfd128acd2293fdedfbb7591d0553d427603528a79a10339eae6598c6ccbe84ba35228a8c7ea38f42968e2cb54abb5e11d6e79d3228094c5ec9267e8568a45b6abe73afc47defb2c7638a94d27b2f6d017cd0fbfb33cc08014f0bf45682f08"
+  }
+]

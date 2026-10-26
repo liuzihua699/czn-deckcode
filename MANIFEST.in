@@ -1,0 +1,12 @@
+include LICENSE README.md
+include run-ui.sh
+include 启动卡组工具.cmd
+include CZNDeckcode.spec
+recursive-include scripts *.py *.ps1
+recursive-include docs *.md
+recursive-include licenses *.txt
+recursive-include examples *.json
+recursive-include examples *.txt
+recursive-include research *.md
+recursive-include research/samples *.json
+recursive-include tests *.py

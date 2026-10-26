@@ -1,0 +1,39 @@
+{
+  "charId": "30134",
+  "cards": [
+    {
+      "cardId": "c_30134_srt1",
+      "duplicate": false,
+      "variantCardId": "c_30134_srt1_pot"
+    },
+    {
+      "cardId": "c_30134_srt2",
+      "duplicate": false,
+      "variantCardId": "c_30134_srt2_pot"
+    },
+    {
+      "cardId": "c_30134_srt3",
+      "duplicate": false
+    },
+    {
+      "cardId": "c_30134_srt4",
+      "duplicate": false
+    },
+    {
+      "cardId": "c_30134_uni1",
+      "duplicate": false
+    },
+    {
+      "cardId": "c_30134_uni2",
+      "duplicate": false
+    },
+    {
+      "cardId": "c_30134_uni3",
+      "duplicate": false
+    },
+    {
+      "cardId": "c_30134_uni4",
+      "duplicate": false
+    }
+  ]
+}

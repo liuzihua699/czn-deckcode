@@ -1,0 +1,658 @@
+[
+  {
+    "name": "none",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "removed",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "removed": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3dzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "duplicate",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "duplicate": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Jzwd5bz8N5Gb2RUV0aEMcL6GX"
+    }
+  },
+  {
+    "name": "epiphany_s_1",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "epiphany_n_1",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": 1
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "divine_s_1",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "divineId": "1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "divineWithoutEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "divine_n_1",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "divineId": 1
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "divineWithoutEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "god_foo",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "god": "foo"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "god_1",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "god": "1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "variant_pot",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "variantCardId": "c_30134_srt1_pot"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq0NyAd5bz8N5Gb4BacatZg"
+    }
+  },
+  {
+    "name": "variant_rsp",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "variantCardId": "c_30134_srt1_rsp1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Fzwd5bz8N5Gb2RUVEaFFcD6A"
+    }
+  },
+  {
+    "name": "epiphany_foo",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "foo"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "divine_foo",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "divineId": "foo"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "divineWithoutEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "god_NYX",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "god": "NYX"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "variant_foo",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "variantCardId": "foo"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "all_scalar",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "removed": true,
+          "duplicate": true,
+          "epiphanyId": "1",
+          "divineId": "2",
+          "god": "foo",
+          "variantCardId": "c_30134_srt1_rsp1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badDivine",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "variant_self",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "variantCardId": "c_30134_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Nzwd5bz8N5Gb2ReY"
+    }
+  },
+  {
+    "name": "unknown",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "123456",
+          "divineId": "654321",
+          "god": "god_1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "removed_duplicate",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "removed": true,
+          "duplicate": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Zzwd5bz8N5Gb2RUV0aEMcL6GX"
+    }
+  },
+  {
+    "name": "epiphany_e",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "e_001"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "divine_d",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "divineId": "d_001"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "divineWithoutEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "epi_c00000",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00000"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Fzwd5bz8N5Gb2RdU_DplcLqA"
+    }
+  },
+  {
+    "name": "epi_c00001",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Fzwd5bz8N5Gb2RdU_DhnVryG2IQ"
+    }
+  },
+  {
+    "name": "epi_c03014",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c03014"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Fzwd5bz8N5Gb2RdU_DhnlrwGeIQ"
+    }
+  },
+  {
+    "name": "epi_add_vitor",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "add_r_spark_vitor_01"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badEpiphany",
+      "cardId": "c_30134_srt1"
+    }
+  },
+  {
+    "name": "epi_divine_vitor",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "divineId": "add_r_spark_vitor_01"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RdU_DhnVryE2KZXlMax86pckCvzNcw"
+    }
+  },
+  {
+    "name": "epi_divine_vitor_god",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "divineId": "add_r_spark_vitor_01",
+          "god": "vitor"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RdU_DhnVryE2KZXlMax86pckCvzNcw"
+    }
+  },
+  {
+    "name": "epi_divine_circen",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "divineId": "add_r_spark_circen_02"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RdU_DhnVryE2CZXlMfR9Kvf8GxPM_lY"
+    }
+  },
+  {
+    "name": "epi_divine_badgod",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "divineId": "add_r_spark_vitor_01",
+          "god": "circen"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RdU_DhnVryE2KZXlMax86pckCvzNcw"
+    }
+  },
+  {
+    "name": "epi_assault",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "divineId": "assault_r_spark_vitor_1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RdU_DhnVryE2Gcsoe7SsalfkGnojf1c"
+    }
+  },
+  {
+    "name": "epi_rsp",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "epiphanyId": "c00001",
+          "variantCardId": "c_30134_srt1_rsp2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq3Fzwd5bz8N5Gb2RUVEaDVcD6A"
+    }
+  },
+  {
+    "name": "all_valid",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "removed": true,
+          "duplicate": true,
+          "epiphanyId": "c00001",
+          "divineId": "add_r_spark_vitor_01",
+          "god": "vitor",
+          "variantCardId": "c_30134_srt1_rsp2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Rzwd5bz8N5Gb2RUVEaDVcD7GzNsHBtvGqtqC08MPLM9UiTxOw"
+    }
+  },
+  {
+    "name": "divine_own",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_srt1",
+          "variantCardId": "c_30134_srt1_rsp1",
+          "divineId": "add_r_spark_vitor_01",
+          "god": "vitor"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNu3Fzwd5bz8N5Gb2RUVEaFFcD7GzNsHBtvGqtqC08PPB"
+    }
+  },
+  {
+    "name": "dup0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1",
+          "duplicate": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cRnTC3z68edfZyVLIUOZk"
+    }
+  },
+  {
+    "name": "dup0_other",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni4",
+          "duplicate": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cRnTC3z5M0-tfRnqzSOY"
+    }
+  },
+  {
+    "name": "dup30134_long",
+    "request": {
+      "charId": "30134",
+      "cards": [
+        {
+          "cardId": "c_30134_abcdefghijklmnopqrstuvwxyz",
+          "duplicate": true
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8cOjiNq0JwQd5bz8N5Eakcc9dma15E4OkCjxx5EjxAdUHUFV13uqH1FnhMEv2Ox-v4Q"
+    }
+  }
+]

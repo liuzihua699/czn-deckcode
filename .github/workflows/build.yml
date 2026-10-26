@@ -1,0 +1,53 @@
+name: Test and package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sdk:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install . build
+      - run: python -m unittest discover -s tests -v
+      - run: python -m build
+      - uses: actions/upload-artifact@v4
+        if: matrix.python == '3.12'
+        with:
+          name: python-package
+          path: |
+            dist/*.whl
+            dist/*.tar.gz
+
+  desktop:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install . "pyinstaller>=6.11,<7"
+      - run: python -m unittest discover -s tests -v
+      - run: python -m PyInstaller --noconfirm --clean CZNDeckcode.spec
+      - name: Check the packaged application
+        shell: pwsh
+        run: |
+          $app = Start-Process -FilePath .\dist\CZNDeckcode.exe -ArgumentList '--self-test', 'desktop-check.json' -PassThru -Wait
+          if ($app.ExitCode -ne 0) { throw "Packaged app self-test failed" }
+          $result = Get-Content desktop-check.json -Raw | ConvertFrom-Json
+          if (!$result.ok -or !$result.frozen) { throw "Packaged app is incomplete" }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CZNDeckcode-windows-x64
+          path: dist/CZNDeckcode.exe

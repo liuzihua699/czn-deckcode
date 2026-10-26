@@ -1,0 +1,2000 @@
+[
+  {
+    "name": "char_0_srt1",
+    "number": 0,
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68uf8"
+    }
+  },
+  {
+    "name": "char_1_srt1",
+    "number": 1,
+    "request": {
+      "charId": "1",
+      "cards": [
+        {
+          "cardId": "c_1_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yHocR3TC76XMv_8"
+    }
+  },
+  {
+    "name": "char_2_srt1",
+    "number": 2,
+    "request": {
+      "charId": "2",
+      "cards": [
+        {
+          "cardId": "c_2_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yHwcR3TC7yXOv_8"
+    }
+  },
+  {
+    "name": "char_4_srt1",
+    "number": 4,
+    "request": {
+      "charId": "4",
+      "cards": [
+        {
+          "cardId": "c_4_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH8cR3TC3z-8uf8"
+    }
+  },
+  {
+    "name": "char_8_srt1",
+    "number": 8,
+    "request": {
+      "charId": "8",
+      "cards": [
+        {
+          "cardId": "c_8_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8SH4cR3TCXz68uf8"
+    }
+  },
+  {
+    "name": "char_16_srt1",
+    "number": 16,
+    "request": {
+      "charId": "16",
+      "cards": [
+        {
+          "cardId": "c_16_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8uH4cR3DC3wqkLPHd"
+    }
+  },
+  {
+    "name": "char_32_srt1",
+    "number": 32,
+    "request": {
+      "charId": "32",
+      "cards": [
+        {
+          "cardId": "c_32_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8-H4cR3DC3zg83vfd"
+    }
+  },
+  {
+    "name": "char_64_srt1",
+    "number": 64,
+    "request": {
+      "charId": "64",
+      "cards": [
+        {
+          "cardId": "c_64_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l82H4cR3DC3w2mLPHd"
+    }
+  },
+  {
+    "name": "char_127_srt1",
+    "number": 127,
+    "request": {
+      "charId": "127",
+      "cards": [
+        {
+          "cardId": "c_127_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8AHkcR3bC3wqVsOTSPA"
+    }
+  },
+  {
+    "name": "char_128_srt1",
+    "number": 128,
+    "request": {
+      "charId": "128",
+      "cards": [
+        {
+          "cardId": "c_128_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wH4cw9wGZgmTBf9GM2I"
+    }
+  },
+  {
+    "name": "char_129_srt1",
+    "number": 129,
+    "request": {
+      "charId": "129",
+      "cards": [
+        {
+          "cardId": "c_129_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHocw9wGZgmTBftGM2I"
+    }
+  },
+  {
+    "name": "char_143_srt1",
+    "number": 143,
+    "request": {
+      "charId": "143",
+      "cards": [
+        {
+          "cardId": "c_143_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8QHkcw9wGZgmTtuS1NGI"
+    }
+  },
+  {
+    "name": "char_144_srt1",
+    "number": 144,
+    "request": {
+      "charId": "144",
+      "cards": [
+        {
+          "cardId": "c_144_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8MN6wb_zZ9FHP1f3rI2I"
+    }
+  },
+  {
+    "name": "char_255_srt1",
+    "number": 255,
+    "request": {
+      "charId": "255",
+      "cards": [
+        {
+          "cardId": "c_255_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UNGwb_zZ9FHD3fXrI2I"
+    }
+  },
+  {
+    "name": "char_256_srt1",
+    "number": 256,
+    "request": {
+      "charId": "256",
+      "cards": [
+        {
+          "cardId": "c_256_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wH4aw9wGZgmVgvxGM2I"
+    }
+  },
+  {
+    "name": "char_511_srt1",
+    "number": 511,
+    "request": {
+      "charId": "511",
+      "cards": [
+        {
+          "cardId": "c_511_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UNG0b_zZ9FHNv8kHLGI"
+    }
+  },
+  {
+    "name": "char_512_srt1",
+    "number": 512,
+    "request": {
+      "charId": "512",
+      "cards": [
+        {
+          "cardId": "c_512_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wH4Zw9wGZgmSs2S3NGI"
+    }
+  },
+  {
+    "name": "char_1023_srt1",
+    "number": 1023,
+    "request": {
+      "charId": "1023",
+      "cards": [
+        {
+          "cardId": "c_1023_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UNG2b_zR9FHP1_vr7XKa"
+    }
+  },
+  {
+    "name": "char_1024_srt1",
+    "number": 1024,
+    "request": {
+      "charId": "1024",
+      "cards": [
+        {
+          "cardId": "c_1024_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wP4Yw9wCZgmTh83cZ2Ka"
+    }
+  },
+  {
+    "name": "char_16383_srt1",
+    "number": 16383,
+    "request": {
+      "charId": "16383",
+      "cards": [
+        {
+          "cardId": "c_16383_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UEG3b_zf9FHP0ZPcCrCKQA"
+    }
+  },
+  {
+    "name": "char_16384_srt1",
+    "number": 16384,
+    "request": {
+      "charId": "16384",
+      "cards": [
+        {
+          "cardId": "c_16384_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHYYw1isobCQg8xrDGPBQeY"
+    }
+  },
+  {
+    "name": "char_32767_srt1",
+    "number": 32767,
+    "request": {
+      "charId": "32767",
+      "cards": [
+        {
+          "cardId": "c_32767_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOHnNq3Nzwd5bzcB8H72ReY"
+    }
+  },
+  {
+    "name": "char_32768_srt1",
+    "number": 32768,
+    "request": {
+      "charId": "32768",
+      "cards": [
+        {
+          "cardId": "c_32768_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHYYxVisobCQgc3qj2LBQeY"
+    }
+  },
+  {
+    "name": "char_65535_srt1",
+    "number": 65535,
+    "request": {
+      "charId": "65535",
+      "cards": [
+        {
+          "cardId": "c_65535_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOHnPq3Nzwd5eysJ5Hb2ReY"
+    }
+  },
+  {
+    "name": "char_65536_srt1",
+    "number": 65536,
+    "request": {
+      "charId": "65536",
+      "cards": [
+        {
+          "cardId": "c_65536_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHYYxlisobCQhMroCmHBQeY"
+    }
+  },
+  {
+    "name": "char_2097151_srt1",
+    "number": 2097151,
+    "request": {
+      "charId": "2097151",
+      "cards": [
+        {
+          "cardId": "c_2097151_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOHHOa3Nxwd5fz8P4LKOLFhFvA"
+    }
+  },
+  {
+    "name": "char_2097152_srt1",
+    "number": 2097152,
+    "request": {
+      "charId": "2097152",
+      "cards": [
+        {
+          "cardId": "c_2097152_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHYQx1goCHUpgM1tCFWuRX0JtJg"
+    }
+  },
+  {
+    "name": "card_c_0_srt0",
+    "number": 0,
+    "cardId": "c_0_srt0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt0"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4-0f_d"
+    }
+  },
+  {
+    "name": "card_c_0_srt1",
+    "number": 0,
+    "cardId": "c_0_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68uf8"
+    }
+  },
+  {
+    "name": "card_c_0_srt2",
+    "number": 0,
+    "cardId": "c_0_srt2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z48vP8"
+    }
+  },
+  {
+    "name": "card_c_0_srt3",
+    "number": 0,
+    "cardId": "c_0_srt3",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt3"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68vv8"
+    }
+  },
+  {
+    "name": "card_c_0_srt4",
+    "number": 0,
+    "cardId": "c_0_srt4",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt4"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z48sf8"
+    }
+  },
+  {
+    "name": "card_c_0_srt5",
+    "number": 0,
+    "cardId": "c_0_srt5",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt5"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4-0fXd"
+    }
+  },
+  {
+    "name": "card_c_0_srt8",
+    "number": 0,
+    "cardId": "c_0_srt8",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt8"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4-0f7d"
+    }
+  },
+  {
+    "name": "card_c_0_srt16",
+    "number": 0,
+    "cardId": "c_0_srt16",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt16"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3DC3z682fnd"
+    }
+  },
+  {
+    "name": "card_c_0_uni0",
+    "number": 0,
+    "cardId": "c_0_uni0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni0"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z5Og__d"
+    }
+  },
+  {
+    "name": "card_c_0_uni1",
+    "number": 0,
+    "cardId": "c_0_uni1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68s_8"
+    }
+  },
+  {
+    "name": "card_c_0_uni2",
+    "number": 0,
+    "cardId": "c_0_uni2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z48tv8"
+    }
+  },
+  {
+    "name": "card_c_0_uni3",
+    "number": 0,
+    "cardId": "c_0_uni3",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni3"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z7MsP8"
+    }
+  },
+  {
+    "name": "card_c_0_uni4",
+    "number": 0,
+    "cardId": "c_0_uni4",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni4"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z5Ms_8"
+    }
+  },
+  {
+    "name": "card_c_0_eps",
+    "number": 0,
+    "cardId": "c_0_eps",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_eps"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4utv8"
+    }
+  },
+  {
+    "name": "card_0",
+    "number": 0,
+    "cardId": "0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "0"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "0"
+    }
+  },
+  {
+    "name": "card_1",
+    "number": 0,
+    "cardId": "1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "1"
+    }
+  },
+  {
+    "name": "card_c_0_srt127",
+    "number": 0,
+    "cardId": "c_0_srt127",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt127"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3bC3z682ZvTPA"
+    }
+  },
+  {
+    "name": "card_c_0_srt128",
+    "number": 0,
+    "cardId": "c_0_srt128",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt128"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3bC3z682ZvcPA"
+    }
+  },
+  {
+    "name": "char_268435455_srt1",
+    "number": 268435455,
+    "request": {
+      "charId": "268435455",
+      "cards": [
+        {
+          "cardId": "c_268435455_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGH2AFva37VC25Euesr6W_NlUBKLg"
+    }
+  },
+  {
+    "name": "char_268435456_srt1",
+    "number": 268435456,
+    "request": {
+      "charId": "268435456",
+      "cards": [
+        {
+          "cardId": "c_268435456_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8wHYQz1wojC7vOcjvj1KrdtNViZsPKqA"
+    }
+  },
+  {
+    "name": "char_4294967295_srt1",
+    "number": 4294967295,
+    "request": {
+      "charId": "4294967295",
+      "cards": [
+        {
+          "cardId": "c_4294967295_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGHWEMyrjhmU4fOHymJC9UXn9MHnu2X"
+    }
+  },
+  {
+    "name": "char_4294967296_srt1",
+    "number": 4294967296,
+    "request": {
+      "charId": "4294967296",
+      "cards": [
+        {
+          "cardId": "c_4294967296_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ct3DC3w8Vg07pD1UodOW_vpg"
+    }
+  },
+  {
+    "name": "char_4398046511103_srt1",
+    "number": 4398046511103,
+    "request": {
+      "charId": "4398046511103",
+      "cards": [
+        {
+          "cardId": "c_4398046511103_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGHWEMyrjg2U4fOXymRQ_VX79sXbaMnyIFW"
+    }
+  },
+  {
+    "name": "char_4398046511104_srt1",
+    "number": 4398046511104,
+    "request": {
+      "charId": "4398046511104",
+      "cards": [
+        {
+          "cardId": "c_4398046511104_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ct3XC3w8RA8_tDVGvdNJQjJkPKqA"
+    }
+  },
+  {
+    "name": "char_562949953421311_srt1",
+    "number": 562949953421311,
+    "request": {
+      "charId": "562949953421311",
+      "cards": [
+        {
+          "cardId": "c_562949953421311_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGHWEMyrjgWU4eOD0HRU60v7_tHDeP0YrcbVWc"
+    }
+  },
+  {
+    "name": "char_562949953421312_srt1",
+    "number": 562949953421312,
+    "request": {
+      "charId": "562949953421312",
+      "cards": [
+        {
+          "cardId": "c_562949953421312_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ct3fC3wuUBctsiFavdtdWiK5QdcCfIQ"
+    }
+  },
+  {
+    "name": "char_4503599627370495_srt1",
+    "number": 4503599627370495,
+    "request": {
+      "charId": "4503599627370495",
+      "cards": [
+        {
+          "cardId": "c_4503599627370495_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGHWEMyrjhWU4fOb2H5E60vj7snTdOUMkwFYxpO"
+    }
+  },
+  {
+    "name": "char_4503599627370496_srt1",
+    "number": 4503599627370496,
+    "request": {
+      "charId": "4503599627370496",
+      "cards": [
+        {
+          "cardId": "c_4503599627370496_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ct3PC3w-Sh8loiFapctFSi6jlGqNMJAc"
+    }
+  },
+  {
+    "name": "char_9007199254740991_srt1",
+    "number": 9007199254740991,
+    "request": {
+      "charId": "9007199254740991",
+      "cards": [
+        {
+          "cardId": "c_9007199254740991_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8UOGHWEMyrjhWU4eWP2HpA60vn8tHXbOUakzmhuFO"
+    }
+  },
+  {
+    "name": "char_9223372036854775807_srt1",
+    "number": 9223372036854775807,
+    "request": {
+      "charId": "9223372036854775807",
+      "cards": [
+        {
+          "cardId": "c_9223372036854775807_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3bCXwqVhcnrC1CqdlVUialjGRWnEQAN1Gc"
+    }
+  },
+  {
+    "name": "char_18446744073709551615_srt1",
+    "number": 18446744073709551615,
+    "request": {
+      "charId": "18446744073709551615",
+      "cards": [
+        {
+          "cardId": "c_18446744073709551615_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3LC34qXhs7uC1OrcNFSiyhgG5WjEjNTCGBO"
+    }
+  },
+  {
+    "name": "format_c_00_srt1",
+    "number": 0,
+    "cardId": "c_00_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_00_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_00_srt1"
+    }
+  },
+  {
+    "name": "format_c_000_srt1",
+    "number": 0,
+    "cardId": "c_000_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_000_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_000_srt1"
+    }
+  },
+  {
+    "name": "format_c_0_srt01",
+    "number": 0,
+    "cardId": "c_0_srt01",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt01"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3DC3z4-0Z_VPA"
+    }
+  },
+  {
+    "name": "format_c_0_srt001",
+    "number": 0,
+    "cardId": "c_0_srt001",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt001"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3bC3z4-0Z-9NGI"
+    }
+  },
+  {
+    "name": "format_c_1_srt1",
+    "number": 0,
+    "cardId": "c_1_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_1_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_1_srt1"
+    }
+  },
+  {
+    "name": "format_c_2_srt1",
+    "number": 0,
+    "cardId": "c_2_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_2_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_2_srt1"
+    }
+  },
+  {
+    "name": "format_c_128_srt1",
+    "number": 0,
+    "cardId": "c_128_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_128_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_128_srt1"
+    }
+  },
+  {
+    "name": "format_c_1003_srt1",
+    "number": 0,
+    "cardId": "c_1003_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_1003_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "foreignCard",
+      "cardId": "c_1003_srt1"
+    }
+  },
+  {
+    "name": "format_c_0_srt1_pot",
+    "number": 0,
+    "cardId": "c_0_srt1_pot",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1_pot"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3XC376_6W-CPmI"
+    }
+  },
+  {
+    "name": "format_c_0_srt1_rsp1",
+    "number": 0,
+    "cardId": "c_0_srt1_rsp1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1_rsp1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3HC376_uS3UPA"
+    }
+  },
+  {
+    "name": "format_c_0_uni1_rsp2",
+    "number": 0,
+    "cardId": "c_0_uni1_rsp2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_uni1_rsp2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3HC376_sy3ZPA"
+    }
+  },
+  {
+    "name": "format_c_0_foo1",
+    "number": 0,
+    "cardId": "c_0_foo1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_foo1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC37bofDDqOGI"
+    }
+  },
+  {
+    "name": "format_c_0_eps1",
+    "number": 0,
+    "cardId": "c_0_eps1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_eps1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4urv3d"
+    }
+  },
+  {
+    "name": "format_c_0_srt",
+    "number": 0,
+    "cardId": "c_0_srt",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4-sf8"
+    }
+  },
+  {
+    "name": "format_c_0_col",
+    "number": 0,
+    "cardId": "c_0_col",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_col"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4Wtg"
+    }
+  },
+  {
+    "name": "format_c_0_col2",
+    "number": 0,
+    "cardId": "c_0_col2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_col2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4Utg"
+    }
+  },
+  {
+    "name": "format_c_0_srt1_foo",
+    "number": 0,
+    "cardId": "c_0_srt1_foo",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1_foo"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3XC376_KWlCM2I"
+    }
+  },
+  {
+    "name": "format_card_0",
+    "number": 0,
+    "cardId": "card_0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_0"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cxz8XiD6n"
+    }
+  },
+  {
+    "name": "longcard_card_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789",
+    "number": 0,
+    "cardId": "card_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "card_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789"
+    }
+  },
+  {
+    "name": "longcard_card_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA",
+    "number": 0,
+    "cardId": "card_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "card_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA"
+    }
+  },
+  {
+    "name": "longcard_card_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ",
+    "number": 0,
+    "cardId": "card_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "card_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ"
+    }
+  },
+  {
+    "name": "longcard_c_0_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789",
+    "number": 0,
+    "cardId": "c_0_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_AbCdEfGhIjKlMnOpQrStUvWxYz0123456789"
+    }
+  },
+  {
+    "name": "longcard_c_0_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA",
+    "number": 0,
+    "cardId": "c_0_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_9876543210zYxWvUtSrQpOnMlKjIhGfEdCbA"
+    }
+  },
+  {
+    "name": "longcard_c_0_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ",
+    "number": 0,
+    "cardId": "c_0_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_0A1B2C3D4E5F6G7H8I9JKLMNOPQRSTUVWXYZ"
+    }
+  },
+  {
+    "name": "longcard_card_abcdefghijklmnopqrstuvwxyz0123456789",
+    "number": 0,
+    "cardId": "card_abcdefghijklmnopqrstuvwxyz0123456789",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_abcdefghijklmnopqrstuvwxyz0123456789"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cdzgXeKYzK21HqvwL2XP5LwPDcfDPdVsEiTEQ8DzKiJmlHjRPAL3RMVE"
+    }
+  },
+  {
+    "name": "longcard_card_9876543210zyxwvutsrqponmlkjihgfedcba",
+    "number": 0,
+    "cardId": "card_9876543210zyxwvutsrqponmlkjihgfedcba",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_9876543210zyxwvutsrqponmlkjihgfedcba"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cdzgXiFfG2Zm3Xg7-KLYx5ckKePrFfVMOQ_jZOvYyfWhQ7MC_9E8kMFE"
+    }
+  },
+  {
+    "name": "longcard_card_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz",
+    "number": 0,
+    "cardId": "card_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cdzgXiK7PL5tJUP740oz-2g46sMEGSJ7DTvTVNjr_sKWdIAxzOILpPVE"
+    }
+  },
+  {
+    "name": "longcard_c_0_abcdefghijklmnopqrstuvwxyz0123456789",
+    "number": 0,
+    "cardId": "c_0_abcdefghijklmnopqrstuvwxyz0123456789",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_abcdefghijklmnopqrstuvwxyz0123456789"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cd3TC37bo-7WTdS_Rjy6odlad42u4CSt8_U5jisoHRMPxRmQTV-aDj-Hqcw"
+    }
+  },
+  {
+    "name": "longcard_c_0_9876543210zyxwvutsrqponmlkjihgfedcba",
+    "number": 0,
+    "cardId": "c_0_9876543210zyxwvutsrqponmlkjihgfedcba",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_9876543210zyxwvutsrqponmlkjihgfedcba"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cd3TC37YQA8_qD1erdtRQFDL4Bo-8DC54-UuGbq5iIT8Lvh5qLZ75dhvqcw"
+    }
+  },
+  {
+    "name": "longcard_c_0_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz",
+    "number": 0,
+    "cardId": "c_0_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_0a1b2c3d4e5f6g7h8i9jklmnopqrstuvwxyz"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cd3TC37aQ_8uRDiisDtctidVnZZdYkc_iH62AaKhkx9ntWHgMS_gfkP3scw"
+    }
+  },
+  {
+    "name": "dict_c_0_rsp3",
+    "number": 0,
+    "cardId": "c_0_rsp3",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp3"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z6Msv8"
+    }
+  },
+  {
+    "name": "dict_c_0_rsp4",
+    "number": 0,
+    "cardId": "c_0_rsp4",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp4"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z4Mtf8"
+    }
+  },
+  {
+    "name": "dict_c_0_rsp5",
+    "number": 0,
+    "cardId": "c_0_rsp5",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp5"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z6Mt_8"
+    }
+  },
+  {
+    "name": "dict_c_0_pot",
+    "number": 0,
+    "cardId": "c_0_pot",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_pot"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4utP8"
+    }
+  },
+  {
+    "name": "dict_c_0_lbk",
+    "number": 0,
+    "cardId": "c_0_lbk",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_lbk"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z5utv8"
+    }
+  },
+  {
+    "name": "dict_c_0_col",
+    "number": 0,
+    "cardId": "c_0_col",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_col"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cx3PC3z4Wtg"
+    }
+  },
+  {
+    "name": "dict_c_0_c_",
+    "number": 0,
+    "cardId": "c_0_c_",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_c_"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_c_"
+    }
+  },
+  {
+    "name": "dict_card_0",
+    "number": 0,
+    "cardId": "card_0",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_0"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cxz8XiD6n"
+    }
+  },
+  {
+    "name": "dict_c_0_srt1",
+    "number": 0,
+    "cardId": "c_0_srt1",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_srt1"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cR3TC3z68uf8"
+    }
+  },
+  {
+    "name": "dict_p_spark_copy_count",
+    "number": 0,
+    "cardId": "p_spark_copy_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "p_spark_copy_count"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ctxbMMCM4K6CNJf0GH3wzvpg"
+    }
+  },
+  {
+    "name": "dict_r_spark_copy_count",
+    "number": 0,
+    "cardId": "r_spark_copy_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "r_spark_copy_count"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "r_spark_copy_count"
+    }
+  },
+  {
+    "name": "dict_p_spark_card_count",
+    "number": 0,
+    "cardId": "p_spark_card_count",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "p_spark_card_count"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4ctxbMMDMSn0Dpk2aa"
+    }
+  },
+  {
+    "name": "dict_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2",
+    "number": 0,
+    "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+    }
+  },
+  {
+    "name": "dict_rsp3_c_rsp4_c_rsp5_c_",
+    "number": 0,
+    "cardId": "rsp3_c_rsp4_c_rsp5_c_",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "rsp3_c_rsp4_c_rsp5_c_"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "rsp3_c_rsp4_c_rsp5_c_"
+    }
+  },
+  {
+    "name": "dict_c_0_r_spark_copy_count_x",
+    "number": 0,
+    "cardId": "c_0_r_spark_copy_count_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_r_spark_copy_count_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC375-qGBBYzKD33o7Js9GcaGX"
+    }
+  },
+  {
+    "name": "dict_c_0_p_spark_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_p_spark_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_p_spark_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC37aINyfSiU69f8lRAppU"
+    }
+  },
+  {
+    "name": "dict_c_0_r_spark_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_r_spark_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_r_spark_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3TC375-uErxG121dVhmvA"
+    }
+  },
+  {
+    "name": "dict_c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x",
+    "number": 0,
+    "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2_x"
+    }
+  },
+  {
+    "name": "dict_c_0_rsp3_c_rsp4_c_rsp5_c_x",
+    "number": 0,
+    "cardId": "c_0_rsp3_c_rsp4_c_rsp5_c_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_rsp3_c_rsp4_c_rsp5_c_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cN3bC3_5JB_Xd"
+    }
+  },
+  {
+    "name": "dict_c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x",
+    "number": 0,
+    "cardId": "c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_copy_add_r_spark_copycard_duplicate_copy_count_clone_card_count_card_clone_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cr3HC3779JaCNtY6A8OY8mj3gDoekGLZyxsVomNqbR9X_S3EaScYWK33uFVzpygI"
+    }
+  },
+  {
+    "name": "dict_c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x",
+    "number": 0,
+    "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": false,
+      "error": "cannotExport",
+      "reason": "badCardId",
+      "cardId": "c_0_TALENT_COPY_BY_COUNT_CARD_DUPLICATE_CARD_CREATE_CARD_CLONE_COPYBYCOUNT_x"
+    }
+  },
+  {
+    "name": "dict_c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x",
+    "number": 0,
+    "cardId": "c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_card_copy_by_count_copied_from_origin_card_copy_modifier_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cF3fC3779JaCNJf3OWXn44wIDLELyh6GSdHKrRqNI_5RnFbAEzxl9d5iiuJKBa63rMg"
+    }
+  },
+  {
+    "name": "dict_c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x",
+    "number": 0,
+    "cardId": "c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x",
+    "request": {
+      "charId": "0",
+      "cards": [
+        {
+          "cardId": "c_0_add_r_spark_assault_defense_support_spark_card_copy_count_x"
+        }
+      ]
+    },
+    "status": 200,
+    "result": {
+      "ok": true,
+      "code": "v6l8yH4cF3PC337RtCM_qLYulFqGaGC2_CIV3aVEe0uKmJyqfQAIi_NcQyKlOA"
+    }
+  }
+]

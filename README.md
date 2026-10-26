@@ -2,6 +2,8 @@
 
 《卡厄思梦境 / Chaos Zero Nightmare》卡组码的离线 Python SDK、命令行和原生桌面工具。
 
+**发布到 PyPI 的是编解码 SDK。** `src/czn_deckcode/` 只包含 SDK 与命令行，`demo/` 是独立演示，包含 GUI、卡图和展示文案。SDK 的 wheel 和源码发行包均不包含 Demo，运行时零第三方依赖。首次 PyPI 发布待维护者完成账号关联，步骤见 [PyPI 发布说明](docs/publishing.md)。
+
 Python 3.10+，SDK 运行时零第三方依赖，图形界面使用 Pillow 显示本地插画。卡组编解码在本机完成，无须网站接口、账号或网络。当前实现 BP 格式版本 4，外观通常以 `v6l8` 开头。
 
 ## 桌面工具
@@ -12,7 +14,7 @@ Windows 用户从 [Releases](https://github.com/liuzihua699/czn-deckcode/release
 
 预设保存在程序旁的 `user_data/decks.json`，点击「保存预设」或按 Ctrl+S 保存，正常关闭时也会保存。原来的高级 ID 编辑入口已移除，JSON 备份工具位于「导出 / 分享」窗口。卡组码导入可新建预设或覆盖同角色当前预设；不支持的码会报错并保留原卡组。
 
-已带入客户端对应的 39 个角色、817 张可选卡牌及 855 张本地插画／头像。素材位于 `src/czn_deckcode/assets`，以客户端卡牌 ID 和资源名对应，随应用一起打包；运行时无需访问游戏目录或图片网站。默认显示客户端繁体文案，简体选项为繁转简展示文本。卡牌和灵光的固定参数来自本地技能／状态表，显示基础倍率与数量，未计角色、装备及战斗加成；少数依赖实时状态或暂未解析的字段标为「未求值」。游戏本身的 X 费用机制仍显示 X。效果筛选尚未复现全部游戏内规则。
+演示 Demo 带入客户端对应的 39 个角色、817 张可选卡牌及 855 张本地插画／头像。素材位于 `demo/assets`，只随 EXE 打包；SDK 不含这些素材。默认显示客户端繁体文案，简体选项为繁转简展示文本。卡牌和灵光的固定参数来自本地技能／状态表，显示基础倍率与数量，未计角色、装备及战斗加成；少数依赖实时状态或暂未解析的字段标为「未求值」。游戏本身的 X 费用机制仍显示 X。效果筛选尚未复现全部游戏内规则。
 
 移除卡牌不会自动勾选「显示已移除」。只有用户勾选后，卡片与列表视图才显示这些记录；隐藏不会删除移除状态，导出仍保留完整数据。
 
@@ -23,16 +25,17 @@ Windows 用户从 [Releases](https://github.com/liuzihua699/czn-deckcode/release
 在项目目录运行：
 
 ```bash
-python -m pip install ".[desktop]"
-czn-deckcode ui
+python -m pip install -e .
+python -m pip install -r demo/requirements.txt
+python scripts/desktop_entry.py
 ```
 
-运行后直接打开 Tkinter 桌面窗口。也可以运行 `czn-deckcode-desktop`（Windows 下不显示命令行窗口）。
+运行后打开独立的 Demo 窗口，SDK 的 `czn-deckcode` 命令仅提供编码和解码。
 
 也可以不用安装，直接从源码启动：
 
 ```bash
-PYTHONPATH=src python3 -m czn_deckcode ui
+python3 scripts/desktop_entry.py
 ```
 
 Linux 桌面环境也可以运行 `./run-ui.sh`；Windows 安装 Python 3.10+ 后可双击 `启动卡组工具.cmd`。Linux 从源码运行 GUI 需要系统的 `python3-tk` 包与图形环境；SDK/命令行编解码无需 Tk。
@@ -143,7 +146,8 @@ czn-deckcode decode - -o restored.json < code.txt
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -e ".[desktop]" build
+python -m pip install -e . build
+python -m pip install -r demo/requirements.txt
 python -m unittest discover -s tests -v
 python -m build
 ```
@@ -154,7 +158,7 @@ SDK 的 wheel 和源码包在 `dist/`。项目采用 `src/` 布局，包含 `py.
 
 ```powershell
 python -m venv .venv-win
-.\.venv-win\Scripts\python.exe -m pip install ".[desktop]" "pyinstaller>=6.11,<7"
+.\.venv-win\Scripts\python.exe -m pip install . -r demo/requirements.txt "pyinstaller>=6.11,<7"
 .\.venv-win\Scripts\python.exe -m PyInstaller --noconfirm --clean CZNDeckcode.spec
 ```
 

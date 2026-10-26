@@ -64,7 +64,7 @@ def package(exe: Path, report_path: Path, output: Path, additional: list[Path]) 
         bundle.writestr(PREFIX + "SHA256SUMS.txt", f"{digest}  {target.name}\n")
         bundle.write(report_path, PREFIX + "离线自测结果.json")
         bundle.write(ROOT / "docs/offline.md", PREFIX + "离线说明.md")
-        bundle.write(ROOT / "src/czn_deckcode/assets/NOTICE.txt", PREFIX + "素材来源说明.txt")
+        bundle.write(ROOT / "demo/assets/NOTICE.txt", PREFIX + "素材来源说明.txt")
         bundle.write(ROOT / "LICENSE", PREFIX + "licenses/MIT.txt")
         for license_path in (ROOT / "licenses").glob("*.txt"):
             bundle.write(license_path, PREFIX + "licenses/" + license_path.name)

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "czn-deckcode"
 version = "0.1.0a2"
 description = "Offline deck-code tools for Chaos Zero Nightmare"
-readme = "README.md"
+readme = "docs/sdk-package.md"
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
@@ -18,14 +18,8 @@ classifiers = [
     "Typing :: Typed",
 ]
 
-[project.optional-dependencies]
-desktop = ["Pillow>=10,<14"]
-
 [project.scripts]
 czn-deckcode = "czn_deckcode.cli:main"
-
-[project.gui-scripts]
-czn-deckcode-desktop = "czn_deckcode.ui:main"
 
 [project.urls]
 Homepage = "https://github.com/liuzihua699/czn-deckcode"
@@ -36,5 +30,8 @@ Issues = "https://github.com/liuzihua699/czn-deckcode/issues"
 where = ["src"]
 include = ["czn_deckcode*"]
 
+[tool.setuptools]
+include-package-data = false
+
 [tool.setuptools.package-data]
-czn_deckcode = ["py.typed", "assets/*.json", "assets/*.txt", "assets/cards/*.png", "assets/characters/*.png"]
+czn_deckcode = ["py.typed"]

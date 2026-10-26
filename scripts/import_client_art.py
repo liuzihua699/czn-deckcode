@@ -96,7 +96,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--game-root", type=Path, required=True)
     parser.add_argument("--catalog", type=Path, required=True, help="Previously extracted client card/text table JSON")
-    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1] / "src/czn_deckcode/assets")
+    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1] / "demo/assets")
     args = parser.parse_args()
     source = json.loads(args.catalog.read_text(encoding="utf-8"))
     resources = ClientResources(args.game_root)

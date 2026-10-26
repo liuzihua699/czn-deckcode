@@ -7,6 +7,11 @@ from pathlib import Path
 import sys
 import tempfile
 
+if not getattr(sys, "frozen", False):
+    _project_root = Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(_project_root))
+    sys.path.insert(0, str(_project_root / "src"))
+
 
 def _self_test(output: Path, official_codes: Path | None = None) -> int:
     """Check the bundled codec and Tcl/Tk without leaving a visible window."""
@@ -19,7 +24,7 @@ def _self_test(output: Path, official_codes: Path | None = None) -> int:
     import tkinter as tk
 
     from czn_deckcode import __version__, Deck, decode, encode
-    from czn_deckcode.ui import DeckApplication
+    from demo.ui import DeckApplication
 
     original = "v6l8cOjiNr8NyAd5bz8N5Gb4BacatRLcP_gTJk6Sy-IpI4UudHIDQRTERzqzgUXu"
     root = None
@@ -92,6 +97,6 @@ if __name__ == "__main__":
     if len(sys.argv) in (3, 5) and sys.argv[1] == "--self-test":
         fixture = Path(sys.argv[4]) if len(sys.argv) == 5 and sys.argv[3] == "--official-codes" else None
         raise SystemExit(_self_test(Path(sys.argv[2]), fixture))
-    from czn_deckcode.ui import main
+    from demo.ui import main
 
     main()

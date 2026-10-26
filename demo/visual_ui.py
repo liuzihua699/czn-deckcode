@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import ttk, simpledialog, messagebox
 
 from .library import CardImages, CardLibrary, TYPE_NAMES, TYPE_NAMES_S
-from .models import Deck
+from czn_deckcode.models import Deck
 
 BG, PANEL, INPUT, TEXT, MUTED, ACCENT = "#e6e8eb", "#f8f9fa", "#ffffff", "#30353b", "#79818b", "#e98534"
 
@@ -563,7 +563,7 @@ class VisualWorkbench:
         window.bind("<Destroy>", destroyed)
 
     def import_deck_code(self, code, replace=False, name=None):
-        from . import decode
+        from czn_deckcode import decode
         # Decode fully before mutating the current deck or any preset.
         deck = decode(code.strip())
         self.load_external_deck(deck, replace, name)

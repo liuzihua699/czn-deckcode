@@ -2,9 +2,8 @@ import contextlib
 import io
 import json
 from pathlib import Path
-import sys
 import tempfile
-from types import ModuleType, SimpleNamespace
+from types import SimpleNamespace
 import unittest
 from unittest.mock import Mock, patch
 
@@ -29,15 +28,6 @@ class CLITests(unittest.TestCase):
         ):
             status = cli.main(args)
         return status, stdout.getvalue(), stderr.getvalue()
-
-    @contextlib.contextmanager
-    def desktop_module(self, **mock_options):
-        # CLI dispatch does not need to import Tk or create a display. Supply
-        # only the module contract used by its delayed import.
-        module = ModuleType("czn_deckcode.ui")
-        module.run = Mock(**mock_options)
-        with patch.dict(sys.modules, {"czn_deckcode.ui": module}):
-            yield module.run
 
     def test_encode_reads_stdin_and_writes_stdout(self):
         status, stdout, stderr = self.invoke(
@@ -153,33 +143,14 @@ class CLITests(unittest.TestCase):
         self.assertIn("encode", stdout)
         self.assertEqual(stderr, "")
 
-    def test_ui_command_opens_desktop_without_loading_sdk(self):
-        with self.desktop_module() as run:
-            status, stdout, stderr = self.invoke(["ui"])
-        self.assertEqual((status, stdout, stderr), (0, "", ""))
-        run.assert_called_once_with()
+    def test_sdk_cli_does_not_offer_or_launch_the_separate_demo(self):
+        for command in ("ui", "gui"):
+            with self.subTest(command=command):
+                status, stdout, stderr = self.invoke([command])
+                self.assertEqual((status, stdout), (2, ""))
+                self.assertIn("invalid choice", stderr)
         self.sdk.encode.assert_not_called()
         self.sdk.decode.assert_not_called()
-
-    def test_gui_alias_opens_desktop(self):
-        with self.desktop_module() as run:
-            status, stdout, stderr = self.invoke(["gui"])
-        self.assertEqual((status, stdout, stderr), (0, "", ""))
-        run.assert_called_once_with()
-
-    def test_ui_rejects_browser_server_options(self):
-        for args in (["ui", "--port", "9001"], ["ui", "--no-browser"]):
-            with self.subTest(args=args), self.desktop_module() as run:
-                status, stdout, stderr = self.invoke(args)
-                self.assertEqual((status, stdout), (2, ""))
-                self.assertIn("unrecognized arguments", stderr)
-                run.assert_not_called()
-
-    def test_desktop_error_is_reported_without_a_traceback(self):
-        with self.desktop_module(side_effect=RuntimeError("缺少桌面显示环境")):
-            status, stdout, stderr = self.invoke(["ui"])
-        self.assertEqual((status, stdout), (2, ""))
-        self.assertEqual(stderr, "错误：缺少桌面显示环境\n")
 
 
 if __name__ == "__main__":

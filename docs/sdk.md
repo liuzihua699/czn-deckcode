@@ -12,7 +12,7 @@ python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
 
 本次修复覆盖原 `0.1.0a2`，版本号未改变；已安装旧版时也应使用 `--force-reinstall`，确保换成修复后的解码器。源码用户可在项目根目录执行 `python -m pip install .`。
 
-SDK 运行时仅使用 Python 标准库，不需要安装 Pillow 或 Tk。桌面图卡界面的依赖通过 `python -m pip install ".[desktop]"` 另行安装。
+SDK 运行时仅使用 Python 标准库，不需要安装 Pillow 或 Tk，也不包含卡图或图形界面。独立演示位于仓库的 `demo/`，使用单独的依赖和 EXE 构建流程。
 
 ## 2. 生成卡组码
 

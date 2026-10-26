@@ -7,7 +7,7 @@ import json
 from unittest.mock import patch
 
 from czn_deckcode import Card, Deck, decode, encode
-from czn_deckcode.library import CardLibrary
+from demo.library import CardLibrary
 
 
 class LocalCatalogTests(unittest.TestCase):
@@ -88,7 +88,7 @@ class VisualWorkflowTests(unittest.TestCase):
         except tk.TclError as error:
             self.skipTest(str(error))
         self.root.withdraw()
-        from czn_deckcode.ui import DeckApplication
+        from demo.ui import DeckApplication
         self.folder = tempfile.TemporaryDirectory()
         self.addCleanup(self.folder.cleanup)
         self.app = DeckApplication(self.root, Path(self.folder.name) / "decks.json")
@@ -163,7 +163,7 @@ class VisualWorkflowTests(unittest.TestCase):
         self.assertEqual([key for key, _ in before], [c["id"] for c in self.app.library.characters])
 
     def test_multiple_role_presets_survive_a_new_application(self):
-        from czn_deckcode.ui import DeckApplication
+        from demo.ui import DeckApplication
         first = self.app._active_preset
         self.app.rename_preset("明暗一刀")
         self.app._select_card(4)

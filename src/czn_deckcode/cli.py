@@ -46,7 +46,7 @@ def _write_text(path: str | None, text: str) -> None:
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="czn-deckcode", description="CZN 离线卡组码编解码与桌面工作台"
+        prog="czn-deckcode", description="CZN 离线卡组码编解码 SDK"
     )
     commands = parser.add_subparsers(dest="command", required=True)
 
@@ -58,7 +58,6 @@ def _parser() -> argparse.ArgumentParser:
     decode.add_argument("code", metavar="CODE", help="卡组码，- 表示从标准输入读取")
     decode.add_argument("-o", "--output", metavar="DECK_JSON", help="输出文件，默认标准输出")
 
-    commands.add_parser("ui", aliases=["gui"], help="启动本地桌面卡组工作台")
     return parser
 
 
@@ -74,12 +73,6 @@ def main(argv: list[str] | None = None) -> int:
         return int(error.code or 0)
 
     try:
-        if args.command in ("ui", "gui"):
-            from .ui import run
-
-            run()
-            return 0
-
         try:
             sdk = _load_sdk()
         except ImportError as error:

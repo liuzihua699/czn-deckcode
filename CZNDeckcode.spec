@@ -4,10 +4,10 @@ from pathlib import Path
 project_root = Path(SPECPATH)
 a = Analysis(
     [str(project_root / "scripts" / "desktop_entry.py")],
-    pathex=[str(project_root / "src")],
+    pathex=[str(project_root / "src"), str(project_root)],
     binaries=[],
     datas=[
-        (str(project_root / "src" / "czn_deckcode" / "assets"), "czn_deckcode/assets"),
+        (str(project_root / "demo" / "assets"), "demo/assets"),
         (str(project_root / "LICENSE"), "licenses"),
         (str(project_root / "licenses" / "*.txt"), "licenses"),
     ],

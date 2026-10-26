@@ -13,7 +13,7 @@ except ImportError:
 from czn_deckcode import decode
 
 if tk is not None:
-    from czn_deckcode.ui import DeckApplication, EXAMPLE_CODE
+    from demo.ui import DeckApplication, EXAMPLE_CODE
 
 
 @unittest.skipIf(tk is None, "Tkinter is not installed")

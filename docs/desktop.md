@@ -18,7 +18,7 @@
 
 灵光候选按客户端费用、卡牌类型和特性筛选，不等于完整游戏规则验证；神闪需先具有独特灵光或一般灵光。
 
-所有插画、头像及客户端文案已置于 `src/czn_deckcode/assets`。`catalog.json` 保存 ID 到图片的关联，`provenance.json` 记录客户端资源名和 PNG 哈希。`NOTICE.txt` 说明素材来源；SDK 的 MIT 许可不覆盖游戏美术和文案。
+所有插画、头像及客户端文案已置于 `demo/assets`，不进入 SDK 的 wheel 或源码发行包。`catalog.json` 保存 ID 到图片的关联，`provenance.json` 记录客户端资源名和 PNG 哈希。`NOTICE.txt` 说明素材来源；SDK 的 MIT 许可不覆盖游戏美术和文案。
 
 更新本地图片与数值参数的构建脚本为 `scripts/import_client_art.py`，需要 Pillow、zstandard、texture2ddecoder、lz4 和 opencc-python-reimplemented；输入只读的客户端 SSRA 资源和已提取卡牌表。`client_tables.py` 与 `card_text_values.py` 在构建期读取技能和状态数据，把计算出的展示参数写入项目内的 catalog.json。普通运行和打包不需要这些提取依赖，也不需要安装游戏。
 
@@ -32,7 +32,7 @@
 
 ```powershell
 python -m venv .venv-win
-.\.venv-win\Scripts\python.exe -m pip install ".[desktop]" "pyinstaller>=6.11,<7"
+.\.venv-win\Scripts\python.exe -m pip install . -r demo/requirements.txt "pyinstaller>=6.11,<7"
 .\.venv-win\Scripts\python.exe -m PyInstaller --clean --noconfirm CZNDeckcode.spec
 ```
 

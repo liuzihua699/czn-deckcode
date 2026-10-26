@@ -7,11 +7,11 @@ from pathlib import Path
 import sys
 from uuid import uuid4
 
-from .models import Deck
+from czn_deckcode.models import Deck
 
 
 def default_store_path() -> Path:
-    base = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parents[2]
+    base = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parents[1]
     return base / "user_data" / "decks.json"
 
 

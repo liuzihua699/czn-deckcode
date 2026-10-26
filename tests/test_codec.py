@@ -41,6 +41,23 @@ def wire_code(message):
 
 
 class CodecTests(unittest.TestCase):
+    def test_official_client_exports_include_memory_and_removed_cards_offline(self):
+        cases = json.loads((SAMPLES / "official_client_codes.json").read_text(encoding="utf-8"))["cases"]
+        self.assertEqual(len(cases), 7)
+        with patch("socket.socket", side_effect=AssertionError("Network access forbidden")), patch("socket.getaddrinfo", side_effect=AssertionError("DNS forbidden")):
+            for case in cases:
+                with self.subTest(name=case["name"]):
+                    expected = Deck.from_dict(case["expected"])
+                    actual = decode(case["code"])
+                    self.assertEqual(actual, expected)
+                    self.assertEqual(decode(encode(actual)), expected)
+        original = decode(cases[0]["code"])
+        self.assertEqual(original.cards[-1].card_id, "card_ds05_b_c1_4_1")
+        self.assertEqual(sum(c.removed for c in original.cards), 3)
+        self.assertEqual(sum(c.duplicate for c in original.cards), 3)
+        without_memory = next(c for c in cases if c["name"] == "ross_without_memory")
+        self.assertEqual(original.cards[:-1], decode(without_memory["code"]).cards)
+
     def test_locally_generated_codes_previously_imported_by_website(self):
         record = json.loads((SAMPLES / "local_export_verification.json").read_text(encoding="utf-8"))
         self.assertEqual(len(record["cases"]), 8)

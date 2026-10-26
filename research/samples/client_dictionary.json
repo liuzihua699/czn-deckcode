@@ -1,0 +1,20 @@
+{
+  "resource": "game/build_preset_codec.js",
+  "module_sha256": "5e61e139716abd1e335c5542ee5e74a96594cf9114281f8188facee8f70f316f",
+  "fragments": [
+    {
+      "offset": 909,
+      "text": "TALENT_REPLICATIONTALENT_CATEGORY_UNIQUECATEGORY_ENCOUNTERCATEGORY_PUBLICCATEGORY_NONE"
+    },
+    {
+      "offset": 1009,
+      "text": "rsp1_c_rsp2_c_rsp3_c_rsp4_c_rsp5_c_add_r_sparklbk_c_pot_c_assault_"
+    },
+    {
+      "offset": 1093,
+      "text": "card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+    }
+  ],
+  "dictionary_bytes": 245,
+  "dictionary_sha256": "7cad876fad355e347395665d045572f20867e8830a6d25dd6837a13b1bfc7d9c"
+}

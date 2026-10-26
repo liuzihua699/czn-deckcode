@@ -1,16 +1,25 @@
 import unittest
 import zlib
+import hashlib
+import json
+from pathlib import Path
 
 from czn_deckcode._compression import compress, decompress
 from czn_deckcode.errors import InvalidCodeError
 
 
 class CompressionTests(unittest.TestCase):
-    def test_unknown_dictionary_bytes_are_not_returned_as_guesses(self):
+    def test_dictionary_matches_extracted_client_fragments(self):
+        from czn_deckcode._compression import _DICTIONARY
+        record = json.loads((Path(__file__).resolve().parents[1] / "research/samples/client_dictionary.json").read_text())
+        self.assertEqual(len(_DICTIONARY), 245)
+        self.assertEqual(_DICTIONARY, "".join(f["text"] for f in record["fragments"]).encode())
+        self.assertEqual(hashlib.sha256(_DICTIONARY).hexdigest(), record["dictionary_sha256"])
+
+    def test_previously_unknown_dictionary_bytes_come_from_the_client(self):
         # A complete fixed-Huffman stream: COPY length 3, distance 220, END.
-        # These bytes are outside the dictionary runs established by samples.
-        with self.assertRaisesRegex(InvalidCodeError, "unverified"):
-            decompress(bytes.fromhex("03fa0d00"))
+        # This position was unknown before extracting the client's dictionary.
+        self.assertEqual(decompress(bytes.fromhex("03fa0d00")), b"CAT")
 
     def test_output_limit_including_zero_and_exact_boundary(self):
         wire = compress(b"a" * 10000)

@@ -1,0 +1,619 @@
+{
+  "source": "Official game exports supplied by the user; expected card states checked against screenshots and client identifiers",
+  "cases": [
+    {
+      "name": "ross_original",
+      "code": "v6l8cOjiNrvdzwd5bz8N5Gb2ReyrtB0zwiRbEmZCVx1OgEEpDGY5zpqpqk9i5CmtMFqScYEqyHZqyhHDvQ6_9RTVibh4PasWOU35SC7vwZ1NSb2du64WRU4tCcvgBIpsFKYjNs-5PuEPfK065x7elH6-aTEsd-Hyhg4",
+      "expected": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp5",
+            "divineId": "add_r_spark_nihilum_11",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "removed": false,
+            "duplicate": false
+          },
+          {
+            "cardId": "card_ds05_b_c1_4_1",
+            "removed": false,
+            "duplicate": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "mika",
+      "code": "v6l8QPmYwtgCZgmTh0nZZ-JWcaSCpKN1X-yPJKdIUezGgJyN1t7yUWWCUuRu-IFjX4Mgo5p6cwtYk_Gak4x0G73Z9fq-YQtdn_lkXqHpTWBHWCKzNaKDR1W7ZOy33klUd5Yme52MKtl5-Cnp_VZ7qfpsbZkvG_M",
+      "expected": {
+        "charId": "1039",
+        "cards": [
+          {
+            "cardId": "c_1039_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2"
+          },
+          {
+            "cardId": "c_1039_uni1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_uni2",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_1039_uni2_rsp4"
+          },
+          {
+            "cardId": "c_1039_uni3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_uni4",
+            "removed": false,
+            "duplicate": false
+          },
+          {
+            "cardId": "card_ds05_00009",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c02111"
+          },
+          {
+            "cardId": "card_ds05_b_c1_4_3",
+            "removed": false,
+            "duplicate": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "lida",
+      "code": "v6l8MObi9qzdzwd5bz8d7n72ReyrtB0z4iRbEmZCVx1AgOH_6IPYQQ2X52IxmUD1JY_qwM77FWjuiWAh-GKnTJXv7BxeNL7PYWYRiWHuMZXqh2sQN7KMrZE_Hr47fkJWq5oo_G-zDqNkqgmu_GrmzMSm79kkCrpsR4i4BvPAgQ",
+      "expected": {
+        "charId": "30097",
+        "cards": [
+          {
+            "cardId": "c_30097_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30097_srt4_rsp1"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": true,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": true,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_uni3",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30097_uni3_rsp5"
+          },
+          {
+            "cardId": "c_30097_uni4",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00020",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00113"
+          },
+          {
+            "cardId": "card_ds05_00009",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00111"
+          },
+          {
+            "cardId": "card_ds05_b_c1_4_3",
+            "removed": false,
+            "duplicate": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "ross_short",
+      "code": "v6l8cOjiNqfdzwd5bz8N5Gb2ReyrtB0zwiRbEmZCV51NgEEpDGY5zpqpqk9i5CmtMFqScYEqyHZqyhHDvQ6_9RTVibh4PasWOU35SC7vQZ5NSb2du64WRa4aH05Mlgx_mmJQMxm-C-0",
+      "expected": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp4",
+            "divineId": "add_r_spark_nihilum_11",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "removed": false,
+            "duplicate": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "ross_without_memory",
+      "code": "v6l8cOjiNqfdzwd5bz8N5Gb2ReyrtB0zwiRbEmZCVx1OgEEpDGY5zpqpqk9i5CmtMFqScYEqyHZqyhHDvQ6_9RTVibh4PasWOU35SC7vwZ1NSb2du64WRU4tCcvgBIpsFKYjNs-5Pu0",
+      "expected": {
+        "charId": "30134",
+        "cards": [
+          {
+            "cardId": "c_30134_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30134_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_srt4_rsp5",
+            "divineId": "add_r_spark_nihilum_11",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp2",
+            "divineId": "add_r_spark_nihilum_09",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_30134_uni1",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_30134_uni1_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni2",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni2_rsp5"
+          },
+          {
+            "cardId": "c_30134_uni3",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30134_uni3_rsp4"
+          },
+          {
+            "cardId": "c_30134_uni4",
+            "removed": false,
+            "duplicate": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "mika_short",
+      "code": "v6l8QPmYxtgCZgmTh0nZZ-JWcaSCpKN1X-yPJKdIUezGgJyN1t7yUWWCUuRu-IFjX4Mgo5p6cwtYk_Gak4x0G73Z9fq-YQtdn_nkWqHpTWBHWCKzNaKDR1W7ZOy33klUd5Yme52MKtl5mDk",
+      "expected": {
+        "charId": "1039",
+        "cards": [
+          {
+            "cardId": "c_1039_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2",
+            "divineId": "add_r_spark_nihilum_01",
+            "god": "NIHILUM"
+          },
+          {
+            "cardId": "c_1039_srt4",
+            "removed": false,
+            "duplicate": true,
+            "variantCardId": "c_1039_srt4_rsp2"
+          },
+          {
+            "cardId": "c_1039_uni1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_uni2",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_1039_uni2_rsp5"
+          },
+          {
+            "cardId": "c_1039_uni3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_1039_uni4",
+            "removed": false,
+            "duplicate": false
+          },
+          {
+            "cardId": "card_ds05_00009",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c02111"
+          }
+        ]
+      }
+    },
+    {
+      "name": "lida_epiphany",
+      "code": "v6l8MObi9rzdzwd5bz8d7n72ReyrtB0z4iRbEmZCVx1AgOH_6IPYQQ2X52IxmUD1JY_qwM77FWjuiWAh-GKnTJXv7BxeNL7PYWYRiWHuMZXqh2sQN7KMrZE_Hr4jPlVYW6AsUKEuKF1J1yGxr9AWuWMCwWkAHvM",
+      "expected": {
+        "charId": "30097",
+        "cards": [
+          {
+            "cardId": "c_30097_srt1",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt3",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_srt4",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30097_srt4_rsp1"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": true,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni1",
+            "removed": false,
+            "duplicate": true,
+            "epiphanyId": "c03012"
+          },
+          {
+            "cardId": "c_30097_uni2",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "c_30097_uni3",
+            "removed": false,
+            "duplicate": false,
+            "variantCardId": "c_30097_uni3_rsp5"
+          },
+          {
+            "cardId": "c_30097_uni4",
+            "removed": true,
+            "duplicate": false
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ne_00050",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00002"
+          },
+          {
+            "cardId": "card_ds05_00009",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00111"
+          },
+          {
+            "cardId": "card_ne_00020",
+            "removed": false,
+            "duplicate": false,
+            "epiphanyId": "c00113"
+          }
+        ]
+      }
+    }
+  ]
+}

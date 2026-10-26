@@ -1,9 +1,7 @@
 """Bounded raw DEFLATE compression used by version 4 preset codes.
 
-Encoders are free to choose different DEFLATE matches.  Our encoder does not
-reference the game's preset dictionary, so it never depends on an inferred
-byte.  The decoder checks both fillings of the unobserved dictionary positions
-and refuses streams whose output would depend on one of those positions.
+The complete preset dictionary was extracted from the client's codec module.
+Encoding keeps using self-contained streams for compatibility with other tools.
 """
 from __future__ import annotations
 
@@ -11,29 +9,13 @@ import zlib
 
 from .errors import InvalidCodeError
 
-# Negative offsets are relative to the end of the game's preset dictionary.
-# These runs are supported by chosen-plaintext LZ77 copy observations.
-_KNOWN_RUNS = {
-    -238: b"REPLICATIONTALENT_",
-    -159: b"rsp1_c_rsp2_c_rsp3_c_rsp4_c_rsp5_c_",
-    -124: b"add_r_spark",
-    -102: b"_assault_",
-    -93: b"card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4",
-    -46: b"_rsp1_",
-    -40: b"rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2",
-}
-
-
-def _dictionary(fill: int) -> bytes:
-    result = bytearray([fill]) * 238
-    for offset, run in _KNOWN_RUNS.items():
-        at = len(result) + offset
-        result[at : at + len(run)] = run
-    return bytes(result)
-
-
-_DICTIONARY = _dictionary(0)
-_ALTERNATE_DICTIONARY = _dictionary(255)
+# Three adjacent dictionary fragments in game/build_preset_codec.js.
+# Provenance and cross-checks: docs/dictionary.md, research/samples/client_dictionary.json.
+_DICTIONARY = (
+    b"TALENT_REPLICATIONTALENT_CATEGORY_UNIQUECATEGORY_ENCOUNTERCATEGORY_PUBLICCATEGORY_NONE"
+    b"rsp1_c_rsp2_c_rsp3_c_rsp4_c_rsp5_c_add_r_sparklbk_c_pot_c_assault_"
+    b"card_c__srt1_srt2_srt3_srt4_uni1_uni2_uni3_uni4_rsp1_rsp2_rsp3_rsp4_rsp5_lbk_pot_eps_col_col2"
+)
 
 
 def compress(payload: bytes) -> bytes:
@@ -58,11 +40,7 @@ def _inflate(data: bytes, dictionary: bytes, limit: int) -> bytes:
 
 
 def decompress(data: bytes, *, max_output: int = 1_048_576) -> bytes:
-    """Inflate a single complete stream, rejecting unverified dictionary bytes."""
+    """Inflate one bounded stream using the client-extracted BP4 dictionary."""
     if not isinstance(max_output, int) or isinstance(max_output, bool) or max_output < 0:
         raise ValueError("max_output must be a non-negative integer")
-    result = _inflate(data, _DICTIONARY, max_output)
-    alternate = _inflate(data, _ALTERNATE_DICTIONARY, max_output)
-    if result != alternate:
-        raise InvalidCodeError("This code references an unverified preset dictionary entry")
-    return result
+    return _inflate(data, _DICTIONARY, max_output)

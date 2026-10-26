@@ -7,6 +7,7 @@ a = Analysis(
     pathex=[str(project_root / "src")],
     binaries=[],
     datas=[
+        (str(project_root / "src" / "czn_deckcode" / "assets"), "czn_deckcode/assets"),
         (str(project_root / "LICENSE"), "licenses"),
         (str(project_root / "licenses" / "*.txt"), "licenses"),
     ],

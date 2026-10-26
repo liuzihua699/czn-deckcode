@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
 Push-Location $ProjectRoot
 try {
-    & $Python -m pip install "pyinstaller>=6.11,<7"
+    & $Python -m pip install ".[desktop]" "pyinstaller>=6.11,<7"
     if ($LASTEXITCODE -ne 0) { throw "PyInstaller installation failed" }
     & $Python -m PyInstaller --noconfirm --clean CZNDeckcode.spec
     if ($LASTEXITCODE -ne 0) { throw "Desktop build failed" }

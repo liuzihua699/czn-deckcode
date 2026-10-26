@@ -37,17 +37,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install . "pyinstaller>=6.11,<7"
+      - run: python -m pip install ".[desktop]" "pyinstaller>=6.11,<7"
       - run: python -m unittest discover -s tests -v
       - run: python -m PyInstaller --noconfirm --clean CZNDeckcode.spec
       - name: Check the packaged application
         shell: pwsh
         run: |
-          $app = Start-Process -FilePath .\dist\CZNDeckcode.exe -ArgumentList '--self-test', 'desktop-check.json' -PassThru -Wait
+          $app = Start-Process -FilePath .\dist\CZNDeckcode.exe -ArgumentList '--self-test', 'desktop-check.json', '--official-codes', 'research/samples/official_client_codes.json' -PassThru -Wait -WindowStyle Hidden
           if ($app.ExitCode -ne 0) { throw "Packaged app self-test failed" }
           $result = Get-Content desktop-check.json -Raw | ConvertFrom-Json
-          if (!$result.ok -or !$result.frozen) { throw "Packaged app is incomplete" }
+          if (!$result.ok -or !$result.frozen -or !$result.network_blocked -or $result.official_codes -ne 7 -or $result.network_events.Count -ne 0) { throw "Packaged app is incomplete" }
+      - run: python scripts/package_windows.py --self-test desktop-check.json
       - uses: actions/upload-artifact@v4
         with:
           name: CZNDeckcode-windows-x64
-          path: dist/CZNDeckcode.exe
+          path: |
+            dist/CZNDeckcode.exe
+            dist/CZNDeckcode-windows-x64.zip
+            dist/SHA256SUMS.txt

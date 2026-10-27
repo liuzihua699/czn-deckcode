@@ -1,0 +1,76 @@
+name: Upload desktop release assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "上传附件的现有 Release 标签"
+        required: true
+        type: string
+      build_run_id:
+        description: "该标签提交已通过的 Test and package 运行 ID"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: desktop-release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RELEASE_TAG: ${{ inputs.tag }}
+      BUILD_RUN_ID: ${{ inputs.build_run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify the build belongs to the release
+        run: |
+          gh run view "$BUILD_RUN_ID" --json conclusion,headSha,workflowName > build-run.json
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          run = json.loads(Path('build-run.json').read_text())
+          commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          assert run['conclusion'] == 'success', 'Build must succeed before upload'
+          assert run['workflowName'] == 'Test and package', 'Unexpected build workflow'
+          assert run['headSha'] == commit, 'Build and release commits differ'
+          PY
+          gh release view "$RELEASE_TAG" --json tagName
+      - name: Download verified Windows artifacts
+        run: gh run download "$BUILD_RUN_ID" --name CZNDeckcode-windows-x64 --dir release-assets
+      - name: Verify checksums and packaged self-test
+        run: |
+          python - <<'PY'
+          import hashlib, json, tomllib, zipfile
+          from pathlib import Path
+          root = Path('release-assets')
+          checksums = (root / 'SHA256SUMS.txt').read_text().splitlines()
+          expected = {'CZNDeckcode.exe', 'CZNDeckcode-windows-x64.zip'}
+          assert {line.split('  ', 1)[1] for line in checksums} == expected
+          for line in checksums:
+              digest, name = line.split('  ', 1)
+              with (root / name).open('rb') as stream:
+                  assert hashlib.file_digest(stream, 'sha256').hexdigest() == digest, name
+          version = tomllib.loads(Path('pyproject.toml').read_text())['project']['version']
+          with zipfile.ZipFile(root / 'CZNDeckcode-windows-x64.zip') as bundle:
+              report = json.loads(bundle.read('CZNDeckcode/离线自测结果.json'))
+          assert report['version'] == version
+          assert report['ok'] and report['frozen'] and report['network_blocked']
+          assert report['best_effort_import'] and report['official_codes'] == 7
+          assert report['network_events'] == []
+          print(json.dumps(report))
+          PY
+      - name: Upload Windows downloads
+        run: gh release upload "$RELEASE_TAG" release-assets/CZNDeckcode.exe release-assets/CZNDeckcode-windows-x64.zip --clobber

@@ -12,6 +12,8 @@ PyPI 发布包为纯 Python SDK，只包含编解码 API、数据模型、命令
 4. 发布该标签的 GitHub Release。`Publish SDK to PyPI` 工作流会自动构建 wheel 和源码发行包、检查 SDK 文件边界及安装结果，再使用可信发布上传到 PyPI。仅推送代码或创建 tag 不会触发 PyPI 上传。
 5. 确认 [发布工作流](https://github.com/liuzihua699/czn-deckcode/actions/workflows/publish-pypi.yml) 成功，并检查 [PyPI 项目页](https://pypi.org/project/czn-deckcode/) 已显示新版本。Windows Demo 的 ZIP／EXE 作为独立附件上传到 GitHub Release。
 
+Windows 大附件可通过 [Upload desktop release assets](https://github.com/liuzihua699/czn-deckcode/actions/workflows/release-desktop-assets.yml) 上传：输入现有 Release 标签及对应的成功构建运行 ID。工作流校验构建提交与标签一致、文件校验值和 EXE 离线自测后，从 GitHub 构建机直接上传 ZIP／EXE；它不会发布 PyPI 或替换包含 SDK 文件的总校验清单。
+
 工作流仍可能因构建失败、PyPI 权限或 GitHub 环境审批而中止；应以工作流结果和 PyPI 实际版本为准。需要重试时，可手动运行发布工作流，`ref` 选择该版本标签，并勾选 `publish`。
 
 PyPI 不允许覆盖已经使用过的发行文件名，删除后也不能复用。SDK 代码修复后应增加版本号，不应覆盖同版本附件来代替 PyPI 更新。用户安装的旧包不会自动更新，需要执行下方升级命令；固定了精确版本的项目还需修改依赖版本。

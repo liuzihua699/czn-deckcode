@@ -10,9 +10,9 @@ from types import SimpleNamespace
 
 
 def _load_sdk() -> SimpleNamespace:
-    from czn_deckcode import Deck, decode, encode
+    from czn_deckcode import Deck, decode, decode_best_effort, encode
 
-    return SimpleNamespace(Deck=Deck, decode=decode, encode=encode)
+    return SimpleNamespace(Deck=Deck, decode=decode, decode_best_effort=decode_best_effort, encode=encode)
 
 
 def _read_text(path: str) -> str:
@@ -57,6 +57,7 @@ def _parser() -> argparse.ArgumentParser:
     decode = commands.add_parser("decode", help="将卡组码解码为 JSON")
     decode.add_argument("code", metavar="CODE", help="卡组码，- 表示从标准输入读取")
     decode.add_argument("-o", "--output", metavar="DECK_JSON", help="输出文件，默认标准输出")
+    decode.add_argument("--best-effort", action="store_true", help="尽量恢复卡牌，丢弃明细输出到标准错误")
 
     return parser
 
@@ -91,7 +92,18 @@ def main(argv: list[str] | None = None) -> int:
             code = (_read_text("-") if args.code == "-" else args.code).strip()
             if not code:
                 raise ValueError("卡组码不能为空。")
-            deck = sdk.decode(code)
+            if args.best_effort:
+                result = sdk.decode_best_effort(code)
+                deck = result.deck
+                if result.warnings:
+                    _write_stream(sys.stderr, f"警告：已恢复 {len(deck.cards)}/{result.total_cards} 条卡牌记录，部分数据未保留。\n")
+                    for warning in result.warnings:
+                        location = f"第 {warning.card_index + 1} 条卡牌" if warning.card_index is not None else "卡组"
+                        if warning.card_id:
+                            location += f"（{warning.card_id}）"
+                        _write_stream(sys.stderr, f"{location} [{warning.action} / {warning.field}]：{warning.message}\n")
+            else:
+                deck = sdk.decode(code)
             text = json.dumps(deck.to_dict(), ensure_ascii=False, indent=2, allow_nan=False)
             _write_text(args.output, text + "\n")
         return 0

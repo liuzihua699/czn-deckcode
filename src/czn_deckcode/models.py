@@ -137,3 +137,37 @@ class Deck:
 
     def to_dict(self) -> dict[str, Any]:
         return {"charId": self.char_id, "cards": [card.to_dict() for card in self.cards]}
+
+
+@dataclass(frozen=True, slots=True)
+class DecodeWarning:
+    """Information discarded by a best-effort decode."""
+
+    card_index: int | None
+    card_id: str | None
+    field: str
+    message: str
+    action: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return {"card_index": self.card_index, "card_id": self.card_id,
+                "field": self.field, "message": self.message, "action": self.action}
+
+
+@dataclass(frozen=True, slots=True)
+class DecodeResult:
+    """Decoded deck plus non-fatal data-loss warnings."""
+
+    deck: Deck
+    warnings: tuple[DecodeWarning, ...] = ()
+    total_cards: int = 0
+    complete: bool = True
+
+    @property
+    def skipped_cards(self) -> int:
+        return self.total_cards - len(self.deck.cards)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {"deck": self.deck.to_dict(), "warnings": [w.to_dict() for w in self.warnings],
+                "total_cards": self.total_cards, "skipped_cards": self.skipped_cards,
+                "complete": self.complete}

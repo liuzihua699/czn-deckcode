@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 
 from .errors import InvalidCodeError, InvalidDeckError
-from .models import Card, Deck
+from .models import Card, Deck, DecodeResult, DecodeWarning
 
 
 _REMOVED = 0x01
@@ -233,3 +233,142 @@ def deserialize(data: bytes) -> Deck:
     if reader.offset != len(data):
         raise InvalidCodeError("Trailing bytes in binary payload")
     return Deck(char_id=char_id, cards=tuple(cards))
+
+
+def deserialize_best_effort(data: bytes) -> DecodeResult:
+    """Decode as many records as possible, reporting lossy fields.
+
+    This parser is deliberately separate from :func:`deserialize`: the strict
+    parser must continue rejecting data it cannot represent. Best effort mode
+    only drops fields after their complete wire representation has been read;
+    when a record boundary cannot be established it stops and returns the
+    successfully decoded prefix.
+    """
+    if not isinstance(data, bytes):
+        raise InvalidCodeError("Binary payload must be bytes")
+    reader = _Reader(data)
+    char_id = str(reader.uint())
+    total_cards = reader.uint()
+    cards: list[Card] = []
+    warnings: list[DecodeWarning] = []
+    complete = True
+
+    def read_string(index: int, card_id: str | None, field: str) -> str | None:
+        # Length prefixes give us an exact boundary even if the identifier's
+        # contents cannot be represented. Consume it, then drop just that field.
+        length = reader.uint()
+        end = reader.offset + length
+        if end > len(data):
+            raise InvalidCodeError("Truncated identifier")
+        raw = data[reader.offset:end]
+        reader.offset = end
+        try:
+            if not 1 <= length <= 255:
+                raise InvalidCodeError("Identifier length must be between 1 and 255 bytes")
+            value = raw.decode("utf-8")
+            if not value.strip():
+                raise InvalidCodeError("Identifier must not be blank")
+            return value
+        except (UnicodeDecodeError, InvalidCodeError) as error:
+            warnings.append(DecodeWarning(index, card_id, field,
+                f"Invalid identifier was discarded: {error}",
+                "skipped_card" if field == "cardId" else "dropped_option"))
+            return None
+
+    for index in range(total_cards):
+        card_id: str | None = None
+        try:
+            flags = reader.byte()
+            if flags & ~_KNOWN_FLAGS:
+                warnings.append(DecodeWarning(index, None, "flags",
+                    f"Unsupported flags 0x{flags:02x}; remaining records were not read",
+                    "stopped"))
+                complete = False
+                break
+            card_id = read_string(index, None, "cardId")
+            variant_id = None
+            epiphany_id = None
+            divine_id = None
+            god = None
+            if flags & _EPIPHANY:
+                category = reader.byte()
+                spark_id = read_string(index, card_id, "epiphany")
+                if spark_id is None:
+                    pass
+                elif category == 1:
+                    match = _SPARK_RSP.fullmatch(spark_id)
+                    if match and match[2] == card_id and _CARD_ID.fullmatch(f"{match[2]}_rsp{match[1]}"):
+                        variant_id = f"{match[2]}_rsp{match[1]}"
+                    else:
+                        warnings.append(DecodeWarning(index, card_id, "epiphany",
+                            "Malformed unique epiphany was discarded", "dropped_option"))
+                elif category == 3:
+                    if _EPIPHANY_ID.fullmatch(spark_id):
+                        epiphany_id = spark_id
+                    else:
+                        warnings.append(DecodeWarning(index, card_id, "epiphany",
+                            "Malformed ordinary epiphany was discarded", "dropped_option"))
+                else:
+                    warnings.append(DecodeWarning(index, card_id, "epiphany",
+                        f"Unsupported epiphany category {category} was discarded",
+                        "dropped_option"))
+            if flags & _DIVINE:
+                divine_id = read_string(index, card_id, "divine")
+                if divine_id is None:
+                    pass
+                elif variant_id is None and epiphany_id is None:
+                    warnings.append(DecodeWarning(index, card_id, "divine",
+                        "Divine option without a supported epiphany was discarded", "dropped_option"))
+                    divine_id = None
+                else:
+                    match = _DIVINE_ID.fullmatch(divine_id)
+                    if match:
+                        god = match[1].upper()
+                    else:
+                        warnings.append(DecodeWarning(index, card_id, "divine",
+                            "Malformed divine option was discarded", "dropped_option"))
+                        divine_id = None
+            duplicate = False
+            if flags & _TALENTS:
+                talent_count = reader.uint()
+                talents = [read_string(index, card_id, "talents") for _ in range(talent_count)]
+                if talents == [_REPLICATION]:
+                    duplicate = True
+                else:
+                    warnings.append(DecodeWarning(index, card_id, "talents",
+                        f"Unsupported card talent list {talents!r} was normalized; only replication was retained if present",
+                        "dropped_option"))
+                    # Keep the known replication meaning if it is present with
+                    # an additional unknown option.
+                    duplicate = _REPLICATION in talents
+            if card_id is None:
+                continue
+            _validate_card_id(card_id, "cardId")
+            if card_id.startswith("c_") and card_id.split("_", 2)[1] != char_id:
+                raise InvalidDeckError("cardId belongs to a different character")
+            cards.append(Card(
+                card_id=card_id,
+                removed=bool(flags & _REMOVED),
+                duplicate=duplicate,
+                variant_card_id=variant_id,
+                epiphany_id=epiphany_id,
+                divine_id=divine_id,
+                god=god,
+            ))
+        except InvalidCodeError as error:
+            warnings.append(DecodeWarning(index, card_id, "record",
+                f"Could not read this card completely: {error}", "stopped"))
+            complete = False
+            break
+        except InvalidDeckError as error:
+            warnings.append(DecodeWarning(index, card_id, "record", str(error), "skipped_card"))
+            # Semantic validation failed after all fields were consumed, so the
+            # following record remains aligned and can still be attempted.
+            continue
+
+    if reader.offset != len(data):
+        complete = False
+        if not warnings or warnings[-1].action != "stopped":
+            warnings.append(DecodeWarning(None, None, "payload",
+                "Trailing or unread payload bytes were discarded", "stopped"))
+    return DecodeResult(Deck(char_id=char_id, cards=tuple(cards)), tuple(warnings), total_cards, complete)

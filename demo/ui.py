@@ -36,6 +36,7 @@ class DeckApplication(VisualWorkbench):
         self._cards: list[dict] = []
         self._selected: int | None = None
         self._changing = False
+        self.last_import_result = None
         self.char_id_var = tk.StringVar(root)
         self.status_var = tk.StringVar(root)
         self.count_var = tk.StringVar(root)
@@ -108,13 +109,14 @@ class DeckApplication(VisualWorkbench):
 
     def _resize_status(self, event: tk.Event) -> None:
         if event.widget is self.root:
-            self.status_label.configure(wraplength=max(100, event.width - 36))
+            report_width = self.import_report_button.winfo_reqwidth() + 18
+            self.status_label.configure(wraplength=max(100, event.width - 36 - report_width))
 
     def _status(self, message: str, error: bool = False) -> None:
         self.status_var.set(message)
         self.status_label.configure(foreground="#b13939" if error else "#527264")
 
-    def _execute(self, callback: Callable[[], _T], success: str) -> _T | None:
+    def _execute(self, callback: Callable[[], _T], success: str | None) -> _T | None:
         try:
             result = callback()
         except json.JSONDecodeError as error:
@@ -123,7 +125,8 @@ class DeckApplication(VisualWorkbench):
         except Exception as error:
             self._status(f"操作失败：{error}", True)
             return None
-        self._status(success)
+        if success is not None:
+            self._status(success)
         return result
 
     @staticmethod
@@ -239,7 +242,8 @@ class DeckApplication(VisualWorkbench):
             if not code:
                 raise ValueError("请先输入卡组码。")
             return self.import_deck_code(code)
-        return self._execute(action, "解码完成，卡组已载入编辑器。")
+        # import_deck_code reports both full and partial success itself.
+        return self._execute(action, None)
 
     def apply_json(self) -> Deck | None:
         def action() -> Deck:

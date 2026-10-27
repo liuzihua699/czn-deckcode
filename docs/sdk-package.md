@@ -29,12 +29,17 @@ print(restored.to_dict())
 
 已有官方码可以直接传给 `decode(code)`。`encode()` 也接受使用 `charId`、`cards`、`cardId` 等 camelCase 字段的字典。结果保留卡牌顺序、移除和复制状态、独特灵光、一般灵光及神闪字段；只显示在用卡牌时可筛选 `not card.removed`。
 
+需要尽量导入含不支持选项的卡组时，调用 `result = decode_best_effort(code)`，从 `result.deck` 获取恢复的卡组，并检查 `result.warnings` 的丢弃明细。此模式会丢失不支持的数据；无法确定记录边界时只恢复此前内容，底层格式或压缩错误仍然报错。严格的 `decode()` 行为保持不变。
+
 ## 命令行
 
 ```bash
 czn-deckcode encode deck.json -o code.txt
 czn-deckcode decode - -o restored.json < code.txt
+czn-deckcode decode - --best-effort -o recovered.json < code.txt
 ```
+
+`--best-effort` 输出的 JSON 可以直接重新编码；丢弃明细输出到标准错误。
 
 不支持的版本或无效输入会抛出 `DeckCodeError` 的子类。当前支持 BP4，编解码不验证完整游戏构筑规则。同一份卡组的有效压缩表示可能不同，应比较解码数据而不是码字符串。
 

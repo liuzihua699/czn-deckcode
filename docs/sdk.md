@@ -64,6 +64,28 @@ for card in active_cards:
 
 `decode()` 返回的记录包括已移除卡。界面只需展示当前卡组时可筛选 `not card.removed`；如果要重新导出，使用完整的 `deck`，保留移除、复制及灵光状态。
 
+### 尽量导入可识别的内容
+
+遇到包含不支持卡牌选项的 BP4 码时，可使用 `decode_best_effort()`。它返回恢复的卡组和丢弃明细，适合导入工具；`decode()` 仍然严格检查，不会自动丢弃数据。
+
+```python
+from czn_deckcode import decode_best_effort, encode
+
+result = decode_best_effort(official_code)
+deck = result.deck
+print(f"恢复了 {len(deck.cards)}/{result.total_cards} 条记录")
+for warning in result.warnings:
+    print(warning.card_index, warning.card_id, warning.field, warning.message)
+
+recovered_code = encode(deck)
+```
+
+能确定字段边界的未知天赋等选项会被丢弃，卡牌及后面的记录继续解析；不能保留的整张卡会被跳过。遇到未知状态位、截断等无法确定下一张牌起点的问题，只返回此前已恢复的内容，不扫描猜测后面的卡牌。Base64、BP 头、版本和压缩流无效时仍然抛出异常。
+
+`result.warnings` 逐条报告丢失的信息；`card_index` 从 0 开始。`total_cards` 是原码声明的记录数，`skipped_cards` 包括被跳过和无法继续读取的记录。`complete` 表示是否读取到完整末尾，即使它为 `True`，仍需检查 `warnings`。`result.to_dict()` 可用于保存完整导入报告。
+
+重新编码只包含恢复后的数据，不能还原已丢弃的选项，也不保证符合游戏或第三方网站的完整规则。桌面 Demo 默认使用此模式，并提供“查看导入报告”。
+
 ## 4. 用字典传入卡组数据
 
 不想构造 `Card` 和 `Deck` 时，可以直接传入 camelCase 字段的字典：
@@ -163,4 +185,4 @@ else:
 - `UnsupportedVersionError`：尚不支持的版本；它继承 `InvalidCodeError`，分别捕获时应放在前面。
 - `InvalidDeckError`：传给 `Card`、`Deck` 或 `encode()` 的数据不符合支持的格式。
 
-当前支持 BP4。未知版本或未实现字段会明确报错，编解码不会向外部服务请求回退解析。它不模拟完整游戏规则，仍需在游戏中确认构筑是否合法。
+当前支持 BP4。严格解码时，未知版本或未实现字段会明确报错；尽量导入需要显式调用 `decode_best_effort()`。编解码不会向外部服务请求回退解析。它不模拟完整游戏规则，仍需在游戏中确认构筑是否合法。

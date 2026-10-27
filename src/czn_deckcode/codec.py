@@ -10,9 +10,9 @@ from typing import Any
 
 from ._compression import compress, decompress
 from ._obfuscation import transform
-from ._serialization import deserialize, serialize
+from ._serialization import deserialize, deserialize_best_effort, serialize
 from .errors import InvalidCodeError, InvalidDeckError, UnsupportedVersionError
-from .models import Deck
+from .models import Deck, DecodeResult
 
 FORMAT_VERSION = 4
 _MAGIC = b"BP"
@@ -43,6 +43,24 @@ def decode(code: str) -> Deck:
     :class:`InvalidCodeError` for malformed data, and
     :class:`UnsupportedVersionError` for an unsupported BP version.
     """
+    payload = _decode_payload(code)
+    try:
+        return deserialize(payload)
+    except InvalidDeckError as error:
+        raise InvalidCodeError(str(error)) from error
+
+
+def decode_best_effort(code: str) -> DecodeResult:
+    """Recover supported cards/options and explicitly report any data loss.
+
+    Base64, BP header and compression errors remain fatal. Unsupported options
+    with known byte boundaries are discarded; unknown record boundaries stop
+    parsing and preserve only preceding cards. This operation can be lossy.
+    """
+    return deserialize_best_effort(_decode_payload(code))
+
+
+def _decode_payload(code: str) -> bytes:
     if not isinstance(code, str):
         raise InvalidCodeError("Deck code must be a string")
     if len(code) > MAX_CODE_CHARACTERS:
@@ -67,8 +85,4 @@ def decode(code: str) -> Deck:
         raise InvalidCodeError("Invalid BP deck-code header")
     if message[2] != FORMAT_VERSION:
         raise UnsupportedVersionError(f"Unsupported BP version: {message[2]} (supported: 4)")
-    payload = decompress(message[3:], max_output=MAX_PAYLOAD_BYTES)
-    try:
-        return deserialize(payload)
-    except InvalidDeckError as error:
-        raise InvalidCodeError(str(error)) from error
+    return decompress(message[3:], max_output=MAX_PAYLOAD_BYTES)

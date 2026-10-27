@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import Mock, patch
 
 from czn_deckcode import cli
-from czn_deckcode.models import Card, Deck
+from czn_deckcode.models import Card, Deck, DecodeResult, DecodeWarning
 
 
 class CLITests(unittest.TestCase):
@@ -84,6 +84,24 @@ class CLITests(unittest.TestCase):
             text = output.read_text(encoding="utf-8")
             self.assertIn("神明", text)
             self.assertEqual(json.loads(text), self.deck.to_dict())
+
+    def test_best_effort_returns_reencodable_deck_and_reports_loss_to_stderr(self):
+        warning = DecodeWarning(6, "card_ds04_des_30033", "talents", "Discarded TALENT_POSSESSION", "dropped_option")
+        self.sdk.decode_best_effort = Mock(return_value=DecodeResult(self.deck, (warning,), 2, True))
+        status, stdout, stderr = self.invoke(["decode", "test-code", "--best-effort"])
+        self.assertEqual(status, 0)
+        self.assertEqual(json.loads(stdout), self.deck.to_dict())
+        self.assertIn("已恢复 1/2", stderr)
+        self.assertIn("第 7 条卡牌", stderr)
+        self.assertIn("TALENT_POSSESSION", stderr)
+        self.sdk.decode_best_effort.assert_called_once_with("test-code")
+        self.sdk.decode.assert_not_called()
+
+    def test_best_effort_clean_input_has_no_warning(self):
+        self.sdk.decode_best_effort = Mock(return_value=DecodeResult(self.deck, (), 1, True))
+        status, stdout, stderr = self.invoke(["decode", "test-code", "--best-effort"])
+        self.assertEqual((status, stderr), (0, ""))
+        self.assertEqual(json.loads(stdout), self.deck.to_dict())
 
     def test_explicit_dash_output_uses_stdout(self):
         status, stdout, stderr = self.invoke(["decode", "test-code", "-o", "-"])

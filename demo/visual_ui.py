@@ -148,8 +148,12 @@ class VisualWorkbench:
         ttk.Button(pager, text="›", width=3, command=lambda: self._change_library_page(1)).pack(side="right")
         self.card_panel.pack(fill="both", expand=True)
         for variable in (self.card_search, self.group_var): variable.trace_add("write", lambda *_: self._reset_library())
-        self.status_label = ttk.Label(self.root, textvariable=self.status_var, style="AppMuted.TLabel", padding=(18, 9))
-        self.status_label.grid(row=2, column=0, sticky="ew")
+        status_bar = ttk.Frame(self.root, style="App.TFrame")
+        status_bar.grid(row=2, column=0, sticky="ew")
+        self.status_label = ttk.Label(status_bar, textvariable=self.status_var, style="AppMuted.TLabel", padding=(18, 9))
+        self.status_label.pack(side="left", fill="x", expand=True)
+        self.import_report_button = ttk.Button(status_bar, text="查看导入报告", command=self._open_import_report, state="disabled")
+        self.import_report_button.pack(side="right", padx=(0, 18), pady=5)
         self.root.bind("<Configure>", self._resize_status, add=True)
         self.root.bind("<Escape>", lambda _: self._cancel_action())
         self.root.bind("<Control-s>", lambda _: self.save_presets())
@@ -563,12 +567,54 @@ class VisualWorkbench:
         window.bind("<Destroy>", destroyed)
 
     def import_deck_code(self, code, replace=False, name=None):
-        from czn_deckcode import decode
-        # Decode fully before mutating the current deck or any preset.
-        deck = decode(code.strip())
+        from czn_deckcode import decode_best_effort, encode
+        # Recover and validate the replacement before mutating any preset.
+        result = decode_best_effort(code.strip())
+        deck = result.deck
+        if result.total_cards and not deck.cards:
+            raise ValueError("没有恢复出可导入的卡牌，原卡组保留。")
+        exported_code = encode(deck) if result.warnings else code.strip()
         self.load_external_deck(deck, replace, name)
-        self._set_text(self.code_text, code.strip())
+        self.last_import_result = result
+        self._set_text(self.code_text, exported_code)
+        self.import_report_button.configure(state="normal", text="导入报告（有丢弃）" if result.warnings else "查看导入报告")
+        self._status(self._import_summary(result))
         return deck
+
+    @staticmethod
+    def _import_summary(result):
+        active = sum(not card.removed for card in result.deck.cards)
+        summary = f"已导入 {len(result.deck.cards)}/{result.total_cards} 条卡牌记录，其中 {active} 张在用。"
+        if result.warnings:
+            summary += "部分选项或卡牌未能保留；重新导出的码只包含已恢复内容。点击「导入报告」了解明细。"
+        else:
+            summary += "卡组数据完整。"
+        return summary
+
+    def _open_import_report(self):
+        result = self.last_import_result
+        if result is None:
+            return None
+        window = self._dialog("最近一次卡组码导入报告", "750x520")
+        body = ttk.Frame(window, padding=20); body.pack(fill="both", expand=True)
+        ttk.Label(body, text="导入报告", font=(self.font_family, 16, "bold")).pack(anchor="w")
+        ttk.Label(body, text=self._import_summary(result), wraplength=690).pack(anchor="w", pady=(10, 12))
+        lines = []
+        fields = {"talents": "卡牌天赋", "epiphany": "灵光选项", "epiphanyId": "灵光选项", "divine": "神闪选项", "divineId": "神闪选项", "cardId": "卡牌标识", "record": "卡牌记录", "card": "卡牌记录", "flags": "卡牌选项", "payload": "卡组数据"}
+        for warning in result.warnings:
+            label = f"第 {warning.card_index + 1} 条卡牌" if warning.card_index is not None else "卡组数据"
+            if warning.card_id:
+                card = self.library.card(warning.card_id)
+                label += f" · {self.library.text(card, language=self.language_var.get())} ({warning.card_id})"
+            lines.append(f"{label}\n{fields.get(warning.field, '导入选项')}：{warning.message}")
+        if result.warnings:
+            lines.insert(0, "以下内容未能保留。重新导出会使用已恢复的卡组，不会还原这些内容。")
+        else:
+            lines.append("所有卡牌记录均已读取，没有丢弃选项。")
+        editor = self._text(body); editor.pack(fill="both", expand=True)
+        self._set_text(editor, "\n\n".join(lines)); editor.configure(state="disabled")
+        ttk.Button(body, text="关闭", command=window.destroy).pack(anchor="e", pady=(12, 0))
+        return window
 
     def load_external_deck(self, deck, replace=False, name=None):
         if replace and deck.char_id != self.char_id_var.get(): raise ValueError("角色不同，请选择「导入为新预设」。")
@@ -585,7 +631,7 @@ class VisualWorkbench:
         window = self._dialog("从卡组码导入", "710x455"); self._import_window = window
         body = ttk.Frame(window, padding=20); body.pack(fill="both", expand=True)
         ttk.Label(body, text="从卡组码导入", font=(self.font_family, 18, "bold")).pack(anchor="w")
-        ttk.Label(body, text="粘贴官方卡组码，成功后自动归入对应角色。编解码完全在本机完成，无需联网。", wraplength=650, foreground=MUTED).pack(anchor="w", pady=(10, 12))
+        ttk.Label(body, text="尽量保留能读取的卡牌；不支持的选项或卡牌会跳过，并列入导入报告。成功后自动归入对应角色，全程在本机完成。", wraplength=650, foreground=MUTED).pack(anchor="w", pady=(10, 12))
         editor = self._text(body); editor.configure(height=7); editor.pack(fill="both", expand=True)
         bar = ttk.Frame(body); bar.pack(fill="x", pady=12); mode = tk.StringVar(window, "new")
         ttk.Radiobutton(bar, text="导入为新预设", variable=mode, value="new").pack(side="left", padx=(0, 18))

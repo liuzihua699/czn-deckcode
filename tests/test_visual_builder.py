@@ -4,10 +4,18 @@ from pathlib import Path
 import unittest
 import tempfile
 import json
+import base64
+import zlib
 from unittest.mock import patch
 
 from czn_deckcode import Card, Deck, decode, encode
+from czn_deckcode._obfuscation import transform
 from demo.library import CardLibrary
+
+
+POSSESSION_CODE = (
+    "v6l88OLiNvvFzwd5bz8N7Hb2ZkVEaO1cD_GzNgXLQPTXP3rAgHsRdCQg_OUgKEA0_x52oSNoInQaHZ2bS1XlNfb5OLSWaL5W7ZmtEWtcH5uEnTu9Pq1AAVIGy2JTFi5gBb5GHGlcMKVkqgki-juTiPvIljH4PPvIlu5WPO4cnT42LEGYppiId4w14KZUvZwgYhYlH4BmSg"
+)
 
 
 class LocalCatalogTests(unittest.TestCase):
@@ -97,6 +105,64 @@ class VisualWorkflowTests(unittest.TestCase):
     def tearDown(self):
         if hasattr(self, "root"):
             self.root.destroy()
+
+    def test_best_effort_import_preserves_cards_suffix_and_visible_report(self):
+        self.app._set_text(self.app.code_text, POSSESSION_CODE)
+        with patch("socket.socket", side_effect=AssertionError("Network access forbidden")), patch("socket.getaddrinfo", side_effect=AssertionError("DNS forbidden")):
+            deck = self.app.decode_code()
+        self.assertIsNotNone(deck)
+        self.assertEqual(deck.char_id, "30115")
+        self.assertEqual(len(deck.cards), 12)
+        self.assertEqual(sum(not c.removed for c in deck.cards), 9)
+        self.assertEqual(deck.cards[6].card_id, "card_ds04_des_30033")
+        self.assertEqual([c.card_id for c in deck.cards[-3:]], ["c_30115_srt1", "c_30115_srt3", "c_30115_srt2"])
+        self.assertTrue(all(c.removed for c in deck.cards[-3:]))
+        self.assertEqual(len(self.app.tree.get_children()), 9)
+        self.assertIn("未能保留", self.app.status_var.get())
+        result = self.app.last_import_result
+        self.assertTrue(result.warnings)
+        cleaned = self.app._get_text(self.app.code_text)
+        self.assertNotEqual(cleaned, POSSESSION_CODE)
+        self.assertEqual(decode(cleaned), deck)
+        self.assertEqual(decode(self.app.encode_deck()), deck)
+        self.app.save_presets()
+        self.assertIs(self.app.last_import_result, result)
+        self.assertTrue(self.app.import_report_button.instate(["!disabled"]))
+        self.assertIn("有丢弃", self.app.import_report_button.cget("text"))
+        report = self.app._open_import_report()
+        self.root.update_idletasks()
+        self.assertTrue(report.winfo_exists())
+        def text_widgets(widget):
+            yield widget
+            for child in widget.winfo_children():
+                yield from text_widgets(child)
+        report_text = "\n".join(widget.get("1.0", "end-1c") for widget in text_widgets(report) if isinstance(widget, tk.Text))
+        self.assertIn("TALENT_POSSESSION", report_text)
+        self.assertIn("第 7 条卡牌", report_text)
+        report.destroy()
+        from demo.presets import PresetStore
+        restored = PresetStore(self.app.store.path)
+        group = restored.data["characters"]["30115"]
+        preset = next(p for p in group["presets"] if p["id"] == group["active"])
+        self.assertEqual(Deck.from_dict({"charId": "30115", "cards": preset["cards"]}), deck)
+
+    def test_best_effort_failure_or_empty_recovery_keeps_presets_and_report(self):
+        self.app.import_deck_code(POSSESSION_CODE)
+        before = copy.deepcopy(self.app.store.data)
+        current = self.app._deck_from_editor()
+        report = self.app.last_import_result
+        compressor = zlib.compressobj(wbits=-15)
+        # A valid BP4 envelope whose sole record starts with unsupported flags.
+        payload = b"\xa3\xeb\x01\x01\x08\x03p_a"
+        empty_recovery_code = base64.urlsafe_b64encode(transform(b"BP\x04" + compressor.compress(payload) + compressor.flush())).decode().rstrip("=")
+        for code in ("invalid-code", empty_recovery_code):
+            with self.subTest(code=code):
+                self.app._set_text(self.app.code_text, code)
+                self.assertIsNone(self.app.decode_code())
+                self.assertIn("操作失败", self.app.status_var.get())
+                self.assertEqual(self.app._deck_from_editor(), current)
+                self.assertEqual(self.app.store.data, before)
+                self.assertIs(self.app.last_import_result, report)
 
     def test_choose_role_add_cards_and_export_the_actual_deck(self):
         self.app.select_character("1039")

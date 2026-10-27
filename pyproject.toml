@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "czn-deckcode"
-version = "0.1.0a2"
+version = "0.1.0a3"
 description = "Offline deck-code tools for Chaos Zero Nightmare"
 readme = "docs/sdk-package.md"
 license = "MIT"

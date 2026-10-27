@@ -23,10 +23,13 @@ def _self_test(output: Path, official_codes: Path | None = None) -> int:
     sys.addaudithook(forbid_network)
     import tkinter as tk
 
-    from czn_deckcode import __version__, Deck, decode, encode
+    from czn_deckcode import __version__, Deck, InvalidCodeError, decode, encode
     from demo.ui import DeckApplication
 
     original = "v6l8cOjiNr8NyAd5bz8N5Gb4BacatRLcP_gTJk6Sy-IpI4UudHIDQRTERzqzgUXu"
+    possession_code = (
+        "v6l88OLiNvvFzwd5bz8N7Hb2ZkVEaO1cD_GzNgXLQPTXP3rAgHsRdCQg_OUgKEA0_x52oSNoInQaHZ2bS1XlNfb5OLSWaL5W7ZmtEWtcH5uEnTu9Pq1AAVIGy2JTFi5gBb5GHGlcMKVkqgki-juTiPvIljH4PPvIlu5WPO4cnT42LEGYppiId4w14KZUvZwgYhYlH4BmSg"
+    )
     root = None
     try:
         deck = decode(original)
@@ -62,6 +65,33 @@ def _self_test(output: Path, official_codes: Path | None = None) -> int:
                 if app.show_removed.get() or len(app.tree.get_children()) != active or len(app._deck_frames) != active:
                     raise RuntimeError("Removed-card visibility regression")
                 count += 1
+        try:
+            decode(possession_code)
+        except InvalidCodeError as error:
+            if "Unsupported card talent list" not in str(error):
+                raise
+        else:
+            raise RuntimeError("Strict decode accepted unsupported talents")
+        recovered_deck = app.import_deck_code(possession_code)
+        recovered = app.last_import_result
+        if (recovered is None or recovered.deck != recovered_deck
+                or recovered_deck.char_id != "30115"
+                or recovered.total_cards != 12 or len(recovered_deck.cards) != 12
+                or sum(not card.removed for card in recovered_deck.cards) != 9
+                or recovered_deck.cards[6].card_id != "card_ds04_des_30033"
+                or not recovered.complete or recovered.skipped_cards != 0
+                or len(recovered.warnings) != 1):
+            raise RuntimeError("Best-effort import did not preserve readable cards")
+        warning = recovered.warnings[0]
+        if ((warning.card_index, warning.card_id, warning.field, warning.action)
+                != (6, "card_ds04_des_30033", "talents", "dropped_option")
+                or "TALENT_POSSESSION" not in warning.message
+                or not app.import_report_button.instate(["!disabled"])):
+            raise RuntimeError("Best-effort import did not expose its data-loss report")
+        if (decode(app._get_text(app.code_text)) != recovered_deck
+                or decode(app.encode_deck()) != recovered_deck
+                or len(app.tree.get_children()) != 9):
+            raise RuntimeError("Best-effort import did not produce a valid repaired share code")
         preview = app.library.description(app.library.card("c_30134_uni1_rsp2"), "繁體中文")
         if "生成3" not in preview or "卡牌1" not in preview:
             raise RuntimeError("Client numeric descriptions missing")
@@ -80,6 +110,7 @@ def _self_test(output: Path, official_codes: Path | None = None) -> int:
             "network_events": network_events,
             "official_codes": count,
             "numeric_descriptions": True,
+            "best_effort_import": True,
         }
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0

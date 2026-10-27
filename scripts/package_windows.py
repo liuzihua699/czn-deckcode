@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_NAME = "CZNDeckcode-windows-x64.zip"
 PREFIX = "CZNDeckcode/"
-INSTRUCTIONS = """CZN 卡组工作台 0.1.0a2
+INSTRUCTIONS = """CZN 卡组工作台 0.1.0a3
 
 解压整个文件夹后双击 CZNDeckcode.exe，无需安装 Python 或游戏。
 编解码、图片与数值表均在本地使用，不调用外部编解码 API。
@@ -25,7 +25,9 @@ INSTRUCTIONS = """CZN 卡组工作台 0.1.0a2
 5. 已移除记录默认隐藏，只有手动勾选「显示已移除」后才显示。
    隐藏不会删除记录，导出仍保留移除和复制状态。
 6. 「从卡组码导入」支持新建预设或覆盖当前同角色预设。
-   已验证 7 条实际官方码，含记忆卡；未知版本或字段会报错，不会联网回退。
+   尽量保留可读取的卡牌，不支持的选项或卡牌会列入「导入报告」。
+   无法确定下一条记录边界时只保留此前记录；重新导出不包含被丢弃的内容。
+   未知版本、头部或压缩错误仍会报错，不会联网回退。
 7. 「保存预设」或 Ctrl+S 保存，正常关闭时也会保存。
    配置位于程序旁 user_data/decks.json；更新时保留原 user_data 文件夹。
 8. 「导出 / 分享」生成卡组码，JSON 页提供可选备份工具。
@@ -51,8 +53,9 @@ def sha256(path: Path) -> str:
 def package(exe: Path, report_path: Path, output: Path, additional: list[Path]) -> dict:
     report = json.loads(report_path.read_text(encoding="utf-8"))
     if not (report.get("ok") and report.get("frozen") and report.get("network_blocked")
+            and report.get("best_effort_import")
             and report.get("official_codes") == 7 and report.get("network_events") == []):
-        raise ValueError("EXE 必须先通过禁用网络条件下的 7 条官方码自测")
+        raise ValueError("EXE 必须先通过禁用网络条件下的 7 条官方码及尽力导入自测")
     output.mkdir(parents=True, exist_ok=True)
     target = output / "CZNDeckcode.exe"
     if exe.resolve() != target.resolve(): shutil.copy2(exe, target)

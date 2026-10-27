@@ -7,10 +7,10 @@
 要求 **Python 3.10+**。SDK 已发布到 PyPI，执行：
 
 ```bash
-python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
+python -m pip install --upgrade --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
-当前版本是预发布版 `0.1.0a2`，因此命令需要 `--pre`。后续升级可执行 `python -m pip install --upgrade --pre --index-url https://pypi.org/simple czn-deckcode`。源码用户可在项目根目录执行 `python -m pip install .`。
+当前版本是预发布版 `0.1.0a3`，因此获取最新版本时需要 `--pre`；`--upgrade` 同时适用于已安装旧版的环境。需要固定依赖时使用 `czn-deckcode==0.1.0a3`。源码用户可在项目根目录执行 `python -m pip install .`。
 
 SDK 运行时仅使用 Python 标准库，不需要安装 Pillow 或 Tk，也不包含卡图或图形界面。独立演示位于仓库的 `demo/`，使用单独的依赖和 EXE 构建流程。
 

@@ -1,6 +1,6 @@
 # CZN Deckcode v0.1.0a2 · 图卡组卡与官方码导入修复
 
-本次更新覆盖原 `v0.1.0a2`，版本号保持不变。
+此版本提供图卡组卡与官方码导入修复。后续 SDK 更新使用新的版本号发布到 PyPI。
 
 Windows 用户下载 **CZNDeckcode-windows-x64.zip**，解压后双击 **CZNDeckcode.exe**。包含 Python、Tcl/Tk 及全部插画，无需安装 Python 或游戏。更新时保留原 EXE 旁的 `user_data` 文件夹。
 
@@ -20,10 +20,10 @@ EXE 演示包包含 39 个角色、817 张可选卡牌、855 张本地插画／�
 
 ## SDK 快速上手
 
-要求 Python 3.10+。下载本 Release 的 `czn_deckcode-0.1.0a2-py3-none-any.whl` 后，在下载目录执行（同版本覆盖升级需要强制重装）：
+要求 Python 3.10+。直接从 PyPI 安装本版本，无需下载 Release 中的 wheel：
 
 ```bash
-python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
+python -m pip install --index-url https://pypi.org/simple czn-deckcode==0.1.0a2
 ```
 
 ```python

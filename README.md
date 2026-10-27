@@ -14,7 +14,7 @@
 当前 SDK 已发布到 PyPI：
 
 ```bash
-python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
+python -m pip install --upgrade --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
 代码示例：
@@ -33,6 +33,8 @@ new_code = encode({
 print(new_code)
 ```
 
+`0.1.0a3` 新增 `decode_best_effort()`：尽量导入可识别的内容，并通过 `result.warnings` 报告被丢弃的选项或卡牌。原 `decode()` 继续严格检查。
+
 完整 SDK 文档见 [docs/sdk.md](docs/sdk.md)，发布步骤见 [docs/publishing.md](docs/publishing.md)。
 
 ## Demo 功能
@@ -41,6 +43,7 @@ Windows 用户可以从 [Releases](https://github.com/liuzihua699/czn-deckcode/r
 
 - 按角色管理多个预设卡组；
 - 从官方卡组码导入；
+- 尽量恢复可识别内容，并查看导入报告；
 - 搜索和添加角色卡、公共卡、记忆卡；
 - 新增、复制、移除和恢复卡牌；
 - 选择独特灵光、一般灵光和神之灵光；

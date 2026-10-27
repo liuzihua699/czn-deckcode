@@ -4,13 +4,13 @@
 
 ## 1. 安装
 
-要求 **Python 3.10+**。SDK 尚未发布到 PyPI，请从 [v0.1.0a2 Release](https://github.com/liuzihua699/czn-deckcode/releases/tag/v0.1.0a2) 下载 `czn_deckcode-0.1.0a2-py3-none-any.whl`，在下载目录执行：
+要求 **Python 3.10+**。SDK 已发布到 PyPI，执行：
 
 ```bash
-python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
+python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
-本次修复覆盖原 `0.1.0a2`，版本号未改变；已安装旧版时也应使用 `--force-reinstall`，确保换成修复后的解码器。源码用户可在项目根目录执行 `python -m pip install .`。
+当前版本是预发布版 `0.1.0a2`，因此命令需要 `--pre`。后续升级可执行 `python -m pip install --upgrade --pre --index-url https://pypi.org/simple czn-deckcode`。源码用户可在项目根目录执行 `python -m pip install .`。
 
 SDK 运行时仅使用 Python 标准库，不需要安装 Pillow 或 Tk，也不包含卡图或图形界面。独立演示位于仓库的 `demo/`，使用单独的依赖和 EXE 构建流程。
 

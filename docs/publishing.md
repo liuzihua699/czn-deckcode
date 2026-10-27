@@ -24,11 +24,11 @@ GitHub 仓库对应环境名也为 `pypi`。不需要把 PyPI 密码或令牌发
 
 ## 使用方安装与依赖
 
-**以下命令在首次 PyPI 发布完成后可用；当前不能把“已准备发布”当成“已上传成功”。**
+SDK 已完成首次 PyPI 发布，使用方可以直接安装：
 
 ```bash
-python -m pip install --pre czn-deckcode
-python -m pip install --upgrade --pre czn-deckcode
+python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
+python -m pip install --upgrade --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
 实验版本也可精确依赖：

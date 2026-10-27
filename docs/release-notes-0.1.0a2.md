@@ -16,14 +16,14 @@ EXE 演示包包含 39 个角色、817 张可选卡牌、855 张本地插画／�
 
 当前支持 BP4；未来版本、未知字段及完整游戏内构筑限制仍需继续验证。不同压缩表示可能生成不同但语义相同的码。本轮没有增加对未来所有官方码的兼容承诺。
 
-下载内容分为两类：Windows ZIP／EXE 是图卡演示；Python wheel／源码发行包只包含轻量 SDK。原科普资料附件保留。PyPI 发布工作流已准备，首次上传仍需维护者完成账号关联；[首次配置步骤](https://github.com/liuzihua699/czn-deckcode/blob/main/docs/publishing.md)。
+下载内容分为两类：Windows ZIP／EXE 是图卡演示；Python wheel／源码发行包只包含轻量 SDK。原科普资料附件保留。SDK 已发布到 PyPI，安装命令见下方。
 
 ## SDK 快速上手
 
 要求 Python 3.10+。下载本 Release 的 `czn_deckcode-0.1.0a2-py3-none-any.whl` 后，在下载目录执行（同版本覆盖升级需要强制重装）：
 
 ```bash
-python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
+python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
 ```python

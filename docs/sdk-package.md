@@ -6,10 +6,10 @@ SDK 只包含编解码 API、数据模型和命令行；不包含卡图、图形
 
 ## 安装
 
-发布到 PyPI 后，可安装当前预发布版：
+当前 SDK 已发布到 PyPI，可安装预发布版：
 
 ```bash
-python -m pip install --pre czn-deckcode
+python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
 项目依赖可固定为 `czn-deckcode==0.1.0a2`。已有环境升级到后续修复版本时使用 `python -m pip install --upgrade --pre czn-deckcode`。

@@ -11,10 +11,10 @@
 
 ## SDK 最小用法
 
-当前 SDK wheel 可以从 [v0.1.0a2 Release](https://github.com/liuzihua699/czn-deckcode/releases/tag/v0.1.0a2) 下载：
+当前 SDK 已发布到 PyPI：
 
 ```bash
-python -m pip install --force-reinstall ./czn_deckcode-0.1.0a2-py3-none-any.whl
+python -m pip install --pre --index-url https://pypi.org/simple czn-deckcode
 ```
 
 代码示例：
@@ -31,12 +31,6 @@ new_code = encode({
     "cards": [{"cardId": "c_30134_uni1"}],
 })
 print(new_code)
-```
-
-PyPI 发布配置已经准备好，首次发布完成后即可使用：
-
-```bash
-pip install --pre czn-deckcode
 ```
 
 完整 SDK 文档见 [docs/sdk.md](docs/sdk.md)，发布步骤见 [docs/publishing.md](docs/publishing.md)。

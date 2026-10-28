@@ -209,7 +209,8 @@ class VisualWorkbench:
         Deck.from_dict({"charId": self._loaded_owner, "cards": codec_card_rows(self._cards)})
         group = self.store.data["characters"][self._loaded_owner]
         preset = next(p for p in group["presets"] if p["id"] == self._active_preset)
-        preset["cards"] = copy.deepcopy(self._cards)
+        preset["cards"] = codec_card_rows(self._cards)
+        preset["user_added"] = [row.get(USER_ADDED_FIELD) is True for row in self._cards]
 
     def select_character(self, owner):
         if owner == self._loaded_owner: return
@@ -223,7 +224,7 @@ class VisualWorkbench:
         preset = next(p for p in group["presets"] if p["id"] == preset_id)
         self._loaded_owner, self._active_preset = owner, preset_id
         group["active"] = preset_id; self.store.data["selected_character"] = owner
-        self._populate_rows(preset["cards"], owner=owner)
+        self._populate_rows(preset["cards"], owner=owner, user_added=preset.get("user_added"))
         self._set_text(self.code_text, ""); self._render_presets(); self._reset_library()
 
     def _render_presets(self):
@@ -304,10 +305,13 @@ class VisualWorkbench:
         can_delete = is_user_added_card(self._cards, self._selected)
         button.configure(state="normal" if can_delete else "disabled")
 
-    def _populate_rows(self, rows, owner=None):
+    def _populate_rows(self, rows, owner=None, user_added=None):
         owner = owner or self.char_id_var.get()
         rows = copy.deepcopy(rows)
-        user_added = self.library.user_added_flags(rows, owner)
+        inferred_flags = self.library.user_added_flags(rows, owner)
+        if user_added is not None:
+            inferred_flags = [inferred or saved for inferred, saved in zip(inferred_flags, user_added)]
+        user_added = inferred_flags
         for row, is_user_added in zip(rows, user_added):
             if is_user_added:
                 row[USER_ADDED_FIELD] = True
@@ -661,7 +665,9 @@ class VisualWorkbench:
         if replace and deck.char_id != self.char_id_var.get(): raise ValueError("角色不同，请选择「导入为新预设」。")
         self._capture_preset(); group = self.store.ensure(deck.char_id, self.library.starter(deck.char_id))
         if replace:
-            preset = next(p for p in group["presets"] if p["id"] == self._active_preset); preset["cards"] = [c.to_dict() for c in deck.cards]
+            preset = next(p for p in group["presets"] if p["id"] == self._active_preset)
+            preset["cards"] = [c.to_dict() for c in deck.cards]
+            preset["user_added"] = [False] * len(deck.cards)
         else:
             preset = self.store.make(name.strip() if name and name.strip() else "导入的卡组", [c.to_dict() for c in deck.cards]); group["presets"].append(preset)
         self._activate(deck.char_id, preset["id"])

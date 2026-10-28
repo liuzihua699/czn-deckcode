@@ -117,13 +117,30 @@ class PermanentDeleteLogicTests(unittest.TestCase):
             path = Path(folder) / "decks.json"
             store = PresetStore(path)
             group = store.ensure("30134", [{"cardId": "c_30134_srt1"}])
-            group["presets"][0]["cards"].append({"cardId": "c_30134_uni1", USER_ADDED_FIELD: True})
+            preset = store.make("added", [{"cardId": "c_30134_uni1", USER_ADDED_FIELD: True}])
+            group["presets"].append(preset)
             store.write()
 
             reopened = PresetStore(path)
-            cards = reopened.data["characters"]["30134"]["presets"][0]["cards"]
-            self.assertTrue(cards[-1][USER_ADDED_FIELD])
-            self.assertEqual(codec_card_rows(cards)[-1], {"cardId": "c_30134_uni1"})
+            preset = reopened.data["characters"]["30134"]["presets"][-1]
+            self.assertEqual(preset["cards"], [{"cardId": "c_30134_uni1"}])
+            self.assertEqual(preset["user_added"], [True])
+            self.assertEqual(Deck.from_dict({"charId": "30134", "cards": preset["cards"]}).cards[0].card_id, "c_30134_uni1")
+
+    def test_legacy_card_markers_migrate_to_preset_provenance(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "decks.json"
+            store = PresetStore(path)
+            group = store.ensure("30134", [{"cardId": "c_30134_srt1"}])
+            preset = group["presets"][0]
+            preset["cards"] = [{"cardId": "c_30134_srt1", USER_ADDED_FIELD: True}]
+            preset.pop("user_added")
+            store.write()
+
+            reopened = PresetStore(path)
+            preset = reopened.data["characters"]["30134"]["presets"][0]
+            self.assertEqual(preset["cards"], [{"cardId": "c_30134_srt1"}])
+            self.assertEqual(preset["user_added"], [True])
 
 
 try:

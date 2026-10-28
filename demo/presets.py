@@ -57,10 +57,28 @@ class PresetStore:
                     if preset["id"] in ids or not isinstance(preset["name"], str):
                         raise ValueError("预设标识重复或名称有误")
                     ids.add(preset["id"])
-                    for card in preset["cards"]:
+                    card_rows = preset["cards"]
+                    if not isinstance(card_rows, list):
+                        raise ValueError("预设卡牌列表有误")
+                    legacy_flags = []
+                    for card in card_rows:
                         if isinstance(card, dict) and USER_ADDED_FIELD in card and type(card[USER_ADDED_FIELD]) is not bool:
                             raise ValueError("用户新增卡牌标记有误")
-                    Deck.from_dict({"charId": owner, "cards": codec_card_rows(preset["cards"])})
+                        legacy_flags.append(card.get(USER_ADDED_FIELD) is True if isinstance(card, dict) else False)
+                    saved_flags = preset.get("user_added")
+                    if saved_flags is None:
+                        saved_flags = legacy_flags
+                    elif (
+                        not isinstance(saved_flags, list)
+                        or len(saved_flags) != len(card_rows)
+                        or any(type(flag) is not bool for flag in saved_flags)
+                    ):
+                        raise ValueError("用户新增卡牌列表有误")
+                    else:
+                        saved_flags = [old or current for old, current in zip(legacy_flags, saved_flags)]
+                    preset["cards"] = codec_card_rows(card_rows)
+                    preset["user_added"] = saved_flags
+                    Deck.from_dict({"charId": owner, "cards": preset["cards"]})
                 if group["active"] not in ids:
                     raise ValueError("当前预设不存在")
             self.data = value
@@ -74,7 +92,13 @@ class PresetStore:
 
     @staticmethod
     def make(name: str, cards: list[dict]) -> dict:
-        return {"id": uuid4().hex, "name": name, "cards": copy.deepcopy(cards)}
+        user_added = [card.get(USER_ADDED_FIELD) is True if isinstance(card, dict) else False for card in cards]
+        return {
+            "id": uuid4().hex,
+            "name": name,
+            "cards": codec_card_rows(copy.deepcopy(cards)),
+            "user_added": user_added,
+        }
 
     def write(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)

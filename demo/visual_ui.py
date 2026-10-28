@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import ttk, simpledialog, messagebox
 
 from .library import CardImages, CardLibrary, TYPE_NAMES, TYPE_NAMES_S
+from .presets import USER_ADDED_FIELD, codec_card_rows, is_user_added_card, remove_user_added_card
 from czn_deckcode.models import Deck
 
 BG, PANEL, INPUT, TEXT, MUTED, ACCENT = "#e6e8eb", "#f8f9fa", "#ffffff", "#30353b", "#79818b", "#e98534"
@@ -86,14 +87,16 @@ class VisualWorkbench:
         self.character_label.grid(row=0, column=0, sticky="w")
         self.preset_name_var = tk.StringVar(self.root)
         ttk.Label(title, textvariable=self.preset_name_var, foreground=MUTED).grid(row=1, column=0, sticky="w", pady=(4, 0))
-        ttk.Button(title, text="重命名", command=self._rename_preset).grid(row=0, column=1, padx=3)
+        self.delete_card_button = ttk.Button(title, text="删除卡牌", command=self._confirm_delete_user_added_card, state="disabled")
+        self.delete_card_button.grid(row=0, column=1, padx=3)
+        ttk.Button(title, text="重命名", command=self._rename_preset).grid(row=0, column=2, padx=3)
         menu_button = ttk.Menubutton(title, text="管理 ▾")
         menu = tk.Menu(menu_button, tearoff=False)
         menu.add_command(label="新建预设", command=self.new_preset)
         menu.add_command(label="复制当前预设", command=self.copy_preset)
         menu.add_command(label="删除当前预设", command=self._confirm_delete_preset)
         menu_button["menu"] = menu
-        menu_button.grid(row=0, column=2, padx=3)
+        menu_button.grid(row=0, column=3, padx=3)
         self.preset_panel = ScrollPanel(center)
         self.preset_panel.grid(row=1, column=0, sticky="ns", padx=(0, 10))
         self.preset_panel.canvas.configure(width=54)
@@ -203,7 +206,7 @@ class VisualWorkbench:
 
     def _capture_preset(self):
         if not self._active_preset or not self._loaded_owner: return
-        Deck.from_dict({"charId": self._loaded_owner, "cards": self._cards})
+        Deck.from_dict({"charId": self._loaded_owner, "cards": codec_card_rows(self._cards)})
         group = self.store.data["characters"][self._loaded_owner]
         preset = next(p for p in group["presets"] if p["id"] == self._active_preset)
         preset["cards"] = copy.deepcopy(self._cards)
@@ -220,7 +223,7 @@ class VisualWorkbench:
         preset = next(p for p in group["presets"] if p["id"] == preset_id)
         self._loaded_owner, self._active_preset = owner, preset_id
         group["active"] = preset_id; self.store.data["selected_character"] = owner
-        self._populate(Deck.from_dict({"charId": owner, "cards": preset["cards"]}))
+        self._populate_rows(preset["cards"], owner=owner)
         self._set_text(self.code_text, ""); self._render_presets(); self._reset_library()
 
     def _render_presets(self):
@@ -292,6 +295,24 @@ class VisualWorkbench:
         flashed = sum(bool(re.search(r"_rsp\d+$", r.get("variantCardId", "")) or r.get("epiphanyId") or r.get("divineId")) and not r.get("removed") for r in self._cards)
         for var, text in zip(self._stats, (f"卡牌  {active}", f"灵光  {flashed}", f"复制  {duplicates}", f"已移除  {removed}")): var.set(text)
         self.count_var.set(f"{active} 张卡牌"); self._render_deck(); self._visual_refresh_selection()
+        self._update_delete_card_button()
+
+    def _update_delete_card_button(self):
+        button = getattr(self, "delete_card_button", None)
+        if button is None:
+            return
+        can_delete = is_user_added_card(self._cards, self._selected)
+        button.configure(state="normal" if can_delete else "disabled")
+
+    def _populate_rows(self, rows, owner=None):
+        owner = owner or self.char_id_var.get()
+        rows = copy.deepcopy(rows)
+        user_added = self.library.user_added_flags(rows, owner)
+        for row, is_user_added in zip(rows, user_added):
+            if is_user_added:
+                row[USER_ADDED_FIELD] = True
+        deck = Deck.from_dict({"charId": owner, "cards": codec_card_rows(rows)})
+        self._populate(deck, user_added=user_added)
 
     def _deck_resized(self, event):
         dimensions = (event.width, event.height)
@@ -398,15 +419,15 @@ class VisualWorkbench:
         if key not in self.library.cards: self._status("未收录此卡牌。", True); return
         base = item["base_id"]
         duplicate = any(self.library.card(r)["base_id"] == base and not r.get("removed") for r in self._cards)
-        rows = copy.deepcopy(self._cards) + [{"cardId": base, "removed": False, "duplicate": duplicate}]
-        self._populate(Deck.from_dict({"charId": self.char_id_var.get(), "cards": rows})); self._select_card(len(rows) - 1)
+        rows = copy.deepcopy(self._cards) + [{"cardId": base, "removed": False, "duplicate": duplicate, USER_ADDED_FIELD: True}]
+        self._populate_rows(rows); self._select_card(len(rows) - 1)
         self._status("卡牌已加入当前预设。")
 
     def _duplicate_card(self):
         if not self._require_card("duplicate"): return
         index = self._selected; rows = copy.deepcopy(self._cards)
-        row = copy.deepcopy(rows[index]); row.update(duplicate=True, removed=False); rows.insert(index + 1, row)
-        self._populate(Deck.from_dict({"charId": self.char_id_var.get(), "cards": rows})); self._select_card(index + 1)
+        row = copy.deepcopy(rows[index]); row.update(duplicate=True, removed=False, **{USER_ADDED_FIELD: True}); rows.insert(index + 1, row)
+        self._populate_rows(rows); self._select_card(index + 1)
         self._status("已复制卡牌及其灵光效果。")
 
     def _toggle_removed(self):
@@ -418,10 +439,30 @@ class VisualWorkbench:
         i = self._selected
         if i is None or not 0 <= i + delta < len(self._cards): return
         rows = copy.deepcopy(self._cards); rows[i], rows[i + delta] = rows[i + delta], rows[i]
-        self._populate(Deck.from_dict({"charId": self.char_id_var.get(), "cards": rows})); self._select_card(i + delta)
+        self._populate_rows(rows); self._select_card(i + delta)
 
     def _clear_deck(self):
         self._populate(Deck(self.char_id_var.get(), ()))
+
+    def _confirm_delete_user_added_card(self):
+        if not is_user_added_card(self._cards, self._selected):
+            return
+        row = self._cards[self._selected]
+        name = self.library.text(self.library.card(row), language=self.language_var.get())
+        if messagebox.askyesno("删除卡牌", f"从当前预设中永久删除「{name}」？", parent=self.root):
+            self.delete_user_added_card()
+
+    def delete_user_added_card(self):
+        index = self._selected
+        rows = remove_user_added_card(self._cards, index)
+        if rows is None:
+            self._update_delete_card_button()
+            self._status("只能永久删除用户添加的卡牌。", True)
+            return False
+        self._populate_rows(rows)
+        self._select_card(min(index, len(rows) - 1) if rows else None)
+        self._status("已从当前预设中永久删除卡牌。")
+        return True
 
     def set_variant(self, key):
         if self._selected is None: return
@@ -435,7 +476,7 @@ class VisualWorkbench:
         index = self._selected
         if index is None: return
         rows = copy.deepcopy(self._cards); rows[index] = row
-        self._populate(Deck.from_dict({"charId": self.char_id_var.get(), "cards": rows})); self._select_card(index)
+        self._populate_rows(rows); self._select_card(index)
 
     def apply_modifier(self, group, key):
         if self._selected is None: return False

@@ -11,10 +11,17 @@ from unittest.mock import patch
 from czn_deckcode import Card, Deck, decode, encode
 from czn_deckcode._obfuscation import transform
 from demo.library import CardLibrary
+from demo.presets import (
+    PresetStore, USER_ADDED_FIELD, codec_card_rows, is_user_added_card,
+    remove_user_added_card,
+)
 
 
 POSSESSION_CODE = (
     "v6l88OLiNvvFzwd5bz8N7Hb2ZkVEaO1cD_GzNgXLQPTXP3rAgHsRdCQg_OUgKEA0_x52oSNoInQaHZ2bS1XlNfb5OLSWaL5W7ZmtEWtcH5uEnTu9Pq1AAVIGy2JTFi5gBb5GHGlcMKVkqgki-juTiPvIljH4PPvIlu5WPO4cnT42LEGYppiId4w14KZUvZwgYhYlH4BmSg"
+)
+MEMORY_CARD_CODE = (
+    "v6l8wGe1b9OIeyLI25-9XXDFHLIGfrAMevz3PYh69_HWM3fw_K6d4g6xe0wnocB3IES3jmorNuGc0ZZoGxcYMxa1MLSWZf7SOJU5_aHxeeYiG0lTq2Xw9QMyRdOZW0zfnn6IVrIe6GEd5P8nfRPdSm1mxVmP2cODy0ZhGbMupAzHc6hu3nmjdhAIowT_1uEr8yC5fXEXTDw"
 )
 
 
@@ -43,6 +50,12 @@ class LocalCatalogTests(unittest.TestCase):
         self.assertTrue(all(c["owner"] == "30134" for c in result))
         self.assertEqual([c["id"] for c in self.library.available("30134", "character", "剑之共鸣")], ["c_30134_uni1"])
         self.assertTrue(all(c["group"] == "memory" for c in self.library.available("1039", "memory")))
+
+    def test_imported_memory_cards_and_duplicate_copies_are_classified_as_added(self):
+        deck = decode(MEMORY_CARD_CODE)
+        rows = [card.to_dict() for card in deck.cards]
+        flags = self.library.user_added_flags(rows, deck.char_id)
+        self.assertEqual(flags, [False, False, False, True, True, True, False, False, False, False, False, True, True, True, True])
 
     def test_unique_general_and_divine_are_distinct_client_libraries(self):
         row = {"cardId": "c_30134_uni1"}
@@ -80,6 +93,37 @@ class LocalCatalogTests(unittest.TestCase):
             common = self.library.description(self.library.modifier_by_id["c03012"], language)
             self.assertIn("3", common)
             self.assertNotIn("X", common)
+
+
+class PermanentDeleteLogicTests(unittest.TestCase):
+    def test_only_a_selected_user_added_record_enables_permanent_delete(self):
+        rows = [{"cardId": "built-in"}, {"cardId": "added", USER_ADDED_FIELD: True}]
+        self.assertFalse(is_user_added_card(rows, 0))
+        self.assertTrue(is_user_added_card(rows, 1))
+        self.assertFalse(is_user_added_card(rows, None))
+
+    def test_delete_removes_only_the_selected_added_record(self):
+        rows = [
+            {"cardId": "first"},
+            {"cardId": "added", USER_ADDED_FIELD: True},
+            {"cardId": "last"},
+        ]
+        self.assertEqual(remove_user_added_card(rows, 1), [rows[0], rows[2]])
+        self.assertIsNone(remove_user_added_card(rows, 0))
+        self.assertEqual(len(rows), 3)
+
+    def test_preset_store_keeps_provenance_but_codec_rows_drop_it(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "decks.json"
+            store = PresetStore(path)
+            group = store.ensure("30134", [{"cardId": "c_30134_srt1"}])
+            group["presets"][0]["cards"].append({"cardId": "c_30134_uni1", USER_ADDED_FIELD: True})
+            store.write()
+
+            reopened = PresetStore(path)
+            cards = reopened.data["characters"]["30134"]["presets"][0]["cards"]
+            self.assertTrue(cards[-1][USER_ADDED_FIELD])
+            self.assertEqual(codec_card_rows(cards)[-1], {"cardId": "c_30134_uni1"})
 
 
 try:
@@ -339,6 +383,46 @@ class VisualWorkflowTests(unittest.TestCase):
         self.app.show_removed.set(False)
         self.app._removed_filter_changed()
         self.assertIn("4", self.app.tree.get_children())
+
+    def test_permanent_delete_is_limited_to_user_added_cards(self):
+        self.assertTrue(self.app.delete_card_button.instate(["disabled"]))
+        self.app._select_card(0)
+        self.assertTrue(self.app.delete_card_button.instate(["disabled"]))
+
+        self.app.add_library_card("c_30134_uni1")
+        added_index = len(self.app._cards) - 1
+        self.assertTrue(self.app._cards[added_index]["_userAdded"])
+        self.assertTrue(self.app.delete_card_button.instate(["!disabled"]))
+
+        self.app.save_presets()
+        preset_id = self.app._active_preset
+        self.app._activate("30134", preset_id)
+        self.app._select_card(added_index)
+        self.assertTrue(self.app.delete_card_button.instate(["!disabled"]))
+
+        exported = decode(self.app.encode_deck())
+        self.assertEqual(len(exported.cards), len(self.app._cards))
+        self.assertNotIn("_userAdded", self.app._get_text(self.app.json_text))
+
+        self.app.delete_user_added_card()
+        self.assertEqual(len(self.app._cards), 8)
+        self.assertEqual(self.app._selected, added_index - 1)
+        self.assertTrue(self.app.delete_card_button.instate(["disabled"]))
+
+    def test_imported_memory_card_can_be_permanently_deleted(self):
+        self.app.import_deck_code(MEMORY_CARD_CODE)
+        memory_index = next(
+            i for i, row in enumerate(self.app._cards)
+            if self.app.library.card(row).get("group") == "memory"
+        )
+        self.app._select_card(memory_index)
+        self.assertEqual(self.app.delete_card_button.cget("text"), "删除卡牌")
+        self.assertTrue(self.app.delete_card_button.instate(["!disabled"]))
+
+        self.assertTrue(self.app.delete_user_added_card())
+        self.assertEqual(len(self.app._cards), 14)
+        self.assertEqual(self.app._cards[memory_index]["_userAdded"], True)
+        self.assertTrue(self.app.delete_card_button.instate(["!disabled"]))
 
     def test_imports_all_official_codes_without_network_and_hides_removed_rows(self):
         path = Path(__file__).resolve().parents[1] / "research/samples/official_client_codes.json"

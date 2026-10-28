@@ -10,7 +10,7 @@ from typing import Callable, TypeVar
 
 from czn_deckcode import Card, Deck, decode, encode
 from .visual_ui import VisualWorkbench, BG, PANEL, INPUT, TEXT, MUTED, ACCENT
-from .presets import PresetStore
+from .presets import PresetStore, USER_ADDED_FIELD, codec_card_rows
 
 
 EXAMPLE_CODE = "v6l8cOjiNr8NyAd5bz8N5Gb4BacatRLcP_gTJk6Sy-IpI4UudHIDQRTERzqzgUXu"
@@ -142,25 +142,29 @@ class DeckApplication(VisualWorkbench):
     def _sync_json(self) -> None:
         if self._changing:
             return
-        value = {"charId": self.char_id_var.get().strip(), "cards": self._cards}
+        value = {"charId": self.char_id_var.get().strip(), "cards": codec_card_rows(self._cards)}
         self._set_text(self.json_text, json.dumps(value, ensure_ascii=False, indent=2))
         self._visual_state_changed()
 
     def _deck_from_editor(self) -> Deck:
-        return Deck.from_dict({"charId": self.char_id_var.get().strip(), "cards": self._cards})
+        return Deck.from_dict({"charId": self.char_id_var.get().strip(), "cards": codec_card_rows(self._cards)})
 
     @staticmethod
     def _card_state(card: dict) -> str:
         flags = [label for key, label in (("removed", "已移除"), ("duplicate", "重复")) if card.get(key)]
         return " · ".join(flags) if flags else "启用"
 
-    def _populate(self, deck: Deck) -> None:
+    def _populate(self, deck: Deck, user_added: list[bool] | None = None) -> None:
         self._changing = True
         for index in range(len(self._cards)):
             if self.tree.exists(str(index)):
                 self.tree.delete(str(index))
         self.char_id_var.set(deck.char_id)
         self._cards = [card.to_dict() for card in deck.cards]
+        if user_added is not None:
+            for card, is_user_added in zip(self._cards, user_added):
+                if is_user_added:
+                    card[USER_ADDED_FIELD] = True
         for index, card in enumerate(self._cards):
             self.tree.insert("", tk.END, iid=str(index), values=(card["cardId"], self._card_state(card)))
         self._changing = False
@@ -181,6 +185,7 @@ class DeckApplication(VisualWorkbench):
             self.tree.see(str(index))
         self._changing = False
         self._visual_refresh_selection()
+        self._update_delete_card_button()
 
     def _on_selection(self, _event: tk.Event | None = None) -> None:
         if self._changing:
@@ -194,6 +199,8 @@ class DeckApplication(VisualWorkbench):
         if self._changing or self._selected is None:
             return
         card = {"cardId": str(self.card_vars["cardId"].get()).strip(), "removed": bool(self.card_vars["removed"].get()), "duplicate": bool(self.card_vars["duplicate"].get())}
+        if self._cards[self._selected].get(USER_ADDED_FIELD):
+            card[USER_ADDED_FIELD] = True
         for key in _OPTIONAL_FIELDS:
             value = str(self.card_vars[key].get()).strip()
             if value:
@@ -210,7 +217,7 @@ class DeckApplication(VisualWorkbench):
         self._status("已载入「羅斯薇瑟」示例构筑。选择卡牌后可在右侧编辑灵光。")
 
     def add_card(self) -> None:
-        self._cards.append({"cardId": "", "removed": False, "duplicate": False})
+        self._cards.append({"cardId": "", "removed": False, "duplicate": False, USER_ADDED_FIELD: True})
         index = len(self._cards) - 1
         self.tree.insert("", tk.END, iid=str(index), values=("（未填写卡牌 ID）", "启用"))
         self.count_var.set(f"{len(self._cards)} 张卡牌")

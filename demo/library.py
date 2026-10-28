@@ -70,6 +70,25 @@ class CardLibrary:
         return [{"cardId": f"c_{owner}_{prefix}{i}", "removed": False, "duplicate": False}
                 for prefix in ("srt", "uni") for i in range(1, 5) if f"c_{owner}_{prefix}{i}" in self.cards]
 
+    def user_added_flags(self, rows: list[dict], owner: str) -> list[bool]:
+        starter_ids = {self.card(row)["base_id"] for row in self.starter(owner)}
+        seen = set()
+        flags = []
+        for row in rows:
+            item = self.card(row)
+            base_id = item.get("base_id", row.get("cardId", ""))
+            group = item.get("group")
+            is_added = (
+                row.get("_userAdded") is True
+                or row.get("duplicate") is True
+                or group in {"memory", "neutral"}
+                or (group == "character" and base_id not in starter_ids)
+                or base_id in seen
+            )
+            flags.append(is_added)
+            seen.add(base_id)
+        return flags
+
     def unique_variants(self, row: dict) -> list[dict]:
         return [c for c in self.variants(self.card(row)) if re.search(r"_rsp\d+$", c["id"])]
 

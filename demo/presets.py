@@ -9,6 +9,32 @@ from uuid import uuid4
 
 from czn_deckcode.models import Deck
 
+USER_ADDED_FIELD = "_userAdded"
+
+
+def codec_card_rows(cards: list[dict]) -> list[dict]:
+    return [
+        {key: value for key, value in card.items() if key != USER_ADDED_FIELD}
+        if isinstance(card, dict) else card
+        for card in cards
+    ]
+
+
+def is_user_added_card(cards: list[dict], index: int | None) -> bool:
+    return (
+        index is not None
+        and 0 <= index < len(cards)
+        and cards[index].get(USER_ADDED_FIELD) is True
+    )
+
+
+def remove_user_added_card(cards: list[dict], index: int | None) -> list[dict] | None:
+    if not is_user_added_card(cards, index):
+        return None
+    result = copy.deepcopy(cards)
+    del result[index]
+    return result
+
 
 def default_store_path() -> Path:
     base = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parents[1]
@@ -31,7 +57,10 @@ class PresetStore:
                     if preset["id"] in ids or not isinstance(preset["name"], str):
                         raise ValueError("预设标识重复或名称有误")
                     ids.add(preset["id"])
-                    Deck.from_dict({"charId": owner, "cards": preset["cards"]})
+                    for card in preset["cards"]:
+                        if isinstance(card, dict) and USER_ADDED_FIELD in card and type(card[USER_ADDED_FIELD]) is not bool:
+                            raise ValueError("用户新增卡牌标记有误")
+                    Deck.from_dict({"charId": owner, "cards": codec_card_rows(preset["cards"])})
                 if group["active"] not in ids:
                     raise ValueError("当前预设不存在")
             self.data = value
